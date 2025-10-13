@@ -1,0 +1,31 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio1"
+        mc:Ignorable="d"
+        Title="Formulario1" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Aceptar" Margin="508,354,169,12" Click="Button_Click" FontSize="24" Grid.Column="1" Grid.Row="1" Background="#FF00FB0B"/>
+        <Button Content="Cancelar" Margin="652,354,33,10" FontSize="24" Grid.Column="1" Grid.Row="1" Background="#FFFE0000"/>
+        <Label Content="Formulario de registro" Margin="170,10,170,335" FontSize="36" FontWeight="Bold" Grid.Column="1" Grid.Row="1"/>
+        <TextBox Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="Nombre" Margin="212,113,343,264" FontSize="24"/>
+        <Label Content="Nombre:" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="33,110,588,267" FontSize="24"/>
+        <TextBox Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="Apellido" Margin="212,170,343,207" FontSize="24" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Apellido:" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="33,167,588,210" FontSize="24"/>
+        <TextBox Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="Gmail" Margin="212,227,343,150" FontSize="24"/>
+        <Label Content="Gmail:" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="33,224,588,153" FontSize="24"/>
+        <TextBox Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="Wrap" Text="Edad" Margin="212,287,343,90" FontSize="24"/>
+        <Label Content="Edad:" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="33,284,588,93" FontSize="24"/>
+
+    </Grid>
+</Window>

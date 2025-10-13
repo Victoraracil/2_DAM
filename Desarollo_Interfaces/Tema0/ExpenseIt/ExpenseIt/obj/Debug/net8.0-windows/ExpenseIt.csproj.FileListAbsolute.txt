@@ -1,0 +1,24 @@
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\bin\Debug\net8.0-windows\ExpenseIt.exe
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\bin\Debug\net8.0-windows\ExpenseIt.deps.json
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\bin\Debug\net8.0-windows\ExpenseIt.runtimeconfig.json
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\bin\Debug\net8.0-windows\ExpenseIt.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\bin\Debug\net8.0-windows\ExpenseIt.pdb
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseItHome.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseReportPage .g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt_MarkupCompile.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt_MarkupCompile.lref
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseItHome.baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseReportPage .baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.g.resources
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.AssemblyInfoInputs.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.AssemblyInfo.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.csproj.CoreCompileInputs.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\refint\ExpenseIt.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.pdb
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ExpenseIt.genruntimeconfig.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema0\ExpenseIt\ExpenseIt\obj\Debug\net8.0-windows\ref\ExpenseIt.dll

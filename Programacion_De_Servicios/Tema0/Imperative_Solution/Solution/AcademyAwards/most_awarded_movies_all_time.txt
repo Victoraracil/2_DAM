@@ -1,0 +1,5233 @@
+1959,Ben-Hur,11
+1997,Titanic,11
+2003,The Lord of the Rings: The Return of the King,11
+1961,West Side Story,10
+1939,Gone with the Wind,9
+1958,Gigi,9
+1987,The Last Emperor,9
+1996,The English Patient,9
+1946,The Best Years of Our Lives,8
+1953,From Here to Eternity,8
+1954,On the Waterfront,8
+1964,My Fair Lady,8
+1972,Cabaret,8
+1982,Gandhi,8
+1984,Amadeus,8
+2008,Slumdog Millionaire,8
+1944,Going My Way,7
+1957,The Bridge on the River Kwai,7
+1962,Lawrence of Arabia,7
+1970,Patton,7
+1973,The Sting,7
+1977,Star Wars,7
+1985,Out of Africa,7
+1990,Dances With Wolves,7
+1993,Schindler's List,7
+1998,Shakespeare in Love,7
+2013,Gravity,7
+2022,Everything Everywhere All at Once,7
+2023,Oppenheimer,7
+1942,Mrs. Miniver,6
+1950,All about Eve,6
+1951,A Place in the Sun,6
+1951,An American in Paris,6
+1966,A Man for All Seasons,6
+1968,Oliver!,6
+1974,The Godfather Part II,6
+1994,Forrest Gump,6
+2002,Chicago,6
+2009,The Hurt Locker,6
+2015,Mad Max: Fury Road,6
+2016,La La Land,6
+2021,Dune,6
+1934,It Happened One Night,5
+1941,How Green Was My Valley,5
+1944,Wilson,5
+1952,The Bad and the Beautiful,5
+1956,Around the World in 80 Days,5
+1956,The King and I,5
+1960,The Apartment,5
+1964,Mary Poppins,5
+1965,The Sound of Music,5
+1965,Doctor Zhivago,5
+1966,Who's Afraid of Virginia Woolf?,5
+1967,In the Heat of the Night,5
+1971,The French Connection,5
+1975,One Flew over the Cuckoo's Nest,5
+1978,The Deer Hunter,5
+1979,Kramer vs. Kramer,5
+1981,Raiders of the Lost Ark,5
+1983,Terms of Endearment,5
+1991,The Silence of the Lambs,5
+1995,Braveheart,5
+1998,Saving Private Ryan,5
+1999,American Beauty,5
+2000,Gladiator,5
+2004,The Aviator,5
+2011,Hugo,5
+2011,The Artist,5
+2024,Anora,5
+1935,The Informer,4
+1936,Anthony Adverse,4
+1943,The Song of Bernadette,4
+1945,The Lost Weekend,4
+1948,Hamlet,4
+1949,The Heiress,4
+1951,A Streetcar Named Desire,4
+1952,High Noon,4
+1955,Marty,4
+1957,Sayonara,4
+1960,Spartacus,4
+1963,Tom Jones,4
+1963,Cleopatra,4
+1969,Butch Cassidy and the Sundance Kid,4
+1975,Barry Lyndon,4
+1976,All the President's Men,4
+1976,Network,4
+1977,Annie Hall,4
+1979,All That Jazz,4
+1980,Ordinary People,4
+1981,Chariots of Fire,4
+1982,E.T. The Extra-Terrestrial,4
+1983,The Right Stuff,4
+1983,Fanny & Alexander,4
+1986,Platoon,4
+1988,Rain Man,4
+1988,Who Framed Roger Rabbit,4
+1989,Driving Miss Daisy,4
+1991,Terminator 2: Judgment Day,4
+1992,Unforgiven,4
+1999,The Matrix,4
+2000,Traffic,4
+2000,Crouching Tiger, Hidden Dragon,4
+2001,The Lord of the Rings: The Fellowship of the Ring,4
+2001,A Beautiful Mind,4
+2004,Million Dollar Baby,4
+2006,The Departed,4
+2007,No Country for Old Men,4
+2010,The King's Speech,4
+2010,Inception,4
+2012,Life of Pi,4
+2014,Birdman or (The Unexpected Virtue of Ignorance),4
+2014,The Grand Budapest Hotel,4
+2017,The Shape of Water,4
+2018,Bohemian Rhapsody,4
+2019,Parasite,4
+2022,All Quiet on the Western Front,4
+2023,Poor Things,4
+1927,Sunrise,3
+1927,7th Heaven,3
+1930,Cimarron,3
+1932,Cavalcade,3
+1936,The Great Ziegfeld,3
+1936,The Story of Louis Pasteur,3
+1937,The Life of Emile Zola,3
+1938,The Adventures of Robin Hood,3
+1940,The Thief of Bagdad,3
+1942,Yankee Doodle Dandy,3
+1943,Casablanca,3
+1947,Gentleman's Agreement,3
+1947,Miracle on 34th Street,3
+1948,The Treasure of the Sierra Madre,3
+1948,Joan of Arc,3
+1949,All the King's Men,3
+1950,Sunset Blvd.,3
+1953,Roman Holiday,3
+1955,Love Is a Many-Splendored Thing,3
+1955,The Rose Tattoo,3
+1959,The Diary of Anne Frank,3
+1960,Elmer Gantry,3
+1962,To Kill a Mockingbird,3
+1963,How the West Was Won,3
+1963,Hud,3
+1964,Zorba the Greek,3
+1965,Darling,3
+1966,Grand Prix,3
+1967,Camelot,3
+1968,The Lion in Winter,3
+1969,Midnight Cowboy,3
+1969,Hello, Dolly!,3
+1971,Fiddler on the Roof,3
+1972,The Godfather,3
+1974,The Towering Inferno,3
+1975,Jaws,3
+1976,Rocky,3
+1977,Julia,3
+1978,Coming Home,3
+1980,Tess,3
+1981,On Golden Pond,3
+1981,Reds,3
+1984,The Killing Fields,3
+1986,A Room with a View,3
+1986,Hannah and Her Sisters,3
+1987,Moonstruck,3
+1988,Dangerous Liaisons,3
+1989,Glory,3
+1990,Dick Tracy,3
+1992,Bram Stoker's Dracula,3
+1992,Howards End,3
+1993,The Piano,3
+1993,Jurassic Park,3
+1998,Life Is Beautiful,3
+2002,The Pianist,3
+2005,Brokeback Mountain,3
+2005,Memoirs of a Geisha,3
+2005,Crash,3
+2005,King Kong,3
+2006,Pan's Labyrinth,3
+2007,The Bourne Ultimatum,3
+2008,The Curious Case of Benjamin Button,3
+2009,Avatar,3
+2010,The Social Network,3
+2012,Argo,3
+2012,Les Misérables,3
+2013,12 Years a Slave,3
+2013,Dallas Buyers Club,3
+2014,Whiplash,3
+2015,The Revenant,3
+2016,Moonlight,3
+2017,Dunkirk,3
+2018,Green Book,3
+2018,Black Panther,3
+2018,Roma,3
+2019,1917,3
+2020,Nomadland,3
+2021,CODA,3
+2024,The Brutalist,3
+1927,Wings,2
+1929,The Big House,2
+1929,All Quiet on the Western Front,2
+1931,The Champ,2
+1931,Bad Girl,2
+1932,A Farewell to Arms,2
+1934,One Night of Love,2
+1935,A Midsummer Night's Dream,2
+1937,Lost Horizon,2
+1937,In Old Chicago,2
+1937,A Star Is Born,2
+1937,The Good Earth,2
+1938,Jezebel,2
+1938,Boys Town,2
+1938,You Can't Take It with You,2
+1939,The Wizard of Oz,2
+1939,Stagecoach,2
+1940,Rebecca,2
+1940,The Grapes of Wrath,2
+1940,The Philadelphia Story,2
+1940,Pinocchio,2
+1941,Here Comes Mr. Jordan,2
+1941,Fantasia,2
+1941,Sergeant York,2
+1943,Phantom of the Opera,2
+1944,Gaslight,2
+1945,National Velvet,2
+1946,The Jolson Story,2
+1946,The Yearling,2
+1946,Anna and the King of Siam,2
+1947,Song of the South,2
+1947,Great Expectations,2
+1947,A Double Life,2
+1947,Black Narcissus,2
+1948,The Red Shoes,2
+1948,The Search,2
+1948,The Naked City,2
+1949,Twelve O'Clock High,2
+1949,Battleground,2
+1949,A Letter to Three Wives,2
+1950,Samson and Delilah,2
+1950,King Solomon's Mines,2
+1952,Moulin Rouge,2
+1952,The Quiet Man,2
+1952,The Greatest Show on Earth,2
+1953,The Robe,2
+1954,Gate of Hell,2
+1954,20,000 Leagues under the Sea,2
+1954,The Country Girl,2
+1954,Three Coins in the Fountain,2
+1954,The Little Kidnappers,2
+1955,Picnic,2
+1955,Oklahoma!,2
+1956,Somebody Up There Likes Me,2
+1958,Separate Tables,2
+1958,The Defiant Ones,2
+1959,Room at the Top,2
+1961,The Hustler,2
+1961,Judgment at Nuremberg,2
+1961,Breakfast at Tiffany's,2
+1962,The Miracle Worker,2
+1962,The Longest Day,2
+1963,Federico Fellini's 8-1/2,2
+1965,Ship of Fools,2
+1966,Born Free,2
+1966,Fantastic Voyage,2
+1966,A Man and a Woman,2
+1967,Guess Who's Coming to Dinner,2
+1967,Doctor Dolittle,2
+1967,Bonnie and Clyde,2
+1968,Romeo and Juliet,2
+1969,Z,2
+1970,Ryan's Daughter,2
+1971,Nicholas and Alexandra,2
+1971,Sentinels of Silence,2
+1971,The Last Picture Show,2
+1972,The Poseidon Adventure,2
+1973,The Way We Were,2
+1973,The Exorcist,2
+1974,The Great Gatsby,2
+1974,Earthquake,2
+1975,The Hindenburg,2
+1976,Bound for Glory,2
+1977,Close Encounters of the Third Kind,2
+1978,Midnight Express,2
+1979,Apocalypse Now,2
+1979,Norma Rae,2
+1980,The Empire Strikes Back,2
+1980,Fame,2
+1980,Raging Bull,2
+1980,Melvin and Howard,2
+1981,Arthur,2
+1982,An Officer and a Gentleman,2
+1983,Tender Mercies,2
+1984,A Passage to India,2
+1984,Places in the Heart,2
+1985,Witness,2
+1985,Cocoon,2
+1986,Aliens,2
+1989,Born on the Fourth of July,2
+1989,The Little Mermaid,2
+1989,My Left Foot,2
+1990,Ghost,2
+1991,Bugsy,2
+1991,Beauty and the Beast,2
+1991,JFK,2
+1992,Aladdin,2
+1993,Philadelphia,2
+1994,Speed,2
+1994,Ed Wood,2
+1994,The Lion King,2
+1995,Apollo 13,2
+1995,The Usual Suspects,2
+1995,Pocahontas,2
+1995,Restoration,2
+1996,Fargo,2
+1997,L.A. Confidential,2
+1997,As Good as It Gets,2
+1997,Good Will Hunting,2
+1999,Topsy-Turvy,2
+1999,The Cider House Rules,2
+2001,Moulin Rouge,2
+2001,Black Hawk Down,2
+2002,Frida,2
+2002,The Lord of the Rings: The Two Towers,2
+2003,Master and Commander: The Far Side of the World,2
+2003,Mystic River,2
+2004,Ray,2
+2004,The Incredibles,2
+2006,Dreamgirls,2
+2006,An Inconvenient Truth,2
+2006,Little Miss Sunshine,2
+2007,La Vie en Rose,2
+2007,There Will Be Blood,2
+2008,Milk,2
+2008,The Dark Knight,2
+2009,Precious: Based on the Novel 'Push' by Sapphire,2
+2009,Crazy Heart,2
+2009,Up,2
+2010,Alice in Wonderland,2
+2010,Toy Story 3,2
+2010,The Fighter,2
+2011,The Iron Lady,2
+2012,Django Unchained,2
+2012,Skyfall,2
+2012,Lincoln,2
+2013,The Great Gatsby,2
+2013,Frozen,2
+2015,Spotlight,2
+2016,Hacksaw Ridge,2
+2016,Manchester by the Sea,2
+2017,Three Billboards outside Ebbing, Missouri,2
+2017,Coco,2
+2017,Darkest Hour,2
+2017,Blade Runner 2049,2
+2019,Once upon a Time...in Hollywood,2
+2019,Joker,2
+2019,Ford v Ferrari,2
+2020,The Father,2
+2020,Mank,2
+2020,Judas and the Black Messiah,2
+2020,Ma Rainey's Black Bottom,2
+2020,Sound of Metal,2
+2020,Soul,2
+2021,The Eyes of Tammy Faye,2
+2022,The Whale,2
+2023,The Zone of Interest,2
+2024,Emilia Pérez,2
+2024,Wicked,2
+2024,Dune: Part Two,2
+1927,Two Arabian Knights,1
+1927,Underworld,1
+1927,The Circus,1
+1927,The Dove,1
+1927,The Way of All Flesh,1
+1927,Tempest,1
+1927,The Last Command,1
+1927,Street Angel,1
+1927,The Jazz Singer,1
+1928,White Shadows in the South Seas,1
+1928,Coquette,1
+1928,The Broadway Melody,1
+1928,In Old Arizona,1
+1928,The Bridge of San Luis Rey,1
+1928,The Patriot,1
+1928,The Divine Lady,1
+1929,Disraeli,1
+1929,The Divorcee,1
+1929,King of Jazz,1
+1929,With Byrd at the South Pole,1
+1930,Tabu,1
+1930,Skippy,1
+1930,Min and Bill,1
+1930,The Dawn Patrol,1
+1930,A Free Soul,1
+1931,Flowers and Trees,1
+1931,Wrestling Swordfish,1
+1931,Dr. Jekyll and Mr. Hyde,1
+1931,The Music Box,1
+1931,The Sin of Madelon Claudet,1
+1931,Grand Hotel,1
+1931,Shanghai Express,1
+1931,Transatlantic,1
+1932,The Three Little Pigs,1
+1932,So This Is Harris,1
+1932,Little Women,1
+1932,Krakatoa,1
+1932,The Private Life of Henry VIII,1
+1932,One Way Passage,1
+1932,Morning Glory,1
+1934,The Gay Divorcee,1
+1934,Viva Villa!,1
+1934,The Merry Widow,1
+1934,The Tortoise and the Hare,1
+1934,City of Wax,1
+1934,Cleopatra,1
+1934,Manhattan Melodrama,1
+1934,Eskimo,1
+1934,La Cucaracha,1
+1935,Gold Diggers of 1935,1
+1935,How to Sleep,1
+1935,Wings over Mt. Everest,1
+1935,The Dark Angel,1
+1935,Dangerous,1
+1935,The Scoundrel,1
+1935,Three Orphan Kittens,1
+1935,Mutiny on the Bounty,1
+1935,Naughty Marietta,1
+1935,Broadway Melody of 1936,1
+1935,Folies Bergere,1
+1935,The Lives of a Bengal Lancer,1
+1936,Dodsworth,1
+1936,The Garden of Allah,1
+1936,Bored of Education,1
+1936,Mr. Deeds Goes to Town,1
+1936,The Charge of the Light Brigade,1
+1936,Come and Get It,1
+1936,Give Me Liberty,1
+1936,Swing Time,1
+1936,The March of Time,1
+1936,The Public Pays,1
+1936,San Francisco,1
+1936,The Country Cousin,1
+1937,Captains Courageous,1
+1937,The Old Mill,1
+1937,A Damsel in Distress,1
+1937,Penny Wisdom,1
+1937,The Awful Truth,1
+1937,Waikiki Wedding,1
+1937,The Hurricane,1
+1937,Torture Money,1
+1937,The Private Life of the Gannets,1
+1937,One Hundred Men and a Girl,1
+1938,Sweethearts,1
+1938,The Cowboy and the Lady,1
+1938,Pygmalion,1
+1938,The Great Waltz,1
+1938,Declaration of Independence,1
+1938,Ferdinand the Bull,1
+1938,Spawn of the North,1
+1938,The Big Broadcast of 1938,1
+1938,Snow White and the Seven Dwarfs,1
+1938,Alexander's Ragtime Band,1
+1938,That Mothers Might Live,1
+1938,Kentucky,1
+1939,Goodbye, Mr. Chips,1
+1939,Wuthering Heights,1
+1939,When Tomorrow Comes,1
+1939,Busy Little Bears,1
+1939,Mr. Smith Goes to Washington,1
+1939,The Rains Came,1
+1939,Sons of Liberty,1
+1939,The Ugly Duckling,1
+1940,The Westerner,1
+1940,Kitty Foyle,1
+1940,North West Mounted Police,1
+1940,Teddy, the Rough Rider,1
+1940,Strike Up the Band,1
+1940,The Milky Way,1
+1940,Quicker 'N a Wink,1
+1940,Tin Pan Alley,1
+1940,Pride and Prejudice,1
+1940,Arise, My Love,1
+1940,The Great McGinty,1
+1941,Dumbo,1
+1941,Blossoms in the Dust,1
+1941,Blood and Sand,1
+1941,Main Street on the March!,1
+1941,Citizen Kane,1
+1941,I Wanted Wings,1
+1941,Lady Be Good,1
+1941,Target for Tonight,1
+1941,Suspicion,1
+1941,Lend a Paw,1
+1941,Churchill's Island,1
+1941,That Hamilton Woman,1
+1941,Kukan,1
+1941,Of Pups and Puzzles,1
+1941,All That Money Can Buy,1
+1941,The Great Lie,1
+1942,My Gal Sal,1
+1942,Now, Voyager,1
+1942,The Battle of Midway,1
+1942,The Invaders,1
+1942,This above All,1
+1942,The Pride of the Yankees,1
+1942,Speaking of Animals and Their Families,1
+1942,The Black Swan,1
+1942,Beyond the Line of Duty,1
+1942,In Which We Serve,1
+1942,Moscow Strikes Back,1
+1942,Holiday Inn,1
+1942,Woman of the Year,1
+1942,Johnny Eager,1
+1942,Kokoda Front Line!,1
+1942,Prelude to War,1
+1942,Der Fuehrer's Face,1
+1942,Reap the Wild Wind,1
+1943,The Human Comedy,1
+1943,Hello, Frisco, Hello,1
+1943,Heavenly Music,1
+1943,Princess O'Rourke,1
+1943,December 7th,1
+1943,Air Force,1
+1943,This Is the Army,1
+1943,The More the Merrier,1
+1943,Desert Victory,1
+1943,Watch on the Rhine,1
+1943,Crash Dive,1
+1943,For Whom the Bell Tolls,1
+1943,Yankee Doodle Mouse,1
+1943,Amphibious Fighters,1
+1943,This Land Is Mine,1
+1944,Thirty Seconds over Tokyo,1
+1944,The Fighting Lady,1
+1944,Since You Went Away,1
+1944,I Won't Play,1
+1944,Who's Who in Animal Land,1
+1944,Mouse Trouble,1
+1944,Laura,1
+1944,Cover Girl,1
+1944,With the Marines at Tarawa,1
+1944,None but the Lonely Heart,1
+1945,Leave Her to Heaven,1
+1945,The Bells of St. Mary's,1
+1945,Frenchman's Creek,1
+1945,Stairway to Light,1
+1945,Hitler Lives?,1
+1945,Mildred Pierce,1
+1945,The Picture of Dorian Gray,1
+1945,The True Glory,1
+1945,Star in the Night,1
+1945,The House I Live In,1
+1945,Quiet Please!,1
+1945,Blood on the Sun,1
+1945,Wonder Man,1
+1945,Anchors Aweigh,1
+1945,The House on 92nd Street,1
+1945,Marie-Louise,1
+1945,A Tree Grows in Brooklyn,1
+1945,State Fair,1
+1945,Spellbound,1
+1946,The Cat Concerto,1
+1946,Facing Your Danger,1
+1946,Seeds of Destiny,1
+1946,A Boy and His Dog,1
+1946,Vacation from Marriage,1
+1946,Blithe Spirit,1
+1946,Henry V,1
+1946,The Seventh Veil,1
+1946,The Razor's Edge,1
+1946,To Each His Own,1
+1946,The Harvey Girls,1
+1947,Tweetie Pie,1
+1947,Green Dolphin Street,1
+1947,Good-bye Miss Turlock,1
+1947,The Bishop's Wife,1
+1947,Design for Death,1
+1947,Body and Soul,1
+1947,Climbing the Matterhorn,1
+1947,First Steps,1
+1947,Shoe-Shine,1
+1947,The Farmer's Daughter,1
+1947,Bill and Coo,1
+1947,The Bachelor and the Bobby-Soxer,1
+1947,Mother Wore Tights,1
+1948,The Secret Land,1
+1948,Seal Island,1
+1948,The Little Orphan,1
+1948,Monsieur Vincent,1
+1948,Easter Parade,1
+1948,The Paleface,1
+1948,Symphony of a City,1
+1948,Toward Independence,1
+1948,Portrait of Jennie,1
+1948,Johnny Belinda,1
+1948,Key Largo,1
+1948,The Snake Pit,1
+1949,For Scent-Imental Reasons,1
+1949,So Much for So Little,1
+1949,Van Gogh,1
+1949,Little Women,1
+1949,Neptune's Daughter,1
+1949,Aquatic House-Party,1
+1949,The Adventures of Don Juan,1
+1949,On the Town,1
+1949,Daybreak in Udi,1
+1949,Champion,1
+1949,Mighty Joe Young,1
+1949,The Stratton Story,1
+1949,A Chance to Live,1
+1949,The Bicycle Thief,1
+1949,She Wore a Yellow Ribbon,1
+1950,Harvey,1
+1950,The Titan: Story of Michelangelo,1
+1950,Annie Get Your Gun,1
+1950,Panic in the Streets,1
+1950,Why Korea?,1
+1950,Cyrano de Bergerac,1
+1950,Born Yesterday,1
+1950,Grandad of Races,1
+1950,Destination Moon,1
+1950,Gerald McBoing-Boing,1
+1950,The Third Man,1
+1950,Captain Carey, U.S.A.,1
+1950,The Walls of Malapaga,1
+1950,In Beaver Valley,1
+1951,The Two Mouseketeers,1
+1951,Rashomon,1
+1951,World of Kids,1
+1951,Kon-Tiki,1
+1951,When Worlds Collide,1
+1951,Seven Days to Noon,1
+1951,The African Queen,1
+1951,Nature's Half Acre,1
+1951,Benjy,1
+1951,Here Comes the Groom,1
+1951,The Great Caruso,1
+1952,Come Back, Little Sheba,1
+1952,Johann Mouse,1
+1952,Water Birds,1
+1952,Plymouth Adventure,1
+1952,Light in the Window: The Art of Vermeer,1
+1952,The Lavender Hill Mob,1
+1952,With a Song in My Heart,1
+1952,The Sea around Us,1
+1952,Viva Zapata!,1
+1952,Breaking the Sound Barrier,1
+1952,Neighbours,1
+1952,Forbidden Games,1
+1953,Toot, Whistle, Plunk and Boom,1
+1953,Calamity Jane,1
+1953,Lili,1
+1953,The Alaskan Eskimo,1
+1953,Titanic,1
+1953,The War of the Worlds,1
+1953,The Merry Wives of Windsor Overture,1
+1953,Bear Country,1
+1953,Call Me Madam,1
+1953,Shane,1
+1953,Julius Caesar,1
+1953,Stalag 17,1
+1953,The Living Desert,1
+1954,The High and the Mighty,1
+1954,A Time Out of War,1
+1954,The Glenn Miller Story,1
+1954,The Barefoot Contessa,1
+1954,Sabrina,1
+1954,The Vanishing Prairie,1
+1954,Thursday's Children,1
+1954,When Magoo Flew,1
+1954,This Mechanical Age,1
+1954,Seven Brides for Seven Brothers,1
+1954,Broken Lance,1
+1955,Speedy Gonzales,1
+1955,The Bridges at Toko-Ri,1
+1955,Interrupted Melody,1
+1955,Love Me or Leave Me,1
+1955,Helen Keller in Her Story,1
+1955,East of Eden,1
+1955,Samurai, The Legend of Musashi,1
+1955,Survival City,1
+1955,The Face of Lincoln,1
+1955,I'll Cry Tomorrow,1
+1955,To Catch a Thief,1
+1955,Mister Roberts,1
+1955,Men against the Arctic,1
+1956,Mister Magoo's Puddle Jumper,1
+1956,The Silent World,1
+1956,The Solid Gold Cadillac,1
+1956,Giant,1
+1956,Written on the Wind,1
+1956,La Strada,1
+1956,Anastasia,1
+1956,Crashing the Water Barrier,1
+1956,The Ten Commandments,1
+1956,The True Story of the Civil War,1
+1956,The Red Balloon,1
+1956,The Bespoke Overcoat,1
+1956,Lust for Life,1
+1956,The Brave One,1
+1956,The Man Who Knew Too Much,1
+1957,The Three Faces of Eve,1
+1957,The Wetback Hound,1
+1957,Designing Woman,1
+1957,Les Girls,1
+1957,The Joker Is Wild,1
+1957,The Enemy Below,1
+1957,Albert Schweitzer,1
+1957,Birds Anonymous,1
+1957,The Nights of Cabiria,1
+1958,The Old Man and the Sea,1
+1958,Ama Girls,1
+1958,Knighty Knight Bugs,1
+1958,tom thumb,1
+1958,My Uncle,1
+1958,White Wilderness,1
+1958,Grand Canyon,1
+1958,South Pacific,1
+1958,I Want to Live!,1
+1958,The Big Country,1
+1959,The Golden Fish,1
+1959,Moonbird,1
+1959,Glass,1
+1959,Porgy and Bess,1
+1959,Black Orpheus,1
+1959,Serengeti Shall Not Die,1
+1959,Pillow Talk,1
+1959,A Hole in the Head,1
+1959,Some Like It Hot,1
+1960,Munro,1
+1960,Sons and Lovers,1
+1960,The Time Machine,1
+1960,Butterfield 8,1
+1960,Never on Sunday,1
+1960,The Horse with the Flying Tail,1
+1960,Song without End (The Story of Franz Liszt),1
+1960,Exodus,1
+1960,The Facts of Life,1
+1960,Pollyanna,1
+1960,Giuseppina,1
+1960,The Virgin Spring,1
+1960,Day of the Painter,1
+1960,The Alamo,1
+1961,The Guns of Navarone,1
+1961,Project Hope,1
+1961,Le Ciel et la Boue (Sky Above and Mud Beneath),1
+1961,Ersatz (The Substitute),1
+1961,Two Women,1
+1961,La Dolce Vita,1
+1961,A Force in Readiness,1
+1961,Seawards the Great Ships,1
+1961,Through a Glass Darkly,1
+1961,Splendor in the Grass,1
+1962,Meredith Willson's The Music Man,1
+1962,Sweet Bird of Youth,1
+1962,Black Fox,1
+1962,The Wonderful World of the Brothers Grimm,1
+1962,Sundays and Cybele,1
+1962,What Ever Happened to Baby Jane?,1
+1962,Heureux Anniversaire (Happy Anniversary),1
+1962,Dylan Thomas,1
+1962,Divorce--Italian Style,1
+1962,Days of Wine and Roses,1
+1962,The Hole,1
+1963,An Occurrence at Owl Creek Bridge,1
+1963,Irma La Douce,1
+1963,Robert Frost: A Lover's Quarrel with the World,1
+1963,The Critic,1
+1963,Papa's Delicate Condition,1
+1963,Lilies of the Field,1
+1963,America America,1
+1963,Chagall,1
+1963,The V.I.P.s,1
+1963,It's a Mad, Mad, Mad, Mad World,1
+1964,Casals Conducts: 1964,1
+1964,Goldfinger,1
+1964,Father Goose,1
+1964,Jacques-Yves Cousteau's World without Sun,1
+1964,Nine from Little Rock,1
+1964,7 Faces of Dr. Lao.,1
+1964,Yesterday, Today and Tomorrow,1
+1964,The Pink Phink,1
+1964,The Night of the Iguana,1
+1964,Topkapi,1
+1964,Becket,1
+1965,Thunderball,1
+1965,The Dot and the Line,1
+1965,The Eleanor Roosevelt Story,1
+1965,The Chicken (Le Poulet),1
+1965,A Thousand Clowns,1
+1965,The Sandpiper,1
+1965,The Great Race,1
+1965,A Patch of Blue,1
+1965,Cat Ballou,1
+1965,To Be Alive!,1
+1965,The Shop on Main Street,1
+1966,A Year toward Tomorrow,1
+1966,A Funny Thing Happened on the Way to the Forum,1
+1966,Wild Wings,1
+1966,Herb Alpert and the Tijuana Brass Double Feature,1
+1966,The Fortune Cookie,1
+1966,The War Game,1
+1967,The Anderson Platoon,1
+1967,Cool Hand Luke,1
+1967,Thoroughly Modern Millie,1
+1967,The Graduate,1
+1967,A Place to Stand,1
+1967,The Dirty Dozen,1
+1967,Closely Watched Trains,1
+1967,The Box,1
+1967,The Redwoods,1
+1968,Funny Girl,1
+1968,Winnie the Pooh and the Blustery Day,1
+1968,Rosemary's Baby,1
+1968,Journey into Self,1
+1968,Bullitt,1
+1968,Charly,1
+1968,Planet of the Apes,1
+1968,Why Man Creates,1
+1968,The Thomas Crown Affair,1
+1968,War and Peace,1
+1968,The Producers,1
+1968,The Subject Was Roses,1
+1968,2001: A Space Odyssey,1
+1968,Robert Kennedy Remembered,1
+1969,Marooned,1
+1969,Cactus Flower,1
+1969,It's Tough to Be a Bird,1
+1969,Anne of the Thousand Days,1
+1969,They Shoot Horses, Don't They?,1
+1969,The Magic Machines,1
+1969,Arthur Rubinstein - The Love of Life,1
+1969,Czechoslovakia 1968,1
+1969,The Prime of Miss Jean Brodie,1
+1969,True Grit,1
+1970,Love Story,1
+1970,Lovers and Other Strangers,1
+1970,Tora! Tora! Tora!,1
+1970,Woodstock,1
+1970,Cromwell,1
+1970,Let It Be,1
+1970,Women in Love,1
+1970,The Resurrection of Broncho Billy,1
+1970,Is It Always Right to Be Right?,1
+1970,Investigation of a Citizen above Suspicion,1
+1970,Interviews with My Lai Veterans,1
+1970,M*A*S*H,1
+1970,Airport,1
+1971,The Hospital,1
+1971,The Crunch Bird,1
+1971,Bedknobs and Broomsticks,1
+1971,Shaft,1
+1971,Klute,1
+1971,The Hellstrom Chronicle,1
+1971,Summer of '42,1
+1971,The Garden of the Finzi Continis,1
+1972,The Candidate,1
+1972,Butterflies Are Free,1
+1972,Travels with My Aunt,1
+1972,This Tiny World,1
+1972,Marjoe,1
+1972,Limelight,1
+1972,The Discreet Charm of the Bourgeoisie,1
+1972,A Christmas Carol,1
+1972,Norman Rockwell's World...An American Dream,1
+1973,A Touch of Class,1
+1973,Day for Night,1
+1973,The Paper Chase,1
+1973,Save the Tiger,1
+1973,Paper Moon,1
+1973,The Great American Cowboy,1
+1973,Princeton: A Search for Answers,1
+1973,The Bolero,1
+1973,Frank Film,1
+1973,Cries and Whispers,1
+1974,Harry and Tonto,1
+1974,One-Eyed Men Are Kings,1
+1974,Hearts and Minds,1
+1974,Closed Mondays,1
+1974,Chinatown,1
+1974,Amarcord,1
+1974,Don't,1
+1974,Alice Doesn't Live Here Anymore,1
+1974,Murder on the Orient Express,1
+1975,Great,1
+1975,The End of the Game,1
+1975,The Sunshine Boys,1
+1975,Nashville,1
+1975,The Man Who Skied down Everest,1
+1975,Angel and Big Joe,1
+1975,Shampoo,1
+1975,Dersu Uzala,1
+1975,Dog Day Afternoon,1
+1976,Leisure,1
+1976,Black and White in Color,1
+1976,Logan's Run,1
+1976,In the Region of Ice,1
+1976,Harlan County, U.S.A.,1
+1976,Fellini's Casanova,1
+1976,King Kong,1
+1976,A Star Is Born,1
+1976,Number Our Days,1
+1976,The Omen,1
+1977,The Goodbye Girl,1
+1977,Madame Rosa,1
+1977,Gravity Is My Enemy,1
+1977,I'll Find a Way,1
+1977,You Light Up My Life,1
+1977,A Little Night Music,1
+1977,Who Are the DeBolts? And Where Did They Get Nineteen Kids?,1
+1977,The Sand Castle,1
+1978,Teenage Father,1
+1978,Special Delivery,1
+1978,Scared Straight!,1
+1978,Thank God It's Friday,1
+1978,The Flight of the Gossamer Condor,1
+1978,Superman,1
+1978,Death on the Nile,1
+1978,Get Out Your Handkerchiefs,1
+1978,The Buddy Holly Story,1
+1978,Days of Heaven,1
+1978,California Suite,1
+1978,Heaven Can Wait,1
+1979,Alien,1
+1979,Every Child,1
+1979,A Little Romance,1
+1979,Being There,1
+1979,Breaking Away,1
+1979,The Tin Drum,1
+1979,The Black Stallion,1
+1979,Best Boy,1
+1979,Paul Robeson: Tribute to an Artist,1
+1979,Board and Care,1
+1980,Karl Hess: Toward Liberty,1
+1980,Moscow Does Not Believe in Tears,1
+1980,The Fly,1
+1980,Coal Miner's Daughter,1
+1980,From Mao to Mozart: Isaac Stern in China,1
+1980,The Dollar Bottom,1
+1981,Violet,1
+1981,Close Harmony,1
+1981,An American Werewolf in London,1
+1981,Genocide,1
+1981,Mephisto,1
+1981,Crac,1
+1982,Volver a Empezar ('To Begin Again'),1
+1982,Tootsie,1
+1982,If You Love This Planet,1
+1982,Missing,1
+1982,Quest for Fire,1
+1982,Victor/Victoria,1
+1982,Just Another Missing Kid,1
+1982,A Shocking Accident,1
+1982,Sophie's Choice,1
+1982,Tango,1
+1983,Return of the Jedi,1
+1983,Yentl,1
+1983,The Year of Living Dangerously,1
+1983,Boys and Girls,1
+1983,Flamenco at 5:15,1
+1983,He Makes Me Feel Like Dancin',1
+1983,Sundae in New York,1
+1983,Flashdance,1
+1984,Indiana Jones and the Temple of Doom,1
+1984,Purple Rain,1
+1984,The River,1
+1984,Dangerous Moves,1
+1984,The Stone Carvers,1
+1984,Charade,1
+1984,The Woman in Red,1
+1984,Up,1
+1984,The Times of Harvey Milk,1
+1985,The Trip to Bountiful,1
+1985,Witness to War: Dr. Charlie Clements,1
+1985,The Official Story,1
+1985,Prizzi's Honor,1
+1985,Broken Rainbow,1
+1985,Ran,1
+1985,Molly's Pilgrim,1
+1985,Back to the Future,1
+1985,White Nights,1
+1985,Anna & Bella,1
+1985,Kiss of the Spider Woman,1
+1985,Mask,1
+1986,Down and Out in America,1
+1986,'Round Midnight,1
+1986,The Mission,1
+1986,Women--for America, for the World,1
+1986,The Fly,1
+1986,Artie Shaw: Time Is All You've Got,1
+1986,The Assault,1
+1986,Precious Images,1
+1986,Top Gun,1
+1986,The Color of Money,1
+1986,Children of a Lesser God,1
+1986,A Greek Tragedy,1
+1987,Young at Heart,1
+1987,Ray's Male Heterosexual Dance Hall,1
+1987,Harry and the Hendersons,1
+1987,The Ten-Year Lunch: The Wit and Legend of the Algonquin Round Table,1
+1987,RoboCop,1
+1987,Dirty Dancing,1
+1987,Babette's Feast,1
+1987,The Man Who Planted Trees,1
+1987,Innerspace,1
+1987,Wall Street,1
+1987,The Untouchables,1
+1988,Mississippi Burning,1
+1988,Pelle the Conqueror,1
+1988,You Don't Have to Die,1
+1988,The Accidental Tourist,1
+1988,A Fish Called Wanda,1
+1988,Bird,1
+1988,Hotel Terminus: The Life and Times of Klaus Barbie,1
+1988,The Appointments of Dennis Jennings,1
+1988,Tin Toy,1
+1988,Beetlejuice,1
+1988,Working Girl,1
+1988,The Accused,1
+1988,The Milagro Beanfield War,1
+1989,The Johnstown Flood,1
+1989,Indiana Jones and the Last Crusade,1
+1989,Common Threads: Stories from the Quilt,1
+1989,Work Experience,1
+1989,Henry V,1
+1989,Balance,1
+1989,Dead Poets Society,1
+1989,Cinema Paradiso,1
+1989,Batman,1
+1989,The Abyss,1
+1990,The Hunt for Red October,1
+1990,Total Recall,1
+1990,Journey of Hope,1
+1990,Days of Waiting,1
+1990,American Dream,1
+1990,Cyrano de Bergerac,1
+1990,Creature Comforts,1
+1990,The Lunch Date,1
+1990,Reversal of Fortune,1
+1990,Good Fellas,1
+1990,Misery,1
+1991,Session Man,1
+1991,Thelma & Louise,1
+1991,In the Shadow of the Stars,1
+1991,Mediterraneo,1
+1991,Deadly Deception: General Electric, Nuclear Weapons and Our Environment,1
+1991,The Fisher King,1
+1991,Manipulation,1
+1991,City Slickers,1
+1992,Scent of a Woman,1
+1992,The Panama Deception,1
+1992,Omnibus,1
+1992,Mona Lisa Descending a Staircase,1
+1992,My Cousin Vinny,1
+1992,A River Runs through It,1
+1992,The Crying Game,1
+1992,Educating Peter,1
+1992,Death Becomes Her,1
+1992,Indochine,1
+1992,The Last of the Mohicans,1
+1993,Belle Epoque,1
+1993,Black Rider (Schwarzfahrer),1
+1993,Mrs. Doubtfire,1
+1993,I Am a Promise: The Children of Stanton Elementary School,1
+1993,Defending Our Lives,1
+1993,The Wrong Trousers,1
+1993,The Age of Innocence,1
+1993,The Fugitive,1
+1994,Legends of the Fall,1
+1994,Bullets over Broadway,1
+1994,Pulp Fiction,1
+1994,The Madness of King George,1
+1994,Bob's Birthday,1
+1994,Maya Lin: A Strong Clear Vision,1
+1994,The Adventures of Priscilla, Queen of the Desert,1
+1994,Burnt by the Sun,1
+1994,Trevor,1
+1994,A Time for Justice,1
+1994,Blue Sky,1
+1994,Franz Kafka's It's a Wonderful Life,1
+1995,Babe,1
+1995,Anne Frank Remembered,1
+1995,Antonia's Line,1
+1995,One Survivor Remembers,1
+1995,Toy Story,1
+1995,Mighty Aphrodite,1
+1995,Lieberman in Love,1
+1995,Dead Man Walking,1
+1995,The Postman (Il Postino),1
+1995,Leaving Las Vegas,1
+1995,A Close Shave,1
+1995,Sense and Sensibility,1
+1996,Jerry Maguire,1
+1996,Breathing Lessons: The Life and Work of Mark O'Brien,1
+1996,Evita,1
+1996,Sling Blade,1
+1996,Shine,1
+1996,Kolya,1
+1996,The Nutty Professor,1
+1996,The Ghost and the Darkness,1
+1996,Dear Diary,1
+1996,Emma,1
+1996,Quest,1
+1996,Independence Day,1
+1996,When We Were Kings,1
+1997,Men in Black,1
+1997,Geri's Game,1
+1997,The Long Way Home,1
+1997,A Story of Healing,1
+1997,Character,1
+1997,The Full Monty,1
+1997,Visas and Virtue,1
+1998,The Last Days,1
+1998,What Dreams May Come,1
+1998,Elizabeth,1
+1998,Election Night (Valgaften),1
+1998,Affliction,1
+1998,Gods and Monsters,1
+1998,Bunny,1
+1998,The Personals: Improvisations on Romance in the Golden Years,1
+1998,The Prince of Egypt,1
+1999,The Old Man and the Sea,1
+1999,The Red Violin,1
+1999,Boys Don't Cry,1
+1999,Sleepy Hollow,1
+1999,One Day in September,1
+1999,All about My Mother,1
+1999,Tarzan,1
+1999,Girl, Interrupted,1
+1999,King Gimp,1
+1999,My Mother Dreams the Satan's Disciples in New York,1
+2000,Father and Daughter,1
+2000,Almost Famous,1
+2000,Wonder Boys,1
+2000,Quiero Ser (I want to be...),1
+2000,U-571,1
+2000,Dr. Seuss' How the Grinch Stole Christmas,1
+2000,Pollock,1
+2000,Into the Arms of Strangers: Stories of the Kindertransport,1
+2000,Erin Brockovich,1
+2000,Big Mama,1
+2001,Iris,1
+2001,Shrek,1
+2001,Thoth,1
+2001,For the Birds,1
+2001,Gosford Park,1
+2001,Monster's Ball,1
+2001,No Man's Land,1
+2001,Monsters, Inc.,1
+2001,the accountant,1
+2001,Training Day,1
+2001,Pearl Harbor,1
+2001,Murder on a Sunday Morning,1
+2002,8 Mile,1
+2002,Twin Towers,1
+2002,Talk to Her,1
+2002,Nowhere in Africa,1
+2002,Bowling for Columbine,1
+2002,The Hours,1
+2002,This Charming Man (Der Er En Yndig Mand),1
+2002,Adaptation,1
+2002,Spirited Away,1
+2002,The ChubbChubbs!,1
+2002,Road to Perdition,1
+2003,Chernobyl Heart,1
+2003,The Barbarian Invasions,1
+2003,Harvie Krumpet,1
+2003,Finding Nemo,1
+2003,Cold Mountain,1
+2003,Lost in Translation,1
+2003,Two Soldiers,1
+2003,Monster,1
+2003,The Fog of War,1
+2004,The Sea Inside,1
+2004,Mighty Times: The Children's March,1
+2004,Born into Brothels,1
+2004,Wasp,1
+2004,Ryan,1
+2004,Spider-Man 2,1
+2004,Sideways,1
+2004,Finding Neverland,1
+2004,The Motorcycle Diaries,1
+2004,Eternal Sunshine of the Spotless Mind,1
+2004,Lemony Snicket's A Series of Unfortunate Events,1
+2005,March of the Penguins,1
+2005,Six Shooter,1
+2005,The Constant Gardener,1
+2005,A Note of Triumph: The Golden Age of Norman Corwin,1
+2005,The Chronicles of Narnia: The Lion, the Witch and the Wardrobe,1
+2005,Syriana,1
+2005,The Moon and the Son: An Imagined Conversation,1
+2005,Tsotsi,1
+2005,Hustle & Flow,1
+2005,Wallace & Gromit in The Curse of the Were-Rabbit,1
+2005,Walk the Line,1
+2005,Capote,1
+2006,West Bank Story,1
+2006,Pirates of the Caribbean: Dead Man's Chest,1
+2006,The Danish Poet,1
+2006,The Lives of Others,1
+2006,The Blood of Yingzhou District,1
+2006,Happy Feet,1
+2006,Marie Antoinette,1
+2006,The Last King of Scotland,1
+2006,The Queen,1
+2006,Letters from Iwo Jima,1
+2006,Babel,1
+2007,Le Mozart des Pickpockets (The Mozart of Pickpockets),1
+2007,Juno,1
+2007,Once,1
+2007,Taxi to the Dark Side,1
+2007,Sweeney Todd The Demon Barber of Fleet Street,1
+2007,Atonement,1
+2007,The Golden Compass,1
+2007,The Counterfeiters,1
+2007,Elizabeth: The Golden Age,1
+2007,Peter & the Wolf,1
+2007,Ratatouille,1
+2007,Freeheld,1
+2007,Michael Clayton,1
+2008,Vicky Cristina Barcelona,1
+2008,Departures,1
+2008,Smile Pinki,1
+2008,The Duchess,1
+2008,Man on Wire,1
+2008,Spielzeugland (Toyland),1
+2008,WALL-E,1
+2008,The Reader,1
+2008,La Maison en Petits Cubes,1
+2009,The Blind Side,1
+2009,Music by Prudence,1
+2009,The New Tenants,1
+2009,The Secret in Their Eyes,1
+2009,The Young Victoria,1
+2009,Logorama,1
+2009,Star Trek,1
+2009,The Cove,1
+2009,Inglourious Basterds,1
+2010,The Wolfman,1
+2010,Inside Job,1
+2010,In a Better World,1
+2010,Strangers No More,1
+2010,The Lost Thing,1
+2010,Black Swan,1
+2010,God of Love,1
+2011,Beginners,1
+2011,Saving Face,1
+2011,The Girl with the Dragon Tattoo,1
+2011,The Muppets,1
+2011,The Descendants,1
+2011,The Shore,1
+2011,Undefeated,1
+2011,Midnight in Paris,1
+2011,A Separation,1
+2011,The Fantastic Flying Books of Mr. Morris Lessmore,1
+2011,The Help,1
+2011,Rango,1
+2012,Paperman,1
+2012,Anna Karenina,1
+2012,Amour,1
+2012,Inocente,1
+2012,Brave,1
+2012,Zero Dark Thirty,1
+2012,Silver Linings Playbook,1
+2012,Curfew,1
+2012,Searching for Sugar Man,1
+2013,Her,1
+2013,Mr. Hublot,1
+2013,Helium,1
+2013,The Great Beauty,1
+2013,20 Feet from Stardom,1
+2013,Blue Jasmine,1
+2013,The Lady in Number 6: Music Saved My Life,1
+2014,American Sniper,1
+2014,Crisis Hotline: Veterans Press 1,1
+2014,Boyhood,1
+2014,Big Hero 6,1
+2014,CitizenFour,1
+2014,Feast,1
+2014,Still Alice,1
+2014,Interstellar,1
+2014,The Imitation Game,1
+2014,Selma,1
+2014,Ida,1
+2014,The Theory of Everything,1
+2014,The Phone Call,1
+2015,Ex Machina,1
+2015,The Danish Girl,1
+2015,Spectre,1
+2015,A Girl in the River: The Price of Forgiveness,1
+2015,Stutterer,1
+2015,Amy,1
+2015,Inside Out,1
+2015,Room,1
+2015,Son of Saul,1
+2015,The Big Short,1
+2015,Bear Story,1
+2015,Bridge of Spies,1
+2015,The Hateful Eight,1
+2016,The White Helmets,1
+2016,Arrival,1
+2016,Piper,1
+2016,O.J.: Made in America,1
+2016,Suicide Squad,1
+2016,The Salesman,1
+2016,Zootopia,1
+2016,The Jungle Book,1
+2016,Fantastic Beasts and Where to Find Them,1
+2016,Sing,1
+2016,Fences,1
+2017,Icarus,1
+2017,Call Me by Your Name,1
+2017,CARNE y ARENA,1
+2017,Heaven Is a Traffic Jam on the 405,1
+2017,Dear Basketball,1
+2017,Get Out,1
+2017,The Silent Child,1
+2017,I, Tonya,1
+2017,Phantom Thread,1
+2017,A Fantastic Woman,1
+2018,Spider-Man: Into the Spider-Verse,1
+2018,Period. End of Sentence.,1
+2018,Vice,1
+2018,First Man,1
+2018,Skin,1
+2018,Free Solo,1
+2018,If Beale Street Could Talk,1
+2018,BlacKkKlansman,1
+2018,A Star Is Born,1
+2018,The Favourite,1
+2018,Bao,1
+2019,Judy,1
+2019,Hair Love,1
+2019,Toy Story 4,1
+2019,Jojo Rabbit,1
+2019,Little Women,1
+2019,Rocketman,1
+2019,American Factory,1
+2019,Marriage Story,1
+2019,The Neighbors' Window,1
+2019,Bombshell,1
+2019,Learning to Skateboard in a Warzone (If You're a Girl),1
+2020,Colette,1
+2020,Two Distant Strangers,1
+2020,Promising Young Woman,1
+2020,Tenet,1
+2020,If Anything Happens I Love You,1
+2020,Minari,1
+2020,My Octopus Teacher,1
+2020,Another Round,1
+2021,The Long Goodbye,1
+2021,West Side Story,1
+2021,The Queen of Basketball,1
+2021,Cruella,1
+2021,The Power of the Dog,1
+2021,The Windshield Wiper,1
+2021,Belfast,1
+2021,King Richard,1
+2021,Drive My Car,1
+2021,Summer of Soul (...Or, When the Revolution Could Not Be Televised),1
+2021,No Time to Die,1
+2021,Encanto,1
+2022,Women Talking,1
+2022,Guillermo del Toro's Pinocchio,1
+2022,Black Panther: Wakanda Forever,1
+2022,Avatar: The Way of Water,1
+2022,Navalny,1
+2022,RRR,1
+2022,An Irish Goodbye,1
+2022,Top Gun: Maverick,1
+2022,The Elephant Whisperers,1
+2022,Welcome to Chechnya,1
+2022,The Boy, the Mole, the Fox and the Horse,1
+2023,Barbie,1
+2023,The Holdovers,1
+2023,Godzilla Minus One,1
+2023,The Boy and the Heron,1
+2023,Anatomy of a Fall,1
+2023,The Wonderful Story of Henry Sugar,1
+2023,The Last Repair Shop,1
+2023,WAR IS OVER! Inspired by the Music of John & Yoko,1
+2023,20 Days in Mariupol,1
+2023,American Fiction,1
+2024,The Substance,1
+2024,A Real Pain,1
+2024,Conclave,1
+2024,I'm Still Here,1
+2024,Flow,1
+2024,The Only Girl in the Orchestra,1
+2024,In the Shadow of the Cypress,1
+2024,I'm Not a Robot,1
+2024,No Other Land,1
+1927,A Ship Comes In,0
+1927,The Magic Flame,0
+1927,Speedy,0
+1927,The Patent Leather Kid,0
+1927,The Crowd,0
+1927,Glorious Betsy,0
+1927,The Private Life of Helen of Troy,0
+1927,Sorrell and Son,0
+1927,Chang,0
+1927,The Noose,0
+1927,The Racket,0
+1927,Sadie Thompson,0
+1927,The Devil Dancer,0
+1928,Our Dancing Daughters,0
+1928,Skyscraper,0
+1928,Dynamite,0
+1928,Thunderbolt,0
+1928,Madame X,0
+1928,Sal of Singapore,0
+1928,Wonder of Women,0
+1928,Hollywood Revue,0
+1928,The Cop,0
+1928,Alibi,0
+1928,The Last of Mrs. Cheyney,0
+1928,Four Devils,0
+1928,Drag,0
+1928,A Woman of Affairs,0
+1928,The Valiant,0
+1928,The Leatherneck,0
+1928,The Barker,0
+1928,The Awakening,0
+1928,The Letter,0
+1928,Street Angel,0
+1928,Weary River,0
+1929,The Love Parade,0
+1929,Romance,0
+1929,Anna Christie,0
+1929,The Big Pond,0
+1929,The Devil's Holiday,0
+1929,The Case of Sergeant Grischa,0
+1929,The Vagabond King,0
+1929,Song of the Flame,0
+1929,The Rogue Song,0
+1929,Raffles,0
+1929,Bulldog Drummond,0
+1929,Sally,0
+1929,The Green Goddess,0
+1929,Their Own Desire,0
+1929,Sarah and Son,0
+1929,Hell's Angels,0
+1929,Hallelujah,0
+1929,Condemned,0
+1929,Street of Chance,0
+1929,The Trespasser,0
+1930,The Right to Love,0
+1930,The Criminal Code,0
+1930,Holiday,0
+1930,Laughter,0
+1930,Trader Horn,0
+1930,The Royal Family of Broadway,0
+1930,The Front Page,0
+1930,Just Imagine,0
+1930,Morocco,0
+1930,The Public Enemy,0
+1930,Smart Money,0
+1930,Little Caesar,0
+1930,Whoopee!,0
+1930,East Lynne,0
+1930,Svengali,0
+1930,The Doorway to Hell,0
+1931,Swing High,0
+1931,What Price Hollywood?,0
+1931,Five Star Final,0
+1931,The Star Witness,0
+1931,It's Got Me Again,0
+1931,Arrowsmith,0
+1931,Lady and Gent,0
+1931,À Nous la Liberté,0
+1931,Emma,0
+1931,Stout Hearts and Willing Hands,0
+1931,Scratch-As-Catch-Can,0
+1931,The Guardsman,0
+1931,One Hour with You,0
+1931,The Loud Mouth,0
+1931,Screen Souvenirs,0
+1931,The Smiling Lieutenant,0
+1931,Mickey's Orphans,0
+1932,Gold Diggers of 1933,0
+1932,Lady for a Day,0
+1932,42nd Street,0
+1932,Rasputin and the Empress,0
+1932,Building a Building,0
+1932,When Ladies Meet,0
+1932,I Am a Fugitive from a Chain Gang,0
+1932,The Prizefighter and the Lady,0
+1932,The Sea,0
+1932,Mister Mugg,0
+1932,The Merry Old Soul,0
+1932,Smilin' Through,0
+1932,Menu,0
+1932,The Sign of the Cross,0
+1932,She Done Him Wrong,0
+1932,A Preferred List,0
+1932,Reunion in Vienna,0
+1932,State Fair,0
+1932,Berkeley Square,0
+1934,The Lost Patrol,0
+1934,Jolly Little Elves,0
+1934,The White Parade,0
+1934,Of Human Bondage,0
+1934,The Affairs of Cellini,0
+1934,Bosom Friends,0
+1934,Men in Black,0
+1934,Here Comes the Navy,0
+1934,What, No Men!,0
+1934,Flirtation Walk,0
+1934,Hide-Out,0
+1934,The House of Rothschild,0
+1934,The Thin Man,0
+1934,The Richest Girl in the World,0
+1934,Strikes and Spares,0
+1934,The Barretts of Wimpole Street,0
+1934,She Loves Me Not,0
+1934,Flying Down to Rio,0
+1934,Holiday Land,0
+1934,Imitation of Life,0
+1934,Operator 13,0
+1935,Thanks a Million,0
+1935,David Copperfield,0
+1935,G-Men,0
+1935,Becky Sharp,0
+1935,The Gay Deception,0
+1935,Go into Your Dance,0
+1935,Love Me Forever,0
+1935,She,0
+1935,Big Broadcast of 1936,0
+1935,The Calico Dragon,0
+1935,Bride of Frankenstein,0
+1935,The Crusades,0
+1935,Escape Me Never,0
+1935,Alice Adams,0
+1935,Oh, My Nerves,0
+1935,Camera Thrills,0
+1935,Black Fury,0
+1935,Peter Ibbetson,0
+1935,Roberta,0
+1935,Broadway Hostess,0
+1935,Private Worlds,0
+1935,Les Miserables,0
+1935,King of Burlesque,0
+1935,Top Hat,0
+1935,Tit for Tat,0
+1935,Barbary Coast,0
+1935,Ruggles of Red Gap,0
+1935,Who Killed Cock Robin?,0
+1935,Audioscopiks,0
+1935,Captain Blood,0
+1935,$1,000 a Minute,0
+1935,I Dream Too Much,0
+1935,All the King's Horses,0
+1936,Gold Diggers of 1937,0
+1936,Double or Nothing,0
+1936,These Three,0
+1936,Born to Dance,0
+1936,Winterset,0
+1936,Dancing Pirate,0
+1936,Banjo on My Knee,0
+1936,Sinbad the Sailor,0
+1936,Libeled Lady,0
+1936,General Spanky,0
+1936,The Magnificent Brute,0
+1936,The General Died at Dawn,0
+1936,Sing, Baby, Sing,0
+1936,Moscow Moods,0
+1936,The Gorgeous Hussy,0
+1936,Valiant Is the Word for Carrie,0
+1936,One in a Million,0
+1936,Fury,0
+1936,Popular Science J-6-2,0
+1936,My Man Godfrey,0
+1936,That Girl from Paris,0
+1936,A Tale of Two Cities,0
+1936,Wanted, a Master,0
+1936,La Fiesta de Santa Barbara,0
+1936,The Texas Rangers,0
+1936,Theodora Goes Wild,0
+1936,Dummy Ache,0
+1936,Lloyds of London,0
+1936,Pigskin Parade,0
+1936,Suzy,0
+1936,Three Smart Girls,0
+1936,The Last of the Mohicans,0
+1936,Trail of the Lonesome Pine,0
+1936,Romeo and Juliet,0
+1936,Pennies from Heaven,0
+1936,After the Thin Man,0
+1936,Old Mill Pond,0
+1936,Cain and Mabel,0
+1937,Walter Wanger's Vogues of 1938,0
+1937,The Prisoner of Zenda,0
+1937,Portia on Trial,0
+1937,Stella Dallas,0
+1937,Souls at Sea,0
+1937,Something to Sing About,0
+1937,Popular Science J-7-1,0
+1937,Dead End,0
+1937,Educated Fish,0
+1937,Hitting a New High,0
+1937,Mr. Dodd Takes the Air,0
+1937,The Girl Said No,0
+1937,A Night at the Movies,0
+1937,Way Out West,0
+1937,Deep South,0
+1937,Thin Ice,0
+1937,Make a Wish,0
+1937,Maytime,0
+1937,Stage Door,0
+1937,Shall We Dance,0
+1937,The Man without a Country,0
+1937,Topper,0
+1937,Ready, Willing and Able,0
+1937,Camille,0
+1937,Ali Baba Goes to Town,0
+1937,Wings over Honolulu,0
+1937,Every Day's a Holiday,0
+1937,Snow White and the Seven Dwarfs,0
+1937,Quality Street,0
+1937,Manhattan Merry-Go-Round,0
+1937,Should Wives Work?,0
+1937,Night Must Fall,0
+1937,The Little Match Girl,0
+1937,You're a Sweetheart,0
+1937,A Day at the Races,0
+1937,Conquest,0
+1937,Wee Willie Winkie,0
+1937,Artists and Models,0
+1937,Varsity Show,0
+1937,Romance of Radium,0
+1937,Wells Fargo,0
+1937,Black Legion,0
+1938,They're Always Caught,0
+1938,Under Western Stars,0
+1938,There Goes My Heart,0
+1938,Holiday,0
+1938,Army Girl,0
+1938,Four Daughters,0
+1938,Good Scouts,0
+1938,Mannequin,0
+1938,Swingtime in the Movies,0
+1938,The Buccaneer,0
+1938,That Certain Age,0
+1938,Three Comrades,0
+1938,The Lady Objects,0
+1938,Block-Heads,0
+1938,Girls' School,0
+1938,Blockade,0
+1938,Angels with Dirty Faces,0
+1938,Carefree,0
+1938,Algiers,0
+1938,Storm over Bengal,0
+1938,Breaking the Ice,0
+1938,Vivacious Lady,0
+1938,Suez,0
+1938,Timber Toppers,0
+1938,Mad about Music,0
+1938,The Adventures of Tom Sawyer,0
+1938,Pacific Liner,0
+1938,Hunky and Spunky,0
+1938,Of Human Hearts,0
+1938,Grand Illusion,0
+1938,Test Pilot,0
+1938,Marie Antoinette,0
+1938,Mother Goose Goes Hollywood,0
+1938,Brave Little Tailor,0
+1938,The Young in Heart,0
+1938,Merrily We Live,0
+1938,The Goldwyn Follies,0
+1938,If I Were King,0
+1938,Going Places,0
+1938,Tropic Holiday,0
+1938,The Citadel,0
+1938,The Great Heart,0
+1938,White Banners,0
+1939,Drunk Driving,0
+1939,Gulliver's Travels,0
+1939,The Great Victor Herbert,0
+1939,The Mikado,0
+1939,Four Feathers,0
+1939,Of Mice and Men,0
+1939,Detouring America,0
+1939,Drums along the Mohawk,0
+1939,Eternally Yours,0
+1939,Babes in Arms,0
+1939,The Hunchback of Notre Dame,0
+1939,Nurse Edith Cavell,0
+1939,Gunga Din,0
+1939,Swanee River,0
+1939,Captain Fury,0
+1939,Juarez,0
+1939,Ninotchka,0
+1939,Union Pacific,0
+1939,She Married a Cop,0
+1939,Lady of the Tropics,0
+1939,Sword Fishing,0
+1939,Dark Victory,0
+1939,Peace on Earth,0
+1939,Balalaika,0
+1939,Topper Takes a Trip,0
+1939,The Private Lives of Elizabeth and Essex,0
+1939,Bachelor Mother,0
+1939,The Man in the Iron Mask,0
+1939,Information Please,0
+1939,They Shall Have Music,0
+1939,First Love,0
+1939,Young Mr. Lincoln,0
+1939,Second Fiddle,0
+1939,Man of Conquest,0
+1939,Intermezzo,0
+1939,Prophet without Honor,0
+1939,Five Times Five,0
+1939,The Pointer,0
+1939,Only Angels Have Wings,0
+1939,Love Affair,0
+1939,Golden Boy,0
+1939,Way Down South,0
+1939,Beau Geste,0
+1940,London Can Take It,0
+1940,Northwest Passage,0
+1940,The Invisible Man Returns,0
+1940,The Long Voyage Home,0
+1940,The House of the Seven Gables,0
+1940,All This, and Heaven Too,0
+1940,The Mark of Zorro,0
+1940,Primrose Path,0
+1940,Foreign Correspondent,0
+1940,Waterloo Bridge,0
+1940,Down Argentine Way,0
+1940,Comrade X,0
+1940,Captain Caution,0
+1940,Edison, the Man,0
+1940,The Boys from Syracuse,0
+1940,Lillian Russell,0
+1940,Dr. Ehrlich's Magic Bullet,0
+1940,Women in War,0
+1940,Angels over Broadway,0
+1940,The Howards of Virginia,0
+1940,Abe Lincoln in Illinois,0
+1940,Too Many Husbands,0
+1940,The Great Dictator,0
+1940,Dr. Cyclops,0
+1940,Siege,0
+1940,You'll Find Out,0
+1940,Boom Town,0
+1940,A Wild Hare,0
+1940,Service with the Colors,0
+1940,Our Town,0
+1940,Arizona,0
+1940,Behind the News,0
+1940,Rhythm on the River,0
+1940,My Favorite Wife,0
+1940,Second Chorus,0
+1940,They Knew What They Wanted,0
+1940,Bitter Sweet,0
+1940,The Sea Hawk,0
+1940,The Fight for Life,0
+1940,Spring Parade,0
+1940,Puss Gets the Boot,0
+1940,More about Nostradamus,0
+1940,Hit Parade of 1941,0
+1940,One Million B.C.,0
+1940,The Dark Command,0
+1940,Irene,0
+1940,My Son, My Son!,0
+1940,Music in My Heart,0
+1940,The Blue Bird,0
+1940,The Letter,0
+1940,Eyes of the Navy,0
+1940,Typhoon,0
+1940,Swiss Family Robinson,0
+1941,Aloma of the South Seas,0
+1941,Christmas under Fire,0
+1941,Tall, Dark and Handsome,0
+1941,Truant Officer Donald,0
+1941,Life of a Thoroughbred,0
+1941,Boogie Woogie Bugle Boy of Company B,0
+1941,The Tanks Are Coming,0
+1941,Sun Valley Serenade,0
+1941,Russian Soil,0
+1941,Sunny,0
+1941,One Foot in Heaven,0
+1941,Louisiana Purchase,0
+1941,Topper Returns,0
+1941,Forbidden Passage,0
+1941,King of the Zombies,0
+1941,Ice-Capades,0
+1941,The Sea Wolf,0
+1941,Army Champions,0
+1941,The Invisible Woman,0
+1941,A Yank in the R.A.F.,0
+1941,Night Train,0
+1941,Rhapsody in Rivets,0
+1941,Birth of the Blues,0
+1941,When Ladies Meet,0
+1941,The Maltese Falcon,0
+1941,The Lady Eve,0
+1941,The Son of Monte Cristo,0
+1941,Flight Command,0
+1941,The Little Foxes,0
+1941,Sagebrush and Silver,0
+1941,Down on the Farm,0
+1941,Ladies in Retirement,0
+1941,A Place to Live,0
+1941,Hold Back the Dawn,0
+1941,Hiawatha's Rabbit Hunt,0
+1941,Lydia,0
+1941,The Devil and Miss Jones,0
+1941,Superman,0
+1941,Kings of the Turf,0
+1941,Dr. Jekyll and Mr. Hyde,0
+1941,That Uncertain Feeling,0
+1941,You'll Never Get Rich,0
+1941,Appointment for Love,0
+1941,Billy the Kid,0
+1941,Back Street,0
+1941,Tom, Dick and Harry,0
+1941,The Men in Her Life,0
+1941,Tanks a Million,0
+1941,Forty Boys and a Song,0
+1941,Sundown,0
+1941,The Devil Pays Off,0
+1941,Soldiers of the Sky,0
+1941,Mercy Island,0
+1941,Norway in Revolt,0
+1941,Ridin' on a Rainbow,0
+1941,The Chocolate Soldier,0
+1941,Adventure in the Bronx,0
+1941,All-American Co-Ed,0
+1941,Dive Bomber,0
+1941,Meet John Doe,0
+1941,Ball of Fire,0
+1941,The Strawberry Blonde,0
+1941,Blues in the Night,0
+1941,War Clouds in the Pacific,0
+1941,Skylark,0
+1941,This Woman Is Mine,0
+1941,Las Vegas Nights,0
+1941,Penny Serenade,0
+1941,Beauty and the Beach,0
+1941,The Flame of New Orleans,0
+1941,Bomber,0
+1941,Sis Hopkins,0
+1941,The Night before Christmas,0
+1941,Buck Privates,0
+1941,The Gay Parisian,0
+1941,Rhythm in the Ranks,0
+1941,Letter from Home,0
+1941,Cheers for Miss Bishop,0
+1941,Alive in the Deep,0
+1941,So Ends Our Night,0
+1941,The Rookie Bear,0
+1941,How War Came,0
+1942,Flying with Music,0
+1942,Orchestra Wives,0
+1942,I Married a Witch,0
+1942,The Shanghai Gesture,0
+1942,Mr. Gardenia Jones,0
+1942,It Started with Eve,0
+1942,Johnny Doughboy,0
+1942,Desperate Journey,0
+1942,Road to Morocco,0
+1942,Youth on Parade,0
+1942,The Grain That Built a Hemisphere,0
+1942,United States Marine Band,0
+1942,My Sister Eileen,0
+1942,To the Shores of Tripoli,0
+1942,Winning Your Wings,0
+1942,Hellzapoppin',0
+1942,George Washington Slept Here,0
+1942,Combat Report,0
+1942,Wake Island,0
+1942,Henry Browne, Farmer,0
+1942,The Talk of the Town,0
+1942,The War against Mrs. Hadley,0
+1942,The New Spirit,0
+1942,Moontide,0
+1942,Don't Talk,0
+1942,For Me and My Gal,0
+1942,Take a Letter, Darling,0
+1942,Pigs in a Polka,0
+1942,A Ship Is Born,0
+1942,Always in My Heart,0
+1942,The Navy Comes Through,0
+1942,Babes on Broadway,0
+1942,All Out for 'V',0
+1942,High over the Borders,0
+1942,Africa, Prelude to Victory,0
+1942,Arabian Nights,0
+1942,Private Smith of the U.S.A.,0
+1942,Desert Wonderland,0
+1942,Mr. Blabbermouth!,0
+1942,White Eagle,0
+1942,Bambi,0
+1942,Tulips Shall Grow,0
+1942,To Be or Not to Be,0
+1942,Twenty-One Miles,0
+1942,Once upon a Honeymoon,0
+1942,You Were Never Lovelier,0
+1942,The Spoilers,0
+1942,High Stakes in the East,0
+1942,Tortilla Flat,0
+1942,Klondike Fury,0
+1942,Ten Gentlemen from West Point,0
+1942,Flying Tigers,0
+1942,The Price of Victory,0
+1942,Kings Row,0
+1942,Captains of the Clouds,0
+1942,Friendly Enemies,0
+1942,One of Our Aircraft Is Missing,0
+1942,The Gold Rush,0
+1942,Joan of Paris,0
+1942,Little Belgium,0
+1942,The Magnificent Ambersons,0
+1942,The Mayor of 44th Street,0
+1942,Conquer by the Clock,0
+1942,Juke Box Jamboree,0
+1942,Blitz Wolf,0
+1942,Marines in the Making,0
+1942,Listen to Britain,0
+1942,Silver Queen,0
+1942,Little Isles of Freedom,0
+1942,Invisible Agent,0
+1942,Random Harvest,0
+1942,Inside Fighting China,0
+1942,It's Everybody's War,0
+1942,The Pied Piper,0
+1942,We Refuse to Die,0
+1942,Jungle Book,0
+1942,The Corsican Brothers,0
+1943,Bombardier,0
+1943,Reason and Emotion,0
+1943,Tomorrow We Fly,0
+1943,Land of My Mother,0
+1943,Flight for Freedom,0
+1943,Task Force,0
+1943,Children of Mars,0
+1943,Five Graves to Cairo,0
+1943,Action in the North Atlantic,0
+1943,Johnny Come Lately,0
+1943,The Fallen Sparrow,0
+1943,Hi Diddle Diddle,0
+1943,Corvette K-225,0
+1943,Victory through Air Power,0
+1943,Thank Your Lucky Stars,0
+1943,We've Come a Long, Long Way,0
+1943,The Ox-Bow Incident,0
+1943,For God and Country,0
+1943,Mission to Moscow,0
+1943,The Dizzy Acrobat,0
+1943,Letter to a Hero,0
+1943,The Dutch Tradition,0
+1943,Life Line,0
+1943,Cabin in the Sky,0
+1943,The Rear Gunner,0
+1943,Youth in Crisis,0
+1943,Cavalcade of Dance with Veloz and Yolanda,0
+1943,Commandos Strike at Dawn,0
+1943,Holy Matrimony,0
+1943,Hollywood in Uniform,0
+1943,Wings Up,0
+1943,Stand By for Action,0
+1943,Day of Battle,0
+1943,Water--Friend or Enemy,0
+1943,In Old Oklahoma,0
+1943,Baptism of Fire,0
+1943,War Department Report,0
+1943,So This Is Washington,0
+1943,Stage Door Canteen,0
+1943,Women at War,0
+1943,Greetings Bait!,0
+1943,The North Star,0
+1943,The 500 Hats of Bartholomew Cubbins,0
+1943,The Battle of Russia,0
+1943,Swedes in America,0
+1943,To the People of the United States,0
+1943,So Proudly We Hail!,0
+1943,Silent Village,0
+1943,In Which We Serve,0
+1943,Letter from Livingston,0
+1943,Plan for Destruction,0
+1943,Imagination,0
+1943,Champions Carry On,0
+1943,Riding High,0
+1943,Star Spangled Rhythm,0
+1943,The Labor Front,0
+1943,Coney Island,0
+1943,The Constant Nymph,0
+1943,Servant of a Nation,0
+1943,The Gang's All Here,0
+1943,Hers to Hold,0
+1943,Thousands Cheer,0
+1943,Hit Parade of 1943,0
+1943,The Amazing Mrs. Holliday,0
+1943,Destination Tokyo,0
+1943,Bismarck Convoy Smashed,0
+1943,Lassie Come Home,0
+1943,The Kansan,0
+1943,Madame Curie,0
+1943,Report from the Aleutians,0
+1943,The Moon and Sixpence,0
+1943,Hangmen Also Die,0
+1943,Sahara,0
+1943,Shadow of a Doubt,0
+1943,Saludos Amigos,0
+1943,Kill or Be Killed,0
+1943,Lady of Burlesque,0
+1943,Mardi Gras,0
+1943,The Sky's the Limit,0
+1943,Seeing Hands,0
+1943,Something to Shout About,0
+1943,The Voice That Thrilled the World,0
+1943,Heaven Can Wait,0
+1944,Double Indemnity,0
+1944,Dragon Seed,0
+1944,The Uninvited,0
+1944,Two Girls and a Sailor,0
+1944,Fish Fry,0
+1944,The Climax,0
+1944,The Miracle of Morgan's Creek,0
+1944,Janie,0
+1944,Screen Snapshots' 50th Anniversary of Motion Pictures,0
+1944,Hail the Conquering Hero,0
+1944,The White Cliffs of Dover,0
+1944,Home in Indiana,0
+1944,None Shall Escape,0
+1944,The Seventh Cross,0
+1944,A Guy Named Joe,0
+1944,Follow the Boys,0
+1944,Music in Manhattan,0
+1944,Brazil,0
+1944,New Americans,0
+1944,Movie Pests,0
+1944,Mr. Skeffington,0
+1944,Minstrel Man,0
+1944,Jammin' the Blues,0
+1944,The Adventures of Mark Twain,0
+1944,Voice in the Wind,0
+1944,Hollywood Canteen,0
+1944,Up in Arms,0
+1944,Sweet and Low-Down,0
+1944,How to Play Football,0
+1944,It Happened Tomorrow,0
+1944,Lady, Let's Dance,0
+1944,No Time for Love,0
+1944,Secret Command,0
+1944,Lady in the Dark,0
+1944,Dog, Cat and Canary,0
+1944,Bombalera,0
+1944,Swooner Crooner,0
+1944,Three Russian Girls,0
+1944,Arturo Toscanini,0
+1944,The Princess and the Pirate,0
+1944,Christmas Holiday,0
+1944,Main Street Today,0
+1944,Days of Glory,0
+1944,Blue Grass Gentlemen,0
+1944,Up in Mabel's Room,0
+1944,The Story of Dr. Wassell,0
+1944,Address Unknown,0
+1944,Knickerbocker Holiday,0
+1944,Summer Storm,0
+1944,Sensations of 1945,0
+1944,Woman of the Town,0
+1944,Higher and Higher,0
+1944,Casanova Brown,0
+1944,Step Lively,0
+1944,The Merry Monahans,0
+1944,The Hairy Ape,0
+1944,Meet Me in St. Louis,0
+1944,The Sullivans,0
+1944,Mrs. Parkington,0
+1944,The Bridge of San Luis Rey,0
+1944,The Desert Song,0
+1944,My Boy Johnny,0
+1944,Song of the Open Road,0
+1944,Wing and a Prayer,0
+1944,Resisting Enemy Interrogation,0
+1944,The Fighting Seabees,0
+1944,And to Think I Saw It on Mulberry Street,0
+1944,Kismet,0
+1944,His Butler's Sister,0
+1944,Irish Eyes Are Smiling,0
+1944,Jack London,0
+1944,Lifeboat,0
+1945,Screen Snapshots' 25th Anniversary,0
+1945,Tonight and Every Night,0
+1945,Along the Rainbow Trail,0
+1945,Rippling Romance,0
+1945,Sunbonnet Sue,0
+1945,Here Come the Waves,0
+1945,A Medal for Benny,0
+1945,The Jury Goes Round 'N' Round,0
+1945,Objective, Burma!,0
+1945,The Woman in the Window,0
+1945,The Poet and Peasant,0
+1945,They Were Expendable,0
+1945,The Enchanted Cottage,0
+1945,Guest Wife,0
+1945,The Spanish Main,0
+1945,Captain Eddie,0
+1945,G. I. Joe,0
+1945,A Gun in His Hand,0
+1945,Why Girls Leave Home,0
+1945,Love Letters,0
+1945,Your National Gallery,0
+1945,The Valley of Decision,0
+1945,Brewster's Millions,0
+1945,Flame of Barbary Coast,0
+1945,Experiment Perilous,0
+1945,Life with Feathers,0
+1945,To the Shores of Iwo Jima,0
+1945,The Last Bomb,0
+1945,White Rhapsody,0
+1945,The Corn Is Green,0
+1945,The Keys of the Kingdom,0
+1945,Belle of the Yukon,0
+1945,Jasper and the Beanstalk,0
+1945,The Man Who Walked Alone,0
+1945,San Antonio,0
+1945,The Southerner,0
+1945,G. I. Honeymoon,0
+1945,Earl Carroll Vanities,0
+1945,The Little Witch,0
+1945,A Song to Remember,0
+1945,The Unseen,0
+1945,What Next, Corporal Hargrove?,0
+1945,Salty O'Rourke,0
+1945,Mighty Mouse in Gypsy Life,0
+1945,Incendiary Blonde,0
+1945,Donald's Crime,0
+1945,Three Is a Family,0
+1945,Pride of the Marines,0
+1945,Sing Your Way Home,0
+1945,The Three Caballeros,0
+1945,Captain Kidd,0
+1945,A Thousand and One Nights,0
+1945,Lady on a Train,0
+1945,Story of a Dog,0
+1945,Guest in the House,0
+1945,Can't Help Singing,0
+1945,Music for Millions,0
+1945,This Love of Ours,0
+1945,Hitchhike to Happiness,0
+1945,The Affairs of Susan,0
+1945,Dillinger,0
+1945,Library of Congress,0
+1945,Paris--Underground,0
+1945,Rhapsody in Blue,0
+1946,A Stolen Life,0
+1946,Open City,0
+1946,The Green Years,0
+1946,Paramount News Issue #37 (Twentieth Anniversary Issue! 1927.....1947),0
+1946,Canyon Passage,0
+1946,Duel in the Sun,0
+1946,Dive-Hi Champs,0
+1946,Hiss and Yell,0
+1946,Saratoga Trunk,0
+1946,Night and Day,0
+1946,Kitty,0
+1946,The Strange Love of Martha Ivers,0
+1946,Centennial Summer,0
+1946,Atomic Power,0
+1946,Brief Encounter,0
+1946,Squatter's Rights,0
+1946,Caesar and Cleopatra,0
+1946,The Blue Dahlia,0
+1946,Chopin's Musical Moments,0
+1946,Sure Cures,0
+1946,The Dark Mirror,0
+1946,Humoresque,0
+1946,Blue Skies,0
+1946,John Henry and the Inky Poo,0
+1946,Road to Utopia,0
+1946,Traffic with the Devil,0
+1946,Life at the Zoo,0
+1946,The Stranger,0
+1946,Children of Paradise,0
+1946,Smart as a Fox,0
+1946,The Spiral Staircase,0
+1946,The Dolly Sisters,0
+1946,Sister Kenny,0
+1946,Notorious,0
+1946,Walky Talky Hawky,0
+1946,The Killers,0
+1946,The Luckiest Guy in the World,0
+1946,Golden Horses,0
+1946,College Queen,0
+1946,It's a Wonderful Life,0
+1947,Now You See It,0
+1947,The Paradine Case,0
+1947,School in the Mailbox,0
+1947,Moon Rockets,0
+1947,Mourning Becomes Electra,0
+1947,Odd Man Out,0
+1947,Boomerang!,0
+1947,Journey into Medicine,0
+1947,Pluto's Blue Note,0
+1947,The Perils of Pauline,0
+1947,Champagne for Two,0
+1947,Road to Rio,0
+1947,The Ghost and Mrs. Muir,0
+1947,Fiesta,0
+1947,Good News,0
+1947,Crossfire,0
+1947,My Wild Irish Rose,0
+1947,So You Want to Be in Pictures,0
+1947,It Happened on Fifth Avenue,0
+1947,A Cage of Nightingales,0
+1947,The World Is Rich,0
+1947,Smash-Up--The Story of a Woman,0
+1947,Life with Father,0
+1947,Chip An' Dale,0
+1947,T-Men,0
+1947,Forever Amber,0
+1947,The Foxes of Harrow,0
+1947,A Voice Is Born: The Story of Niklos Gafni,0
+1947,Kiss of Death,0
+1947,Ride the Pink Horse,0
+1947,Give Us the Earth,0
+1947,Captain from Castile,0
+1947,Unconquered,0
+1947,Monsieur Verdoux,0
+1947,Brooklyn, U.S.A.,0
+1947,Fight of the Wild Stallions,0
+1947,Possessed,0
+1947,The Egg and I,0
+1947,The Time, the Place and the Girl,0
+1947,Tubby the Tuba,0
+1947,Dr. Jekyll and Mr. Mouse,0
+1947,Passport to Nowhere,0
+1948,Mouse Wreckers,0
+1948,When My Baby Smiles at Me,0
+1948,Mickey and the Seal,0
+1948,B. F.'s Daughter,0
+1948,Snow Capers,0
+1948,Cinderella Horse,0
+1948,A Foreign Affair,0
+1948,That Lady in Ermine,0
+1948,Sorry, Wrong Number,0
+1948,Green Grass of Wyoming,0
+1948,Louisiana Story,0
+1948,The Pirate,0
+1948,The Loves of Carmen,0
+1948,You Can't Win,0
+1948,Calgary Stampede,0
+1948,The Luck of the Irish,0
+1948,Sitting Pretty,0
+1948,Moonrise,0
+1948,The Three Musketeers,0
+1948,Casbah,0
+1948,Tea for Two Hundred,0
+1948,Operation Vittles,0
+1948,Heart to Heart,0
+1948,Romance on the High Seas,0
+1948,The Quiet One,0
+1948,I Remember Mama,0
+1948,Wet Blanket Policy,0
+1948,Going to Blazes,0
+1948,Deep Waters,0
+1948,Samba-Mania,0
+1948,Robin Hoodlum,0
+1948,The Emperor Waltz,0
+1948,Red River,0
+1948,Annie Was a Wonder,0
+1948,So You Want to Be on the Radio,0
+1949,So You Think You're Not Guilty,0
+1949,The Rising Tide,0
+1949,Roller Derby Girl,0
+1949,My Foolish Heart,0
+1949,Edward, My Son,0
+1949,Toy Tinkers,0
+1949,Prince of Foxes,0
+1949,The Barkleys of Broadway,0
+1949,Hatch Up Your Troubles,0
+1949,Madame Bovary,0
+1949,Come to the Stable,0
+1949,The Boy and the Eagle,0
+1949,Passport to Pimlico,0
+1949,Sand,0
+1949,It's a Great Feeling,0
+1949,Pinky,0
+1949,The Grass Is Always Greener,0
+1949,The Fallen Idol,0
+1949,Beyond the Forest,0
+1949,Kenji Comes Home,0
+1949,The Quiet One,0
+1949,The Hasty Heart,0
+1949,Once More, My Darling,0
+1949,Tulsa,0
+1949,So Dear to My Heart,0
+1949,Jolson Sings Again,0
+1949,Water Trix,0
+1949,Canary Row,0
+1949,Sands of Iwo Jima,0
+1949,Mother Is a Freshman,0
+1949,The Magic Fluke,0
+1949,Chase of Death,0
+1949,White Heat,0
+1949,Look for the Silver Lining,0
+1949,Paisan,0
+1949,Spills and Chills,0
+1949,It Happens Every Spring,0
+1949,1848,0
+1949,Saraband,0
+1949,The Window,0
+1949,Snow Carnival,0
+1950,Grandma Moses,0
+1950,Trouble Indemnity,0
+1950,The Red Danube,0
+1950,The Magnificent Yankee,0
+1950,The Furies,0
+1950,Three Little Words,0
+1950,Mystery Street,0
+1950,I'll Get By,0
+1950,Cinderella,0
+1950,Trio,0
+1950,No Way Out,0
+1950,My Country 'Tis of Thee,0
+1950,Our Very Own,0
+1950,Blaze Busters,0
+1950,Wrong Way Butch,0
+1950,Mister 880,0
+1950,The Flame and the Arrow,0
+1950,Jerry's Cousin,0
+1950,Singing Guns,0
+1950,No Sad Songs for Me,0
+1950,Father of the Bride,0
+1950,The Black Rose,0
+1950,The Toast of New Orleans,0
+1950,When Willie Comes Marching Home,0
+1950,That Forsyte Woman,0
+1950,With These Hands,0
+1950,Adam's Rib,0
+1950,The Asphalt Jungle,0
+1950,Broken Arrow,0
+1950,Caged,0
+1950,Bitter Rice,0
+1950,Wabash Avenue,0
+1950,The West Point Story,0
+1950,The Stairs,0
+1950,The Fight: Science against Cancer,0
+1950,Louisa,0
+1950,The Men,0
+1950,The Gunfighter,0
+1951,The Strip,0
+1951,The Blue Veil,0
+1951,Come Fill the Cup,0
+1951,Ridin' the Rails,0
+1951,Alice in Wonderland,0
+1951,Golden Girl,0
+1951,The Mudlark,0
+1951,Teresa,0
+1951,The Story of Time,0
+1951,The Seeing Eye,0
+1951,Quo Vadis,0
+1951,On the Riviera,0
+1951,The Frogmen,0
+1951,Bullfighter and the Lady,0
+1951,Detective Story,0
+1951,Strangers on a Train,0
+1951,House on Telegraph Hill,0
+1951,Fourteen Hours,0
+1951,Tales of Hoffmann,0
+1951,One Who Came Back,0
+1951,The Well,0
+1951,Danger under the Sea,0
+1951,Decision before Dawn,0
+1951,Two Tickets to Broadway,0
+1951,Too Young to Kiss,0
+1951,Show Boat,0
+1951,Go for Broke!,0
+1951,Rooty Toot Toot,0
+1951,Death of a Salesman,0
+1951,David and Bathsheba,0
+1951,Balzac,0
+1951,Lambert, the Sheepish Lion,0
+1951,Kind Lady,0
+1951,The Mating Season,0
+1951,I Want You,0
+1951,Rich, Young and Pretty,0
+1951,I Was a Communist for the F.B.I.,0
+1951,Bright Victory,0
+1951,The Model and the Marriage Broker,0
+1951,Royal Wedding,0
+1951,The Big Carnival,0
+1951,La Ronde,0
+1952,Navajo,0
+1952,Little Johnny Jet,0
+1952,Flat Top,0
+1952,My Son John,0
+1952,The Thief,0
+1952,Son of Paleface,0
+1952,Royal Scotland,0
+1952,Romance of Transportation,0
+1952,The Narrow Margin,0
+1952,Rashomon,0
+1952,The Pride of St. Louis,0
+1952,Carrie,0
+1952,Pink and Blue Blues,0
+1952,Sudden Fear,0
+1952,Thar She Blows!,0
+1952,The Garden Spider (Epeira Diadema),0
+1952,Million Dollar Mermaid,0
+1952,Five Fingers,0
+1952,The Atomic City,0
+1952,Singin' in the Rain,0
+1952,Athletes of the Saddle,0
+1952,The Merry Widow,0
+1952,The Man in the White Suit,0
+1952,Madeline,0
+1952,Devil Take Us,0
+1952,Affair in Trinidad,0
+1952,My Cousin Rachel,0
+1952,The Star,0
+1952,The Promoter,0
+1952,The Big Sky,0
+1952,The Medium,0
+1952,Because You're Mine,0
+1952,Just for You,0
+1952,Pat and Mike,0
+1952,Bridge of Time,0
+1952,Ivanhoe,0
+1952,The Member of the Wedding,0
+1952,The Sniper,0
+1952,The Hoaxters,0
+1952,The Snows of Kilimanjaro,0
+1952,The Jazz Singer,0
+1952,Man Alive!,0
+1952,Miracle of Fatima,0
+1952,Desert Killer,0
+1952,Hans Christian Andersen,0
+1953,The 5,000 Fingers of Dr. T,0
+1953,The Band Wagon,0
+1953,The Cruel Sea,0
+1953,The Captain's Paradise,0
+1953,The Caddy,0
+1953,The Tell Tale Heart,0
+1953,Herring Hunt,0
+1953,Wee Water Wonders,0
+1953,The President's Lady,0
+1953,Mogambo,0
+1953,Martin Luther,0
+1953,Return to Glennascaul,0
+1953,Above and Beyond,0
+1953,A Queen Is Crowned,0
+1953,Rugged Bear,0
+1953,Crazylegs,0
+1953,The Living City,0
+1953,Christ among the Primitives,0
+1953,Hondo,0
+1953,Young Bess,0
+1953,The Naked Spur,0
+1953,Kiss Me Kate,0
+1953,Ben and Me,0
+1953,The Actress,0
+1953,The Desert Rats,0
+1953,The Four Poster,0
+1953,The Mississippi Gambler,0
+1953,Winter Paradise,0
+1953,Vesuvius Express,0
+1953,Take the High Ground,0
+1953,The Conquest of Everest,0
+1953,Christopher Crumpet,0
+1953,Operation Blue Jay,0
+1953,This Is Cinerama,0
+1953,Knights of the Round Table,0
+1953,Little Fugitive,0
+1953,All the Brothers Were Valiant,0
+1953,They Planted a Stone,0
+1953,Small Town Girl,0
+1953,Pickup on South Street,0
+1953,The Word,0
+1953,Miss Sadie Thompson,0
+1953,The Story of Three Loves,0
+1953,The Moon Is Blue,0
+1953,Joy of Living,0
+1953,From A to Z-Z-Z-Z,0
+1953,Torch Song,0
+1953,Dream Wife,0
+1953,How to Marry a Millionaire,0
+1953,Beneath the 12-Mile Reef,0
+1954,The Egyptian,0
+1954,Red Garters,0
+1954,The Earrings of Madame de...,0
+1954,The Silver Chalice,0
+1954,Pigs Is Pigs,0
+1954,Knock on Wood,0
+1954,Beauty and the Bull,0
+1954,The First Piano Quartette,0
+1954,There's No Business Like Show Business,0
+1954,Magnificent Obsession,0
+1954,Crazy Mixed Up Pup,0
+1954,Them!,0
+1954,Jet Carrier,0
+1954,Indiscretion of an American Wife,0
+1954,White Christmas,0
+1954,Adventures of Robinson Crusoe,0
+1954,Bread, Love and Dreams,0
+1954,Carmen Jones,0
+1954,Hell and High Water,0
+1954,Night People,0
+1954,Rogue Cop,0
+1954,Rembrandt: A Self-Portrait,0
+1954,Genevieve,0
+1954,Le Plaisir,0
+1954,Brigadoon,0
+1954,It Should Happen to You,0
+1954,The Stratford Adventure,0
+1954,Desiree,0
+1954,Forbidden Games,0
+1954,A Star Is Born,0
+1954,Rear Window,0
+1954,Touché, Pussy Cat,0
+1954,Susan Slept Here,0
+1954,Siam,0
+1954,Sandy Claws,0
+1954,The Caine Mutiny,0
+1954,Executive Suite,0
+1954,The Strauss Fantasy,0
+1955,Heartbreak Ridge,0
+1955,A Man Called Peter,0
+1955,The Battle of Gettysburg,0
+1955,3rd Ave. El,0
+1955,Daddy Long Legs,0
+1955,Three Kisses,0
+1955,Strategic Air Command,0
+1955,Switzerland,0
+1955,Good Will to Men,0
+1955,Bad Day at Black Rock,0
+1955,The Man with the Golden Arm,0
+1955,The Sheep Has Five Legs,0
+1955,The Legend of Rock-a-bye Point,0
+1955,Blackboard Jungle,0
+1955,The Private War of Major Benson,0
+1955,Guys and Dolls,0
+1955,On the Twelfth Day...,0
+1955,Battle Cry,0
+1955,Not as a Stranger,0
+1955,The Dam Busters,0
+1955,Ugetsu,0
+1955,Summertime,0
+1955,Rebel without a Cause,0
+1955,The Virgin Queen,0
+1955,Queen Bee,0
+1955,Gadgets Galore,0
+1955,Trial,0
+1955,24-Hour Alert,0
+1955,The Pickwick Papers,0
+1955,The Court-Martial of Billy Mitchell,0
+1955,The Seven Little Foys,0
+1955,Unchained,0
+1955,Mr. Hulot's Holiday,0
+1955,Pete Kelly's Blues,0
+1955,It's Always Fair Weather,0
+1955,No Hunting,0
+1955,The Tender Trap,0
+1955,The Rains of Ranchipur,0
+1956,Bus Stop,0
+1956,Where Mountains Float,0
+1956,The Eddy Duchin Story,0
+1956,The Naked Eye,0
+1956,Stagecoach to Fury,0
+1956,The Proud and Profane,0
+1956,Forbidden Planet,0
+1956,The Bad Seed,0
+1956,The House without a Name,0
+1956,The Best Things in Life Are Free,0
+1956,The Jaywalker,0
+1956,A City Decides,0
+1956,Time Stood Still,0
+1956,Meet Me in Las Vegas,0
+1956,The Captain of Kopenick,0
+1956,Between Heaven and Hell,0
+1956,Umberto D.,0
+1956,The Bold and the Brave,0
+1956,Friendly Persuasion,0
+1956,The Rainmaker,0
+1956,Gerald McBoing-Boing on Planet Moo,0
+1956,The Harder They Fall,0
+1956,Harp of Burma,0
+1956,The Magnificent Seven,0
+1956,Cow Dog,0
+1956,Baby Doll,0
+1956,The Dark Wave,0
+1956,I Never Forget a Face,0
+1956,Man in Space,0
+1956,Qivitoq,0
+1956,The Proud and the Beautiful,0
+1956,War and Peace,0
+1956,High Society,0
+1956,Julie,0
+1956,Samoa,0
+1956,Richard III,0
+1956,The Power and the Prize,0
+1956,The Ladykillers,0
+1956,Gervaise,0
+1956,Teenage Rebel,0
+1957,Peyton Place,0
+1957,Wild Is the Wind,0
+1957,Foothold on Antarctica,0
+1957,Mother India,0
+1957,Witness for the Prosecution,0
+1957,Tabasco Road,0
+1957,Vitelloni,0
+1957,The Bachelor Party,0
+1957,A Chairy Tale,0
+1957,Nine Lives,0
+1957,Boy on a Dolphin,0
+1957,Raintree County,0
+1957,The Truth about Mother Goose,0
+1957,The Spirit of St. Louis,0
+1957,Man of a Thousand Faces,0
+1957,12 Angry Men,0
+1957,The Devil Came at Night,0
+1957,An Affair to Remember,0
+1957,On the Bowery,0
+1957,A Farewell to Arms,0
+1957,One Droopy Knight,0
+1957,Tammy and the Bachelor,0
+1957,Pal Joey,0
+1957,Gates of Paris,0
+1957,City of Gold,0
+1957,Portugal,0
+1957,Heaven Knows, Mr. Allison,0
+1957,Gunfight at the O.K. Corral,0
+1957,Perri,0
+1957,A Hatful of Rain,0
+1957,Torero!,0
+1957,Funny Face,0
+1957,Trees and Jamaica Daddy,0
+1957,April Love,0
+1957,The Tin Star,0
+1958,Paul Bunyan,0
+1958,Marjorie Morningstar,0
+1958,Torpedo Run,0
+1958,The Young Lions,0
+1958,The Goddess,0
+1958,Psychiatric Nursing,0
+1958,Cat on a Hot Tin Roof,0
+1958,A Certain Smile,0
+1958,La Venganza,0
+1958,The Kiss,0
+1958,Cowboy,0
+1958,The Buccaneer,0
+1958,The Bolshoi Ballet,0
+1958,The Hidden World,0
+1958,Bell, Book and Candle,0
+1958,The Inn of the Sixth Happiness,0
+1958,The Horse's Mouth,0
+1958,The Living Stone,0
+1958,Some Came Running,0
+1958,Overture,0
+1958,Vertigo,0
+1958,The Brothers Karamazov,0
+1958,T Is for Tumbleweed,0
+1958,Snows of Aorangi,0
+1958,Journey into Spring,0
+1958,Teacher's Pet,0
+1958,Arms and the Man,0
+1958,The Road a Year Long,0
+1958,Lonelyhearts,0
+1958,A Time to Love and a Time to Die,0
+1958,Sidney's Family Tree,0
+1958,The Usual Unidentified Thieves,0
+1958,The Sheepman,0
+1958,Damn Yankees,0
+1958,Houseboat,0
+1958,Auntie Mame,0
+1958,Desire under the Elms,0
+1958,Antarctic Crossing,0
+1958,Mardi Gras,0
+1958,Employees Only,0
+1959,Career,0
+1959,The 400 Blows,0
+1959,Skyscraper,0
+1959,Anatomy of a Murder,0
+1959,Suddenly, Last Summer,0
+1959,The Nun's Story,0
+1959,Donald in Mathmagic Land,0
+1959,On the Beach,0
+1959,The Village on the River,0
+1959,The Five Pennies,0
+1959,Mysteries of the Deep,0
+1959,The Violinist,0
+1959,Say One for Me,0
+1959,Mexicali Shmoes,0
+1959,Journey to the Center of the Earth,0
+1959,The Last Angry Man,0
+1959,Li'l Abner,0
+1959,The Young Land,0
+1959,The Bridge,0
+1959,The Gazebo,0
+1959,The Big Fisherman,0
+1959,North by Northwest,0
+1959,Wild Strawberries,0
+1959,From Generation to Generation,0
+1959,The Best of Everything,0
+1959,The Young Philadelphians,0
+1959,Operation Petticoat,0
+1959,Between the Tides,0
+1959,Libel!,0
+1959,The Running, Jumping and Standing-Still Film,0
+1959,The Race for Space,0
+1959,Sleeping Beauty,0
+1959,The Great War,0
+1959,Imitation of Life,0
+1959,The Hanging Tree,0
+1959,Noah's Ark,0
+1959,Paw,0
+1960,The Angry Silence,0
+1960,High Time,0
+1960,It Started in Naples,0
+1960,Rebel in Paradise,0
+1960,Murder, Inc.,0
+1960,Cimarron,0
+1960,A Place in the Sun,0
+1960,The Entertainer,0
+1960,Mouse and Garden,0
+1960,A Sport Is Born,0
+1960,Bells Are Ringing,0
+1960,Inherit the Wind,0
+1960,La Vérité,0
+1960,Sunrise at Campobello,0
+1960,Kapo,0
+1960,Tunes of Glory,0
+1960,Beyond Silence,0
+1960,Hiroshima, Mon Amour,0
+1960,Can-Can,0
+1960,Seven Thieves,0
+1960,Goliath II,0
+1960,George Grosz' Interregnum,0
+1960,The Magnificent Seven,0
+1960,Let's Make Love,0
+1960,Visit to a Small Planet,0
+1960,The Last Voyage,0
+1960,The Sundowners,0
+1960,A City Called Copenhagen,0
+1960,The Dark at the Top of the Stairs,0
+1960,Psycho,0
+1960,Macario,0
+1960,The Rise and Fall of Legs Diamond,0
+1960,The Ninth Circle,0
+1960,Pepe,0
+1960,High Note,0
+1960,The Creation of Woman,0
+1960,Midnight Lace,0
+1960,Universe,0
+1960,Islands of the Sea,0
+1961,Kahl,0
+1961,Paris Blues,0
+1961,General Della Rovere,0
+1961,L'Uomo in Grigio (The Man in Gray),0
+1961,The Absent Minded Professor,0
+1961,Aquamania,0
+1961,Flower Drum Song,0
+1961,Beep Prepared,0
+1961,One, Two, Three,0
+1961,Rooftops of New York,0
+1961,Ballon Vole (Play Ball!),0
+1961,The Mark,0
+1961,Lover Come Back,0
+1961,The Important Man,0
+1961,The Children's Hour,0
+1961,Placido,0
+1961,Summer and Smoke,0
+1961,Khovanshchina,0
+1961,Immortal Love,0
+1961,Back Street,0
+1961,La Grande Olimpiade (Olympic Games 1960),0
+1961,Breaking the Language Barrier,0
+1961,The Roman Spring of Mrs. Stone,0
+1961,The Parent Trap,0
+1961,Claudelle Inglish,0
+1961,The Face of Jesus,0
+1961,Town without Pity,0
+1961,Babes in Toyland,0
+1961,Cradle of Genius,0
+1961,Pocketful of Miracles,0
+1961,One-Eyed Jacks,0
+1961,Nelly's Folly,0
+1961,Harry and the Butler,0
+1961,Ballad of a Soldier,0
+1961,El Cid,0
+1961,Bachelor in Paradise,0
+1961,A Majority of One,0
+1961,The Pied Piper of Guadalupe,0
+1961,Fanny,0
+1961,Yojimbo,0
+1961,Very Nice, Very Nice,0
+1962,Tlayucan,0
+1962,Pan,0
+1962,Billy Budd,0
+1962,The Manchurian Candidate,0
+1962,Icarus Montgolfier Wright,0
+1962,Self Defense--For Cowards,0
+1962,Two for the Seesaw,0
+1962,Symposium on Popular Songs,0
+1962,Keeper of Promises (The Given Word),0
+1962,Lolita,0
+1962,The Four Days of Naples,0
+1962,The Man Who Shot Liberty Valance,0
+1962,Period of Adjustment,0
+1962,Electra,0
+1962,David and Lisa,0
+1962,Taras Bulba,0
+1962,The Cliff Dwellers (formerly titled 'One Plus One'),0
+1962,The John Glenn Story,0
+1962,Tender Is the Night,0
+1962,Billy Rose's Jumbo,0
+1962,Freud,0
+1962,Gigot,0
+1962,The Pigeon That Took Rome,0
+1962,The Road to the Wall,0
+1962,Long Day's Journey into Night,0
+1962,Bon Voyage!,0
+1962,Gypsy,0
+1962,Now Hear This,0
+1962,Phaedra,0
+1962,Walk on the Wild Side,0
+1962,Mutiny on the Bounty,0
+1962,That Touch of Mink,0
+1962,Big City Blues,0
+1962,Through a Glass Darkly,0
+1962,Hatari!,0
+1962,Birdman of Alcatraz,0
+1962,The Cadillac,0
+1962,Alvorada (Brazil's Changing Face),0
+1962,Last Year at Marienbad,0
+1962,My Geisha,0
+1963,The Sword in the Stone,0
+1963,The Spirit of America,0
+1963,Thirty Million Letters,0
+1963,The Game (Igra),0
+1963,Wives and Lovers,0
+1963,Twin Sisters of Kyoto,0
+1963,Love with the Proper Stranger,0
+1963,The Caretakers,0
+1963,My Financial Career,0
+1963,This Sporting Life,0
+1963,That's Me,0
+1963,The L-Shaped Room,0
+1963,The Great Escape,0
+1963,The Stripper,0
+1963,Mondo Cane,0
+1963,Home-Made Car,0
+1963,To Live Again,0
+1963,Toys in the Attic,0
+1963,Captain Newman, M.D.,0
+1963,Sundays and Cybele,0
+1963,The Four Days of Naples,0
+1963,A Gathering of Eagles,0
+1963,Come Blow Your Horn,0
+1963,The Five Cities of June,0
+1963,The Cardinal,0
+1963,The Concert,0
+1963,The Leopard,0
+1963,Bye Bye Birdie,0
+1963,Automania 2000,0
+1963,A New Kind of Love,0
+1963,Los Tarantos,0
+1963,Six-Sided Triangle,0
+1963,Twilight of Honor,0
+1963,The Red Lanterns,0
+1963,Charade,0
+1963,Le Maillon et la Chaine (The Link and the Chain),0
+1963,The Balcony,0
+1963,Terminus,0
+1963,The Yanks Are Coming,0
+1963,Knife in the Water,0
+1963,Pianissimo,0
+1963,The Birds,0
+1963,55 Days at Peking,0
+1964,Kenojuak,0
+1964,A House Is Not a Home,0
+1964,Dear Heart,0
+1964,Nudnik #2,0
+1964,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,0
+1964,Over There, 1914-18,0
+1964,The Unsinkable Molly Brown,0
+1964,Help! My Snowman's Burning Down,0
+1964,The Human Dutch,0
+1964,The Organizer,0
+1964,The Visit,0
+1964,140 Days under the World,0
+1964,Where Love Has Gone,0
+1964,Seven Days in May,0
+1964,The Pumpkin Eater,0
+1964,The Legend of Jimmy Blue Eyes,0
+1964,Cheyenne Autumn,0
+1964,The Chalk Garden,0
+1964,Breaking the Habit,0
+1964,Children Without,0
+1964,The Pink Panther,0
+1964,Marriage Italian Style,0
+1964,Woman in the Dunes,0
+1964,How to Avoid Friendship,0
+1964,What a Way to Go!,0
+1964,Raven's End,0
+1964,Seance on a Wet Afternoon,0
+1964,7 Faces of Dr. Lao,0
+1964,The Americanization of Emily,0
+1964,Christmas Cracker,0
+1964,One Potato, Two Potato,0
+1964,The Umbrellas of Cherbourg,0
+1964,Fate Is the Hunter,0
+1964,Four Days in November,0
+1964,The Finest Hours,0
+1964,Kisses for My President,0
+1964,The Fall of the Roman Empire,0
+1964,That Man from Rio,0
+1964,Sallah,0
+1964,A Hard Day's Night,0
+1964,Hush...Hush, Sweet Charlotte,0
+1964,The Best Man,0
+1964,Robin and the 7 Hoods,0
+1964,The Lively Set,0
+1965,To Die in Madrid,0
+1965,Time Piece,0
+1965,The Flight of the Phoenix,0
+1965,The Pleasure Seekers,0
+1965,The Thieving Magpie (La Gazza Ladra),0
+1965,Yeats Country,0
+1965,Those Magnificent Men in Their Flying Machines,0
+1965,The Collector,0
+1965,What's New Pussycat?,0
+1965,Casanova '70,0
+1965,The Train,0
+1965,Kwaidan,0
+1965,Dear John,0
+1965,Clay or The Origin of Species,0
+1965,Othello,0
+1965,Marriage Italian Style,0
+1965,Woman in the Dunes,0
+1965,The Slender Thread,0
+1965,King Rat,0
+1965,Inside Daisy Clover,0
+1965,Fortress of Peace,0
+1965,Von Ryan's Express,0
+1965,Snow,0
+1965,The Greatest Story Ever Told,0
+1965,In Harm's Way,0
+1965,Point of View,0
+1965,Ouverture,0
+1965,Let My People Go,0
+1965,The Agony and the Ecstasy,0
+1965,The Umbrellas of Cherbourg,0
+1965,Shenandoah,0
+1965,Skaterdater,0
+1965,Morituri,0
+1965,Mural on Our Street,0
+1965,The Spy Who Came In from the Cold,0
+1965,Blood on the Land,0
+1965,The Battle of the Bulge...The Brave Rifles,0
+1965,The Forth Road Bridge,0
+1965,A Rage to Live,0
+1965,The Pawnbroker,0
+1966,Mandragola,0
+1966,Mister Buddwing,0
+1966,The Gospel According to St. Matthew,0
+1966,The Bible,0
+1966,Pharaoh,0
+1966,Alfie,0
+1966,Morgan!,0
+1966,The Really Big Family,0
+1966,Cowboy,0
+1966,The Naked Prey,0
+1966,Gambit,0
+1966,Three,0
+1966,The Pink Blueprint,0
+1966,The Oscar,0
+1966,Turkey the Bridge,0
+1966,Le Volcan Interdit (The Forbidden Volcano),0
+1966,Adolescence,0
+1966,The Face of Genius,0
+1966,Juliet of the Spirits,0
+1966,The Singing Nun,0
+1966,Saint Matthew Passion,0
+1966,The Battle of Algiers,0
+1966,The Winning Strain,0
+1966,Stop the World--I Want to Get Off,0
+1966,Seconds,0
+1966,Khartoum,0
+1966,The Russians Are Coming The Russians Are Coming,0
+1966,You're a Big Boy Now,0
+1966,An American Dream,0
+1966,Helicopter Canada,0
+1966,Is Paris Burning?,0
+1966,Return of the Seven,0
+1966,The Professionals,0
+1966,The Sand Pebbles,0
+1966,Hawaii,0
+1966,Loves of a Blonde,0
+1966,Blow-Up,0
+1966,The Drag,0
+1966,The Shop on Main Street,0
+1966,Georgy Girl,0
+1966,The Odds Against,0
+1967,In Cold Blood,0
+1967,El Amor Brujo,0
+1967,Live for Life,0
+1967,Paddle to the Sea,0
+1967,Ulysses,0
+1967,I Even Met Happy Gypsies,0
+1967,Divorce American Style,0
+1967,Portrait of Chieko,0
+1967,Harvest,0
+1967,A King's Story,0
+1967,A Time for Burning,0
+1967,Wait until Dark,0
+1967,While I Run This Race,0
+1967,Festival,0
+1967,See You at the Pillar,0
+1967,The Taming of the Shrew,0
+1967,Casino Royale,0
+1967,Barefoot in the Park,0
+1967,La Guerre Est Finie,0
+1967,Beach Red,0
+1967,Two for the Road,0
+1967,Monument to the Dream,0
+1967,Banning,0
+1967,Tobruk,0
+1967,Sky over Holland,0
+1967,The Happiest Millionaire,0
+1967,The Jungle Book,0
+1967,What on Earth!,0
+1967,The Whisperers,0
+1967,Stop, Look and Listen,0
+1967,Valley of the Dolls,0
+1967,Far from the Madding Crowd,0
+1967,Hypothese Beta,0
+1968,Hot Millions,0
+1968,The Fixer,0
+1968,The Fox,0
+1968,The Revolving Door,0
+1968,The Heart Is a Lonely Hunter,0
+1968,A Few Notes on Our Food Problem,0
+1968,The Firemen's Ball,0
+1968,Rachel, Rachel,0
+1968,For Love of Ivy,0
+1968,Faces,0
+1968,The Magic Pear Tree,0
+1968,The Battle of Algiers,0
+1968,The Boys of Paul Street,0
+1968,The Odd Couple,0
+1968,Ice Station Zebra,0
+1968,Duo,0
+1968,Other Voices,0
+1968,Windy Day,0
+1968,The Dove,0
+1968,The House That Ananda Built,0
+1968,Stolen Kisses,0
+1968,The House That Jack Built,0
+1968,The Legendary Champions,0
+1968,Finian's Rainbow,0
+1968,Star!,0
+1968,Prelude,0
+1968,A Way Out of the Wilderness,0
+1968,Isadora,0
+1968,Chitty Chitty Bang Bang,0
+1968,Wild in the Streets,0
+1968,The Girl with the Pistol,0
+1968,The Young Girls of Rochefort,0
+1968,The Shoes of the Fisherman,0
+1968,Young Americans,0
+1968,A Space to Grow,0
+1969,Paint Your Wagon,0
+1969,The Wild Bunch,0
+1969,Goodbye, Columbus,0
+1969,Goodbye, Mr. Chips,0
+1969,Bob & Carol & Ted & Alice,0
+1969,Alice's Restaurant,0
+1969,Of Men and Demons,0
+1969,Krakatoa, East of Java,0
+1969,Blake,0
+1969,Gaily, Gaily,0
+1969,Before the Mountain Was Moved,0
+1969,Ådalen '31,0
+1969,Last Summer,0
+1969,Jenny Is a Good Thing,0
+1969,The Sterile Cuckoo,0
+1969,Walking,0
+1969,In the Year of the Pig,0
+1969,An Impression of John Steinbeck: Writer,0
+1969,The Brothers Karamazov,0
+1969,The Battle of Neretva,0
+1969,Leo Beuerman,0
+1969,The Reivers,0
+1969,Easy Rider,0
+1969,The Happy Ending,0
+1969,My Night at Maud's,0
+1969,The Olympics in Mexico,0
+1969,Sweet Charity,0
+1969,People Soup,0
+1969,The Secret of Santa Vittoria,0
+1969,The Wolf Men,0
+1969,The Damned,0
+1970,Diary of a Mad Housewife,0
+1970,The Hawaiians,0
+1970,I Never Sang for My Father,0
+1970,Paix Sur Les Champs,0
+1970,Sticky My Fingers...Fleet My Feet,0
+1970,The Further Adventures of Uncle Sam: Part Two,0
+1970,The Molly Maguires,0
+1970,Little Big Man,0
+1970,Madron,0
+1970,Sunflower,0
+1970,Joe,0
+1970,The Great White Hope,0
+1970,Oisin,0
+1970,Jack Johnson,0
+1970,The Baby Maker,0
+1970,The Gifts,0
+1970,Shut Up...I'm Crying,0
+1970,Tristana,0
+1970,First Love,0
+1970,A Long Way from Nowhere,0
+1970,Say Goodbye,0
+1970,The Landlord,0
+1970,Five Easy Pieces,0
+1970,A Boy Named Charlie Brown,0
+1970,My Night at Maud's,0
+1970,The Shepherd,0
+1970,Scrooge,0
+1970,Hoa-Binh,0
+1970,Time Is Running Out,0
+1970,Chariots of the Gods,0
+1970,Pieces of Dreams,0
+1970,King: A Filmed Record...Montgomery to Memphis,0
+1970,Darling Lili,0
+1970,Fellini Satyricon,0
+1971,The Sorrow and the Pity,0
+1971,Who Is Harry Kellerman and Why Is He Saying Those Terrible Things about Me?,0
+1971,Bless the Beasts & Children,0
+1971,The Andromeda Strain,0
+1971,What's the Matter with Helen?,0
+1971,The RA Expeditions,0
+1971,Straw Dogs,0
+1971,Sometimes a Great Notion,0
+1971,The Go-Between,0
+1971,Mary, Queen of Scots,0
+1971,The Selfish Giant,0
+1971,Good Morning,0
+1971,Tchaikovsky,0
+1971,Diamonds Are Forever,0
+1971,When Dinosaurs Ruled the Earth,0
+1971,A Clockwork Orange,0
+1971,The Conformist,0
+1971,Sunday Bloody Sunday,0
+1971,Alaska Wilderness Lake,0
+1971,Carnal Knowledge,0
+1971,The Boy Friend,0
+1971,On Any Sunday,0
+1971,Death in Venice,0
+1971,The Numbers Start with the River,0
+1971,Kotch,0
+1971,The Rehearsal,0
+1971,Art Is...,0
+1971,The Policeman,0
+1971,Adventures in Perception,0
+1971,McCabe & Mrs. Miller,0
+1971,Willy Wonka and the Chocolate Factory,0
+1971,Investigation of a Citizen above Suspicion,0
+1971,Somebody Waiting,0
+1971,The Emigrants,0
+1971,Dodes'ka-Den,0
+1971,Evolution,0
+1972,Fat City,0
+1972,I Love You Rosa,0
+1972,1776,0
+1972,Kama Sutra Rides Again,0
+1972,The Silent Revolution,0
+1972,Tup Tup,0
+1972,K-Z,0
+1972,The Ruling Class,0
+1972,Selling Out,0
+1972,Malcolm X,0
+1972,Sleuth,0
+1972,The Tide of Traffic,0
+1972,Manson,0
+1972,The Life and Times of Judge Roy Bean,0
+1972,Lady Sings the Blues,0
+1972,Solo,0
+1972,Napoleon and Samantha,0
+1972,Young Winston,0
+1972,The Dawns Here Are Quiet,0
+1972,images,0
+1972,Pete 'n' Tillie,0
+1972,Hundertwasser's Rainy Day,0
+1972,My Dearest Señorita,0
+1972,Ben,0
+1972,Deliverance,0
+1972,The Hot Rock,0
+1972,Sounder,0
+1972,The Little Ark,0
+1972,The Heartbreak Kid,0
+1972,The New Land,0
+1972,Ape and Super-Ape,0
+1972,Man of La Mancha,0
+1972,The Emigrants,0
+1972,Frog Story,0
+1972,Murmur of the Heart,0
+1972,The Stepmother,0
+1973,The Legend of John Henry,0
+1973,Four Stones for Kanemitsu,0
+1973,Serpico,0
+1973,The Day of the Dolphin,0
+1973,Live and Let Die,0
+1973,Ludwig,0
+1973,Cinderella Liberty,0
+1973,Papillon,0
+1973,Tom Sawyer,0
+1973,Life Times Nine,0
+1973,Jonathan Livingston Seagull,0
+1973,Robin Hood,0
+1973,Battle of Berlin,0
+1973,The House on Chelouche Street,0
+1973,Brother Sun Sister Moon,0
+1973,Pulcinella,0
+1973,Jesus Christ Superstar,0
+1973,Always a New Beginning,0
+1973,Children at Work (Paisti Ag Obair),0
+1973,Last Tango in Paris,0
+1973,American Graffiti,0
+1973,Summer Wishes, Winter Dreams,0
+1973,The Last Detail,0
+1973,Bang the Drum Slowly,0
+1973,The Pedestrian,0
+1973,Turkish Delight,0
+1973,Background,0
+1973,The Day of the Jackal,0
+1973,Walls of Fire,0
+1973,Christo's Valley Curtain,0
+1973,Clockmaker,0
+1973,L'Invitation,0
+1973,Journey to the Outer Limits,0
+1974,City Out of Wilderness,0
+1974,The Island at the Top of the World,0
+1974,The 81st Blow,0
+1974,Planet Ocean,0
+1974,The Longest Yard,0
+1974,The Conversation,0
+1974,Phantom of the Paradise,0
+1974,Day for Night,0
+1974,The Challenge...A Tribute to Modern Art,0
+1974,Hunger,0
+1974,Exploratorium,0
+1974,Cats' Play,0
+1974,The Little Prince,0
+1974,Naked Yoga,0
+1974,The Wild and the Brave,0
+1974,The Apprenticeship of Duddy Kravitz,0
+1974,Thunderbolt and Lightfoot,0
+1974,Gold,0
+1974,The Concert,0
+1974,The Truce,0
+1974,Climb,0
+1974,The Family That Dwelt Apart,0
+1974,Blazing Saddles,0
+1974,John Muir's High Sierra,0
+1974,A Woman under the Influence,0
+1974,Young Frankenstein,0
+1974,Shanks,0
+1974,Voyage to Next,0
+1974,Benji,0
+1974,Winnie the Pooh and Tigger Too,0
+1974,Lacombe, Lucien,0
+1974,The Deluge,0
+1974,Antonia: A Portrait of the Woman,0
+1974,Daisy Miller,0
+1974,Claudine,0
+1974,The Violin,0
+1974,Lenny,0
+1975,Letters from Marusia,0
+1975,Millions of Years Ahead of Man,0
+1975,A Day in the Life of Bonnie Consolo,0
+1975,Land of Promise,0
+1975,The Magic Flute,0
+1975,The Other Half of the Sky: A China Memoir,0
+1975,The California Reich,0
+1975,Jacqueline Susann's Once Is Not Enough,0
+1975,Scent of a Woman,0
+1975,Hedda,0
+1975,Doubletalk,0
+1975,Amarcord,0
+1975,Whistling Smith,0
+1975,Fighting for Our Lives,0
+1975,Lies My Father Told Me,0
+1975,Farewell, My Lovely,0
+1975,The Incredible Machine,0
+1975,And Now My Love,0
+1975,The Man in the Glass Booth,0
+1975,Hester Street,0
+1975,Probes in Space,0
+1975,The Day of the Locust,0
+1975,Three Days of the Condor,0
+1975,Birds Do It, Bees Do It,0
+1975,The Wind and the Lion,0
+1975,The Story of Adele H.,0
+1975,The Man Who Would Be King,0
+1975,Tommy,0
+1975,Whiffs,0
+1975,The Other Side of the Mountain,0
+1975,Mahogany,0
+1975,Dawn Flight,0
+1975,Arthur and Lillie,0
+1975,Give 'em Hell, Harry!,0
+1975,The Four Musketeers,0
+1975,Conquest of Light,0
+1975,Bite the Bullet,0
+1975,Funny Lady,0
+1975,Kick Me,0
+1975,Monsieur Pointu,0
+1975,Sisyphus,0
+1975,Sandakan No. 8,0
+1976,People of the Wind,0
+1976,The Incredible Sarah,0
+1976,Face to Face,0
+1976,Half a House,0
+1976,Dedalo,0
+1976,Seven Beauties,0
+1976,Carrie,0
+1976,The Morning Spider,0
+1976,The End of the Road,0
+1976,Obsession,0
+1976,Off the Edge,0
+1976,Jacob, the Liar,0
+1976,Cousin, Cousine,0
+1976,Nightlife,0
+1976,The Shootist,0
+1976,Taxi Driver,0
+1976,Marathon Man,0
+1976,Voyage of the Damned,0
+1976,Blackwood,0
+1976,Silver Streak,0
+1976,Bugsy Malone,0
+1976,American Shoeshine,0
+1976,The Passover Plot,0
+1976,Kudzu,0
+1976,The Last Tycoon,0
+1976,Number One,0
+1976,Two-Minute Warning,0
+1976,The Front,0
+1976,The Pink Panther Strikes Again,0
+1976,The Street,0
+1976,Nights and Days,0
+1976,The Seven-per-cent Solution,0
+1976,Hollywood on Trial,0
+1976,Volcano: An Inquiry into the Life and Death of Malcolm Lowry,0
+1976,The Outlaw Josey Wales,0
+1976,Universe,0
+1977,The Other Side of Midnight,0
+1977,Iphigenia,0
+1977,Jimmy the C,0
+1977,Notes on the Popular Arts,0
+1977,The Deep,0
+1977,Smokey and the Bandit,0
+1977,Oh, God!,0
+1977,Floating Free,0
+1977,The Spy Who Loved Me,0
+1977,Sorcerer,0
+1977,Mohammad - Messenger of God,0
+1977,The Shetland Experience,0
+1977,Union Maids,0
+1977,Airport '77,0
+1977,The Bead Game,0
+1977,That Obscure Object of Desire,0
+1977,The Rescuers,0
+1977,Pete's Dragon,0
+1977,Homage to Chagall--The Colours of Love,0
+1977,The Doonesbury Special,0
+1977,I Never Promised You a Rose Garden,0
+1977,First Edition,0
+1977,The Children of Theatre Street,0
+1977,Islands in the Stream,0
+1977,Looking for Mr. Goodbar,0
+1977,High Grass Circus,0
+1977,The Turning Point,0
+1977,Of Time, Tombs and Treasure,0
+1977,The Absent-Minded Waiter,0
+1977,The Slipper and the Rose--The Story of Cinderella,0
+1977,The Late Show,0
+1977,Equus,0
+1977,Agueda Martinez: Our People, Our Country,0
+1977,A Special Day,0
+1977,Spaceborne,0
+1977,Operation Thunderbolt,0
+1977,Saturday Night Fever,0
+1978,Mysterious Castles of Clay,0
+1978,Raoni,0
+1978,The Swarm,0
+1978,Bloodbrothers,0
+1978,The Magic of Lassie,0
+1978,The Divided Trail: A Native American Odyssey,0
+1978,Rip Van Winkle,0
+1978,An Encounter with Faces,0
+1978,White Bim Black Ear,0
+1978,Pretty Baby,0
+1978,Caravans,0
+1978,The Wiz,0
+1978,Foul Play,0
+1978,A Different Approach,0
+1978,Viva Italia!,0
+1978,Interiors,0
+1978,The Brink's Job,0
+1978,An Unmarried Woman,0
+1978,The Glass Cell,0
+1978,Hooper,0
+1978,Mandy's Grandmother,0
+1978,Same Time, Next Year,0
+1978,Goodnight Miss Ann,0
+1978,Grease,0
+1978,The Lovers' Wind,0
+1978,Autumn Sonata,0
+1978,The Boys from Brazil,0
+1978,Strange Fruit,0
+1978,Squires of San Quentin,0
+1978,Hungarians,0
+1978,Oh My Darling,0
+1978,Comes a Horseman,0
+1978,With Babies and Banners: Story of the Women's Emergency Brigade,0
+1979,Dream Doll,0
+1979,Star Trek - The Motion Picture,0
+1979,A Simple Story,0
+1979,Koryo Celadon,0
+1979,Dae,0
+1979,Remember Me,0
+1979,Moonraker,0
+1979,Meteor,0
+1979,The War at Home,0
+1979,The Amityville Horror,0
+1979,The China Syndrome,0
+1979,Solly's Diner,0
+1979,Butch and Sundance: The Early Days,0
+1979,Agatha,0
+1979,The Killing Ground,0
+1979,The Maids of Wilko,0
+1979,Ice Castles,0
+1979,1941,0
+1979,Generation on the Wind,0
+1979,La Cage aux Folles,0
+1979,The Muppet Movie,0
+1979,The Rose,0
+1979,To Forget Venice,0
+1979,The Champ,0
+1979,Mama Turns a Hundred,0
+1979,The Europeans,0
+1979,Chapter Two,0
+1979,The Solar Film,0
+1979,The Electric Horseman,0
+1979,Starting Over,0
+1979,...And Justice for All,0
+1979,The Black Hole,0
+1979,Nails,0
+1979,10,0
+1979,The Promise,0
+1979,Manhattan,0
+1979,Bravery in the Field,0
+1979,It's So Nice to Have a Wolf around the House,0
+1979,Going the Distance,0
+1979,Oh Brother, My Brother,0
+1980,The Eruption of Mount St. Helens,0
+1980,Kagemusha (The Shadow Warrior),0
+1980,It's the Same World,0
+1980,My Brilliant Career,0
+1980,The Great Santini,0
+1980,The Stunt Man,0
+1980,Honeysuckle Rose,0
+1980,Brubaker,0
+1980,The Yellow Star - The Persecution of the Jews in Europe 1933-45,0
+1980,Fall Line,0
+1980,Don't Mess with Bill,0
+1980,The Competition,0
+1980,The Nest,0
+1980,Altered States,0
+1980,Agee,0
+1980,Tribute,0
+1980,Nine to Five,0
+1980,The Elephant Man,0
+1980,Inside Moves,0
+1980,When Time Ran Out,0
+1980,A Jury of Her Peers,0
+1980,The Blue Lagoon,0
+1980,Front Line,0
+1980,History of the World in Three Minutes Flat,0
+1980,The Formula,0
+1980,Breaker Morant,0
+1980,Somewhere in Time,0
+1980,Resurrection,0
+1980,The Last Metro,0
+1980,Luther Metke at 94,0
+1980,Gloria,0
+1980,All Nothing,0
+1980,Private Benjamin,0
+1980,The Day after Trinity,0
+1980,Mon Oncle D'Amerique,0
+1980,Confidence,0
+1981,For Your Eyes Only,0
+1981,The Tender Tale of Cinderella Penguin,0
+1981,Endless Love,0
+1981,Americas in Transition,0
+1981,Couples and Robbers,0
+1981,Journey for Survival,0
+1981,Outland,0
+1981,Man of Iron,0
+1981,Heartbeeps,0
+1981,Excalibur,0
+1981,The Great Muppet Caper,0
+1981,The Boat Is Full,0
+1981,Muddy River,0
+1981,Urge to Build,0
+1981,Heaven's Gate,0
+1981,Only When I Laugh,0
+1981,The French Lieutenant's Woman,0
+1981,Eight Minutes to Midnight: A Portrait of Dr. Helen Caldicott,0
+1981,Three Brothers,0
+1981,See What I Say,0
+1981,Dragonslayer,0
+1981,Atlantic City,0
+1981,Prince of the City,0
+1981,The Creation,0
+1981,Ragtime,0
+1981,Brooklyn Bridge,0
+1981,First Winter,0
+1981,Pennies from Heaven,0
+1981,Against Wind and Tide: A Cuban Odyssey,0
+1981,Absence of Malice,0
+1981,El Salvador: Another Vietnam,0
+1982,Coup de Torchon ('Clean Slate'),0
+1982,Blade Runner,0
+1982,Frances,0
+1982,Das Boot,0
+1982,The Silence,0
+1982,The Verdict,0
+1982,Best Friends,0
+1982,Alsino and the Condor,0
+1982,The Great Cognito,0
+1982,In Our Water,0
+1982,The Flight of the Eagle,0
+1982,My Favorite Year,0
+1982,A Portrait of Giselle,0
+1982,To Live or Let Die,0
+1982,Diner,0
+1982,Annie,0
+1982,Traveling Hopefully,0
+1982,Ben's Mill,0
+1982,La Traviata,0
+1982,Poltergeist,0
+1982,Private Life,0
+1982,Rocky III,0
+1982,Ballet Robotique,0
+1982,The Best Little Whorehouse in Texas,0
+1982,Split Cherry Tree,0
+1982,The Klan: A Legacy of Hate in America,0
+1982,Yes, Giorgio,0
+1982,One from the Heart,0
+1982,Sredni Vashtar,0
+1982,Tron,0
+1982,The Snowman,0
+1982,After the Axe,0
+1982,Gods of Metal,0
+1982,The World According to Garp,0
+1983,WarGames,0
+1983,Reuben, Reuben,0
+1983,Le Bal,0
+1983,Blue Thunder,0
+1983,The Big Chill,0
+1983,Educating Rita,0
+1983,Job's Revolt,0
+1983,The Sting II,0
+1983,In the Nuclear Shadow: What Can the Children Tell Us?,0
+1983,Children of Darkness,0
+1983,Under Fire,0
+1983,The Return of Martin Guerre,0
+1983,Never Cry Wolf,0
+1983,Mickey's Christmas Carol,0
+1983,Heart Like a Wheel,0
+1983,You Are Free (Ihr Zent Frei),0
+1983,Sound of Sunshine - Sound of Rain,0
+1983,To Be or Not to Be,0
+1983,Entre Nous,0
+1983,Goodie-Two-Shoes,0
+1983,Overnight Sensation,0
+1983,Seeing Red,0
+1983,Trading Places,0
+1983,Carmen,0
+1983,Sewing Woman,0
+1983,Testament,0
+1983,The Profession of Arms,0
+1983,Cross Creek,0
+1983,Zelig,0
+1983,First Contact,0
+1983,Silkwood,0
+1983,Spaces: The Architecture of Paul Rudolph,0
+1983,The Dresser,0
+1983,Betrayal,0
+1984,Greystoke: The Legend of Tarzan, Lord of the Apes,0
+1984,The Cotton Club,0
+1984,Footloose,0
+1984,The Garden of Eden,0
+1984,Beyond the Walls,0
+1984,Against All Odds,0
+1984,Songwriter,0
+1984,Dune,0
+1984,Country,0
+1984,Code Gray: Ethical Dilemmas in Nursing,0
+1984,2010,0
+1984,Doctor De Soto,0
+1984,In the Name of the People,0
+1984,Wartime Romance,0
+1984,The Natural,0
+1984,Recollections of Pavlovsk,0
+1984,Beverly Hills Cop,0
+1984,Starman,0
+1984,The Karate Kid,0
+1984,Streetwise,0
+1984,Romancing the Stone,0
+1984,Paradise,0
+1984,Marlene,0
+1984,Splash,0
+1984,Camila,0
+1984,The Pope of Greenwich Village,0
+1984,Tales of Meeting and Parting,0
+1984,Ghostbusters,0
+1984,Swing Shift,0
+1984,Under the Volcano,0
+1984,The Bostonians,0
+1984,A Soldier's Story,0
+1984,El Norte,0
+1984,The Muppets Take Manhattan,0
+1984,Broadway Danny Rose,0
+1984,The Painted Door,0
+1984,The Children of Soong Ching Ling,0
+1984,High Schools,0
+1984,Double Feature,0
+1985,Las Madres--The Mothers of Plaza de Mayo,0
+1985,Young Sherlock Holmes,0
+1985,The Wizard of the Strings,0
+1985,Return to Oz,0
+1985,The Purple Rose of Cairo,0
+1985,Soldiers in Hiding,0
+1985,Second Class Mail,0
+1985,Brazil,0
+1985,Colonel Redl,0
+1985,Sweet Dreams,0
+1985,Rambo: First Blood Part II,0
+1985,Remo Williams: The Adventure Begins,0
+1985,The Big Snit,0
+1985,Murphy's Romance,0
+1985,Unfinished Business,0
+1985,When Father Was Away on Business,0
+1985,Ladyhawke,0
+1985,The Courage to Care,0
+1985,Keats and His Nightingale: A Blind Date,0
+1985,Jagged Edge,0
+1985,The Color Purple,0
+1985,Making Overtures--The Story of a Community Orchestra,0
+1985,Graffiti,0
+1985,Runaway Train,0
+1985,Angry Harvest,0
+1985,The Statue of Liberty,0
+1985,A Chorus Line,0
+1985,Three Men and a Cradle,0
+1985,The Journey of Natty Gann,0
+1985,Agnes of God,0
+1985,Rainbow War,0
+1985,Twice in a Lifetime,0
+1985,Silverado,0
+1986,Blue Velvet,0
+1986,Otello,0
+1986,Heartbreak Ridge,0
+1986,Hoosiers,0
+1986,Luxo Jr.,0
+1986,Red Grooms: Sunflower in a Hothouse,0
+1986,Exit,0
+1986,Witness to Apartheid,0
+1986,Poltergeist II: The Other Side,0
+1986,The Frog, the Dog and the Devil,0
+1986,The Masters of Disaster,0
+1986,Star Trek IV: The Voyage Home,0
+1986,Chile: Hasta Cuando?,0
+1986,Stand by Me,0
+1986,'38',0
+1986,Mona Lisa,0
+1986,The Decline of the American Empire,0
+1986,The Karate Kid Part II,0
+1986,An American Tail,0
+1986,My Sweet Little Village,0
+1986,Betty Blue,0
+1986,'Crocodile' Dundee,0
+1986,That's Life,0
+1986,Debonair Dancers,0
+1986,My Beautiful Laundrette,0
+1986,Love Struck,0
+1986,Legend,0
+1986,The Clan of the Cave Bear,0
+1986,Isaac in America: A Journey with Isaac Bashevis Singer,0
+1986,Sam,0
+1986,Little Shop of Horrors,0
+1986,Pirates,0
+1986,Salvador,0
+1986,Crimes of the Heart,0
+1986,Peggy Sue Got Married,0
+1986,The Morning After,0
+1987,Matewan,0
+1987,George and Rosemary,0
+1987,Cry Freedom,0
+1987,Gaby - A True Story,0
+1987,Au Revoir Les Enfants (Goodbye, Children),0
+1987,Good Morning, Vietnam,0
+1987,Making Waves,0
+1987,The Family,0
+1987,The Witches of Eastwick,0
+1987,Lethal Weapon,0
+1987,In the Wee Wee Hours...,0
+1987,Mannequin,0
+1987,My Life as a Dog,0
+1987,Broadcast News,0
+1987,Radio Bikini,0
+1987,The Whales of August,0
+1987,Predator,0
+1987,Beverly Hills Cop II,0
+1987,Happy New Year,0
+1987,Pathfinder,0
+1987,Ironweed,0
+1987,Frances Steloff: Memoirs of a Bookseller,0
+1987,The Dead,0
+1987,Radio Days,0
+1987,Your Face,0
+1987,Silver into Gold,0
+1987,Throw Momma from the Train,0
+1987,Shoeshine,0
+1987,Maurice,0
+1987,Hope and Glory,0
+1987,Anna,0
+1987,Language Says It All,0
+1987,Course Completed,0
+1987,Dark Eyes,0
+1987,A Stitch for Time,0
+1987,Full Metal Jacket,0
+1987,The Princess Bride,0
+1987,Eyes on the Prize: America's Civil Rights Years/Bridge to Freedom 1965,0
+1987,Empire of the Sun,0
+1987,Street Smart,0
+1987,Fatal Attraction,0
+1987,Hellfire: A Journey from Hiroshima,0
+1988,Cadillac Dreams,0
+1988,Buster,0
+1988,The Unbearable Lightness of Being,0
+1988,Tucker The Man and His Dream,0
+1988,Bull Durham,0
+1988,Who Killed Vincent Chin?,0
+1988,Married to the Mob,0
+1988,Hanussen,0
+1988,Tequila Sunrise,0
+1988,The Music Teacher,0
+1988,The Last Temptation of Christ,0
+1988,Running on Empty,0
+1988,Big,0
+1988,Family Gathering,0
+1988,The Cat Came Back,0
+1988,A Cry in the Dark,0
+1988,Beaches,0
+1988,Women on the Verge of a Nervous Breakdown,0
+1988,Sunset,0
+1988,A Handful of Dust,0
+1988,Technological Threat,0
+1988,Promises to Keep,0
+1988,Gang Cops,0
+1988,Portrait of Imogen,0
+1988,Scrooged,0
+1988,Bagdad Cafe,0
+1988,Little Dorrit,0
+1988,The Children's Storefront,0
+1988,Stand and Deliver,0
+1988,The Cry of Reason - Beyers Naudé: An Afrikaner Speaks Out,0
+1988,Willow,0
+1988,Die Hard,0
+1988,Gullah Tales,0
+1988,Salaam Bombay!,0
+1988,Coming to America,0
+1988,Gorillas in the Mist,0
+1988,Let's Get Lost,0
+1989,The Hill Farm,0
+1989,What Happened to Santiago,0
+1989,Dad,0
+1989,Chances Are,0
+1989,The Adventures of Baron Munchausen,0
+1989,Jesus of Montreal,0
+1989,When Harry Met Sally...,0
+1989,Valmont,0
+1989,The Cow,0
+1989,Yad Vashem: Preserving the Past to Ensure the Future,0
+1989,Super Chief: The Life and Legacy of Earl Warren,0
+1989,Harlem Nights,0
+1989,A Dry White Season,0
+1989,Amazon Diary,0
+1989,Lethal Weapon 2,0
+1989,Crack USA: County under Siege,0
+1989,Music Box,0
+1989,Field of Dreams,0
+1989,Adam Clayton Powell,0
+1989,Steel Magnolias,0
+1989,sex, lies, and videotape,0
+1989,Parenthood,0
+1989,Black Rain,0
+1989,The Bear,0
+1989,Do the Right Thing,0
+1989,For All Mankind,0
+1989,The Fabulous Baker Boys,0
+1989,Camille Claudel,0
+1989,Fine Food, Fine Pastries, Open 6 to 9,0
+1989,Back to the Future Part II,0
+1989,The Childeater,0
+1989,Blaze,0
+1989,Enemies, A Love Story,0
+1989,Crimes and Misdemeanors,0
+1989,Shirley Valentine,0
+1989,Waltzing Regitze,0
+1990,Edward Scissorhands,0
+1990,Awakenings,0
+1990,Forever Activists: Stories from the Veterans of the Abraham Lincoln Brigade,0
+1990,Dear Rosie,0
+1990,Rose Kennedy: A Life to Remember,0
+1990,Hamlet,0
+1990,Days of Thunder,0
+1990,12:01 PM,0
+1990,Journey into Life: The World of the Unborn,0
+1990,Pretty Woman,0
+1990,Longtime Companion,0
+1990,Waldo Salt: A Screenwriter's Journey,0
+1990,Metropolitan,0
+1990,Chimps: So Like Us,0
+1990,Open Doors,0
+1990,Mr. & Mrs. Bridge,0
+1990,Building Bombs,0
+1990,Wild at Heart,0
+1990,The Nasty Girl,0
+1990,Alice,0
+1990,A Grand Day Out,0
+1990,Burning Down Tomorrow,0
+1990,The Godfather, Part III,0
+1990,Postcards from the Edge,0
+1990,Berkeley in the Sixties,0
+1990,Senzeni Na? (What Have We Done?),0
+1990,Home Alone,0
+1990,The Grifters,0
+1990,Henry & June,0
+1990,Green Card,0
+1990,Avalon,0
+1990,Havana,0
+1990,Flatliners,0
+1990,The Field,0
+1990,Ju Dou,0
+1990,Grasshoppers (Cavallette),0
+1990,Young Guns II,0
+1990,Bronx Cheers,0
+1991,Hook,0
+1991,Barton Fink,0
+1991,Fried Green Tomatoes,0
+1991,Death on the Job,0
+1991,Madame Bovary,0
+1991,The Ox,0
+1991,Europa Europa,0
+1991,Birch Street Gym,0
+1991,The Addams Family,0
+1991,Memorial: Letters from American Soldiers,0
+1991,Backdraft,0
+1991,Rambling Rose,0
+1991,The Commitments,0
+1991,The Restless Conscience,0
+1991,Children of Nature,0
+1991,Strings,0
+1991,Doing Time: Life inside the Big House,0
+1991,Last Breeze of Summer,0
+1991,Raise the Red Lantern,0
+1991,Cape Fear,0
+1991,Boyz N the Hood,0
+1991,Star Trek VI The Undiscovered Country,0
+1991,Birdnesters of Thailand (aka 'Shadow Hunters'),0
+1991,Robin Hood: Prince of Thieves,0
+1991,Blackfly,0
+1991,Grand Canyon,0
+1991,For the Boys,0
+1991,The Mark of the Maker,0
+1991,The Elementary School,0
+1991,The Prince of Tides,0
+1991,Wild by Law,0
+1991,A Little Vicious,0
+1992,Fires of Kuwait,0
+1992,Love Field,0
+1992,When Abortion Was Illegal: Untold Stories,0
+1992,The Sandman,0
+1992,The Colours of My Father: A Portrait of Sam Borenstein,0
+1992,Swan Song,0
+1992,Reci, Reci, Reci... (Words, Words, Words),0
+1992,Changing Our Minds: The Story of Dr. Evelyn Hooker,0
+1992,Glengarry Glen Ross,0
+1992,Damage,0
+1992,Toys,0
+1992,Basic Instinct,0
+1992,Malcolm X,0
+1992,Lorenzo's Oil,0
+1992,Husbands and Wives,0
+1992,Batman Returns,0
+1992,Close to Eden,0
+1992,Beyond Imagining: Margaret Anderson and the 'Little Review',0
+1992,Enchanted April,0
+1992,A Few Good Men,0
+1992,A Place in the World,0
+1992,Liberators: Fighting on Two Fronts in World War II,0
+1992,Hoffa,0
+1992,Screen Play,0
+1992,At the Edge of Conquest: The Journey of Chief Wai-Wai,0
+1992,Alien 3,0
+1992,The Lover,0
+1992,Mr. Saturday Night,0
+1992,The Mambo Kings,0
+1992,The Bodyguard,0
+1992,Schtonk!,0
+1992,Music for the Movies: Bernard Herrmann,0
+1992,Under Siege,0
+1992,Contact,0
+1992,Daens,0
+1992,The Lady in Waiting,0
+1992,The Player,0
+1992,Passion Fish,0
+1992,Adam,0
+1992,Chaplin,0
+1992,Cruise Control,0
+1993,Poetic Justice,0
+1993,Children of Fate,0
+1993,The Firm,0
+1993,The Broadcast Tapes of Dr. Peter,0
+1993,Dave,0
+1993,Orlando,0
+1993,Small Talk,0
+1993,Geronimo: An American Legend,0
+1993,Short Cuts,0
+1993,Shadowlands,0
+1993,Blindscape,0
+1993,The Remains of the Day,0
+1993,Cliffhanger,0
+1993,Chicks in White Satin,0
+1993,The Screw (La Vis),0
+1993,In the Name of the Father,0
+1993,In the Line of Fire,0
+1993,Blood Ties: The Life and Work of Sally Mann,0
+1993,The Wedding Banquet,0
+1993,The Village,0
+1993,Hedd Wyn,0
+1993,Fearless,0
+1993,What's Eating Gilbert Grape,0
+1993,Sleepless in Seattle,0
+1993,The Mighty River,0
+1993,Down on the Waterfront,0
+1993,The Dutch Master,0
+1993,For Better or for Worse,0
+1993,The Scent of Green Papaya,0
+1993,Searching for Bobby Fischer,0
+1993,Six Degrees of Separation,0
+1993,The Nightmare before Christmas,0
+1993,Addams Family Values,0
+1993,Farewell My Concubine,0
+1993,What's Love Got to Do with It,0
+1993,The War Room,0
+1993,Partners,0
+1993,Beethoven's 2nd,0
+1994,89mm od Europy (89mm from Europe),0
+1994,Straight from the Heart,0
+1994,Four Weddings and a Funeral,0
+1994,True Lies,0
+1994,Farinelli: Il Castrato,0
+1994,Blues Highway,0
+1994,Wyatt Earp,0
+1994,Queen Margot,0
+1994,Strawberry and Chocolate,0
+1994,Syrup,0
+1994,The Mask,0
+1994,On Hope,0
+1994,Interview with the Vampire,0
+1994,The Janitor,0
+1994,Little Women,0
+1994,The Paper,0
+1994,Junior,0
+1994,Nobody's Fool,0
+1994,Eat Drink Man Woman,0
+1994,The Client,0
+1994,Quiz Show,0
+1994,The Shawshank Redemption,0
+1994,Maverick,0
+1994,Complaints of a Dutiful Daughter,0
+1994,The Monk and the Fish,0
+1994,Clear and Present Danger,0
+1994,The Big Story,0
+1994,Nell,0
+1994,Tom & Viv,0
+1994,School of Assassins,0
+1994,D-Day Remembered,0
+1994,Freedom on My Mind,0
+1994,A Great Day in Harlem,0
+1994,Before the Rain,0
+1994,Triangle,0
+1994,Red,0
+1994,Mary Shelley's Frankenstein,0
+1994,Kangaroo Court,0
+1994,Heavenly Creatures,0
+1994,Hoop Dreams,0
+1995,Dust of Life,0
+1995,A Little Princess,0
+1995,The Chicken from Outer Space,0
+1995,Seven,0
+1995,Gagarin,0
+1995,Mr. Holland's Opus,0
+1995,Georgia,0
+1995,The Star Maker,0
+1995,Hank Aaron: Chasing the Dream,0
+1995,Little Surprises,0
+1995,The Bridges of Madison County,0
+1995,Sabrina,0
+1995,Don Juan DeMarco,0
+1995,Batman Forever,0
+1995,Brooms,0
+1995,the end,0
+1995,Crimson Tide,0
+1995,The Battle over Citizen Kane,0
+1995,Runaway Brain,0
+1995,Fiddlefest--Roberta Tzavaras and Her East Harlem Violin Program,0
+1995,The American President,0
+1995,Casino,0
+1995,Duke of Groove,0
+1995,Unstrung Heroes,0
+1995,Troublesome Creek: A Midwestern,0
+1995,All Things Fair,0
+1995,My Family, Mi Familia,0
+1995,Jim Dine: A Self-Portrait on the Walls,0
+1995,Tuesday Morning Ride,0
+1995,Shanghai Triad,0
+1995,The Living Sea,0
+1995,Roommates,0
+1995,12 Monkeys,0
+1995,Never Give Up: The 20th Century Odyssey of Herbert Zipper,0
+1995,Rob Roy,0
+1995,Richard III,0
+1995,Waterworld,0
+1995,O Quatrilho,0
+1995,The Shadow of Hate,0
+1995,Nixon,0
+1996,William Shakespeare's Romeo & Juliet,0
+1996,Dragonheart,0
+1996,That Thing You Do!,0
+1996,Hamlet,0
+1996,The Mirror Has Two Faces,0
+1996,Ridicule,0
+1996,One Fine Day,0
+1996,Primal Fear,0
+1996,Suzanne Farrell: Elusive Muse,0
+1996,Marvin's Room,0
+1996,Mandela,0
+1996,The Portrait of a Lady,0
+1996,The Birdcage,0
+1996,Up Close and Personal,0
+1996,Ernst & Lyset,0
+1996,Cosmic Voyage,0
+1996,The Hunchback of Notre Dame,0
+1996,Angels and Insects,0
+1996,Twister,0
+1996,La Salla,0
+1996,Prisoner of the Mountains,0
+1996,De Tripas, Corazon,0
+1996,Canhead,0
+1996,Trainspotting,0
+1996,Wat's Pig,0
+1996,Esposados,0
+1996,Lone Star,0
+1996,The Line King: The Al Hirschfeld Story,0
+1996,A Chef in Love,0
+1996,Sleepers,0
+1996,The First Wives Club,0
+1996,Star Trek: First Contact,0
+1996,The Preacher's Wife,0
+1996,Breaking the Waves,0
+1996,The Rock,0
+1996,Special Effects,0
+1996,Wordless,0
+1996,An Essay on Matisse,0
+1996,Michael Collins,0
+1996,James and the Giant Peach,0
+1996,Ghosts of Mississippi,0
+1996,Eraser,0
+1996,The Other Side of Sunday,0
+1996,Secrets & Lies,0
+1996,Fly Away Home,0
+1996,The People vs. Larry Flynt,0
+1996,Daylight,0
+1996,The Crucible,0
+1996,The Wild Bunch: An Album in Montage,0
+1996,Tell the Truth and Run: George Seldes and the American Press,0
+1997,Amazon,0
+1997,Ulee's Gold,0
+1997,Four Days in September,0
+1997,The Thief,0
+1997,Secrets of the Heart,0
+1997,The Fifth Element,0
+1997,Mrs. Brown,0
+1997,4 Little Girls,0
+1997,Deconstructing Harry,0
+1997,Redux Riding Hood,0
+1997,Starship Troopers,0
+1997,Gattaca,0
+1997,Hercules,0
+1997,Donnie Brasco,0
+1997,Daughter of the Bride,0
+1997,In & Out,0
+1997,Wag the Dog,0
+1997,Sweethearts?,0
+1997,Waco: The Rules of Engagement,0
+1997,Ayn Rand: A Sense of Life,0
+1997,Amistad,0
+1997,It's Good to Talk,0
+1997,The Wings of the Dove,0
+1997,Beyond Silence,0
+1997,My Best Friend's Wedding,0
+1997,Face/Off,0
+1997,Oscar and Lucinda,0
+1997,The Apostle,0
+1997,Con Air,0
+1997,Dance Lexie Dance,0
+1997,Wolfgang,0
+1997,Anastasia,0
+1997,Afterglow,0
+1997,Colors Straight Up,0
+1997,Famous Fred,0
+1997,The Mermaid,0
+1997,Jackie Brown,0
+1997,The Sweet Hereafter,0
+1997,Air Force One,0
+1997,Alaska: Spirit of the Wild,0
+1997,Contact,0
+1997,The Lost World: Jurassic Park,0
+1997,Kundun,0
+1997,La Vieille Dame et les Pigeons (The Old Lady and the Pigeons),0
+1997,Boogie Nights,0
+1997,Still Kicking: The Fabulous Palm Springs Follies,0
+1998,Quest for Camelot,0
+1998,More,0
+1998,Velvet Goldmine,0
+1998,Babe: Pig in the City,0
+1998,A Bug's Life,0
+1998,Victor,0
+1998,The Truman Show,0
+1998,One True Thing,0
+1998,Holiday Romance,0
+1998,Beloved,0
+1998,Dancemaker,0
+1998,Mulan,0
+1998,Little Voice,0
+1998,Regret to Inform,0
+1998,Hilary and Jackie,0
+1998,The Thin Red Line,0
+1998,Culture,0
+1998,The Horse Whisperer,0
+1998,Armageddon,0
+1998,Lenny Bruce: Swear to Tell the Truth,0
+1998,The Farm: Angola, U.S.A.,0
+1998,The Mask of Zorro,0
+1998,Sunrise over Tiananmen Square,0
+1998,Jolly Roger,0
+1998,The Grandfather,0
+1998,A Place in the Land,0
+1998,Out of Sight,0
+1998,Primary Colors,0
+1998,A Simple Plan,0
+1998,American History X,0
+1998,Mighty Joe Young,0
+1998,A Civil Action,0
+1998,Pleasantville,0
+1998,The Canterbury Tales,0
+1998,Bulworth,0
+1998,Children of Heaven,0
+1998,Central Station,0
+1998,Patch Adams,0
+1998,Tango,0
+1998,When Life Departs,0
+1998,La Carte Postale (The Postcard),0
+1999,Anna and the King,0
+1999,Major and Minor Miracles,0
+1999,The Sixth Sense,0
+1999,Stuart Little,0
+1999,Angela's Ashes,0
+1999,Eyewitness,0
+1999,East-West,0
+1999,South Park: Bigger, Longer & Uncut,0
+1999,Killing Joe,0
+1999,Caravan,0
+1999,Toy Story 2,0
+1999,Austin Powers: The Spy Who Shagged Me,0
+1999,Bror, Min Bror (Teis and Nico),0
+1999,Snow Falling on Cedars,0
+1999,Magnolia,0
+1999,Humdrum,0
+1999,Election,0
+1999,On the Ropes,0
+1999,Fight Club,0
+1999,The Insider,0
+1999,Speaking in Strings,0
+1999,Buena Vista Social Club,0
+1999,3 Misses,0
+1999,The Hurricane,0
+1999,Being John Malkovich,0
+1999,Music of the Heart,0
+1999,The Wildest Show in the South: The Angola Prison Rodeo,0
+1999,Tumbleweeds,0
+1999,The Green Mile,0
+1999,Life,0
+1999,Solomon and Gaenor,0
+1999,Bicentennial Man,0
+1999,Genghis Blues,0
+1999,Star Wars Episode I: The Phantom Menace,0
+1999,When the Day Breaks,0
+1999,Under the Sun,0
+1999,My Grandmother Ironed the King's Shirts,0
+1999,The Straight Story,0
+1999,The Mummy,0
+1999,The Talented Mr. Ripley,0
+1999,Kleingeld (Small Change),0
+1999,The End of the Affair,0
+1999,Titus,0
+1999,Sweet and Lowdown,0
+2000,Dolphins,0
+2000,The Periwig-Maker,0
+2000,Quills,0
+2000,The Contender,0
+2000,By Courier,0
+2000,Space Cowboys,0
+2000,One Day Crossing,0
+2000,Malèna,0
+2000,Legacy,0
+2000,Scottsboro: An American Tragedy,0
+2000,102 Dalmatians,0
+2000,Seraglio,0
+2000,Divided We Fall,0
+2000,Requiem for a Dream,0
+2000,The Man on Lincoln's Nose,0
+2000,Before Night Falls,0
+2000,On Tiptoe: Gentle Steps to Freedom,0
+2000,Vatel,0
+2000,Hollow Man,0
+2000,Dancer in the Dark,0
+2000,Curtain Call,0
+2000,Sound and Fury,0
+2000,Billy Elliot,0
+2000,Amores Perros,0
+2000,A Soccer Story (Uma Historia de Futebol),0
+2000,Shadow of the Vampire,0
+2000,Long Night's Journey into Day,0
+2000,Cast Away,0
+2000,The Cell,0
+2000,Rejected,0
+2000,The Emperor's New Groove,0
+2000,Chocolat,0
+2000,The Patriot,0
+2000,O Brother, Where Art Thou?,0
+2000,The Perfect Storm,0
+2000,The Taste of Others,0
+2000,Everybody Famous!,0
+2000,You Can Count on Me,0
+2000,Meet the Parents,0
+2001,Bridget Jones's Diary,0
+2001,Memento,0
+2001,In the Bedroom,0
+2001,Fifty Percent Grey,0
+2001,Vanilla Sky,0
+2001,Copy Shop,0
+2001,Artists and Orphans: A True Drama,0
+2001,Stubble Trouble,0
+2001,Promises,0
+2001,Ghost World,0
+2001,Amélie,0
+2001,Strange Invaders,0
+2001,Speed for Thespians,0
+2001,LaLee's Kin: The Legacy of Cotton,0
+2001,Mulholland Drive,0
+2001,Give Up Yer Aul Sins,0
+2001,Lagaan,0
+2001,The Man Who Wasn't There,0
+2001,A.I. Artificial Intelligence,0
+2001,Ali,0
+2001,Harry Potter and the Sorcerer's Stone,0
+2001,Kate & Leopold,0
+2001,Son of the Bride,0
+2001,I Am Sam,0
+2001,War Photographer,0
+2001,Gregor's Greatest Invention,0
+2001,The Royal Tenenbaums,0
+2001,The Affair of the Necklace,0
+2001,Children Underground,0
+2001,Sing!,0
+2001,Sexy Beast,0
+2001,A Man Thing (Meska Sprawa),0
+2001,Elling,0
+2001,Jimmy Neutron: Boy Genius,0
+2002,The Collector of Bedford Street,0
+2002,El Crimen del Padre Amaro,0
+2002,Hero,0
+2002,Mt. Head,0
+2002,Why Can't We Be a Family Again?,0
+2002,Johnny Flynton,0
+2002,The Time Machine,0
+2002,Mike's New Car,0
+2002,Catch Me If You Can,0
+2002,Das Rad,0
+2002,About a Boy,0
+2002,The Cathedral,0
+2002,Spirit: Stallion of the Cimarron,0
+2002,Fait D'Hiver,0
+2002,The Man without a Past,0
+2002,Winged Migration,0
+2002,About Schmidt,0
+2002,The Wild Thornberrys Movie,0
+2002,Lilo & Stitch,0
+2002,Star Wars Episode II Attack of the Clones,0
+2002,My Big Fat Greek Wedding,0
+2002,Gangs of New York,0
+2002,Treasure Planet,0
+2002,Spider-Man,0
+2002,The Quiet American,0
+2002,Ice Age,0
+2002,Inja (Dog),0
+2002,Zus & Zo,0
+2002,Y Tu Mamá También,0
+2002,Prisoner of Paradise,0
+2002,Minority Report,0
+2002,Far from Heaven,0
+2002,Unfaithful,0
+2002,Daughter from Danang,0
+2002,Spellbound,0
+2002,I'll Wait for the Next One... (J'Attendrai Le Suivant...),0
+2002,Mighty Times: The Legacy of Rosa Parks,0
+2003,Evil,0
+2003,A Mighty Wind,0
+2003,Die Rote Jacke (The Red Jacket),0
+2003,Destino,0
+2003,The Cooler,0
+2003,The Twilight Samurai,0
+2003,Squash,0
+2003,The Last Samurai,0
+2003,Something's Gotta Give,0
+2003,Dirty Pretty Things,0
+2003,Big Fish,0
+2003,City of God,0
+2003,The Triplets of Belleville,0
+2003,Pieces of April,0
+2003,Boundin',0
+2003,Asylum,0
+2003,Nibbles,0
+2003,Brother Bear,0
+2003,(A) Torzija [(A) Torsion],0
+2003,Most (The Bridge),0
+2003,Capturing the Friedmans,0
+2003,Pirates of the Caribbean: The Curse of the Black Pearl,0
+2003,Girl with a Pearl Earring,0
+2003,The Weather Underground,0
+2003,Thirteen,0
+2003,Twin Sisters,0
+2003,Gone Nutty,0
+2003,House of Sand and Fog,0
+2003,21 Grams,0
+2003,Seabiscuit,0
+2003,My Architect,0
+2003,Ferry Tales,0
+2003,Whale Rider,0
+2003,American Splendor,0
+2003,Zelary,0
+2003,Balseros,0
+2003,In America,0
+2004,Shrek 2,0
+2004,Autism Is a World,0
+2004,The Phantom of the Opera,0
+2004,The Polar Express,0
+2004,The Story of the Weeping Camel,0
+2004,Everything in This Country Must,0
+2004,Closer,0
+2004,7:35 in the Morning (7:35 de la Mañana),0
+2004,Kinsey,0
+2004,Yesterday,0
+2004,Vera Drake,0
+2004,Downfall,0
+2004,A Very Long Engagement,0
+2004,The Children of Leningradsky,0
+2004,Collateral,0
+2004,Hotel Rwanda,0
+2004,Hardwood,0
+2004,Two Cars, One Night,0
+2004,Being Julia,0
+2004,Tupac: Resurrection,0
+2004,Birthday Boy,0
+2004,The Village,0
+2004,The Passion of the Christ,0
+2004,Maria Full of Grace,0
+2004,As It Is in Heaven,0
+2004,Lorenzo,0
+2004,I, Robot,0
+2004,Guard Dog,0
+2004,The Chorus (Les Choristes),0
+2004,Troy,0
+2004,Shark Tale,0
+2004,Gopher Broke,0
+2004,Twist of Faith,0
+2004,Sister Rose's Passion,0
+2004,Little Terrorist,0
+2004,Super Size Me,0
+2004,House of Flying Daggers,0
+2004,Before Sunset,0
+2004,Harry Potter and the Prisoner of Azkaban,0
+2005,Howl's Moving Castle,0
+2005,Mrs. Henderson Presents,0
+2005,The Mushroom Club,0
+2005,Charlie and the Chocolate Factory,0
+2005,The New World,0
+2005,Star Wars: Episode III Revenge of the Sith,0
+2005,Cinderella Man,0
+2005,Joyeux Noël,0
+2005,Junebug,0
+2005,Street Fight,0
+2005,The Last Farm,0
+2005,The Death of Kevin Carter: Casualty of the Bang Bang Club,0
+2005,Our Time Is Up,0
+2005,Darwin's Nightmare,0
+2005,God Sleeps in Rwanda,0
+2005,A History of Violence,0
+2005,Badgered,0
+2005,Don't Tell,0
+2005,Enron: The Smartest Guys in the Room,0
+2005,Pride & Prejudice,0
+2005,War of the Worlds,0
+2005,The Squid and the Whale,0
+2005,9,0
+2005,One Man Band,0
+2005,Good Night, and Good Luck.,0
+2005,The Mysterious Geographic Explorations of Jasper Morello,0
+2005,Transamerica,0
+2005,North Country,0
+2005,Munich,0
+2005,Murderball,0
+2005,Ausreisser (The Runaway),0
+2005,Sophie Scholl - The Final Days,0
+2005,Tim Burton's Corpse Bride,0
+2005,Harry Potter and the Goblet of Fire,0
+2005,Batman Begins,0
+2005,Paradise Now,0
+2005,Match Point,0
+2005,Cashback,0
+2006,Lifted,0
+2006,Venus,0
+2006,The Illusionist,0
+2006,Children of Men,0
+2006,The Good German,0
+2006,The Pursuit of Happyness,0
+2006,The Little Matchgirl,0
+2006,Volver,0
+2006,Poseidon,0
+2006,Superman Returns,0
+2006,Click,0
+2006,Helmer & Son,0
+2006,Notes on a Scandal,0
+2006,The Devil Wears Prada,0
+2006,Maestro,0
+2006,Rehearsing a Dream,0
+2006,Apocalypto,0
+2006,Recycled Life,0
+2006,Water,0
+2006,Éramos Pocos (One Too Many),0
+2006,Half Nelson,0
+2006,Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,0
+2006,The Black Dahlia,0
+2006,Cars,0
+2006,The Saviour,0
+2006,Curse of the Golden Flower,0
+2006,No Time for Nuts,0
+2006,Iraq in Fragments,0
+2006,The Prestige,0
+2006,Binta and the Great Idea (Binta Y La Gran Idea),0
+2006,Flags of Our Fathers,0
+2006,Little Children,0
+2006,After the Wedding,0
+2006,Monster House,0
+2006,Jesus Camp,0
+2006,Blood Diamond,0
+2006,Days of Glory (Indigènes),0
+2006,My Country, My Country,0
+2006,Two Hands,0
+2006,United 93,0
+2006,Deliver Us from Evil,0
+2006,The Good Shepherd,0
+2007,Sicko,0
+2007,Il Supplente (The Substitute),0
+2007,War/Dance,0
+2007,Operation Homecoming: Writing the Wartime Experience,0
+2007,No End in Sight,0
+2007,The Assassination of Jesse James by the Coward Robert Ford,0
+2007,The Diving Bell and the Butterfly,0
+2007,My Love (Moya Lyubov),0
+2007,Tanghi Argentini,0
+2007,Katyn,0
+2007,American Gangster,0
+2007,La Corona (The Crown),0
+2007,3:10 to Yuma,0
+2007,I'm Not There,0
+2007,August Rush,0
+2007,The Savages,0
+2007,Gone Baby Gone,0
+2007,Eastern Promises,0
+2007,Même les Pigeons Vont au Paradis (Even Pigeons Go to Heaven),0
+2007,Enchanted,0
+2007,Into the Wild,0
+2007,In the Valley of Elah,0
+2007,The Tonto Woman,0
+2007,Sari's Mother,0
+2007,The Kite Runner,0
+2007,Charlie Wilson's War,0
+2007,At Night,0
+2007,Persepolis,0
+2007,Pirates of the Caribbean: At World's End,0
+2007,Norbit,0
+2007,Across the Universe,0
+2007,I Met the Walrus,0
+2007,Transformers,0
+2007,Beaufort,0
+2007,12,0
+2007,Away from Her,0
+2007,Surf's Up,0
+2007,Salim Baba,0
+2007,Madame Tutli-Putli,0
+2007,Lars and the Real Girl,0
+2007,Mongol,0
+2008,Waltz with Bashir,0
+2008,The Visitor,0
+2008,New Boy,0
+2008,The Betrayal (Nerakhoon),0
+2008,In Bruges,0
+2008,The Wrestler,0
+2008,Defiance,0
+2008,The Baader Meinhof Complex,0
+2008,Wanted,0
+2008,Bolt,0
+2008,Revanche,0
+2008,Happy-Go-Lucky,0
+2008,The Pig,0
+2008,Presto,0
+2008,Revolutionary Road,0
+2008,Kung Fu Panda,0
+2008,The Class,0
+2008,Rachel Getting Married,0
+2008,Hellboy II: The Golden Army,0
+2008,Auf der Strecke (On the Line),0
+2008,Lavatory - Lovestory,0
+2008,Changeling,0
+2008,Frozen River,0
+2008,The Final Inch,0
+2008,Doubt,0
+2008,Trouble the Water,0
+2008,Frost/Nixon,0
+2008,Tropic Thunder,0
+2008,This Way Up,0
+2008,Oktapodi,0
+2008,Manon on the Asphalt,0
+2008,The Garden,0
+2008,Australia,0
+2008,The Conscience of Nhem En,0
+2008,Encounters at the End of the World,0
+2008,The Witness - From the Balcony of Room 306,0
+2008,Iron Man,0
+2009,Paris 36,0
+2009,The Imaginarium of Doctor Parnassus,0
+2009,The Door,0
+2009,The Lovely Bones,0
+2009,The Princess and the Frog,0
+2009,A Single Man,0
+2009,In the Loop,0
+2009,A Prophet,0
+2009,Ajami,0
+2009,Which Way Home,0
+2009,Rabbit à la Berlin,0
+2009,Coco before Chanel,0
+2009,Miracle Fish,0
+2009,French Roast,0
+2009,Bright Star,0
+2009,Instead of Abracadabra,0
+2009,The Last Truck: Closing of a GM Plant,0
+2009,Food, Inc.,0
+2009,The Last Station,0
+2009,The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers,0
+2009,An Education,0
+2009,Invictus,0
+2009,Transformers: Revenge of the Fallen,0
+2009,Julie & Julia,0
+2009,Granny O'Grimm's Sleeping Beauty,0
+2009,Burma VJ,0
+2009,Nine,0
+2009,Il Divo,0
+2009,Fantastic Mr. Fox,0
+2009,Up in the Air,0
+2009,The Last Campaign of Governor Booth Gardner,0
+2009,Sherlock Holmes,0
+2009,The Lady and the Reaper (La Dama y la Muerte),0
+2009,The Messenger,0
+2009,District 9,0
+2009,The Secret of Kells,0
+2009,The White Ribbon,0
+2009,The Milk of Sorrow,0
+2009,China's Unnatural Disaster: The Tears of Sichuan Province,0
+2009,A Matter of Loaf and Death,0
+2009,A Serious Man,0
+2009,Coraline,0
+2009,Harry Potter and the Half-Blood Prince,0
+2009,Kavi,0
+2010,The Kids Are All Right,0
+2010,Another Year,0
+2010,I Am Love,0
+2010,Tangled,0
+2010,The Illusionist,0
+2010,The Gruffalo,0
+2010,Harry Potter and the Deathly Hallows Part 1,0
+2010,Rabbit Hole,0
+2010,Exit through the Gift Shop,0
+2010,The Way Back,0
+2010,Incendies,0
+2010,Biutiful,0
+2010,Animal Kingdom,0
+2010,127 Hours,0
+2010,Waste Land,0
+2010,Poster Girl,0
+2010,Salt,0
+2010,Country Strong,0
+2010,Winter's Bone,0
+2010,Wish 143,0
+2010,The Confession,0
+2010,Dogtooth,0
+2010,The Warriors of Qiugang,0
+2010,Outside the Law (Hors-la-loi),0
+2010,Killing in the Name,0
+2010,Sun Come Up,0
+2010,Unstoppable,0
+2010,The Tempest,0
+2010,Na Wewe,0
+2010,How to Train Your Dragon,0
+2010,Madagascar, carnet de voyage (Madagascar, a Journey Diary),0
+2010,Tron: Legacy,0
+2010,Gasland,0
+2010,Iron Man 2,0
+2010,Barney's Version,0
+2010,Blue Valentine,0
+2010,True Grit,0
+2010,Let's Pollute,0
+2010,The Town,0
+2010,Restrepo,0
+2010,Hereafter,0
+2010,The Crush,0
+2010,Day & Night,0
+2011,La Luna,0
+2011,War Horse,0
+2011,A Better Life,0
+2011,In Darkness,0
+2011,Jane Eyre,0
+2011,A Cat in Paris,0
+2011,Time Freak,0
+2011,A Morning Stroll,0
+2011,Harry Potter and the Deathly Hallows Part 2,0
+2011,God Is the Bigger Elvis,0
+2011,Rise of the Planet of the Apes,0
+2011,The Tsunami and the Cherry Blossom,0
+2011,Monsieur Lazhar,0
+2011,Paradise Lost 3: Purgatory,0
+2011,If a Tree Falls: A Story of the Earth Liberation Front,0
+2011,Kung Fu Panda 2,0
+2011,Wild Life,0
+2011,Bullhead,0
+2011,Margin Call,0
+2011,Pina,0
+2011,Pentecost,0
+2011,Anonymous,0
+2011,Bridesmaids,0
+2011,The Tree of Life,0
+2011,Puss in Boots,0
+2011,Rio,0
+2011,Hell and Back Again,0
+2011,Dimanche/Sunday,0
+2011,The Ides of March,0
+2011,Incident in New Baghdad,0
+2011,Transformers: Dark of the Moon,0
+2011,Footnote,0
+2011,W.E.,0
+2011,Real Steel,0
+2011,Moneyball,0
+2011,Raju,0
+2011,Albert Nobbs,0
+2011,Drive,0
+2011,Chico & Rita,0
+2011,Tuba Atlantic,0
+2011,Extremely Loud & Incredibly Close,0
+2011,Warrior,0
+2011,My Week with Marilyn,0
+2011,Tinker Tailor Soldier Spy,0
+2011,The Barber of Birmingham: Foot Soldier of the Civil Rights Movement,0
+2011,The Adventures of Tintin,0
+2012,Ted,0
+2012,The Sessions,0
+2012,Chasing Ice,0
+2012,Prometheus,0
+2012,Adam and Dog,0
+2012,Kings Point,0
+2012,Fresh Guacamole,0
+2012,A Royal Affair,0
+2012,Head over Heels,0
+2012,Kon-Tiki,0
+2012,Hitchcock,0
+2012,Buzkashi Boys,0
+2012,No,0
+2012,5 Broken Cameras,0
+2012,Beasts of the Southern Wild,0
+2012,Redemption,0
+2012,The Invisible War,0
+2012,The Impossible,0
+2012,The Pirates! Band of Misfits,0
+2012,Flight,0
+2012,How to Survive a Plague,0
+2012,Mirror Mirror,0
+2012,The Hobbit: An Unexpected Journey,0
+2012,Asad,0
+2012,Snow White and the Huntsman,0
+2012,Mondays at Racine,0
+2012,The Gatekeepers,0
+2012,Open Heart,0
+2012,"Maggie Simpson in ""The Longest Daycare""",0
+2012,Henry,0
+2012,Marvel's The Avengers,0
+2012,Death of a Shadow (Dood van een Schaduw),0
+2012,War Witch,0
+2012,Moonrise Kingdom,0
+2012,ParaNorman,0
+2012,Wreck-It Ralph,0
+2012,Frankenweenie,0
+2012,The Master,0
+2013,Alone Yet Not Alone,0
+2013,Facing Fear,0
+2013,The Broken Circle Breakdown,0
+2013,Get a Horse!,0
+2013,The Square,0
+2013,August: Osage County,0
+2013,The Wind Rises,0
+2013,Philomena,0
+2013,The Hobbit: The Desolation of Smaug,0
+2013,The Invisible Woman,0
+2013,Star Trek Into Darkness,0
+2013,Prison Terminal: The Last Days of Private Jack Hall,0
+2013,Possessions,0
+2013,The Book Thief,0
+2013,All Is Lost,0
+2013,Prisoners,0
+2013,Aquel No Era Yo (That Wasn't Me),0
+2013,Pitääkö Mun Kaikki Hoitaa? (Do I Have to Take Care of Everything?),0
+2013,The Wolf of Wall Street,0
+2013,Nebraska,0
+2013,Avant Que De Tout Perdre (Just before Losing Everything),0
+2013,Before Midnight,0
+2013,Room on the Broom,0
+2013,The Grandmaster,0
+2013,Feral,0
+2013,Ernest & Celestine,0
+2013,American Hustle,0
+2013,Captain Phillips,0
+2013,Mandela: Long Walk to Freedom,0
+2013,Iron Man 3,0
+2013,The Lone Ranger,0
+2013,The Croods,0
+2013,Dirty Wars,0
+2013,Saving Mr. Banks,0
+2013,Cutie and the Boxer,0
+2013,Omar,0
+2013,Despicable Me 2,0
+2013,CaveDigger,0
+2013,The Voorman Problem,0
+2013,The Missing Picture,0
+2013,Inside Llewyn Davis,0
+2013,The Hunt,0
+2013,Lone Survivor,0
+2013,Jackass Presents: Bad Grandpa,0
+2013,The Act of Killing,0
+2013,Karama Has No Walls,0
+2014,The Hobbit: The Battle of the Five Armies,0
+2014,Our Curse,0
+2014,Captain America: The Winter Soldier,0
+2014,The Tale of the Princess Kaguya,0
+2014,Two Days, One Night,0
+2014,Tangerines,0
+2014,White Earth,0
+2014,Maleficent,0
+2014,Parvaneh,0
+2014,A Single Life,0
+2014,Boogaloo and Graham,0
+2014,Beyond the Lights,0
+2014,The Judge,0
+2014,Song of the Sea,0
+2014,Leviathan,0
+2014,Inherent Vice,0
+2014,Wild,0
+2014,Me and My Moulton,0
+2014,The Bigger Picture,0
+2014,The Salt of the Earth,0
+2014,Aya,0
+2014,How to Train Your Dragon 2,0
+2014,Mr. Turner,0
+2014,X-Men: Days of Future Past,0
+2014,Virunga,0
+2014,Guardians of the Galaxy,0
+2014,Butter Lamp (La Lampe Au Beurre De Yak),0
+2014,Into the Woods,0
+2014,Dawn of the Planet of the Apes,0
+2014,Foxcatcher,0
+2014,Unbroken,0
+2014,Wild Tales,0
+2014,The Dam Keeper,0
+2014,Joanna,0
+2014,The Reaper (La Parka),0
+2014,Begin Again,0
+2014,Timbuktu,0
+2014,Finding Vivian Maier,0
+2014,The Boxtrolls,0
+2014,Nightcrawler,0
+2014,Last Days in Vietnam,0
+2014,Gone Girl,0
+2014,The Lego Movie,0
+2014,Glen Campbell...I'll Be Me,0
+2015,Chau, beyond the Lines,0
+2015,World of Tomorrow,0
+2015,Racing Extinction,0
+2015,The 100-Year-Old Man Who Climbed out the Window and Disappeared,0
+2015,Trumbo,0
+2015,Brooklyn,0
+2015,Sicario,0
+2015,Shaun the Sheep Movie,0
+2015,Shok,0
+2015,Day One,0
+2015,Prologue,0
+2015,Cinderella,0
+2015,Cartel Land,0
+2015,Carol,0
+2015,45 Years,0
+2015,Last Day of Freedom,0
+2015,Joy,0
+2015,Steve Jobs,0
+2015,Sanjay's Super Team,0
+2015,Anomalisa,0
+2015,The Martian,0
+2015,Youth,0
+2015,A War,0
+2015,The Hunting Ground,0
+2015,Body Team 12,0
+2015,Claude Lanzmann: Spectres of the Shoah,0
+2015,When Marnie Was There,0
+2015,Theeb,0
+2015,The Look of Silence,0
+2015,Winter on Fire: Ukraine's Fight for Freedom,0
+2015,What Happened, Miss Simone?,0
+2015,Ave Maria,0
+2015,Embrace of the Serpent,0
+2015,Mustang,0
+2015,Creed,0
+2015,Boy and the World,0
+2015,Straight Outta Compton,0
+2015,We Can't Live without Cosmos,0
+2015,Star Wars: The Force Awakens,0
+2015,Fifty Shades of Grey,0
+2015,Everything Will Be Okay (Alles Wird Gut),0
+2016,Deepwater Horizon,0
+2016,Kubo and the Two Strings,0
+2016,Elle,0
+2016,Pearl,0
+2016,Passengers,0
+2016,Pear Cider and Cigarettes,0
+2016,Hidden Figures,0
+2016,I Am Not Your Negro,0
+2016,Sully,0
+2016,Captain Fantastic,0
+2016,Loving,0
+2016,Life, Animated,0
+2016,Florence Foster Jenkins,0
+2016,Hell or High Water,0
+2016,Timecode,0
+2016,Nocturnal Animals,0
+2016,A Man Called Ove,0
+2016,Hail, Caesar!,0
+2016,Watani: My Homeland,0
+2016,Blind Vaysha,0
+2016,Allied,0
+2016,Ennemis Intérieurs,0
+2016,Jim: The James Foley Story,0
+2016,Silence,0
+2016,Tanna,0
+2016,Borrowed Time,0
+2016,Jackie,0
+2016,20th Century Women,0
+2016,La Femme et le TGV,0
+2016,Trolls,0
+2016,Doctor Strange,0
+2016,Fire at Sea,0
+2016,13 Hours: The Secret Soldiers of Benghazi,0
+2016,My Life as a Zucchini,0
+2016,Toni Erdmann,0
+2016,The Red Turtle,0
+2016,13th,0
+2016,Joe's Violin,0
+2016,Moana,0
+2016,Extremis,0
+2016,The Lobster,0
+2016,Land of Mine,0
+2016,Star Trek Beyond,0
+2016,Rogue One: A Star Wars Story,0
+2016,4.1 Miles,0
+2016,Lion,0
+2016,Silent Nights,0
+2017,Mudbound,0
+2017,Roman J. Israel, Esq.,0
+2017,Traffic Stop,0
+2017,Victoria & Abdul,0
+2017,The Square,0
+2017,Heroin(e),0
+2017,Loving Vincent,0
+2017,Loveless,0
+2017,The Insult,0
+2017,Negative Space,0
+2017,The Boss Baby,0
+2017,The Florida Project,0
+2017,The Eleven O'Clock,0
+2017,Logan,0
+2017,Molly's Game,0
+2017,Abacus: Small Enough to Jail,0
+2017,Star Wars: The Last Jedi,0
+2017,Lady Bird,0
+2017,Kong: Skull Island,0
+2017,Wonder,0
+2017,Guardians of the Galaxy Vol. 2,0
+2017,Last Men in Aleppo,0
+2017,Faces Places,0
+2017,War for the Planet of the Apes,0
+2017,Beauty and the Beast,0
+2017,Edith+Eddie,0
+2017,Revolting Rhymes,0
+2017,Strong Island,0
+2017,On Body and Soul,0
+2017,Lou,0
+2017,All the Money in the World,0
+2017,The Breadwinner,0
+2017,Garden Party,0
+2017,Ferdinand,0
+2017,Watu Wote/All of Us,0
+2017,Baby Driver,0
+2017,The Post,0
+2017,My Nephew Emmett,0
+2017,DeKalb Elementary,0
+2017,The Greatest Showman,0
+2017,Knife Skills,0
+2017,The Disaster Artist,0
+2017,Marshall,0
+2017,The Big Sick,0
+2018,Incredibles 2,0
+2018,One Small Step,0
+2018,Marguerite,0
+2018,Never Look Away,0
+2018,Weekends,0
+2018,Christopher Robin,0
+2018,Capernaum,0
+2018,Border,0
+2018,End Game,0
+2018,Hale County This Morning, This Evening,0
+2018,The Wife,0
+2018,Can You Ever Forgive Me?,0
+2018,First Reformed,0
+2018,Late Afternoon,0
+2018,Detainment,0
+2018,Animal Behaviour,0
+2018,Mother,0
+2018,Fauve,0
+2018,Isle of Dogs,0
+2018,Ready Player One,0
+2018,Mary Poppins Returns,0
+2018,Of Fathers and Sons,0
+2018,At Eternity's Gate,0
+2018,Mary Queen of Scots,0
+2018,The Ballad of Buster Scruggs,0
+2018,Mirai,0
+2018,RBG,0
+2018,Shoplifters,0
+2018,Minding the Gap,0
+2018,A Quiet Place,0
+2018,Ralph Breaks the Internet,0
+2018,Cold War,0
+2018,Solo: A Star Wars Story,0
+2018,Avengers: Infinity War,0
+2018,A Night at The Garden,0
+2018,Lifeboat,0
+2018,Black Sheep,0
+2019,Richard Jewell,0
+2019,The Lighthouse,0
+2019,Harriet,0
+2019,The Irishman,0
+2019,Saria,0
+2019,Life Overtakes Me,0
+2019,Kitbull,0
+2019,St. Louis Superman,0
+2019,Dcera (Daughter),0
+2019,For Sama,0
+2019,The Two Popes,0
+2019,Star Wars: The Rise of Skywalker,0
+2019,Memorable,0
+2019,A Sister,0
+2019,Brotherhood,0
+2019,In the Absence,0
+2019,Nefta Football Club,0
+2019,A Beautiful Day in the Neighborhood,0
+2019,Breakthrough,0
+2019,Maleficent: Mistress of Evil,0
+2019,Pain and Glory,0
+2019,Walk Run Cha-Cha,0
+2019,Corpus Christi,0
+2019,The Cave,0
+2019,Frozen II,0
+2019,Knives Out,0
+2019,The Lion King,0
+2019,Sister,0
+2019,Ad Astra,0
+2019,Missing Link,0
+2019,Avengers: Endgame,0
+2019,Klaus,0
+2019,How to Train Your Dragon: The Hidden World,0
+2019,Honeyland,0
+2019,I Lost My Body,0
+2019,The Edge of Democracy,0
+2019,Les Misérables,0
+2020,The White Tiger,0
+2020,Over the Moon,0
+2020,The One and Only Ivan,0
+2020,Love and Monsters,0
+2020,Yes-People,0
+2020,Greyhound,0
+2020,Burrow,0
+2020,Feeling Through,0
+2020,A Concerto Is a Conversation,0
+2020,Mulan,0
+2020,News of the World,0
+2020,Collective,0
+2020,Da 5 Bloods,0
+2020,Pieces of a Woman,0
+2020,The Present,0
+2020,The Mole Agent,0
+2020,The Midnight Sky,0
+2020,Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan,0
+2020,Pinocchio,0
+2020,Hillbilly Elegy,0
+2020,The United States vs. Billie Holiday,0
+2020,Onward,0
+2020,Emma,0
+2020,The Letter Room,0
+2020,Opera,0
+2020,Better Days,0
+2020,Genius Loci,0
+2020,Quo Vadis, Aida?,0
+2020,Hunger Ward,0
+2020,Do Not Split,0
+2020,The Life Ahead (La Vita Davanti a Se),0
+2020,One Night in Miami...,0
+2020,The Man Who Sold His Skin,0
+2020,Time,0
+2020,White Eye,0
+2020,A Love Song for Latasha,0
+2020,Eurovision Song Contest: The Story of Fire Saga,0
+2020,A Shaun the Sheep Movie: Farmageddon,0
+2020,Crip Camp,0
+2020,Wolfwalkers,0
+2020,The Trial of the Chicago 7,0
+2021,The Tragedy of Macbeth,0
+2021,Nightmare Alley,0
+2021,Shang-Chi and the Legend of the Ten Rings,0
+2021,Being the Ricardos,0
+2021,The Hand of God,0
+2021,Cyrano,0
+2021,When We Were Bullies,0
+2021,Parallel Mothers,0
+2021,Don't Look Up,0
+2021,Bestia,0
+2021,The Lost Daughter,0
+2021,Raya and the Last Dragon,0
+2021,Flee,0
+2021,Three Songs for Benazir,0
+2021,Please Hold,0
+2021,Spencer,0
+2021,Boxballet,0
+2021,Coming 2 America,0
+2021,Ascension,0
+2021,Free Guy,0
+2021,Affairs of the Art,0
+2021,Four Good Days,0
+2021,Licorice Pizza,0
+2021,On My Mind,0
+2021,The Dress,0
+2021,Audible,0
+2021,The Worst Person in the World,0
+2021,The Mitchells vs. the Machines,0
+2021,Robin Robin,0
+2021,Luca,0
+2021,Attica,0
+2021,Lunana: A Yak in the Classroom,0
+2021,House of Gucci,0
+2021,Ala Kachuu - Take and Run,0
+2021,tick, tick...BOOM!,0
+2021,Lead Me Home,0
+2021,Writing with Fire,0
+2021,Spider-Man: No Way Home,0
+2022,Ivalu,0
+2022,The Quiet Girl,0
+2022,Ice Merchants,0
+2022,Argentina, 1985,0
+2022,The Flying Sailor,0
+2022,The Sea Beast,0
+2022,The Martha Mitchell Effect,0
+2022,Triangle of Sadness,0
+2022,Haulout,0
+2022,All the Beauty and the Bloodshed,0
+2022,Elvis,0
+2022,Marcel the Shell with Shoes On,0
+2022,EO,0
+2022,All That Breathes,0
+2022,Tár,0
+2022,The Red Suitcase,0
+2022,Bardo, False Chronicle of a Handful of Truths,0
+2022,The Fabelmans,0
+2022,Tell It like a Woman,0
+2022,Living,0
+2022,Mrs. Harris Goes to Paris,0
+2022,A House Made of Splinters,0
+2022,My Year of Dicks,0
+2022,Empire of Light,0
+2022,Le Pupille,0
+2022,Close,0
+2022,Causeway,0
+2022,Stranger at the Gate,0
+2022,An Ostrich Told Me the World Is Fake and I Think I Believe It,0
+2022,Blonde,0
+2022,Aftersun,0
+2022,Fire of Love,0
+2022,The Banshees of Inisherin,0
+2022,Night Ride,0
+2022,How Do You Measure a Year?,0
+2022,Puss in Boots: The Last Wish,0
+2022,Turning Red,0
+2022,The Batman,0
+2022,To Leslie,0
+2022,Glass Onion: A Knives Out Mystery,0
+2022,Babylon,0
+2023,The Eternal Memory,0
+2023,Ninety-Five Senses,0
+2023,Pachyderme,0
+2023,To Kill a Tiger,0
+2023,Island in Between,0
+2023,El Conde,0
+2023,Four Daughters,0
+2023,Rustin,0
+2023,May December,0
+2023,The Teachers' Lounge,0
+2023,Indiana Jones and the Dial of Destiny,0
+2023,Golda,0
+2023,Bobi Wine: The People's President,0
+2023,Maestro,0
+2023,The ABCs of Book Banning,0
+2023,Red, White and Blue,0
+2023,Guardians of the Galaxy Vol. 3,0
+2023,Mission: Impossible - Dead Reckoning Part One,0
+2023,The After,0
+2023,Letter to a Pig,0
+2023,The Color Purple,0
+2023,The Creator,0
+2023,Flamin' Hot,0
+2023,Knight of Fortune,0
+2023,American Symphony,0
+2023,Robot Dreams,0
+2023,Killers of the Flower Moon,0
+2023,Our Uniform,0
+2023,Perfect Days,0
+2023,Nai Nai & Wài Pó,0
+2023,Io Capitano,0
+2023,Past Lives,0
+2023,Society of the Snow,0
+2023,The Barber of Little Rock,0
+2023,Invincible,0
+2023,Spider-Man: Across the Spider-Verse,0
+2023,Napoleon,0
+2023,Elemental,0
+2023,Nyad,0
+2023,Nimona,0
+2024,Porcelain War,0
+2024,Memoir of a Snail,0
+2024,Yuck!,0
+2024,Instruments of a Beating Heart,0
+2024,Nickel Boys,0
+2024,A Complete Unknown,0
+2024,Beautiful Men,0
+2024,Gladiator II,0
+2024,September 5,0
+2024,Black Box Diaries,0
+2024,Nosferatu,0
+2024,Soundtrack to a Coup d'Etat,0
+2024,The Six Triple Eight,0
+2024,A Lien,0
+2024,The Last Ranger,0
+2024,Wallace & Gromit: Vengeance Most Fowl,0
+2024,Maria,0
+2024,I Am Ready, Warden,0
+2024,Incident,0
+2024,Kingdom of the Planet of the Apes,0
+2024,Anuja,0
+2024,A Different Man,0
+2024,The Wild Robot,0
+2024,Elton John: Never Too Late,0
+2024,Magic Candies,0
+2024,The Girl with the Needle,0
+2024,The Seed of the Sacred Fig,0
+2024,The Man Who Could Not Remain Silent,0
+2024,Inside Out 2,0
+2024,Better Man,0
+2024,Alien: Romulus,0
+2024,Death by Numbers,0
+2024,Sugarcane,0
+2024,Wander to Wonder,0
+2024,Sing Sing,0
+2024,The Apprentice,0

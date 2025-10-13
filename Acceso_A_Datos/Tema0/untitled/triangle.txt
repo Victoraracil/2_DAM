@@ -1,0 +1,13 @@
+Triángulo creciente:
+*
+**
+***
+****
+*****
+
+Triángulo decreciente:
+*****
+****
+***
+**
+*

@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\expenseithome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\expenseithome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\expenseithome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\expenseithome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\expensereportpage .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\expensereportpage .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\expensereportpage .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\expensereportpage .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema0\\expenseit\\expenseit\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7FC2531C-9E84-4A0C-9CA7-5015D78EDA95}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseItHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseIt\\ExpenseItHome.xaml.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml.cs",
+              "RelativeToolTip": "ExpenseIt\\ExpenseItHome.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:42:56.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpenseItHome.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\ExpenseItHome.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml",
+              "RelativeToolTip": "ExpenseIt\\ExpenseItHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T17:56:04.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseReportPage .xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseReportPage .xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseIt\\ExpenseReportPage .xaml.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseReportPage .xaml.cs",
+              "RelativeToolTip": "ExpenseIt\\ExpenseReportPage .xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:07:01.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\MainWindow.xaml",
+              "RelativeToolTip": "ExpenseIt\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T17:46:09.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpenseReportPage .xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseReportPage .xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\ExpenseReportPage .xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\ExpenseReportPage .xaml",
+              "RelativeToolTip": "ExpenseIt\\ExpenseReportPage .xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T18:06:05.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\App.xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\App.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\App.xaml",
+              "RelativeToolTip": "ExpenseIt\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T17:46:24.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseIt\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema0\\ExpenseIt\\ExpenseIt\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ExpenseIt\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T17:46:07.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
