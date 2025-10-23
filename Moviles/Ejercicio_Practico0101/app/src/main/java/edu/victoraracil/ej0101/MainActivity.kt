@@ -59,10 +59,13 @@ class MainActivity : ComponentActivity() {
                         verticalArrangement = Arrangement.spacedBy(12.dp)
                     ) {
                         Text(
-                            text = "Estado observable con mutableStateOf",
+                            text = "Titulo",
                             style = MaterialTheme.typography.titleMedium
                         )
                         var checked by remember { mutableStateOf(false) }
+                        Text(
+                            text = "Subtitulo"
+                        )
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(12.dp)
@@ -72,12 +75,10 @@ class MainActivity : ComponentActivity() {
                                 onCheckedChange = { checked = it }
                             )
                             Text(
-                                if (checked) "Estado: ACTIVO (se recompone)" else "Estado: INACTIVO (se recompone)"
+                                if (checked) "En Favoritos" else "No en Favoritos"
                             )
                         }
-                        Text(
-                            text = "Aquí usamos un State<Boolean>. Cambiar su valor notifica a Compose y la UI se recompone."
-                        )
+
                     }
                 }
 

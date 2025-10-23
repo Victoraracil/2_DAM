@@ -1,0 +1,23 @@
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\bin\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.exe
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\bin\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.deps.json
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\bin\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.runtimeconfig.json
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\bin\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\bin\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.pdb
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Vista\VistaLogin.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login_MarkupCompile.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login_MarkupCompile.lref
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Vista\VistaLogin.baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.g.resources
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.AssemblyInfoInputs.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.AssemblyInfo.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.csproj.CoreCompileInputs.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.sourcelink.json
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\refint\Tarea 03.01- GestionTareas - Login.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.pdb
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\Tarea 03.01- GestionTareas - Login.genruntimeconfig.cache
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Tarea 03.01- GestionTareas - Login\Tarea 03.01- GestionTareas - Login\obj\Debug\net8.0-windows\ref\Tarea 03.01- GestionTareas - Login.dll

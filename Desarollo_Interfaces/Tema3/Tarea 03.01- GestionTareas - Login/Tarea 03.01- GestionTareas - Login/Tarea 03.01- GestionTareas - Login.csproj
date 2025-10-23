@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tarea_03._01__GestionTareas___Login</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagenes\Fondo.jpg" />
+    <None Remove="Imagenes\Logo.jpg" />
+    <None Remove="Imagenes\Pass.jpg" />
+    <None Remove="Imagenes\User.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Modelo\" />
+    <Folder Include="VictaModelo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\Fondo.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Imagenes\Logo.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Imagenes\Pass.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Imagenes\User.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
