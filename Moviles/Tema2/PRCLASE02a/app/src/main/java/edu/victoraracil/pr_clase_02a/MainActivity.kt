@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -16,7 +17,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -36,9 +40,9 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
                     ListaPantalla(
                         itemsIniciales = listOf(
-                            Item(1, "Producto 1", "Descripción 1"),
-                            Item(2, "Producto 2", "Descripción 2"),
-                            Item(3, "Producto 3", "Descripción 3")
+                            Item(1, "Producto 1", "Descripción 1", R.drawable.img),
+                            Item(2, "Producto 2", "Descripción 2", R.drawable.img),
+                            Item(3, "Producto 3", "Descripción 3", R.drawable.img)
                         ),
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -51,6 +55,7 @@ class MainActivity : ComponentActivity() {
         val id: Int,
         val title: String,
         val subtitle: String,
+        val imagen: Int,
         var isFavorite: Boolean = false
     )
 
@@ -66,22 +71,37 @@ class MainActivity : ComponentActivity() {
                 .fillMaxWidth()
                 .padding(horizontal = 16.dp, vertical = 8.dp),
             shape = RoundedCornerShape(12.dp),
-            elevation = CardDefaults.cardElevation(6.dp)
+            elevation = CardDefaults.cardElevation(6.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = if (item.isFavorite){
+                    Color(0xFF_00FF00)
+                }else{
+                    Color(0xFF_8F8F8F)
+                },
+                contentColor = if (item.isFavorite){
+                    Color(0xFF_FF0000)
+                }else{
+                    Color(0xFF_000000)
+                }
+            )
         ) {
             Row(
                 modifier = Modifier
                     .padding(12.dp)
                     .fillMaxWidth(),
+
                 verticalAlignment = Alignment.CenterVertically
+
+
             ) {
-                Box(
+                Image(
+                    painter = painterResource(id = R.drawable.img),
+                    contentDescription = "Imagen del producto",
                     modifier = Modifier
                         .size(64.dp)
-                        .background(Color.Gray),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Text("Img", color = Color.White)
-                }
+                        .clip(RoundedCornerShape(8.dp)),
+                    contentScale = ContentScale.Crop
+                )
 
                 Spacer(modifier = Modifier.width(12.dp))
 

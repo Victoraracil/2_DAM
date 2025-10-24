@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\Migrations\\20251024141213_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PruebaBD\\Migrations\\20251024141213_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\pruebabd\\pruebabd\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|solutionrelative:pruebabd\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\pruebabd\\pruebabd\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|solutionrelative:pruebabd\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\pruebabd\\pruebabd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|solutionrelative:pruebabd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\pruebabd\\pruebabd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{342F483B-BE17-4E7E-9E1D-30D33E9D3982}|PruebaBD\\PruebaBD.csproj|solutionrelative:pruebabd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +35,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20251024141213_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\Migrations\\20251024141213_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PruebaBD\\Migrations\\20251024141213_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\Migrations\\20251024141213_InitialCreate.cs",
+              "RelativeToolTip": "PruebaBD\\Migrations\\20251024141213_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:12:14.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\TaskManager.cs",
+              "RelativeDocumentMoniker": "PruebaBD\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\TaskManager.cs",
+              "RelativeToolTip": "PruebaBD\\TaskManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:42:47.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\User.cs",
+              "RelativeDocumentMoniker": "PruebaBD\\User.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\User.cs",
+              "RelativeToolTip": "PruebaBD\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:30:37.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PruebaBD\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\MainWindow.xaml",
+              "RelativeToolTip": "PruebaBD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T18:24:13.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\PruebaBD\\PruebaBD\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "PruebaBD\\MainWindow.xaml.cs",
@@ -26,8 +91,7 @@
               "RelativeToolTip": "PruebaBD\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T18:24:11.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T18:24:11.444Z"
             }
           ]
         }

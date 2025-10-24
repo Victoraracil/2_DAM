@@ -31,5 +31,20 @@ namespace Tarea_03._01__GestionTareas___Login.Vista
                 DragMove();
             }
         }
+
+        private void btn_Minimizar_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btn_Close_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void btn_Login_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
