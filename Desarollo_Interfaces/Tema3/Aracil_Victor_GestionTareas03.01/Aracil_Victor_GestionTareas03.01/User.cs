@@ -2,6 +2,7 @@
 
 namespace Aracil_Victor_GestionTareas03._01
 {
+    ///<author> Victor Aracil Gozalvez</author>
     public class User
     {
         [Key]

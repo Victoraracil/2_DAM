@@ -1,4 +1,5 @@
 using System.Windows;
+///< author > Victor Aracil Gozalvez</author>
 
 [assembly: ThemeInfo(
     ResourceDictionaryLocation.None,            //where theme specific resource dictionaries are located

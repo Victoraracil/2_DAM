@@ -6,6 +6,9 @@ using Aracil_Victor_GestionTareas03._01;
 namespace TaskManager.Data.Models;
 public partial class TaskManagerDbContext : DbContext
 {
+    /// <summary>
+    /// <author> Victor Aracil Gozalvez</author>
+    /// </summary>
     public virtual DbSet<User> Users { get; set; }
     public TaskManagerDbContext() { }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

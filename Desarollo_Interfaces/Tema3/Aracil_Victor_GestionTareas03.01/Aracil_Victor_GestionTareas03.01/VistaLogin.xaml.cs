@@ -20,11 +20,13 @@ namespace Aracil_Victor_GestionTareas03._01
     /// <summary>
     /// Lógica de interacción para VistaLogin.xaml
     /// </summary>
+    /// <author> Victor Aracil Gozalvez</author>
     public partial class VistaLogin : Window
     {
         public VistaLogin()
         {
             InitializeComponent();
+            CheckAdminUser();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -46,9 +48,7 @@ namespace Aracil_Victor_GestionTareas03._01
         }
 
         private void btn_Login_Click(object sender, RoutedEventArgs e)
-        {
-            ServiceUser serviceUser = new ServiceUser();
-            serviceUser.EnsureAdminUserExists();
+        {        
             var usuario = txtUser.Text;
             var password = txtPass.Password;
             var passwordHash = PasswordHelper.HashPassword(password);
@@ -69,6 +69,26 @@ namespace Aracil_Victor_GestionTareas03._01
                     MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+        }
+
+        private async void CheckAdminUser()
+        {
+            var serviceUser = new ServiceUser();
+            var adminUser = await serviceUser.Listar("admin");
+                if (adminUser == null)
+                {
+                    await serviceUser.Insertar(new User
+                    {
+                        Usuario = "admin",
+                        PasswordHash = PasswordHelper.HashPassword("1234"),
+                        NombreCompleto = "Administrador",
+                        CorreoElectronico = "admin@admin.com",
+                        Activo = 0,
+                        FechaCreacion = DateTime.Now,
+
+                    });
+                }
+            
         }
     }
 }

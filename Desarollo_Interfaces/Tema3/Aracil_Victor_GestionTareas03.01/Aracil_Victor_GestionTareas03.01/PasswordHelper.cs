@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_GestionTareas03._01
 {
+    ///<author> Victor Aracil Gozalvez</author>
     // Esta clase se va a encargar de implementar el método de hash de las contraseñas
     public static class PasswordHelper
     {

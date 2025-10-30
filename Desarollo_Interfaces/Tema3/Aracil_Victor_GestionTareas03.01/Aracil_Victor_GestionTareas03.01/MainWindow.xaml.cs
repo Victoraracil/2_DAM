@@ -14,6 +14,7 @@ namespace Aracil_Victor_GestionTareas03._01
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// <author> Victor Aracil Gozalvez</author>
     public partial class MainWindow : Window
     {
         public MainWindow()

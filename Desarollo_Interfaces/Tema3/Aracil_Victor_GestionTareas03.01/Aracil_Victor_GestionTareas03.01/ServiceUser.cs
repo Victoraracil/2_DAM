@@ -9,6 +9,7 @@ using TaskManager.Data.Models;
 
 namespace Aracil_Victor_GestionTareas03._01.Migrations
 {
+    ///<author> Victor Aracil Gozalvez</author>
     internal class ServiceUser : IDisposable
     {
         // Campo para saber si ya se liberaron los recursos
@@ -138,28 +139,5 @@ namespace Aracil_Victor_GestionTareas03._01.Migrations
             Dispose(false);
         }
 
-        //Metodo para comprobar si existe el usuario admi, si no lo crea
-        public async Task EnsureAdminUserExists()
-        {
-            using (var _context = new TaskManagerDbContext())
-            {
-                var adminUser = _context.Users
-                    .FirstOrDefault(u => u.Usuario == "admin");
-                if (adminUser == null)
-                {
-                    var nuevoAdminUser = new User
-                    {
-                        Usuario = "admin",
-                        PasswordHash = PasswordHelper.HashPassword("1234"),
-                        NombreCompleto = "admin",
-                        CorreoElectronico = "admin@admin.com"
-
-                    };
-
-                    var nuevoUserCreado = Insertar(nuevoAdminUser);
-
-                }
-            }
-        }
     }
 }

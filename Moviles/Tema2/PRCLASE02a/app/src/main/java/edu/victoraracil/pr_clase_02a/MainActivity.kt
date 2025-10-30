@@ -4,29 +4,18 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.room.util.copy
-import edu.victoraracil.pr_clase_02a.data.model.Item
+import edu.victoraracil.pr_clase_02a.data.model.ItemData
+import edu.victoraracil.pr_clase_02a.data.model.ItemData.Companion.itemIdCounter
 import edu.victoraracil.pr_clase_02a.ui.theme.PRCLASE02aTheme
 import edu.victoraracil.pr_clase_02a.ui.theme.components.ItemTarjeta
 
@@ -37,40 +26,66 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PRCLASE02aTheme {
+                val itemDataListState = remember {
+                    mutableStateListOf(
+                        ItemData(++itemIdCounter, "Item $itemIdCounter", "Descripción del item $itemIdCounter", "https://picsum.photos/seed/$itemIdCounter/200/200"),
+                        ItemData(++itemIdCounter, "Item $itemIdCounter", "Descripción del item $itemIdCounter", "https://picsum.photos/seed/$itemIdCounter/200/200"),
+                        ItemData(++itemIdCounter, "Item $itemIdCounter", "Descripción del item $itemIdCounter", "https://picsum.photos/seed/$itemIdCounter/200/200")
+                    )
+                }
+
                 Scaffold(
                     topBar = {
-                        TopAppBar(title = { Text("Lista de Productos") })
+                        TopAppBar(
+                            title = { Text(stringResource(id = R.string.app_name)) }
+                        )
+                    },
+                    floatingActionButton = {
+                        FloatingActionButton(onClick = {
+                            itemDataListState.add(
+                                ItemData(
+                                    ++itemIdCounter,
+                                    "Item $itemIdCounter",
+                                    "Descripción del item $itemIdCounter",
+                                    "https://picsum.photos/seed/$itemIdCounter/200/200"
+                                )
+                            )
+                        }) {
+                            Icon(Icons.Default.Add, contentDescription = "Añadir elemento")
+                        }
                     }
                 ) { innerPadding ->
                     ListaPantalla(
-                        itemsIniciales = listOf(
-                            Item(1, "Producto 1", "Descripción 1", "https://picsum.photos/seed/$itemIdCounter/200/200"),
-                            Item(2, "Producto 2", "Descripción 2", "https://picsum.photos/seed/$itemIdCounter/200/200"),
-                            Item(3, "Producto 3", "Descripción 3","https://picsum.photos/seed/$itemIdCounter/200/200")
-                        ),
+                        items = itemDataListState,
+                        onToggleFavorite = { clicked ->
+                            val index = itemDataListState.indexOf(clicked)
+                            if (index != -1) {
+                                val actualizado = clicked.copy(isFavorite = !clicked.isFavorite)
+                                itemDataListState[index] = actualizado
+                            }
+                        },
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
         }
     }
-    @Composable
-    fun ListaPantalla(itemsIniciales: List<Item>, modifier: Modifier = Modifier) {
-        val items = remember { mutableStateListOf<Item>().apply { addAll(itemsIniciales) } }
+}
 
-        LazyColumn(
-            modifier = modifier.fillMaxSize(),
-            contentPadding = PaddingValues(vertical = 8.dp)
-        ) {
-            items(items) { item ->
-                ItemTarjeta(
-                    item = item,
-                    onToggleFavorite = { clicked ->
-                        val index = items.indexOf(clicked)
-                        items[index] = clicked.copy(isFavorite = !clicked.isFavorite)
-                    }
-                )
-            }
+@Composable
+fun ListaPantalla(
+    items: List<ItemData>,
+    onToggleFavorite: (ItemData) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(vertical = 8.dp)
+    ) {
+        for (item in items) {
+            ItemTarjeta(item = item, onToggleFavorite = onToggleFavorite)
         }
     }
 }
