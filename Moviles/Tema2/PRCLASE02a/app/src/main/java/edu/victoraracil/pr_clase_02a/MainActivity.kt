@@ -22,9 +22,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.room.util.copy
+import edu.victoraracil.pr_clase_02a.data.model.Item
 import edu.victoraracil.pr_clase_02a.ui.theme.PRCLASE02aTheme
+import edu.victoraracil.pr_clase_02a.ui.theme.components.ItemTarjeta
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
@@ -40,9 +44,9 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
                     ListaPantalla(
                         itemsIniciales = listOf(
-                            Item(1, "Producto 1", "Descripción 1", R.drawable.img),
-                            Item(2, "Producto 2", "Descripción 2", R.drawable.img),
-                            Item(3, "Producto 3", "Descripción 3", R.drawable.img)
+                            Item(1, "Producto 1", "Descripción 1", "https://picsum.photos/seed/$itemIdCounter/200/200"),
+                            Item(2, "Producto 2", "Descripción 2", "https://picsum.photos/seed/$itemIdCounter/200/200"),
+                            Item(3, "Producto 3", "Descripción 3","https://picsum.photos/seed/$itemIdCounter/200/200")
                         ),
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -50,77 +54,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
-    data class Item(
-        val id: Int,
-        val title: String,
-        val subtitle: String,
-        val imagen: Int,
-        var isFavorite: Boolean = false
-    )
-
-    @OptIn(ExperimentalMaterial3Api::class)
-    @Composable
-    fun ItemTarjeta(
-        item: Item,
-        onToggleFavorite: (Item) -> Unit,
-        modifier: Modifier = Modifier
-    ) {
-        Card(
-            modifier = modifier
-                .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 8.dp),
-            shape = RoundedCornerShape(12.dp),
-            elevation = CardDefaults.cardElevation(6.dp),
-            colors = CardDefaults.cardColors(
-                containerColor = if (item.isFavorite){
-                    Color(0xFF_00FF00)
-                }else{
-                    Color(0xFF_8F8F8F)
-                },
-                contentColor = if (item.isFavorite){
-                    Color(0xFF_FF0000)
-                }else{
-                    Color(0xFF_000000)
-                }
-            )
-        ) {
-            Row(
-                modifier = Modifier
-                    .padding(12.dp)
-                    .fillMaxWidth(),
-
-                verticalAlignment = Alignment.CenterVertically
-
-
-            ) {
-                Image(
-                    painter = painterResource(id = R.drawable.img),
-                    contentDescription = "Imagen del producto",
-                    modifier = Modifier
-                        .size(64.dp)
-                        .clip(RoundedCornerShape(8.dp)),
-                    contentScale = ContentScale.Crop
-                )
-
-                Spacer(modifier = Modifier.width(12.dp))
-
-                Column(modifier = Modifier.weight(1f)) {
-                    Text(text = item.title, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
-                    Text(text = item.subtitle, fontSize = 14.sp, color = Color.DarkGray)
-                }
-
-                IconButton(onClick = { onToggleFavorite(item) }) {
-                    if (item.isFavorite) {
-                        Icon(Icons.Default.Favorite, contentDescription = "Favorito", tint = Color.Red)
-                    } else {
-                        Icon(Icons.Default.FavoriteBorder, contentDescription = "No favorito")
-                    }
-                }
-            }
-        }
-    }
-
     @Composable
     fun ListaPantalla(itemsIniciales: List<Item>, modifier: Modifier = Modifier) {
         val items = remember { mutableStateListOf<Item>().apply { addAll(itemsIniciales) } }

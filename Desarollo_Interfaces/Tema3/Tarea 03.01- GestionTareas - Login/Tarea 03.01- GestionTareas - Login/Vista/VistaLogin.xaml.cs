@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tarea_03._01__GestionTareas___Login.Migrations;
+using TaskManager.Data.Models;
 
 namespace Tarea_03._01__GestionTareas___Login.Vista
 {
@@ -44,7 +46,28 @@ namespace Tarea_03._01__GestionTareas___Login.Vista
 
         private void btn_Login_Click(object sender, RoutedEventArgs e)
         {
+            ServiceUser serviceUser = new ServiceUser();
+            serviceUser.EnsureAdminUserExists();
+            var usuario = txtUser.Text;
+            var password = txtPass.Password;
+            var passwordHash = PasswordHelper.HashPassword(password);
+            using (var context = new TaskManagerDbContext())
+            {
+                var admin = context.Users
+                    .FirstOrDefault(u => u.Usuario == usuario && u.PasswordHash == passwordHash);
 
+                if (admin != null)
+                {
+                    MessageBox.Show("¡Inicio de sesión exitoso!", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    var mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);  
+                }
+            }
         }
     }
 }

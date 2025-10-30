@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9AB98AA-041D-4A02-A38A-3144B135ABB6}|Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\tarea 03.01- gestiontareas - login\\tarea 03.01- gestiontareas - login\\vista\\vistalogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D9AB98AA-041D-4A02-A38A-3144B135ABB6}|Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login.csproj|solutionrelative:tarea 03.01- gestiontareas - login\\vista\\vistalogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D9AB98AA-041D-4A02-A38A-3144B135ABB6}|Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\tarea 03.01- gestiontareas - login\\tarea 03.01- gestiontareas - login\\serviceuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9AB98AA-041D-4A02-A38A-3144B135ABB6}|Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login.csproj|solutionrelative:tarea 03.01- gestiontareas - login\\serviceuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9AB98AA-041D-4A02-A38A-3144B135ABB6}|Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\tarea 03.01- gestiontareas - login\\tarea 03.01- gestiontareas - login\\vista\\vistalogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,21 +28,22 @@
               "RelativeDocumentMoniker": "Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml.cs",
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml.cs",
               "RelativeToolTip": "Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAewBcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T16:34:00.424Z",
+              "WhenOpened": "2025-10-30T13:20:03.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VistaLogin.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml",
-              "RelativeDocumentMoniker": "Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml",
-              "RelativeToolTip": "Tarea 03.01- GestionTareas - Login\\Vista\\VistaLogin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T16:28:19.09Z",
+              "Title": "ServiceUser.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login\\ServiceUser.cs",
+              "RelativeDocumentMoniker": "Tarea 03.01- GestionTareas - Login\\ServiceUser.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Tarea 03.01- GestionTareas - Login\\Tarea 03.01- GestionTareas - Login\\ServiceUser.cs",
+              "RelativeToolTip": "Tarea 03.01- GestionTareas - Login\\ServiceUser.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAKIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:35:36.307Z",
               "EditorCaption": ""
             }
           ]

@@ -180,7 +180,7 @@
 
                     </TextBox>
 
-                    <TextBlock Text="Contraseña"
+                    <TextBlock Text="Contrasenya"
                                Foreground="Black"
                                FontSize="12"
                                FontWeight="Medium"
