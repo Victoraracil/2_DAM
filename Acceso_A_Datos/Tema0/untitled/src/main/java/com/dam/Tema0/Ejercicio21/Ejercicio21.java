@@ -1,24 +1,22 @@
-package com.dam.Tema0;
+package com.dam.Tema0.Ejercicio21;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
-
-public class Ejercicio20 {
-    private static final String FICHERO = "amigos.dat";
-    private List<Amigo2> amigos;
+public class Ejercicio21 {
+    private static final String FICHERO = "amigos.txt";
+    private List<Amigo> amigos;
     private Scanner scanner;
 
-    public Ejercicio20() {
+    public Ejercicio21() {
         scanner = new Scanner(System.in);
         amigos = cargarAmigos();
     }
 
     public static void main(String[] args) {
-        Ejercicio20 agenda = new Ejercicio20();
+        Ejercicio21 agenda = new Ejercicio21();
         agenda.menu();
     }
 
@@ -29,6 +27,7 @@ public class Ejercicio20 {
             System.out.println("1. Añadir una persona");
             System.out.println("2. Ver nombres de todos");
             System.out.println("3. Buscar");
+            System.out.println("4. Exportar a XML");
             System.out.println("0. Salir");
             System.out.print("Elige una opción: ");
             opcion = Integer.parseInt(scanner.nextLine());
@@ -37,6 +36,7 @@ public class Ejercicio20 {
                 case 1 -> añadirPersona();
                 case 2 -> mostrarNombres();
                 case 3 -> buscar();
+                case 4 -> exportarXML();
                 case 0 -> guardarAmigos();
                 default -> System.out.println("Opción no válida.");
             }
@@ -53,7 +53,7 @@ public class Ejercicio20 {
         System.out.print("Comentarios: ");
         String comentarios = scanner.nextLine();
 
-        Amigo2 nuevoAmigo = new Amigo2(nombre, edad, email, comentarios);
+        Amigo nuevoAmigo = new Amigo(nombre, edad, email, comentarios);
         amigos.add(nuevoAmigo);
         guardarAmigos();
         System.out.println("Amigo añadido correctamente.");
@@ -64,7 +64,7 @@ public class Ejercicio20 {
             System.out.println("No hay amigos guardados.");
         } else {
             System.out.println("--- Nombres de amigos ---");
-            for (Amigo2 a : amigos) {
+            for (Amigo a : amigos) {
                 System.out.println(a.getNombre());
             }
         }
@@ -75,11 +75,14 @@ public class Ejercicio20 {
         String termino = scanner.nextLine().toLowerCase();
 
         boolean encontrado = false;
-        for (Amigo2 a : amigos) {
+        for (Amigo a : amigos) {
             if (a.getNombre().toLowerCase().contains(termino) ||
                     a.getEmail().toLowerCase().contains(termino) ||
                     a.getComentarios().toLowerCase().contains(termino)) {
-                System.out.println("\n" + a);
+                System.out.println("\nNombre: " + a.getNombre());
+                System.out.println("Edad: " + a.getEdad());
+                System.out.println("Email: " + a.getEmail());
+                System.out.println("Comentarios: " + a.getComentarios());
                 encontrado = true;
             }
         }
@@ -90,58 +93,50 @@ public class Ejercicio20 {
     }
 
     private void guardarAmigos() {
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FICHERO))) {
-            oos.writeObject(amigos);
+        try (PrintWriter pw = new PrintWriter(new FileWriter(FICHERO))) {
+            for (Amigo a : amigos) {
+                pw.println(a);
+            }
         } catch (IOException e) {
             System.out.println("Error al guardar amigos: " + e.getMessage());
         }
     }
 
-    @SuppressWarnings("unchecked")
-    private List<Amigo2> cargarAmigos() {
+    private List<Amigo> cargarAmigos() {
+        List<Amigo> lista = new ArrayList<>();
         File fichero = new File(FICHERO);
-        if (!fichero.exists()) return new ArrayList<>();
+        if (!fichero.exists()) return lista;
 
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(FICHERO))) {
-            return (List<Amigo2>) ois.readObject();
-        } catch (IOException | ClassNotFoundException e) {
+        try (BufferedReader br = new BufferedReader(new FileReader(FICHERO))) {
+            String linea;
+            while ((linea = br.readLine()) != null) {
+                String[] partes = linea.split(";", 4);
+                if (partes.length == 4) {
+                    String nombre = partes[0];
+                    int edad = Integer.parseInt(partes[1]);
+                    String email = partes[2];
+                    String comentarios = partes[3];
+                    lista.add(new Amigo(nombre, edad, email, comentarios));
+                }
+            }
+        } catch (IOException e) {
             System.out.println("Error al cargar amigos: " + e.getMessage());
-            return new ArrayList<>();
         }
-    }
-}
-
-// Clase que representa a un amigo y es serializable
-class Amigo implements Serializable {
-    private static final long serialVersionUID = 1L;
-
-    private String nombre;
-    private int edad;
-    private String email;
-    private String comentarios;
-
-    public Amigo(String nombre, int edad, String email, String comentarios) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.email = email;
-        this.comentarios = comentarios;
+        return lista;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getComentarios() {
-        return comentarios;
-    }
-
-    @Override
-    public String toString() {
-        return "Nombre: " + nombre + "\nEdad: " + edad + "\nEmail: " + email + "\nComentarios: " + comentarios;
+    private void exportarXML() {
+        try (PrintWriter pw = new PrintWriter(new FileWriter("friends.xml"))) {
+            pw.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+            pw.println("<amigos>");
+            for (Amigo a : amigos) {
+                pw.print(a.toXML());
+            }
+            pw.println("</amigos>");
+            System.out.println("Datos exportados correctamente a friends.xml");
+        } catch (IOException e) {
+            System.out.println("Error al exportar a XML: " + e.getMessage());
+        }
     }
 }
 
