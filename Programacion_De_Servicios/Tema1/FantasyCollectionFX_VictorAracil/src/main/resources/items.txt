@@ -1,0 +1,9 @@
+SWORD-DRG001;Sword of the Dragon;Weapon;Legendary;15/09/2023
+POTN-HEAL100;Healing Potion;Potion;Common;01/03/2024
+ARMOR-DARK777;Dark Knight Armor;Armor;Epic;12/11/2022
+ART-ORB042;Ancient Orb;Artifact;Rare;05/06/2021
+WPN-ELF245;Elven Bow;Weapon;Rare;18/02/2024
+ARM-LGT001;Light Shield;Armor;Common;10/10/2023
+POTN-MANA050;Mana Potion;Potion;Common;21/08/2025
+ART-STAR999;Star Relic;Artifact;Legendary;01/01/2025
+
