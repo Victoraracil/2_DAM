@@ -25,22 +25,30 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34qOScvOAF5ZYjqLfbIoOiBLzJh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil\src\main\java\com\dam\fantasycollectionfx_victoraracil" />
+      <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil\src\main\resources\com\dam\fantasycollectionfx_victoraracil" />
+      <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil" />
+      <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil\target" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="34938779-3ac3-4200-8919-13d0e6f58010" name="Changes" comment="" />

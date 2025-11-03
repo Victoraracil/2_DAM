@@ -1,93 +1,115 @@
 package com.dam.fantasycollectionfx_victoraracil.utils;
 
 import com.dam.fantasycollectionfx_victoraracil.model.Item;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
-
+/**
+ * Utility class to load and save Item objects.
+ * Reads items.txt from resources (first load),
+ * and writes items.txt in the project root when saving.
+ */
 public class FileUtils {
 
-    //Nombre del archivo
-    private static final String FILE_NAME = "items.txt";
-
-    //Formato de fecha
+    //Data format
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
+    //Name of file
+    private static final String ROOT_FILE = "items.txt";
+
     /**
-     * Load all items in the file line to line
+     * Loads all items from items.txt.
+     * First tries to read from the root (if exists),
+     * if no, reads from the /resources/ folder inside the package.
      */
     public static List<Item> loadItems() {
-        try {
-            Path path = Paths.get(FILE_NAME);
+        List<Item> items = new ArrayList<>();
 
-            //If file not exist, return empty list
-            if (!Files.exists(path)) {
-                System.out.println("File not found, list will be empty.");
-                return new ArrayList<>();
+        try {
+            Path rootPath = Paths.get(ROOT_FILE);
+
+            BufferedReader reader;
+
+            //root file
+            if (Files.exists(rootPath)) {
+                System.out.println("Reading items.txt from project root.");
+                reader = Files.newBufferedReader(rootPath);
+
+            } else {
+                //read in resources if in root not exist
+                InputStream resourceStream = FileUtils.class.getResourceAsStream(
+                        "/com/dam/fantasycollectionfx_victoraracil/items.txt");
+
+                if (resourceStream == null) {
+                    System.out.println("No items.txt found in resources or root — starting empty list.");
+                    return new ArrayList<>();
+                }
+
+                System.out.println("Reading items.txt from resources.");
+                reader = new BufferedReader(new InputStreamReader(resourceStream));
             }
 
-            //Read all lines
-            return Files.lines(path)
-                    .skip(1) //skip first line if is heather
+            items = reader.lines()
+                    .skip(1) //skip heather
                     .map(line -> {
-                        String[] parts = line.split(";");
-                        if (parts.length == 5) {
-                            try {
+                        try {
+                            String[] parts = line.split(";");
+                            if (parts.length == 5) {
                                 return new Item(
-                                        parts[0].trim(),                   // code
-                                        parts[1].trim(),                   // name
-                                        parts[2].trim(),                   // type
-                                        parts[3].trim(),                   // rarity
-                                        LocalDate.parse(parts[4].trim(), FORMATTER) // obtainedDate
+                                        parts[0].trim(),
+                                        parts[1].trim(),
+                                        parts[2].trim(),
+                                        parts[3].trim(),
+                                        LocalDate.parse(parts[4].trim(), FORMATTER)
                                 );
-                            } catch (Exception e) {
-                                System.err.println("Error parsing line: " + line);
                             }
+                        } catch (Exception e) {
+                            System.err.println("Error parsing line: " + line);
                         }
                         return null;
                     })
                     .filter(Objects::nonNull)
                     .collect(Collectors.toList());
 
+            reader.close();
+
         } catch (IOException e) {
             System.err.println("Error reading file: " + e.getMessage());
-            return new ArrayList<>();
         }
+
+        return items;
     }
 
     /**
-     * Save the list in the file
+     * Saves the given list of items to items.txt.
      */
     public static void saveItems(List<Item> items) {
         try {
-            Path path = Paths.get(FILE_NAME);
+            Path path = Paths.get(ROOT_FILE);
 
-            //Buil the file content
             List<String> lines = new ArrayList<>();
-            lines.add("code;name;type;rarity;obtained_date"); // cabecera
+            lines.add("code;name;type;rarity;obtained_date");
 
             for (Item item : items) {
-                String line = String.format("%s;%s;%s;%s;%s",
+                lines.add(String.format("%s;%s;%s;%s;%s",
                         item.getCode(),
                         item.getName(),
                         item.getType(),
                         item.getRarity(),
-                        item.getObtainedDate().format(FORMATTER));
-                lines.add(line);
+                        item.getObtainedDate().format(FORMATTER)));
             }
 
-            //Write the full file
+            //save in proyect root
             Files.write(path, lines, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
 
-            System.out.println("Items saved successfully to " + FILE_NAME);
+            System.out.println("Items saved successfully to project root (" + path.toAbsolutePath() + ")");
 
         } catch (IOException e) {
-            System.err.println("Error saving file: " + e.getMessage());
+            System.err.println("Error saving items: " + e.getMessage());
         }
     }
 }
-
