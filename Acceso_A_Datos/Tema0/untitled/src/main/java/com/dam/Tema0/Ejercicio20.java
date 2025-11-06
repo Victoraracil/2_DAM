@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Ejercicio20 {
     private static final String FICHERO = "amigos.dat";
-    private List<Amigo2> amigos;
+    private List<Amigo> amigos;
     private Scanner scanner;
 
     public Ejercicio20() {
@@ -53,7 +53,7 @@ public class Ejercicio20 {
         System.out.print("Comentarios: ");
         String comentarios = scanner.nextLine();
 
-        Amigo2 nuevoAmigo = new Amigo2(nombre, edad, email, comentarios);
+        Amigo nuevoAmigo = new Amigo(nombre, edad, email, comentarios);
         amigos.add(nuevoAmigo);
         guardarAmigos();
         System.out.println("Amigo añadido correctamente.");
@@ -64,7 +64,7 @@ public class Ejercicio20 {
             System.out.println("No hay amigos guardados.");
         } else {
             System.out.println("--- Nombres de amigos ---");
-            for (Amigo2 a : amigos) {
+            for (Amigo a : amigos) {
                 System.out.println(a.getNombre());
             }
         }
@@ -75,7 +75,7 @@ public class Ejercicio20 {
         String termino = scanner.nextLine().toLowerCase();
 
         boolean encontrado = false;
-        for (Amigo2 a : amigos) {
+        for (Amigo a : amigos) {
             if (a.getNombre().toLowerCase().contains(termino) ||
                     a.getEmail().toLowerCase().contains(termino) ||
                     a.getComentarios().toLowerCase().contains(termino)) {
@@ -98,12 +98,12 @@ public class Ejercicio20 {
     }
 
     @SuppressWarnings("unchecked")
-    private List<Amigo2> cargarAmigos() {
+    private List<Amigo> cargarAmigos() {
         File fichero = new File(FICHERO);
         if (!fichero.exists()) return new ArrayList<>();
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(FICHERO))) {
-            return (List<Amigo2>) ois.readObject();
+            return (List<Amigo>) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
             System.out.println("Error al cargar amigos: " + e.getMessage());
             return new ArrayList<>();

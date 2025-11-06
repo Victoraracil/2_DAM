@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PR-CLASE-02a</string>
+    <string name="elemento_eliminado">Elemento eliminado: %1$d - %2$s</string>
 </resources>

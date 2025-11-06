@@ -1,0 +1,33 @@
+﻿<Window x:Class="Ejemplo_Usuarios_Acceso_Datos.EditarUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejemplo_Usuarios_Acceso_Datos"
+        mc:Ignorable="d"
+        Title="Editar Usuario" Height="250" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Formulario -->
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Username:"/>
+            <TextBox Name="txtUsernameEdit" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Nombre completo:"/>
+            <TextBox Name="txtFullNameEdit" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Password:"/>
+            <PasswordBox Name="txtPasswordEdit" Margin="0,5,0,10"/>
+        </StackPanel>
+
+        <!-- Botones -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Content="Cancelar" Width="100" Margin="0,0,10,0" Click="Cancelar_Click"/>
+            <Button Content="Aplicar cambios" Width="120" Click="Aplicar_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -5,8 +5,107 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="550" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Green"
+        AllowsTransparency="True"
+        MouseDown="Window_MouseDown">
+    <Grid Grid.Row="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
 
+        <Menu Margin="0,0,0,527">
+
+            <MenuItem Header="_Archivo">
+                <MenuItem Header="Salir" Click="MenuSalir_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="_Usuarios">
+                <MenuItem Header="Insertar"/>
+                <MenuItem Header="Modificar"/>
+                <MenuItem Header="Dar de baja"/>
+            </MenuItem>
+
+            <MenuItem Header="_Tareas">
+                <MenuItem Header="(Pendiente de implementar)" IsEnabled="False" Style="{StaticResource submenuItemStyle}"/>
+            </MenuItem>
+
+        </Menu>
+
+        <Button x:Name="btn_Minimizar"
+        BorderThickness="0"
+        Content="-"
+        Foreground="White"
+        FontSize="16"
+        FontFamily="Montserrat"
+        Cursor="Hand"
+        Grid.Column="1"
+        Click="btn_Minimizar_Click" Margin="0,0,0,527">
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Blue"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="LightSkyBlue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="18" Height="18"
+                    CornerRadius="9"
+                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Top"
+                                    HorizontalAlignment="Center"/>
+
+                    </Border>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+
+        <Button x:Name="btn_Close"
+        BorderThickness="0"
+        Content="X"
+        Foreground="White"
+        FontSize="16"
+        FontFamily="Montserrat"
+        Cursor="Hand"
+        Grid.Column="2"
+        Click="btn_Close_Click" Margin="0,0,0,527">
+
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Red"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="OrangeRed"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Width="18" Height="18"
+                    CornerRadius="9"
+                    Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                    </Border>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
     </Grid>
 </Window>

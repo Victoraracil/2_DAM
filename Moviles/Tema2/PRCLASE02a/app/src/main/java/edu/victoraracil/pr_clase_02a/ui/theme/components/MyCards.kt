@@ -1,5 +1,6 @@
 package edu.victoraracil.pr_clase_02a.ui.theme.components
 
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -22,6 +23,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -32,14 +34,26 @@ import edu.victoraracil.pr_clase_02a.data.model.ItemData
 @Composable
 fun ItemTarjeta(
     item: ItemData,
-    onToggleFavorite: (ItemData) -> Unit
+    onClick: (ItemData) -> Unit,
+    onLongClick: (ItemData) -> Unit,
+    onFavoriteClick: (ItemData) -> Unit
 ) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 8.dp),
+            .padding(horizontal = 16.dp, vertical = 8.dp)
+            .combinedClickable(
+                onClick = { onClick(item) },
+                onLongClick = { onLongClick(item) }
+            ),
         shape = RoundedCornerShape(12.dp),
-        elevation = CardDefaults.cardElevation(6.dp)
+        elevation = CardDefaults.cardElevation(6.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = if (item.isFavorite)
+                Color(0xFFB9F6CA)
+            else
+                MaterialTheme.colorScheme.surface
+        )
     ) {
         Row(
             modifier = Modifier
@@ -59,15 +73,19 @@ fun ItemTarjeta(
 
             Column(modifier = Modifier.weight(1f)) {
                 Text(text = item.title, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
-                Text(text = item.description, fontSize = 14.sp, color = MaterialTheme.colorScheme.secondary)
+                Text(
+                    text = item.description,
+                    fontSize = 14.sp,
+                    color = MaterialTheme.colorScheme.secondary
+                )
             }
 
-            IconButton(onClick = { onToggleFavorite(item) }) {
-                if (item.isFavorite) {
-                    Icon(Icons.Default.Favorite, contentDescription = "Favorito", tint = MaterialTheme.colorScheme.error)
-                } else {
-                    Icon(Icons.Default.FavoriteBorder, contentDescription = "No favorito")
-                }
+            IconButton(onClick = { onFavoriteClick(item) }) {
+                Icon(
+                    imageVector = if (item.isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                    contentDescription = "Favorito",
+                    tint = if (item.isFavorite) MaterialTheme.colorScheme.error else Color.Gray
+                )
             }
         }
     }
