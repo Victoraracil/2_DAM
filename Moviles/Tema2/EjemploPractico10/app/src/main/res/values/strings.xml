@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjemploPractico10</string>
+
+    <string name="txt_title">Login</string>
+    <string name="txt_user">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+
+    <string name="txt_login_error">Credenciales incorrectas</string>
+    <string name="txt_login_ok">Credenciales correctas</string>
+</resources>

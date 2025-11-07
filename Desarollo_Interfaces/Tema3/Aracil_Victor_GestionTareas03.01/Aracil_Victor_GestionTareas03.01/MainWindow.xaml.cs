@@ -21,5 +21,42 @@ namespace Aracil_Victor_GestionTareas03._01
         {
             InitializeComponent();
         }
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+        private void btn_Minimizar_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+        private void btn_Close_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+        private void MenuSalir_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void MenuUsuario_Insertar(object sender, RoutedEventArgs e)
+        {
+            InsertarUsuarios insertarusuarios = new InsertarUsuarios();
+            insertarusuarios.ShowDialog();
+        }
+
+        private void MenuUsuario_Modificar(object sender, RoutedEventArgs e)
+        {
+            ModificarUsuarios modificarusuarios = new ModificarUsuarios();
+            modificarusuarios.ShowDialog();
+        }
+
+        private void MenuUsuario_Baja(object sender, RoutedEventArgs e)
+        {
+            BajaUsuario bajausuario = new BajaUsuario();
+            bajausuario.ShowDialog();
+        }
     }
 }

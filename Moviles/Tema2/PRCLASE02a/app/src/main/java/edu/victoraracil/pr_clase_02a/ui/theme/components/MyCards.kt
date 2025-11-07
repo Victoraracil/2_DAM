@@ -42,19 +42,13 @@ fun ItemTarjeta(
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 16.dp, vertical = 8.dp)
-            .combinedClickable(
-                onClick = { onClick(item) },
-                onLongClick = { onLongClick(item) }
-            ),
+            .combinedClickable(onClick = { onClick(item) }, onLongClick = { onLongClick(item) }),
         shape = RoundedCornerShape(12.dp),
         elevation = CardDefaults.cardElevation(6.dp),
         colors = CardDefaults.cardColors(
-            containerColor = if (item.isFavorite)
-                Color(0xFFB9F6CA)
-            else
-                MaterialTheme.colorScheme.surface
-        )
-    ) {
+            containerColor = if (item.isFavorite) Color(0xFFB9F6CA)
+            else MaterialTheme.colorScheme.surface
+        )) {
         Row(
             modifier = Modifier
                 .padding(12.dp)

@@ -17,8 +17,8 @@ namespace Aracil_Victor_GestionTareas03._01
         [Required]
         [MaxLength(100)]
         public string? CorreoElectronico { get; set; }
-        [Range(0, 1)]
         public int? Activo { get; set; }
+        [Range(0, 1)]
         public DateTime FechaCreacion { get; set; }
         public DateTime? FechaBaja { get; set; }
     }

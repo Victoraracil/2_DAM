@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:Tarea_03._01__GestionTareas___Login"
              StartupUri="VistaLogin.xaml">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Temas/Styles.xaml"/>
+                <ResourceDictionary Source="/Temas/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

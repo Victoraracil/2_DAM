@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\insertarusuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\insertarusuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\vistalogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\vistalogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\taskmanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\taskmanagerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\aracil_victor_gestiontareas03.01\\aracil_victor_gestiontareas03.01\\insertarusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9104AE53-813F-4302-8329-05A99DCFB1FC}|Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01.csproj|solutionrelative:aracil_victor_gestiontareas03.01\\insertarusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,50 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\MainWindow.xaml",
-              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-05T18:49:05.969Z",
+              "Title": "InsertarUsuarios.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml.cs",
+              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml.cs",
+              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:57:30.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VistaLogin.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\VistaLogin.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\VistaLogin.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\VistaLogin.xaml",
-              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\VistaLogin.xaml",
+              "Title": "InsertarUsuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml",
+              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml",
+              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\InsertarUsuarios.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-31T15:24:38.772Z",
+              "WhenOpened": "2025-11-07T16:41:30.965Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskManagerDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\TaskManagerDbContext.cs",
-              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\TaskManagerDbContext.cs",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\TaskManagerDbContext.cs",
-              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\TaskManagerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T17:24:58.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\User.cs",
-              "RelativeDocumentMoniker": "Aracil_Victor_GestionTareas03.01\\User.cs",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Aracil_Victor_GestionTareas03.01\\Aracil_Victor_GestionTareas03.01\\User.cs",
-              "RelativeToolTip": "Aracil_Victor_GestionTareas03.01\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T17:24:57.322Z"
             }
           ]
         }

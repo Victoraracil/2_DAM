@@ -9,103 +9,113 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        Background="Green"
+        Background="White"
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
-    <Grid Grid.Row="0">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="25"/>
-            <ColumnDefinition Width="25"/>
-            <ColumnDefinition Width="5"/>
-        </Grid.ColumnDefinitions>
+    <Border Style="{StaticResource borderStyle1}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-        <Menu Margin="0,0,0,527">
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
 
-            <MenuItem Header="_Archivo">
-                <MenuItem Header="Salir" Click="MenuSalir_Click"/>
-            </MenuItem>
+                <Menu >
 
-            <MenuItem Header="_Usuarios">
-                <MenuItem Header="Insertar"/>
-                <MenuItem Header="Modificar"/>
-                <MenuItem Header="Dar de baja"/>
-            </MenuItem>
+                    <MenuItem Header="_Archivo">
+                        <MenuItem Header="Salir" Click="MenuSalir_Click"/>
+                    </MenuItem>
 
-            <MenuItem Header="_Tareas">
-                <MenuItem Header="(Pendiente de implementar)" IsEnabled="False" Style="{StaticResource submenuItemStyle}"/>
-            </MenuItem>
+                    <MenuItem Header="_Usuarios">
+                        <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
+                        <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
+                        <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
+                    </MenuItem>
 
-        </Menu>
+                    <MenuItem Header="_Tareas">
+                        <MenuItem Header="(Pendiente de implementar)" IsEnabled="False"/>
+                    </MenuItem>
 
-        <Button x:Name="btn_Minimizar"
-        BorderThickness="0"
-        Content="-"
-        Foreground="White"
-        FontSize="16"
-        FontFamily="Montserrat"
-        Cursor="Hand"
-        Grid.Column="1"
-        Click="btn_Minimizar_Click" Margin="0,0,0,527">
+                </Menu>
 
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Background" Value="Blue"/>
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="LightSkyBlue"/>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
+                <Button x:Name="btn_Minimizar"
+                    BorderThickness="0"
+                    Content="-"
+                    Foreground="White"
+                    FontSize="16"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Grid.Column="1"
+                    Click="btn_Minimizar_Click">    
 
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border Width="18" Height="18"
-                    CornerRadius="9"
-                    Background="{TemplateBinding Background}">
-                        <ContentPresenter VerticalAlignment="Top"
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Blue"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="LightSkyBlue"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="18" Height="18"
+                                CornerRadius="9"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
                                     HorizontalAlignment="Center"/>
 
-                    </Border>
-                </ControlTemplate>
+                            </Border>
+                        </ControlTemplate>
 
-            </Button.Template>
-        </Button>
+                    </Button.Template>
+                </Button>
 
-        <Button x:Name="btn_Close"
-        BorderThickness="0"
-        Content="X"
-        Foreground="White"
-        FontSize="16"
-        FontFamily="Montserrat"
-        Cursor="Hand"
-        Grid.Column="2"
-        Click="btn_Close_Click" Margin="0,0,0,527">
 
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Background" Value="Red"/>
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="OrangeRed"/>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
+                <Button x:Name="btn_Close"
+                    BorderThickness="0"
+                    Content="X"
+                    Foreground="White"
+                    FontSize="16"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Grid.Column="2"
+                    Click="btn_Close_Click">
 
-            <Button.Template>
-                <ControlTemplate TargetType="Button">
-                    <Border Width="18" Height="18"
-                    CornerRadius="9"
-                    Background="{TemplateBinding Background}">
-                        <ContentPresenter VerticalAlignment="Center"
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Red"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="OrangeRed"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="18" Height="18"
+                                CornerRadius="9"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
                                     HorizontalAlignment="Center"/>
 
-                    </Border>
-                </ControlTemplate>
+                            </Border>
+                        </ControlTemplate>
 
-            </Button.Template>
-        </Button>
-    </Grid>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Grid>
+    </Border>
 </Window>

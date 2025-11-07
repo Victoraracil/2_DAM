@@ -35,6 +35,7 @@ import edu.victoraracil.pr_clase_02a.data.model.ItemData
 import edu.victoraracil.pr_clase_02a.data.model.ItemData.Companion.itemIdCounter
 import edu.victoraracil.pr_clase_02a.ui.theme.PRCLASE02aTheme
 import edu.victoraracil.pr_clase_02a.ui.theme.components.AppBarOverviewMenu
+import edu.victoraracil.pr_clase_02a.ui.theme.components.ConfirmDeleteDialog
 import edu.victoraracil.pr_clase_02a.ui.theme.components.ItemTarjeta
 import kotlinx.coroutines.launch
 
@@ -52,34 +53,31 @@ class MainActivity : ComponentActivity() {
 
                 val itemDataListState = rememberSaveable(
                     saver = listSaver(
-                        save = { it.map { item -> "${item.id}|${item.title}|${item.description}|${item.imageUrl}|${item.isFavorite}" } },
-                        restore = { savedList ->
-                            savedList.map { line ->
-                                val parts = line.split("|")
-                                ItemData(
-                                    id = parts[0].toInt(),
-                                    title = parts[1],
-                                    description = parts[2],
-                                    imageUrl = parts[3],
-                                    isFavorite = parts[4].toBoolean()
-                                )
-                            }.toMutableStateList()
-                        }
-                    )) {
+                    save = { it.map { item -> "${item.id}|${item.title}|${item.description}|${item.imageUrl}|${item.isFavorite}" } },
+                    restore = { savedList ->
+                        savedList.map { line ->
+                            val parts = line.split("|")
+                            ItemData(
+                                id = parts[0].toInt(),
+                                title = parts[1],
+                                description = parts[2],
+                                imageUrl = parts[3],
+                                isFavorite = parts[4].toBoolean()
+                            )
+                        }.toMutableStateList()
+                    })) {
                     mutableStateListOf(
                         ItemData(
                             ++itemIdCounter,
                             "Item $itemIdCounter",
                             "Descripción $itemIdCounter",
                             "https://picsum.photos/seed/$itemIdCounter/200/200"
-                        ),
-                        ItemData(
+                        ), ItemData(
                             ++itemIdCounter,
                             "Item $itemIdCounter",
                             "Descripción $itemIdCounter",
                             "https://picsum.photos/seed/$itemIdCounter/200/200"
-                        ),
-                        ItemData(
+                        ), ItemData(
                             ++itemIdCounter,
                             "Item $itemIdCounter",
                             "Descripción $itemIdCounter",
@@ -89,70 +87,76 @@ class MainActivity : ComponentActivity() {
                 }
 
                 var sortAscending by rememberSaveable { mutableStateOf(true) }
+                var showDialog by remember { mutableStateOf(false) }//Nuevas variables para cuadro de dialogo
+                var deleteAll by remember { mutableStateOf(false) }
+                var itemToDelete by remember { mutableStateOf<ItemData?>(null) }
 
-                Scaffold(
-                    topBar = {
-                        TopAppBar(
-                            title = { Text(stringResource(id = R.string.app_name)) },
-                            actions = {
-                                AppBarOverviewMenu(
-                                    onSorted = {
-                                        sortAscending = !sortAscending
-                                        val sorted = if (sortAscending)
-                                            itemDataListState.sortedBy { it.title }
-                                        else
-                                            itemDataListState.sortedByDescending { it.title }
+                Scaffold(topBar = {
+                    TopAppBar(title = { Text(stringResource(id = R.string.app_name)) }, actions = {
+                        AppBarOverviewMenu(onSorted = {
+                            sortAscending = !sortAscending
+                            val sorted = if (sortAscending) itemDataListState.sortedBy { it.title }
+                            else itemDataListState.sortedByDescending { it.title }
 
-                                        itemDataListState.clear()
-                                        itemDataListState.addAll(sorted)
-                                    },
-                                    onDeleteAll = {
-                                        itemDataListState.clear()
-                                    }
-                                )
-                            }
-                        )
-                    },
-                    floatingActionButton = {
-                        FloatingActionButton(onClick = {
-                            itemDataListState.add(
-                                ItemData(
-                                    ++itemIdCounter,
-                                    "Item $itemIdCounter",
-                                    "Descripción $itemIdCounter",
-                                    "https://picsum.photos/seed/$itemIdCounter/200/200"
-                                )
+                            itemDataListState.clear()
+                            itemDataListState.addAll(sorted)
+                        }, onDeleteAll = {//abrir dialogo
+                            deleteAll = true
+                            showDialog = true
+                        })
+                    })
+                }, floatingActionButton = {
+                    FloatingActionButton(onClick = {
+                        itemDataListState.add(
+                            ItemData(
+                                ++itemIdCounter,
+                                "Item $itemIdCounter",
+                                "Descripción $itemIdCounter",
+                                "https://picsum.photos/seed/$itemIdCounter/200/200"
                             )
-                        }) {
-                            Icon(Icons.Default.Add, contentDescription = "Añadir")
-                        }
-                    },
-                    snackbarHost = { SnackbarHost(snackbarHostState) }
-                ) { innerPadding ->
+                        )
+                    }) {
+                        Icon(Icons.Default.Add, contentDescription = "Añadir")
+                    }
+                }, snackbarHost = { SnackbarHost(snackbarHostState) }) { innerPadding ->
                     ListaPantalla(
-                        items = itemDataListState,
-                        onClick = { item ->
+                        items = itemDataListState, onClick = { item ->
                             Toast.makeText(
-                                context,
-                                "ID: ${item.id} - ${item.title}",
-                                Toast.LENGTH_SHORT
+                                context, "ID: ${item.id} - ${item.title}", Toast.LENGTH_SHORT
                             ).show()
-                        },
-                        onLongClick = { item ->
-                            itemDataListState.remove(item)
-                            scope.launch {
-                                snackbarHostState.showSnackbar("Elemento eliminado: ${item.id} - ${item.title}")
-                            }
-                        },
-                        onFavoriteClick = { clicked ->
+                        }, onLongClick = { item ->
+                            itemToDelete = item
+                            deleteAll = false
+                            showDialog = true
+                        }, onFavoriteClick = { clicked ->
                             val index = itemDataListState.indexOf(clicked)
                             if (index != -1) {
                                 val actualizado = clicked.copy(isFavorite = !clicked.isFavorite)
                                 itemDataListState[index] = actualizado
                             }
-                        },
-                        modifier = Modifier.padding(innerPadding)
+                        }, modifier = Modifier.padding(innerPadding)
                     )
+                }
+                if (showDialog) {
+                    val message = if (deleteAll) stringResource(R.string.delete_all_message)
+                    else stringResource(R.string.delete_item_message, itemToDelete?.title ?: "")
+
+                    ConfirmDeleteDialog(
+                        message = message,
+                        onCancel = { showDialog = false },
+                        onConfirm = {
+                            if (deleteAll) {
+                                itemDataListState.clear()
+                            } else {
+                                itemToDelete?.let { itemDataListState.remove(it) }
+                                scope.launch {
+                                    snackbarHostState.showSnackbar(
+                                        "Elemento eliminado: ${itemToDelete?.id} - ${itemToDelete?.title}"
+                                    )
+                                }
+                            }
+                            showDialog = false
+                        })
                 }
             }
         }

@@ -13,11 +13,7 @@
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
 
-    <Border CornerRadius="12">
-        <Border.Background>
-            <ImageBrush ImageSource="/Imagenes/Fondo.jpg"
-                        Stretch="Fill"/>
-        </Border.Background>
+    <Border Style="{StaticResource borderStyle1}">
         <Border CornerRadius="10"
                 BorderThickness="5"
                 Opacity="0.8">

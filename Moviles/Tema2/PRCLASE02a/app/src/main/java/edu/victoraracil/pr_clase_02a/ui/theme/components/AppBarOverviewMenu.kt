@@ -15,8 +15,7 @@ import androidx.compose.runtime.setValue
 
 @Composable
 fun AppBarOverviewMenu(
-    onSorted: () -> Unit,
-    onDeleteAll: () -> Unit
+    onSorted: () -> Unit, onDeleteAll: () -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
 
@@ -25,20 +24,14 @@ fun AppBarOverviewMenu(
     }
 
     DropdownMenu(
-        expanded = expanded,
-        onDismissRequest = { }
-    ) {
-        DropdownMenuItem(
-            text = { Text("Ordenar por título") },
-            onClick = {
-                onSorted()
-            }
-        )
-        DropdownMenuItem(
-            text = { Text("Eliminar todos") },
-            onClick = {
-                onDeleteAll()
-            }
-        )
+        expanded = expanded, onDismissRequest = { expanded = false }) {
+        DropdownMenuItem(text = { Text("Ordenar por título") }, onClick = {
+            onSorted()
+            expanded = false
+        })
+        DropdownMenuItem(text = { Text("Eliminar todos") }, onClick = {
+            onDeleteAll()
+            expanded = false
+        })
     }
 }
