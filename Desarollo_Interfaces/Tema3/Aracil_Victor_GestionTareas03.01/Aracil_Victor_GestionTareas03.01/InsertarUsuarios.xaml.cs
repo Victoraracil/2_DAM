@@ -18,6 +18,7 @@ namespace Aracil_Victor_GestionTareas03._01
     /// <summary>
     /// Lógica de interacción para InsertarUsuarios.xaml
     /// </summary>
+    ///<author> Victor Aracil Gozalvez</author>
     public partial class InsertarUsuarios : Window
     {
         public InsertarUsuarios()

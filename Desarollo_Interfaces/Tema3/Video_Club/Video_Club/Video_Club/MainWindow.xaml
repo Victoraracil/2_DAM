@@ -1,0 +1,82 @@
+﻿<Window x:Class="Video_Club.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Video_Club"
+        mc:Ignorable="d"
+        Title="Gestión de Películas" Height="600" Width="900" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- FILA SUPERIOR (Filtros y botones) -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" Grid.Row="0">
+
+            <!-- Combobox de Clientes -->
+            <Label Content="Cliente: " FontWeight="Bold" Margin="10,10,5,10"/>
+            <ComboBox Name="cmbClientes" Width="120" Margin="0,10,5,10"
+                      VerticalContentAlignment="Center"
+                      SelectedIndex="0"
+                      DisplayMemberPath="Usuario"
+                      SelectedValuePath="Id"
+                      SelectionChanged="Filtros_Changed"/>
+
+            <!-- Buscador -->
+            <Label Content="Título: " FontWeight="Bold" Margin="10,10,5,10"/>
+            <TextBox Name="txtBuscarTitulo" Width="220" Margin="0,10,5,10" 
+                     VerticalContentAlignment="Center"
+                     TextChanged="Filtros_Changed"/>
+
+            <!-- ComboBox de Categorías -->
+            <Label Content="Categoría: " FontWeight="Bold" Margin="10,10,5,10"/>
+            <ComboBox Name="cmbCategorias" Width="120" Margin="0,10,5,10"
+                      VerticalContentAlignment="Center"
+                      SelectedIndex="-1"
+                      DisplayMemberPath="Clasificacion"
+                      SelectedValuePath="Id"
+                      SelectionChanged="Filtros_Changed"/>
+            <Button Name="btnReset" Content="R" Width="20" Height="20" Margin="5,10,10,10" Click="Reset_Click"/>
+
+            <!-- Botón de agregar -->
+            <Button Name="btnAgregar" Width="100" Height="30" Content="Agregar Película" Margin="20,10,10,10"
+                    Click="btnAgregar_Click"/>
+        </StackPanel>
+
+        <!-- LISTADO DE PELÍCULAS -->
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <!-- Cabecera manual -->
+            <Grid Background="#EEE" Margin="0,0,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Título" FontWeight="Bold" Grid.Column="0" Margin="5,0"/>
+                <TextBlock Text="Cliente" FontWeight="Bold" Grid.Column="1" Margin="5,0"/>
+                <TextBlock Text="Categoria" FontWeight="Bold" Grid.Column="2" Margin="5,0"/>
+            </Grid>
+
+            <ListBox Name="lstPeliculas" HorizontalContentAlignment="Stretch" MouseDoubleClick="lstPeliculas_MouseDoubleClick">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Titulo}" Grid.Column="0" Margin="5,0"/>
+                            <TextBlock Text="{Binding Cliente.Usuario}" Grid.Column="1" Margin="5,0"/>
+                            <TextBlock Text="{Binding Categoria.Clasificacion}" Grid.Column="2" Margin="5,0"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>

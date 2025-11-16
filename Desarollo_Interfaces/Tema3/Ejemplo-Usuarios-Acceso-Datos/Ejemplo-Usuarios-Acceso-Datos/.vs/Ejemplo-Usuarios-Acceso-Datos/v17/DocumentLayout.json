@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|solutionrelative:ejemplo-usuarios-acceso-datos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|solutionrelative:ejemplo-usuarios-acceso-datos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\editaruserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|solutionrelative:ejemplo-usuarios-acceso-datos\\editaruserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\ejemplo-usuarios-acceso-datos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C447BDCB-EE2E-4306-9BD0-013159DA9B70}|Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos.csproj|solutionrelative:ejemplo-usuarios-acceso-datos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EditarUserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\EditarUserWindow.xaml",
               "RelativeDocumentMoniker": "Ejemplo-Usuarios-Acceso-Datos\\EditarUserWindow.xaml",
@@ -41,8 +37,12 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml",
@@ -54,16 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml.cs",
               "RelativeToolTip": "Ejemplo-Usuarios-Acceso-Datos\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwKkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwHEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T14:37:16.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T14:37:16.062Z"
             }
           ]
         }

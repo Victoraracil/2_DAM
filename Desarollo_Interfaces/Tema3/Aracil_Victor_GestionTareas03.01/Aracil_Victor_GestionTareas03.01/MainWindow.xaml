@@ -13,109 +13,58 @@
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
     <Border Style="{StaticResource borderStyle1}">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="25"/>
-                    <ColumnDefinition Width="25"/>
-                    <ColumnDefinition Width="5"/>
-                </Grid.ColumnDefinitions>
+        <!-- Barra superior -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
 
-                <Menu >
+            <!-- Menú -->
+            <Menu>
+                <MenuItem Header="_Archivo">
+                    <MenuItem Header="Salir" Click="MenuSalir_Click"/>
+                </MenuItem>
 
-                    <MenuItem Header="_Archivo">
-                        <MenuItem Header="Salir" Click="MenuSalir_Click"/>
-                    </MenuItem>
+                <MenuItem Header="_Usuarios">
+                    <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
+                    <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
+                    <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
+                </MenuItem>
 
-                    <MenuItem Header="_Usuarios">
-                        <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
-                        <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
-                        <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
-                    </MenuItem>
+                <MenuItem Header="_Tareas">
+                    <MenuItem Header="(Pendiente de implementar)" IsEnabled="False"/>
+                </MenuItem>
+            </Menu>
 
-                    <MenuItem Header="_Tareas">
-                        <MenuItem Header="(Pendiente de implementar)" IsEnabled="False"/>
-                    </MenuItem>
-
-                </Menu>
-
-                <Button x:Name="btn_Minimizar"
-                    BorderThickness="0"
+            <!-- Botón Minimizar -->
+            <Button x:Name="btn_Minimizar"
                     Content="-"
-                    Foreground="White"
-                    FontSize="16"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
                     Grid.Column="1"
-                    Click="btn_Minimizar_Click">    
+                    Style="{StaticResource MinimizarBotonStyle}"
+                    Click="btn_Minimizar_Click"/>
 
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Blue"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="LightSkyBlue"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="18" Height="18"
-                                CornerRadius="9"
-                                Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                    HorizontalAlignment="Center"/>
-
-                            </Border>
-                        </ControlTemplate>
-
-                    </Button.Template>
-                </Button>
-
-
-                <Button x:Name="btn_Close"
-                    BorderThickness="0"
+            <!-- Botón Cerrar -->
+            <Button x:Name="btn_Close"
                     Content="X"
-                    Foreground="White"
-                    FontSize="16"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
                     Grid.Column="2"
-                    Click="btn_Close_Click">
-
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Red"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="OrangeRed"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="18" Height="18"
-                                CornerRadius="9"
-                                Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                    HorizontalAlignment="Center"/>
-
-                            </Border>
-                        </ControlTemplate>
-
-                    </Button.Template>
-                </Button>
-            </Grid>
+                    Style="{StaticResource CerrarBotonStyle}"
+                    Click="btn_Close_Click"/>
         </Grid>
-    </Border>
+
+        <!-- Contenido principal (Row 1) -->
+        <Grid Grid.Row="1">
+            <!-- Aquí va tu contenido -->
+        </Grid>
+
+    </Grid>
+</Border>
 </Window>

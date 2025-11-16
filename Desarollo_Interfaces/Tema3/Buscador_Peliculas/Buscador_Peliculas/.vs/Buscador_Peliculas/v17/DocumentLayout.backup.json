@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\buscador_peliculas\\buscador_peliculas\\buscador_peliculas\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|solutionrelative:buscador_peliculas\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\buscador_peliculas\\buscador_peliculas\\buscador_peliculas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|solutionrelative:buscador_peliculas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\buscador_peliculas\\buscador_peliculas\\buscador_peliculas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|solutionrelative:buscador_peliculas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema3\\buscador_peliculas\\buscador_peliculas\\buscador_peliculas\\servicepelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78EA9E6-7B77-44E0-8D58-8057D69D1207}|Buscador_Peliculas\\Buscador_Peliculas.csproj|solutionrelative:buscador_peliculas\\servicepelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicePelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\ServicePelicula.cs",
+              "RelativeDocumentMoniker": "Buscador_Peliculas\\ServicePelicula.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\ServicePelicula.cs",
+              "RelativeToolTip": "Buscador_Peliculas\\ServicePelicula.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T19:39:29.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\Pelicula.cs",
+              "RelativeDocumentMoniker": "Buscador_Peliculas\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\Pelicula.cs",
+              "RelativeToolTip": "Buscador_Peliculas\\Pelicula.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:14:34.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Buscador_Peliculas\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\MainWindow.xaml",
+              "RelativeToolTip": "Buscador_Peliculas\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T19:32:23.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Buscador_Peliculas\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema3\\Buscador_Peliculas\\Buscador_Peliculas\\Buscador_Peliculas\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Buscador_Peliculas\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T19:32:23.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

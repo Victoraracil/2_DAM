@@ -6,7 +6,111 @@
         xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01"
         mc:Ignorable="d"
         Title="ModificarUsuarios" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="131*"/>
+            <RowDefinition Height="58*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="#FFF" Padding="8" CornerRadius="4" Margin="0,0,0,10" BorderBrush="#DDD" BorderThickness="1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Criterios:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Label Content="Nombre y Apellido:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtTitulo" Width="220" Margin="4,0,12,0"
+                         TextChanged="txtTitulo_TextChanged"
+                         ToolTip="Busca por nombre y apellido" />
+                <Label Content="Email:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtDirector" Width="260" Margin="4,0,0,0"
+                         TextChanged="txtDirector_TextChanged"
+                         ToolTip="Busca por correo electrónico" />
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,34" Grid.RowSpan="2">
+            <Grid Background="#EEE" Margin="0,0,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Usuario" FontWeight="Bold" Grid.Column="0" Margin="5,0,5,0"/>
+                <TextBlock Text="Nombre" FontWeight="Bold" Grid.Column="1" Margin="5,0,5,0"/>
+                <TextBlock Text="Correo" FontWeight="Bold" Grid.Column="2" Margin="5,0,5,0"/>
+                <TextBlock Text="Activo" FontWeight="Bold" Grid.Column="3" Margin="5,0,5,0"/>
+            </Grid>
+            <!-- Se añade manejador SelectionChanged -->
+            <ListBox x:Name="lbPeliculas" Height="286" ItemsSource="{Binding UsuariosVisibles}" IsSynchronizedWithCurrentItem="True"
+                     SelectionChanged="lbPeliculas_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Usuario}" Grid.Column="0" Margin="5,0"/>
+                            <TextBlock Text="{Binding NombreCompleto}" Grid.Column="1" Margin="5,0"/>
+                            <TextBlock Text="{Binding CorreoElectronico}" Grid.Column="2" Margin="5,0"/>
+                            <TextBlock Text="{Binding Activo}" Grid.Column="3" Margin="5,0"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+
+        <!-- Detalle: enlazamos los controles al DataContext del panel de detalle (DetailPanel).
+             Ese DataContext será una copia del usuario seleccionado (edición temporal). -->
+        <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" Padding="10" CornerRadius="5" Margin="5,13,5,10" Grid.Row="1" Grid.RowSpan="2">
+            <StackPanel x:Name="DetailPanel" Margin="0,0,0,-29">
+                <TextBlock Text="Detalle del Usuario (Editar)" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+
+                <StackPanel Margin="0,0,0,5">
+                    <TextBlock Text="ID:" FontWeight="Bold"/>
+                    <TextBox Text="{Binding Id, Mode=OneWay}" IsReadOnly="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,5">
+                    <TextBlock Text="Usuario:" FontWeight="Bold"/>
+                    <TextBox Text="{Binding Usuario, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,5">
+                    <TextBlock Text="Nombre y Apellido:" FontWeight="Bold"/>
+                    <TextBox Text="{Binding NombreCompleto, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+
+                <StackPanel Margin="0,0,0,5">
+                    <TextBlock Text="Correo:" FontWeight="Bold"/>
+                    <TextBox Text="{Binding CorreoElectronico, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <TextBlock Text="Activo:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Text="{Binding Activo, Mode=OneWay}" Width="40" IsReadOnly="True"/>
+                </StackPanel>
+
+                <StackPanel Margin="0,5,0,0">
+                    <TextBlock Text="Fecha de baja:" FontWeight="Bold"/>
+                    <TextBox Text="{Binding FechaBaja, Mode=OneWay, StringFormat=d}" IsReadOnly="True"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <Button x:Name="btnEditar" Content="Editar" Width="80" Margin="0,0,10,0" Click="btnEditar_Click"/>
+                    <Button x:Name="btnBorrar" Content="Borrar" Width="80" Click="btnBorrar_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
     </Grid>
 </Window>
