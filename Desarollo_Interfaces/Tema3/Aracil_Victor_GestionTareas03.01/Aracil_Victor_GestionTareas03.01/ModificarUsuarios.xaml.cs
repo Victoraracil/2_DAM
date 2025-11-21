@@ -45,6 +45,11 @@ namespace Aracil_Victor_GestionTareas03._01
         {
             ServiceUser serviceUser = new ServiceUser();
             todosUsuarios = await serviceUser.Listar();
+            UsuariosVisibles.Clear();
+            foreach (var user in todosUsuarios)
+            {
+                UsuariosVisibles.Add(user);
+            }
             FiltrarUsuarios();
         }
 
@@ -69,11 +74,7 @@ namespace Aracil_Victor_GestionTareas03._01
                                           u.CorreoElectronico.Contains(filtroEmail, StringComparison.OrdinalIgnoreCase));
             }
 
-            UsuariosVisibles.Clear();
-            foreach (var user in query)
-            {
-                UsuariosVisibles.Add(user);
-            }
+            
         }
 
         // Cuando cambia la selección creamos una copia para editar y la enlazamos al panel de detalle.

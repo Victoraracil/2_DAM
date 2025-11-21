@@ -92,7 +92,7 @@ namespace Aracil_Victor_GestionTareas03._01
                 UsuariosVisibles.Add(u);
         }
 
-        private void btnDarBaja_Click(object sender, RoutedEventArgs e)
+        private async void btnDarBaja_Click(object sender, RoutedEventArgs e)
         {
             var seleccionado = lbUsuarios.SelectedItem as User;
             if (seleccionado == null)
@@ -106,7 +106,18 @@ namespace Aracil_Victor_GestionTareas03._01
             {
                 // TODO: llamar al servicio/repositorio para realizar la baja real y refrescar la lista.
                 seleccionado.Activo = 0;
-                MessageBox.Show("Operación de baja realizada.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                ServiceUser service = new ServiceUser();
+                bool dadoBaja = await service.Borrar((int)seleccionado.Id);
+                if (dadoBaja) 
+                {
+                    MessageBox.Show("Operación de baja realizada.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                    await LoadUsuariosAsync();
+                }
+                else
+                {
+                    MessageBox.Show($"Error borrando usuarios");
+                }
+                
             }
         }
 
