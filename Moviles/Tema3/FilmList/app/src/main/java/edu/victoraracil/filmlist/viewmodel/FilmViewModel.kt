@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 class FilmViewModel(private val repository: FilmRepository) : ViewModel() {
-    // Estado de la lista de películas utilizando backing property.
+    //Estado de la lista de películas utilizando backing property.
     private val _listOfFilms = MutableStateFlow(mutableListOf<Film>())
     val listOfFilms: StateFlow<List<Film>> = _listOfFilms.asStateFlow()
 

@@ -2,125 +2,106 @@ package edu.victoraracil.filmlist.ui.components
 
 import android.widget.Toast
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import edu.victoraracil.filmlist.R
 import edu.victoraracil.filmlist.data.model.Film
+import edu.victoraracil.filmlist.data.repository.FilmRepository
 import edu.victoraracil.filmlist.viewmodel.FilmViewModel
-import kotlinx.coroutines.CoroutineScope
+import edu.victoraracil.filmlist.viewmodel.FilmViewModelFactory
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
-fun MainScreen(vm: FilmViewModel) {
+fun MainScreen(
+    vm: FilmViewModel = viewModel(
+        factory = FilmViewModelFactory(
+            repository = FilmRepository(LocalContext.current)
+        )
+    )
+) {
 
+    val context = LocalContext.current
     val films by vm.listOfFilms.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
-    val scope = rememberCoroutineScope()
-    val context = LocalContext.current
+    val coroutineScope = rememberCoroutineScope()
 
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = { Text("Film List") }
-            )
-        },
-        snackbarHost = { SnackbarHost(snackbarHostState) }
-    ) { padding ->
+    var lastDeletedFilm by remember { mutableStateOf<Film?>(null) }
+    var lastDeletedPosition by remember { mutableStateOf(-1) }
 
-        Box(modifier = Modifier
-            .padding(padding)
-            .fillMaxSize()) {
+    Scaffold(topBar = {
+        TopAppBar(
+            title = { Text(context.getString(R.string.app_name)) })
+    }, snackbarHost = { SnackbarHost(hostState = snackbarHostState) }) { paddingValues ->
 
-            if (films.isEmpty()) {
-                Text(
-                    text = stringResource(R.string.warning_no_films),
-                    modifier = Modifier.align(Alignment.Center)
-                )
-            } else {
-                LazyColumn(
-                    modifier = Modifier.fillMaxSize(),
-                    contentPadding = PaddingValues(8.dp)
-                ) {
-                    itemsIndexed(films) { index, film ->
-                        FilmItem(
-                            film = film,
-                            index = index,
-                            vm = vm,
-                            snackbarHostState = snackbarHostState,
-                            scope = scope,
-                            context = context
-                        )
-                    }
-                }
-            }
+        if (films.isEmpty()) {
 
-        }
-
-    }
-
-}
-
-@OptIn(ExperimentalFoundationApi::class)
-@Composable
-fun FilmItem(
-    film: Film,
-    index: Int,
-    vm: FilmViewModel,
-    snackbarHostState: SnackbarHostState,
-    scope: CoroutineScope,
-    context: android.content.Context
-) {
-    Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 4.dp)
-            .combinedClickable(onClick = {
-                Toast.makeText(context, film.title, Toast.LENGTH_SHORT).show()
-            }, onLongClick = {
-                vm.deleteFilm(film.id)
-                scope.launch {
-                    val result = snackbarHostState.showSnackbar(
-                        message = stringResource(R.string.txt_film_deleted, film.title),
-                        actionLabel = stringResource(R.string.txt_undo)
-                    )
-                    if (result == SnackbarResult.ActionPerformed) {
-                        vm.addFilm(index, film)
-                    }
-                }
-            }),
-        elevation = CardDefaults.cardElevation(4.dp)
-    ) {
-        Row(modifier = Modifier.padding(8.dp)) {
-
-            Image(
-                painter = rememberAsyncImagePainter(film.cover),
-                contentDescription = film.title,
+            Box(
                 modifier = Modifier
-                    .size(100.dp)
-                    .padding(end = 8.dp)
-            )
-
-            Column(
-                verticalArrangement = Arrangement.SpaceBetween,
-                modifier = Modifier.fillMaxHeight()
+                    .fillMaxSize()
+                    .padding(paddingValues),
+                contentAlignment = Alignment.Center
             ) {
-                Text(text = film.title, fontWeight = FontWeight.Bold)
-                Text(text = "Director: ${film.director}")
-                Text(text = "Year: ${film.year}")
-                Text(text = stringResource(R.string.txt_duration, film.duration))
-                Text(text = "Genre: ${film.genre}")
+                Text(text = context.getString(R.string.warning_no_films))
+            }
+
+        } else {
+
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(paddingValues)
+            ) {
+                itemsIndexed(films) { index, film ->
+
+                    FilmItem(film = film, onClick = {
+                        Toast.makeText(
+                            context, film.title, Toast.LENGTH_SHORT
+                        ).show()
+                    }, onLongClick = {
+                        lastDeletedFilm = film
+                        lastDeletedPosition = index
+
+                        vm.deleteFilm(film.id)
+
+                        coroutineScope.launch {
+                            val result = snackbarHostState.showSnackbar(
+                                message = context.getString(
+                                    R.string.txt_film_deleted, film.title
+                                ), actionLabel = context.getString(R.string.txt_undo)
+                            )
+
+                            if (result == SnackbarResult.ActionPerformed) {
+                                lastDeletedFilm?.let {
+                                    vm.addFilm(lastDeletedPosition, it)
+                                }
+                            }
+                        }
+                    })
+                }
             }
         }
     }
 }
+

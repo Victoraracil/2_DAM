@@ -12,19 +12,19 @@ class FilmRepository(private val context: Context) {
         val films = mutableListOf<Film>()
 
         try {
-            // Abre el archivo films.csv desde res/raw
+            //Abre el archivo films.csv desde res/raw
             val inputStream = context.resources.openRawResource(R.raw.films)
             val reader = BufferedReader(InputStreamReader(inputStream))
 
             reader.forEachLine { line ->
 
-                // Saltamos líneas vacías
+                //Saltamos líneas vacías
                 if (line.isNotBlank()) {
 
-                    // Separar campos por ;
+                    //Separar campos por ;
                     val parts = line.split(";")
 
-                    // Comprobamos que tenga los 7 campos esperados
+                    //Comprobamos que tenga los 7 campos esperados
                     if (parts.size == 7) {
 
                         val film = Film(
