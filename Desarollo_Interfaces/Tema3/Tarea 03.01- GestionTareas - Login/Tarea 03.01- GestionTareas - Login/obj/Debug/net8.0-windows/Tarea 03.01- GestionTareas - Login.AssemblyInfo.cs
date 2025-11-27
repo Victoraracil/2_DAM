@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tarea 03.01- GestionTareas - Login")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78513be29e05bd4c852a8b30ccb71664735c1028")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5f9138747df7982af12dd0f2d540a701426c6bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tarea 03.01- GestionTareas - Login")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tarea 03.01- GestionTareas - Login")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

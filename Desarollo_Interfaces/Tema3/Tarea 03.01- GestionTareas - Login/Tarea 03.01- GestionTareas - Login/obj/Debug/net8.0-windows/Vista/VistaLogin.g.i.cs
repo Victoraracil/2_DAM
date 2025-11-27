@@ -87,13 +87,13 @@ namespace Tarea_03._01__GestionTareas___Login.Vista {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.10.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.11.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tarea 03.01- GestionTareas - Login;component/vista/vistalogin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tarea 03.01- GestionTareas - Login;V1.0.0.0;component/vista/vistalogin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Vista\VistaLogin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -103,7 +103,7 @@ namespace Tarea_03._01__GestionTareas___Login.Vista {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.10.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "9.0.11.0")]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]

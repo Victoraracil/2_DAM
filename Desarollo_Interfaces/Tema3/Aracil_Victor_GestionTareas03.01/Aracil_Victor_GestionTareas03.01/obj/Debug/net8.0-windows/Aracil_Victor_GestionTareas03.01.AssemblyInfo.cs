@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aracil_Victor_GestionTareas03.01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ef6c8d2c2abfe0b5bc5dd75b5c0a34d9e2d4c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5f9138747df7982af12dd0f2d540a701426c6bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aracil_Victor_GestionTareas03.01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aracil_Victor_GestionTareas03.01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
