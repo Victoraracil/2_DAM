@@ -13,58 +13,103 @@
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
     <Border Style="{StaticResource borderStyle1}">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-        <!-- Barra superior -->
-        <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="5"/>
-            </Grid.ColumnDefinitions>
+            <!-- Barra superior -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
 
-            <!-- Menú -->
-            <Menu>
-                <MenuItem Header="_Archivo">
-                    <MenuItem Header="Salir" Click="MenuSalir_Click"/>
-                </MenuItem>
+                <Menu>
+                    <MenuItem Header="_Archivo">
+                        <MenuItem Header="Salir" Click="MenuSalir_Click"/>
+                    </MenuItem>
 
-                <MenuItem Header="_Usuarios">
-                    <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
-                    <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
-                    <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
-                </MenuItem>
+                    <MenuItem Header="_Usuarios">
+                        <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
+                        <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
+                        <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
+                    </MenuItem>
 
-                <MenuItem Header="_Tareas">
-                    <MenuItem Header="(Pendiente de implementar)" IsEnabled="False"/>
-                </MenuItem>
-            </Menu>
+                    <MenuItem Header="_Tareas">
+                        <MenuItem Header="Crear tarea" Click="MenuTareas_Crear"/>
+                    </MenuItem>
+                </Menu>
 
-            <!-- Botón Minimizar -->
-            <Button x:Name="btn_Minimizar"
-                    Content="-"
-                    Grid.Column="1"
-                    Style="{StaticResource MinimizarBotonStyle}"
-                    Click="btn_Minimizar_Click"/>
+                <Button x:Name="btn_Minimizar"
+                Content="-"
+                Grid.Column="1"
+                Style="{StaticResource MinimizarBotonStyle}"
+                Click="btn_Minimizar_Click"/>
 
-            <!-- Botón Cerrar -->
-            <Button x:Name="btn_Close"
-                    Content="X"
-                    Grid.Column="2"
-                    Style="{StaticResource CerrarBotonStyle}"
-                    Click="btn_Close_Click"/>
+                <Button x:Name="btn_Close"
+                Content="X"
+                Grid.Column="2"
+                Style="{StaticResource CerrarBotonStyle}"
+                Click="btn_Close_Click"/>
+            </Grid>
+
+            <!-- ZONA FILTROS -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Filtrar por título:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <TextBox Width="200"
+                 x:Name="txtFiltroTitulo"
+                 TextChanged="Filtro_TextChanged"/>
+
+                <TextBlock Text="Estado:" Margin="15,0,5,0" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cmbEstado"
+                  Width="150"
+                  SelectionChanged="Filtro_TextChanged">
+                    <ComboBoxItem Content="Todos"/>
+                    <ComboBoxItem Content="Pendiente"/>
+                    <ComboBoxItem Content="EnProgreso"/>
+                    <ComboBoxItem Content="Terminada"/>
+                    <ComboBoxItem Content="Archivada"/>
+                </ComboBox>
+            </StackPanel>
+
+            <!-- CONTENIDO PRINCIPAL -->
+            <ScrollViewer Grid.Row="2">
+                <ListView x:Name="lvTareas" Margin="10">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="8"
+                            Padding="10"
+                            Margin="5"
+                            Background="{Binding Color}"
+                            BorderBrush="Gray"
+                            BorderThickness="1">
+
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Titulo}"
+                                       FontSize="16"
+                                       FontWeight="Bold"/>
+
+                                    <TextBlock Text="{Binding Estado}" />
+
+                                    <ProgressBar Height="15"
+                                         Margin="0,5"
+                                         Value="{Binding PorcentajeCompletado}"
+                                         Maximum="100"/>
+
+                                    <TextBlock Text="{Binding Vencimiento, StringFormat='Vence: {0:dd/MM/yyyy}'}"
+                                       Foreground="DarkRed"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollViewer>
         </Grid>
 
-        <!-- Contenido principal (Row 1) -->
-        <Grid Grid.Row="1">
-            <!-- Aquí va tu contenido -->
-        </Grid>
-
-    </Grid>
-</Border>
+    </Border>
 </Window>

@@ -5,6 +5,9 @@
     <Compile Update="BajaUsuario.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CrearTarea.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="InsertarUsuarios.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

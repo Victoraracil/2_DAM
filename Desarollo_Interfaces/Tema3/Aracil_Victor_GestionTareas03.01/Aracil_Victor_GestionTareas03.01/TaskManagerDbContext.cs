@@ -10,6 +10,7 @@ public partial class TaskManagerDbContext : DbContext
     /// <author> Victor Aracil Gozalvez</author>
     /// </summary>
     public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<Tarea> Tareas { get; set; }
     public TaskManagerDbContext() { }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\App.xaml
-7-1827460379
+81211888955
 
-141342075287
+17-1795829488
 228-1902287780
-BajaUsuario.xaml;InsertarUsuarios.xaml;MainWindow.xaml;ModificarUsuarios.xaml;Temas\Controles.xaml;Temas\Styles.xaml;VistaLogin.xaml;
+BajaUsuario.xaml;CrearTarea.xaml;InsertarUsuarios.xaml;MainWindow.xaml;ModificarUsuarios.xaml;Temas\Controles.xaml;Temas\Styles.xaml;VistaLogin.xaml;
 
-False
+True
 

@@ -105,7 +105,6 @@ namespace Aracil_Victor_GestionTareas03._01
             if (confirmar == MessageBoxResult.Yes)
             {
                 // TODO: llamar al servicio/repositorio para realizar la baja real y refrescar la lista.
-                seleccionado.Activo = 0;
                 ServiceUser service = new ServiceUser();
                 bool dadoBaja = await service.Borrar((int)seleccionado.Id);
                 if (dadoBaja) 

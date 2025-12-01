@@ -156,3 +156,5 @@ C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_Ge
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.g.cs
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.baml
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.baml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.baml

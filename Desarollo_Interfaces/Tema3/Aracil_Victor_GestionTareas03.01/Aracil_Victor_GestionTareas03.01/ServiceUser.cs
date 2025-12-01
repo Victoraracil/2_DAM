@@ -103,7 +103,9 @@ namespace Aracil_Victor_GestionTareas03._01.Migrations
                 var entity = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
                 if (entity is null) return false;
 
-                _context.Users.Remove(entity); // Marca el objeto entity para ser eliminado en el siguiente SaveChangesAsync()
+                //_context.Users.Remove(entity); // Marca el objeto entity para ser eliminado en el siguiente SaveChangesAsync()
+                entity.Activo = 0;
+                entity.FechaBaja = DateTime.Now;
                 await _context.SaveChangesAsync();
                 return true;
             }

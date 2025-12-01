@@ -58,5 +58,46 @@ namespace Aracil_Victor_GestionTareas03._01
             BajaUsuario bajausuario = new BajaUsuario();
             bajausuario.ShowDialog();
         }
+        private void MenuTareas_Crear(object sender, RoutedEventArgs e)
+        {
+            CrearTarea crearTarea = new CrearTarea();
+            crearTarea.ShowDialog();
+        }
+
+        private List<Tarea> todasLasTareas;
+
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            todasLasTareas = await ObtenerTareas();
+            AplicarFiltros();
+        }
+
+        private void Filtro_TextChanged(object sender, EventArgs e)
+        {
+            AplicarFiltros();
+        }
+
+        private void AplicarFiltros()
+        {
+            string filtroTitulo = txtFiltroTitulo.Text.ToLower();
+            string estadoSeleccionado = (cmbEstado.SelectedItem as ComboBoxItem)?.Content.ToString();
+
+            var filtradas = todasLasTareas.Where(t =>
+                t.Titulo.ToLower().Contains(filtroTitulo) &&
+                (estadoSeleccionado == "Todos" || t.Estado.ToString() == estadoSeleccionado) &&
+                (estadoSeleccionado == "Archivada" || t.Estado != EstadoTarea.Archivada)
+            ).ToList();
+
+            lvTareas.ItemsSource = filtradas;
+        }
+
+        private async Task<List<Tarea>> ObtenerTareas()
+        {
+            using (var service = new ServiceTarea())
+            {
+                return await service.Listar();
+            }
+        }
+
     }
 }

@@ -149,8 +149,13 @@ namespace Aracil_Victor_GestionTareas03._01
             }
         }
 
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
         // Botón Borrar: elimina el usuario seleccionado de la base de datos y de la colección
-        private async void btnBorrar_Click(object sender, RoutedEventArgs e)
+        /*private async void btnBorrar_Click(object sender, RoutedEventArgs e)
         {
             if (lbPeliculas.SelectedItem is not User seleccionado)
             {
@@ -191,6 +196,6 @@ namespace Aracil_Victor_GestionTareas03._01
             {
                 MessageBox.Show("Error al borrar: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-        }
+        }*/
     }
 }
