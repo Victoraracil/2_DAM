@@ -2,7 +2,6 @@ package com.dam.output;
 
 import com.dam.analysis.HashSHA256;
 import com.dam.analysis.TextAnalyzer;
-
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;

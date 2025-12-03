@@ -1,47 +1,25 @@
 package com.dam.analysis;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.security.DigestInputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class HashSHA256 {
-
-    /**
-     * Calcula el hash SHA-256 de un archivo.
-     *
-     * @param filePath Ruta del archivo a procesar.
-     * @return Cadena hexadecimal con el hash SHA-256.
-     * @throws IOException Si el archivo no se puede leer.
-     */
-    public static String sha256(Path filePath) throws IOException {
-        try {
-            // Crear instancia del algoritmo SHA-256
-            MessageDigest digest = MessageDigest.getInstance("SHA-256");
-
-            // Leer todos los bytes del archivo
-            byte[] fileBytes = Files.readAllBytes(filePath);
-
-            // Aplicar SHA-256
-            byte[] hashBytes = digest.digest(fileBytes);
-
-            // Convertir a hexadecimal
-            return bytesToHex(hashBytes);
-
-        } catch (NoSuchAlgorithmException e) {
-            // No debería ocurrir nunca, ya que SHA-256 siempre existe en Java
-            throw new RuntimeException("SHA-256 algorithm not available", e);
+    public static String sha256(Path path) throws IOException, NoSuchAlgorithmException {
+        MessageDigest md = MessageDigest.getInstance("SHA-256");
+        try (InputStream in = Files.newInputStream(path);
+             DigestInputStream din = new DigestInputStream(in, md)) {
+            byte[] buf = new byte[8192];
+            while (din.read(buf) != -1) { /* real reading */ }
         }
-    }
-
-    // Convierte un array de bytes en una cadena hex
-    private static String bytesToHex(byte[] hashBytes) {
-        StringBuilder hex = new StringBuilder();
-        for (byte b : hashBytes) {
-            hex.append(String.format("%02x", b));
-        }
-        return hex.toString();
+        byte[] hash = md.digest();
+        StringBuilder sb = new StringBuilder(hash.length * 2);
+        for (byte b : hash) sb.append(String.format("%02x", b));
+        return sb.toString();
     }
 }
 

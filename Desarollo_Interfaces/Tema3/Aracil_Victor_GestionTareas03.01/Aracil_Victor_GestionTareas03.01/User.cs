@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Aracil_Victor_GestionTareas03._01
 {
@@ -21,5 +22,9 @@ namespace Aracil_Victor_GestionTareas03._01
         [Range(0, 1)]
         public DateTime FechaCreacion { get; set; }
         public DateTime? FechaBaja { get; set; }
+
+        // Relación 1:N con Tarea
+        [InverseProperty("User")] //Un usuario puede tener muchas tareas
+        public virtual ICollection<Tarea> Tareas { get; set; } = new List<Tarea>();
     }
 }

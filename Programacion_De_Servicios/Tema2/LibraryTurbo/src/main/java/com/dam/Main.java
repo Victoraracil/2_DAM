@@ -3,7 +3,6 @@ package com.dam;
 import com.dam.analysis.ReportVerifier;
 import com.dam.output.ReportWriter;
 
-import java.io.IOException;
 import java.nio.file.*;
 import java.util.List;
 import java.util.Scanner;
