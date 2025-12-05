@@ -26,7 +26,6 @@ namespace Aracil_Victor_GestionTareas03._01
         public VistaLogin()
         {
             InitializeComponent();
-            CheckAdminUser();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -60,7 +59,8 @@ namespace Aracil_Victor_GestionTareas03._01
                 if (admin != null)
                 {
                     MessageBox.Show("¡Inicio de sesión exitoso!", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                    var mainWindow = new MainWindow();
+                    var userId = admin.Id;
+                    var mainWindow = new MainWindow(userId);
                     mainWindow.Show();
                     this.Close();
                 }
@@ -71,24 +71,5 @@ namespace Aracil_Victor_GestionTareas03._01
             }
         }
 
-        private async void CheckAdminUser()
-        {
-            var serviceUser = new ServiceUser();
-            var adminUser = await serviceUser.Listar("admin");
-                if (adminUser == null)
-                {
-                    await serviceUser.Insertar(new User
-                    {
-                        Usuario = "admin",
-                        PasswordHash = PasswordHelper.HashPassword("1234"),
-                        NombreCompleto = "Administrador",
-                        CorreoElectronico = "admin@admin.com",
-                        Activo = 0,
-                        FechaCreacion = DateTime.Now,
-
-                    });
-                }
-            
-        }
     }
 }

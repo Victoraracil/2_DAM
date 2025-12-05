@@ -6,7 +6,75 @@
         xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01"
         mc:Ignorable="d"
         Title="CrearTarea" Height="450" Width="800">
+    <Window.Resources>
+
+        <!-- Estilo para error -->
+        <Style x:Key="ErrorStyle" TargetType="Control">
+            <Setter Property="BorderBrush" Value="Red"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+
+        <!-- Estilo para correcto -->
+        <Style x:Key="OkStyle" TargetType="Control">
+            <Setter Property="BorderBrush" Value="Green"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+
+    </Window.Resources>
     <Grid>
-        
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <GroupBox Header="Crear nueva tarea" Margin="10">
+                <StackPanel Margin="10">
+
+                    <!-- Título -->
+                    <TextBlock Text="Título de la tarea:" />
+                    <TextBox Name="txtTitulo" Width="250" Margin="0,5,0,10"/>
+
+                    <!-- Descripción -->
+                    <TextBlock Text="Descripción:" />
+                    <TextBox Name="txtDescripcion" Width="250" Height="80"
+                         TextWrapping="Wrap" AcceptsReturn="True"
+                         Margin="0,5,0,10"/>
+
+                    <!-- Estado -->
+                    <TextBlock Text="Estado:" />
+                    <ComboBox Name="cmbEstado" Width="200" Margin="0,5,0,10">
+                        <ComboBoxItem Content="Pendiente" />
+                        <ComboBoxItem Content="En progreso" />
+                        <ComboBoxItem Content="Terminada" />
+                        <ComboBoxItem Content="Archivada" />
+                    </ComboBox>
+
+                    <!-- Color -->
+                    <TextBlock Text="Color:" />
+                    <ComboBox Name="cmbColor" Width="200" Margin="0,5,0,10">
+                        <ComboBoxItem Content="Sin color" />
+                        <ComboBoxItem Content="Rojo" />
+                        <ComboBoxItem Content="Verde" />
+                        <ComboBoxItem Content="Azul" />
+                        <ComboBoxItem Content="Amarillo" />
+                    </ComboBox>
+
+                    <!-- Fecha vencimiento -->
+                    <TextBlock Text="Fecha de vencimiento:" />
+                    <DatePicker Name="dpVencimiento" Width="200" Margin="0,5,0,10"/>
+
+                    <!-- Usuario -->
+                    <TextBlock Text="Usuario asignado:" />
+                    <ComboBox Name="cmbUsuario" Width="250" Margin="0,5,0,10"/>
+
+                    <!-- Etiqueta -->
+                    <TextBlock Text="Etiqueta:" />
+                    <ComboBox Name="cmbEtiqueta" Width="250" Margin="0,5,0,20"/>
+
+                    <!-- Botón -->
+                    <Button Content="Crear tarea" Width="150" Height="30" 
+                        HorizontalAlignment="Left"
+                        Click="Crear_Click"/>
+                </StackPanel>
+            </GroupBox>
+        </ScrollViewer>
     </Grid>
+
+
 </Window>

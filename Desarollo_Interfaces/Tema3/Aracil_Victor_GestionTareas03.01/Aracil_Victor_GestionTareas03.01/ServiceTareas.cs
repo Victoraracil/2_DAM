@@ -16,18 +16,16 @@ internal class ServiceTarea : IDisposable
         disposed = false;
     }
 
-    // =========================
     // METODOS CRUD
-    // =========================
 
     public async Task<List<Tarea>> Listar()
     {
         using (var _context = new TaskManagerDbContext())
         {
             return await _context.Tareas
+                .OrderBy(t => t.User)
+                .Include(t => t.Etiqueta)
                 .AsNoTracking()
-                .OrderBy(t => t.Id)
-                .Include(t => t.Miembro)
                 .ToListAsync();
         }
     }
@@ -38,7 +36,7 @@ internal class ServiceTarea : IDisposable
         {
             return await _context.Tareas
                 .AsNoTracking()
-                .Include(t => t.Miembro)
+                .Include(t => t.User)
                 .FirstOrDefaultAsync(t => t.Id == id);
         }
     }
@@ -104,9 +102,7 @@ internal class ServiceTarea : IDisposable
         }
     }
 
-    // =========================
     // LIBERACIÓN DE RECURSOS
-    // =========================
 
     public void Dispose()
     {

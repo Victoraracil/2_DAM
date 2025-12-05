@@ -17,25 +17,32 @@ namespace Aracil_Victor_GestionTareas03._01
     /// <author> Victor Aracil Gozalvez</author>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private int userIdActual; // <-- ID del usuario logueado
+        private List<Tarea> todasLasTareas;
+
+        // Constructor con usuario actual
+        public MainWindow(int userId)
         {
             InitializeComponent();
+            userIdActual = userId;
         }
+
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
-            {
                 DragMove();
-            }
         }
+
         private void btn_Minimizar_Click(object sender, RoutedEventArgs e)
         {
             WindowState = WindowState.Minimized;
         }
+
         private void btn_Close_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
+
         private void MenuSalir_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
@@ -43,33 +50,30 @@ namespace Aracil_Victor_GestionTareas03._01
 
         private void MenuUsuario_Insertar(object sender, RoutedEventArgs e)
         {
-            InsertarUsuarios insertarusuarios = new InsertarUsuarios();
-            insertarusuarios.ShowDialog();
+            new InsertarUsuarios().ShowDialog();
         }
 
         private void MenuUsuario_Modificar(object sender, RoutedEventArgs e)
         {
-            ModificarUsuarios modificarusuarios = new ModificarUsuarios();
-            modificarusuarios.ShowDialog();
+            new ModificarUsuarios().ShowDialog();
         }
 
         private void MenuUsuario_Baja(object sender, RoutedEventArgs e)
         {
-            BajaUsuario bajausuario = new BajaUsuario();
-            bajausuario.ShowDialog();
-        }
-        private void MenuTareas_Crear(object sender, RoutedEventArgs e)
-        {
-            CrearTarea crearTarea = new CrearTarea();
-            crearTarea.ShowDialog();
+            new BajaUsuario().ShowDialog();
         }
 
-        private List<Tarea> todasLasTareas;
+        private void MenuTareas_Crear(object sender, RoutedEventArgs e)
+        {
+            // <-- Pasamos el usuario actual a la ventana de creación
+            var crearTarea = new CrearTarea(userIdActual);
+            crearTarea.ShowDialog();
+            RecargarTareas();
+        }
 
         private async void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            todasLasTareas = await ObtenerTareas();
-            AplicarFiltros();
+            await RecargarTareas();
         }
 
         private void Filtro_TextChanged(object sender, EventArgs e)
@@ -77,15 +81,23 @@ namespace Aracil_Victor_GestionTareas03._01
             AplicarFiltros();
         }
 
+        private async Task RecargarTareas()
+        {
+            todasLasTareas = await ObtenerTareas();
+            AplicarFiltros();
+        }
+
         private void AplicarFiltros()
         {
+            if (todasLasTareas == null) return;
+
             string filtroTitulo = txtFiltroTitulo.Text.ToLower();
-            string estadoSeleccionado = (cmbEstado.SelectedItem as ComboBoxItem)?.Content.ToString();
+            string estadoSeleccionado = (cmbEstado.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "Todos";
 
             var filtradas = todasLasTareas.Where(t =>
+                t.UserId == userIdActual && // <-- Solo sus tareas
                 t.Titulo.ToLower().Contains(filtroTitulo) &&
-                (estadoSeleccionado == "Todos" || t.Estado.ToString() == estadoSeleccionado) &&
-                (estadoSeleccionado == "Archivada" || t.Estado != EstadoTarea.Archivada)
+                (estadoSeleccionado == "Todos" || t.Estado.ToString() == estadoSeleccionado)
             ).ToList();
 
             lvTareas.ItemsSource = filtradas;
@@ -93,11 +105,21 @@ namespace Aracil_Victor_GestionTareas03._01
 
         private async Task<List<Tarea>> ObtenerTareas()
         {
-            using (var service = new ServiceTarea())
-            {
-                return await service.Listar();
-            }
+            using var service = new ServiceTarea();
+            var todas = await service.Listar();
+            // Filtramos por usuario actual
+            return todas.Where(t => t.UserId == userIdActual).ToList();
         }
 
+        private void lvTareas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Aquí puedes mostrar detalles o habilitar botones según la tarea seleccionada
+        }
+
+        private void MenuEtiqueta_Click(object sender, RoutedEventArgs e)
+        {
+            // Crear etiqueta
+        }
     }
+
 }

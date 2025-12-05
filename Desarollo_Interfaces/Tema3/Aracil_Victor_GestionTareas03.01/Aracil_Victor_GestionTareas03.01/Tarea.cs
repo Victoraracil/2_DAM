@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
 
 namespace Aracil_Victor_GestionTareas03._01
 {
@@ -140,7 +141,20 @@ namespace Aracil_Victor_GestionTareas03._01
         [ForeignKey("EtiquetaId")]
         public virtual Etiqueta Etiqueta { get; set; } = null!;
 
-
+        public Brush ColorBrush
+        {
+            get
+            {
+                return Color switch
+                {
+                    1 => Brushes.Red,
+                    2 => Brushes.Green,
+                    3 => Brushes.Blue,
+                    4 => Brushes.Yellow,
+                    _ => Brushes.LightGray, // 0 o cualquier otro
+                };
+            }
+        }
 
         // Implementación de la interfaz INotifyPropertyChanged
 

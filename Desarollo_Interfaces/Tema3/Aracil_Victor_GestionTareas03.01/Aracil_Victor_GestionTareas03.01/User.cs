@@ -7,7 +7,7 @@ namespace Aracil_Victor_GestionTareas03._01
     public class User
     {
         [Key]
-        public int? Id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(30)]
         public string? Usuario { get; set; }

@@ -11,13 +11,19 @@
         WindowStartupLocation="CenterScreen"
         Background="White"
         AllowsTransparency="True"
-        MouseDown="Window_MouseDown">
-    <Border Style="{StaticResource borderStyle1}">
+        MouseDown="Window_MouseDown"
+        Loaded="Window_Loaded">
+
+
+    <Border Style="{StaticResource borderStyle1}" MouseDown="Window_MouseDown">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
+                <!-- Barra superior -->
                 <RowDefinition Height="Auto"/>
+                <!-- Filtros -->
                 <RowDefinition Height="*"/>
+                <!-- Listado de tareas -->
             </Grid.RowDefinitions>
 
             <!-- Barra superior -->
@@ -26,90 +32,89 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="25"/>
                     <ColumnDefinition Width="25"/>
-                    <ColumnDefinition Width="5"/>
                 </Grid.ColumnDefinitions>
 
                 <Menu>
                     <MenuItem Header="_Archivo">
                         <MenuItem Header="Salir" Click="MenuSalir_Click"/>
                     </MenuItem>
-
                     <MenuItem Header="_Usuarios">
                         <MenuItem Header="Insertar" Click="MenuUsuario_Insertar"/>
                         <MenuItem Header="Modificar" Click="MenuUsuario_Modificar"/>
                         <MenuItem Header="Dar de baja" Click="MenuUsuario_Baja"/>
                     </MenuItem>
-
                     <MenuItem Header="_Tareas">
                         <MenuItem Header="Crear tarea" Click="MenuTareas_Crear"/>
                     </MenuItem>
                 </Menu>
 
-                <Button x:Name="btn_Minimizar"
-                Content="-"
-                Grid.Column="1"
-                Style="{StaticResource MinimizarBotonStyle}"
-                Click="btn_Minimizar_Click"/>
-
-                <Button x:Name="btn_Close"
-                Content="X"
-                Grid.Column="2"
-                Style="{StaticResource CerrarBotonStyle}"
-                Click="btn_Close_Click"/>
+                <Button x:Name="btn_Minimizar" Content="-" Grid.Column="1" Click="btn_Minimizar_Click"/>
+                <Button x:Name="btn_Close" Content="X" Grid.Column="2" Click="btn_Close_Click"/>
             </Grid>
 
-            <!-- ZONA FILTROS -->
+            <!-- Filtros -->
             <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
                 <TextBlock Text="Filtrar por título:" VerticalAlignment="Center" Margin="0,0,5,0"/>
-                <TextBox Width="200"
-                 x:Name="txtFiltroTitulo"
-                 TextChanged="Filtro_TextChanged"/>
+                <TextBox Width="200" x:Name="txtFiltroTitulo" TextChanged="Filtro_TextChanged"/>
 
                 <TextBlock Text="Estado:" Margin="15,0,5,0" VerticalAlignment="Center"/>
-                <ComboBox x:Name="cmbEstado"
-                  Width="150"
-                  SelectionChanged="Filtro_TextChanged">
+                <ComboBox x:Name="cmbEstado" Width="150" SelectionChanged="Filtro_TextChanged">
                     <ComboBoxItem Content="Todos"/>
                     <ComboBoxItem Content="Pendiente"/>
-                    <ComboBoxItem Content="EnProgreso"/>
+                    <ComboBoxItem Content="En_Progreso"/>
                     <ComboBoxItem Content="Terminada"/>
                     <ComboBoxItem Content="Archivada"/>
                 </ComboBox>
             </StackPanel>
 
-            <!-- CONTENIDO PRINCIPAL -->
-            <ScrollViewer Grid.Row="2">
-                <ListView x:Name="lvTareas" Margin="10">
-                    <ListView.ItemTemplate>
+            <!-- Cabecera y listado -->
+            <Grid Grid.Row="2" Margin="10,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Cabecera -->
+                    <RowDefinition Height="*"/>
+                    <!-- Listado -->
+                </Grid.RowDefinitions>
+
+                <!-- Cabecera manual -->
+                <Grid Background="#EEE" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Título" FontWeight="Bold" Grid.Column="0" Margin="5,0"/>
+                    <TextBlock Text="Estado" FontWeight="Bold" Grid.Column="1" Margin="5,0"/>
+                    <TextBlock Text="Progreso" FontWeight="Bold" Grid.Column="2" Margin="5,0"/>
+                    <TextBlock Text="Vencimiento" FontWeight="Bold" Grid.Column="3" Margin="5,0"/>
+                </Grid>
+
+                <!-- Listado de tareas -->
+                <ListBox x:Name="lvTareas" Grid.Row="1" Margin="0,5,0,0" HorizontalContentAlignment="Stretch"
+                     SelectionChanged="lvTareas_SelectionChanged">
+                    <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Border CornerRadius="8"
-                            Padding="10"
-                            Margin="5"
-                            Background="{Binding Color}"
-                            BorderBrush="Gray"
-                            BorderThickness="1">
+                            <Border Background="{Binding ColorBrush}" CornerRadius="5" Margin="2" Padding="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
 
-                                <StackPanel>
-                                    <TextBlock Text="{Binding Titulo}"
-                                       FontSize="16"
-                                       FontWeight="Bold"/>
-
-                                    <TextBlock Text="{Binding Estado}" />
-
-                                    <ProgressBar Height="15"
-                                         Margin="0,5"
-                                         Value="{Binding PorcentajeCompletado}"
-                                         Maximum="100"/>
-
-                                    <TextBlock Text="{Binding Vencimiento, StringFormat='Vence: {0:dd/MM/yyyy}'}"
-                                       Foreground="DarkRed"/>
-                                </StackPanel>
+                                    <TextBlock Text="{Binding Titulo}" Grid.Column="0" Margin="5,0"/>
+                                    <TextBlock Text="{Binding Estado}" Grid.Column="1" Margin="5,0"/>
+                                    <ProgressBar Grid.Column="2" Height="15" Margin="5,2" Value="{Binding PorcentajeCompletado}" Maximum="100"/>
+                                    <TextBlock Text="{Binding Vencimiento, StringFormat='dd/MM/yyyy'}" Grid.Column="3" Margin="5,0"/>
+                                </Grid>
                             </Border>
                         </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </ScrollViewer>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
         </Grid>
-
     </Border>
 </Window>

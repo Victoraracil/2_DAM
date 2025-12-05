@@ -16,7 +16,7 @@ public class Main {
         for (File archivo : archivos) {
             System.out.println(archivo.getAbsolutePath());
 
-            // Si es un directorio, volver a llamar recursivamente
+            //Si es un directorio, volver a llamar recursivamente
             if (archivo.isDirectory()) {
                 ListarArachivos(archivo.getAbsolutePath());
             }

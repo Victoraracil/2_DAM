@@ -11,6 +11,7 @@ public partial class TaskManagerDbContext : DbContext
     /// </summary>
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Tarea> Tareas { get; set; }
+    public virtual DbSet<Etiqueta> Etiquetas { get; set; }
     public TaskManagerDbContext() { }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
