@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Demo2</string>
+    <!-- Nombres de pantallas -->
+    <string name="screen_recipes_list">Listado</string>
+    <string name="screen_add_recipe">Nueva</string>
+    <string name="screen_recipe_detail">Detalle</string>
+
+    <!-- Botones -->
+    <string name="button_add_recipe">Añadir Receta</string>
+    <string name="button_confirm">Confirmar</string>
+    <string name="button_cancel">Cancelar</string>
+
+    <!-- Mensajes -->
+    <string name="message_recipe_added">Receta añadida</string>
+    <string name="message_fill_all_fields">Rellena todos los campos</string>
+    <string name="dialog_title_confirm_delete">Confirmar eliminación</string>
+    <string name="message_confirm_delete">¿Desea eliminar esta receta?</string>
+    <string name="message_no_recipe_selected">No hay receta seleccionada</string>
+
+    <!-- Menú contextual -->
+    <string name="menu_more_options">Más opciones</string>
+    <string name="menu_delete_recipe">Eliminar Receta</string>
+
+    <!-- Otros textos -->
+    <string name="label_recipe_name">Nombre:</string>
+    <string name="label_recipe_description">Descripción:</string>
+
+
+
 </resources>

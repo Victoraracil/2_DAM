@@ -11,7 +11,7 @@ public class Main {
         // Obtener la fecha y hora actual
         LocalDateTime ahora = LocalDateTime.now();
         // Formatear la fecha y hora
-        DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String fechaHora = ahora.format(formato);
 
         // La línea que vamos a escribir en el archivo

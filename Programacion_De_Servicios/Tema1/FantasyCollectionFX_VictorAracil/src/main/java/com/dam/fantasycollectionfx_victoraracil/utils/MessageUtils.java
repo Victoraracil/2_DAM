@@ -49,7 +49,7 @@ public class MessageUtils {
         alert.setHeaderText(header);
         alert.setContentText(message);
 
-        return alert.showAndWait()
+        return alert.showAndWait()//button to confirm
                 .filter(response -> response == javafx.scene.control.ButtonType.OK)
                 .isPresent();
     }

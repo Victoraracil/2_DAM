@@ -1,80 +1,46 @@
-﻿<Window x:Class="Aracil_Victor_GestionTareas03._01.CrearTarea"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01"
-        mc:Ignorable="d"
-        Title="CrearTarea" Height="450" Width="800">
-    <Window.Resources>
-
-        <!-- Estilo para error -->
+﻿<Window x:Class="Aracil_Victor_GestionTareas03._01.CrearTarea" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01" mc:Ignorable="d" Title="CrearTarea" Height="450" Width="800" Background="{StaticResource BrushFondoPrincipal}">
+    <Window.Resources><!-- Estilo para error -->
         <Style x:Key="ErrorStyle" TargetType="Control">
-            <Setter Property="BorderBrush" Value="Red"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BrushError}"/>
             <Setter Property="BorderThickness" Value="2"/>
-        </Style>
-
-        <!-- Estilo para correcto -->
+        </Style><!-- Estilo para correcto -->
         <Style x:Key="OkStyle" TargetType="Control">
             <Setter Property="BorderBrush" Value="Green"/>
             <Setter Property="BorderThickness" Value="2"/>
         </Style>
-
     </Window.Resources>
     <Grid>
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <GroupBox Header="Crear nueva tarea" Margin="10">
-                <StackPanel Margin="10">
-
-                    <!-- Título -->
-                    <TextBlock Text="Título de la tarea:" />
-                    <TextBox Name="txtTitulo" Width="250" Margin="0,5,0,10"/>
-
-                    <!-- Descripción -->
-                    <TextBlock Text="Descripción:" />
-                    <TextBox Name="txtDescripcion" Width="250" Height="80"
-                         TextWrapping="Wrap" AcceptsReturn="True"
-                         Margin="0,5,0,10"/>
-
-                    <!-- Estado -->
-                    <TextBlock Text="Estado:" />
+            <GroupBox Header="Crear nueva tarea" Margin="10" Foreground="{StaticResource BrushTextoPrincipal}" BorderBrush="{StaticResource BrushTextoPrincipal}">
+                <StackPanel Margin="10"><!-- Título -->
+                    <TextBlock Text="Título de la tarea:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <TextBox Name="txtTitulo" Width="250" Margin="0,5,0,10"/><!-- Descripción -->
+                    <TextBlock Text="Descripción:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <TextBox Name="txtDescripcion" Width="250" Height="80" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,5,0,10"/><!-- Estado -->
+                    <TextBlock Text="Estado:" Foreground="{StaticResource BrushTextoPrincipal}"/>
                     <ComboBox Name="cmbEstado" Width="200" Margin="0,5,0,10">
-                        <ComboBoxItem Content="Pendiente" />
-                        <ComboBoxItem Content="En progreso" />
-                        <ComboBoxItem Content="Terminada" />
-                        <ComboBoxItem Content="Archivada" />
-                    </ComboBox>
-
-                    <!-- Color -->
-                    <TextBlock Text="Color:" />
+                        <ComboBoxItem Content="Pendiente"/>
+                        <ComboBoxItem Content="En progreso"/>
+                        <ComboBoxItem Content="Terminada"/>
+                        <ComboBoxItem Content="Archivada"/>
+                    </ComboBox><!-- Color -->
+                    <TextBlock Text="Color:" Foreground="{StaticResource BrushTextoPrincipal}"/>
                     <ComboBox Name="cmbColor" Width="200" Margin="0,5,0,10">
-                        <ComboBoxItem Content="Sin color" />
-                        <ComboBoxItem Content="Rojo" />
-                        <ComboBoxItem Content="Verde" />
-                        <ComboBoxItem Content="Azul" />
-                        <ComboBoxItem Content="Amarillo" />
-                    </ComboBox>
-
-                    <!-- Fecha vencimiento -->
-                    <TextBlock Text="Fecha de vencimiento:" />
-                    <DatePicker Name="dpVencimiento" Width="200" Margin="0,5,0,10"/>
-
-                    <!-- Usuario -->
-                    <TextBlock Text="Usuario asignado:" />
-                    <ComboBox Name="cmbUsuario" Width="250" Margin="0,5,0,10"/>
-
-                    <!-- Etiqueta -->
-                    <TextBlock Text="Etiqueta:" />
-                    <ComboBox Name="cmbEtiqueta" Width="250" Margin="0,5,0,20"/>
-
-                    <!-- Botón -->
-                    <Button Content="Crear tarea" Width="150" Height="30" 
-                        HorizontalAlignment="Left"
-                        Click="Crear_Click"/>
+                        <ComboBoxItem Content="Sin color"/>
+                        <ComboBoxItem Content="Rojo"/>
+                        <ComboBoxItem Content="Verde"/>
+                        <ComboBoxItem Content="Azul"/>
+                        <ComboBoxItem Content="Amarillo"/>
+                    </ComboBox><!-- Fecha vencimiento -->
+                    <TextBlock Text="Fecha de vencimiento:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <DatePicker Name="dpVencimiento" Width="200" Margin="0,5,0,10"/><!-- Usuario -->
+                    <TextBlock Text="Usuario asignado:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <ComboBox Name="cmbUsuario" Width="250" Margin="0,5,0,10"/><!-- Etiqueta -->
+                    <TextBlock Text="Etiqueta:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <ComboBox Name="cmbEtiqueta" Width="250" Margin="0,5,0,20"/><!-- Botón -->
+                    <Button Content="Crear tarea" Width="150" Height="30" HorizontalAlignment="Left" Style="{StaticResource BotonPrincipalStyle}" Click="Crear_Click"/>
                 </StackPanel>
             </GroupBox>
         </ScrollViewer>
     </Grid>
-
-
 </Window>

@@ -112,4 +112,35 @@ public class FileUtils {
             System.err.println("Error saving items: " + e.getMessage());
         }
     }
+
+
+    /**
+     * Button to only save name and date
+     * @param items
+     */
+    public static void saveItems2(List<Item> items) {
+        try {
+            Path path = Paths.get("items2.txt");
+
+            List<String> lines = new ArrayList<>();
+            lines.add("code;name;type;rarity;obtained_date");
+
+            for (Item item : items) {
+                lines.add(String.format("%s;%s;%s;%s;%s",
+                        "unknown",
+                        item.getName(),
+                        "unknown",
+                        "unknown",
+                        item.getObtainedDate().format(FORMATTER)));
+            }
+
+            //save in proyect root
+            Files.write(path, lines, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+
+            System.out.println("Items saved successfully to project root (" + path.toAbsolutePath() + ")");
+
+        } catch (IOException e) {
+            System.err.println("Error saving items: " + e.getMessage());
+        }
+    }
 }

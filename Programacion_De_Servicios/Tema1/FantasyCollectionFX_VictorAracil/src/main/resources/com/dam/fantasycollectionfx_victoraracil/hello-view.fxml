@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.text.Font?>
-
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.dam.fantasycollectionfx_victoraracil.HelloController">
@@ -61,6 +59,7 @@
                 <Button text="Add" onAction="#onAddItem" prefWidth="100"/>
                 <Button text="Update" onAction="#onUpdateItem" prefWidth="100"/>
                 <Button text="Delete" onAction="#onDeleteItem" prefWidth="100"/>
+                <Button text="Save" onAction="#onSave" prefWidth="100"/>
             </HBox>
 
             <!--Filters and search-->

@@ -27,12 +27,11 @@ namespace Aracil_Victor_GestionTareas03._01
         }
         private async void Crear_Click(object sender, RoutedEventArgs e)
         {
-            // Funcion que crea un usuario en la base de datos
 
-            // Comprobamos que todos los campos del formulario esten cumplimentados
+            // Comprobacion de que los campos son correctos
             if (string.IsNullOrWhiteSpace(txtNuevoUsername.Text) || string.IsNullOrWhiteSpace(txtNuevoFullName.Text) || string.IsNullOrWhiteSpace(txtNuevoPassword.Password))
             {
-                // Si falta algun dato lo comunicamos
+                //Mensaje de error si falta dato
                 MessageBox.Show("ERROR: No se puede crear el usuario. Por favor, rellene todos los campos");
             }
             else
@@ -42,12 +41,11 @@ namespace Aracil_Victor_GestionTareas03._01
                 {
                     Usuario = txtNuevoUsername.Text,
                     NombreCompleto = txtNuevoFullName.Text,
-                    PasswordHash = PasswordHelper.HashPassword(txtNuevoPassword.Password),
+                    PasswordHash = txtNuevoPassword.Password,//no hasheo la contraseña porque luego da errores, te lo explico el proximo dia
                     CorreoElectronico = txtNuevoEmail.Text,
                     Activo = 1,
                 }
                 ;
-                // Iniciamos un objeto para acceder a la base de datos
                 var service = new ServiceUser();
                 // Le mandamos a la base de datos la informacion del nuevo usuario
                 var nuevoUserCreado = await service.Insertar(nuevoUser);
@@ -68,7 +66,6 @@ namespace Aracil_Victor_GestionTareas03._01
 
         private void LimpiarInterfaz()
         {
-            // Funcion simplemente estetica, sirve para limpiar los campos de los formularios tras una acción
 
             // Limpiamos el formulario de crear usuario
             txtNuevoUsername.Text = "";

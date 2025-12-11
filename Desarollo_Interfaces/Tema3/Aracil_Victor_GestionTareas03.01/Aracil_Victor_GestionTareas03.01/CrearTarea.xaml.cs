@@ -20,12 +20,25 @@ namespace Aracil_Victor_GestionTareas03._01
     /// </summary>
     public partial class CrearTarea : Window
     {
-        public CrearTarea(int userIdActual)
+        private int? tareaIdEditar;
+
+        public CrearTarea(int userIdActual, int? tareaId = null)
         {
             InitializeComponent();
+            this.userIdActual = userIdActual;
+            this.tareaIdEditar = tareaId;
+
             CargarUsuarios();
             CargarEtiquetas();
+
+            if (tareaIdEditar.HasValue)
+            {
+                Title = "Editar Tarea";
+                CargarDatosTarea(tareaIdEditar.Value);
+            }
         }
+        
+        private int userIdActual;
 
         private async void CargarUsuarios()
         {
@@ -35,8 +48,8 @@ namespace Aracil_Victor_GestionTareas03._01
                 var usuarios = await service.Listar();
 
                 cmbUsuario.ItemsSource = usuarios;
-                cmbUsuario.DisplayMemberPath = "NombreCompleto"; // Nombre a mostrar
-                cmbUsuario.SelectedValuePath = "Id";              // FK real
+                cmbUsuario.DisplayMemberPath = "NombreCompleto"; 
+                cmbUsuario.SelectedValuePath = "Id";             
             }
             catch (Exception ex)
             {
@@ -52,8 +65,8 @@ namespace Aracil_Victor_GestionTareas03._01
                 var etiquetas = await service.Listar();
 
                 cmbEtiqueta.ItemsSource = etiquetas;
-                cmbEtiqueta.DisplayMemberPath = "Nombre"; // campo real de Etiqueta
-                cmbEtiqueta.SelectedValuePath = "Id";     // FK real
+                cmbEtiqueta.DisplayMemberPath = "Nombre"; 
+                cmbEtiqueta.SelectedValuePath = "Id";     
             }
             catch (Exception ex)
             {
@@ -61,6 +74,21 @@ namespace Aracil_Victor_GestionTareas03._01
             }
         }
 
+        private async void CargarDatosTarea(int id)
+        {
+            using var service = new ServiceTarea();
+            var tarea = await service.Listar(id);
+            if (tarea != null)
+            {
+                txtTitulo.Text = tarea.Titulo;
+                txtDescripcion.Text = tarea.Descripcion;
+                cmbEstado.SelectedIndex = (int)tarea.Estado;
+                dpVencimiento.SelectedDate = tarea.Vencimiento;
+                cmbColor.SelectedIndex = tarea.Color;
+                cmbUsuario.SelectedValue = tarea.UserId;
+                cmbEtiqueta.SelectedValue = tarea.EtiquetaId;
+            }
+        }
 
         private async void Crear_Click(object sender, RoutedEventArgs e)
         {
@@ -136,26 +164,53 @@ namespace Aracil_Victor_GestionTareas03._01
                 return;
             }
 
-            var nuevaTarea = new Tarea
-            {
-                Titulo = txtTitulo.Text,
-                Descripcion = txtDescripcion.Text,
-                Estado = (EstadoTarea)cmbEstado.SelectedIndex,
-                Vencimiento = dpVencimiento.SelectedDate.Value,
-                Color = cmbColor.SelectedIndex,              // 0–4
-                UserId = (int)cmbUsuario.SelectedValue,     // FK usuario
-                EtiquetaId = (int)cmbEtiqueta.SelectedValue // FK etiqueta
-            };
-
             var service = new ServiceTarea();
-            var tareaCreada = await service.Insertar(nuevaTarea);
 
-            if (tareaCreada != null)
-                MessageBox.Show("Tarea creada correctamente.");
+            if (tareaIdEditar.HasValue)
+            {
+                // MODO EDICIÓN
+                var tareaEditada = new Tarea
+                {
+                    Id = tareaIdEditar.Value,
+                    Titulo = txtTitulo.Text,
+                    Descripcion = txtDescripcion.Text,
+                    Estado = (EstadoTarea)cmbEstado.SelectedIndex,
+                    Vencimiento = dpVencimiento.SelectedDate.Value,
+                    Color = cmbColor.SelectedIndex,
+                    UserId = (int)cmbUsuario.SelectedValue,
+                    EtiquetaId = (int)cmbEtiqueta.SelectedValue
+                };
+
+                bool exito = await service.Actualizar(tareaEditada);
+                if (exito)
+                    MessageBox.Show("Tarea actualizada correctamente.");
+                else
+                    MessageBox.Show("Error al actualizar la tarea.");
+            }
             else
-                MessageBox.Show("Ha ocurrido un error creando la tarea.");
+            {
+                // MODO CREACIÓN
+                var nuevaTarea = new Tarea
+                {
+                    Titulo = txtTitulo.Text,
+                    Descripcion = txtDescripcion.Text,
+                    Estado = (EstadoTarea)cmbEstado.SelectedIndex,
+                    Vencimiento = dpVencimiento.SelectedDate.Value,
+                    Color = cmbColor.SelectedIndex,             
+                    UserId = (int)cmbUsuario.SelectedValue,     
+                    EtiquetaId = (int)cmbEtiqueta.SelectedValue 
+                };
+
+                var tareaCreada = await service.Insertar(nuevaTarea);
+
+                if (tareaCreada != null)
+                    MessageBox.Show("Tarea creada correctamente.");
+                else
+                    MessageBox.Show("Ha ocurrido un error creando la tarea.");
+            }
 
             LimpiarInterfaz();
+            this.Close(); 
         }
 
         private void LimpiarInterfaz()

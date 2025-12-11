@@ -17,7 +17,7 @@ namespace Aracil_Victor_GestionTareas03._01
     /// <author> Victor Aracil Gozalvez</author>
     public partial class MainWindow : Window
     {
-        private int userIdActual; // <-- ID del usuario logueado
+        private int userIdActual; //ID del usuario logueado
         private List<Tarea> todasLasTareas;
 
         // Constructor con usuario actual
@@ -65,7 +65,7 @@ namespace Aracil_Victor_GestionTareas03._01
 
         private void MenuTareas_Crear(object sender, RoutedEventArgs e)
         {
-            // <-- Pasamos el usuario actual a la ventana de creación
+            //Pasamos el usuario actual a la ventana de creación
             var crearTarea = new CrearTarea(userIdActual);
             crearTarea.ShowDialog();
             RecargarTareas();
@@ -107,18 +107,22 @@ namespace Aracil_Victor_GestionTareas03._01
         {
             using var service = new ServiceTarea();
             var todas = await service.Listar();
-            // Filtramos por usuario actual
+            //Filtrar por usuario
             return todas.Where(t => t.UserId == userIdActual).ToList();
         }
 
         private void lvTareas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // Aquí puedes mostrar detalles o habilitar botones según la tarea seleccionada
         }
 
-        private void MenuEtiqueta_Click(object sender, RoutedEventArgs e)
+        private void lvTareas_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            // Crear etiqueta
+            if (lvTareas.SelectedItem is Tarea tareaSeleccionada)
+            {
+                var crearTarea = new CrearTarea(userIdActual, tareaSeleccionada.Id);
+                crearTarea.ShowDialog();
+                RecargarTareas();
+            }
         }
     }
 

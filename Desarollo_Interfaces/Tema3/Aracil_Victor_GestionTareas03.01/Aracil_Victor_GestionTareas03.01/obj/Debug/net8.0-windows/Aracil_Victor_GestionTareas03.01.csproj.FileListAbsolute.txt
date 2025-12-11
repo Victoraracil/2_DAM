@@ -158,3 +158,480 @@ C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_Ge
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.baml
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.g.cs
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema3\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.AssemblyReference.cache
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Controles.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Styles.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.g.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.cache
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.lref
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\refint\Aracil_Victor_GestionTareas03.01.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.exe
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.deps.json
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.runtimeconfig.json
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Humanizer.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.baml
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.g.resources
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfoInputs.cache
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfo.cs
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.CoreCompileInputs.cache
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_V.CFA22318.Up2Date
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.genruntimeconfig.cache
+D:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ref\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.exe
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.deps.json
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.runtimeconfig.json
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Core.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Identity.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Humanizer.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.ClientModel.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Memory.Data.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Json.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.AssemblyReference.cache
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Controles.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Styles.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.g.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.cache
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.lref
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.baml
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.g.resources
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.GeneratedMSBuildEditorConfig.editorconfig
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfoInputs.cache
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfo.cs
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.CoreCompileInputs.cache
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_V.CFA22318.Up2Date
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\refint\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.genruntimeconfig.cache
+H:\Aracil_Victor_GestionTareas03.01 (2)\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ref\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.exe
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.deps.json
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.runtimeconfig.json
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Core.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Azure.Identity.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Humanizer.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.ClientModel.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Memory.Data.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\System.Text.Json.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.AssemblyReference.cache
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Controles.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Temas\Styles.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\BajaUsuario.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.g.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.cache
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01_MarkupCompile.lref
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\App.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\CrearTarea.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\InsertarUsuarios.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\MainWindow.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ModificarUsuarios.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\VistaLogin.baml
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.g.resources
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.GeneratedMSBuildEditorConfig.editorconfig
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfoInputs.cache
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.AssemblyInfo.cs
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.csproj.CoreCompileInputs.cache
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_V.CFA22318.Up2Date
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\refint\Aracil_Victor_GestionTareas03.01.dll
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.pdb
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\Aracil_Victor_GestionTareas03.01.genruntimeconfig.cache
+H:\Aracil_Victor_GestionTareas03.01\Aracil_Victor_GestionTareas03.01\obj\Debug\net8.0-windows\ref\Aracil_Victor_GestionTareas03.01.dll

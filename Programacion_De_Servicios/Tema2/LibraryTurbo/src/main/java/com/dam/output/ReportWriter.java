@@ -10,9 +10,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class ReportWriter {
 
-    private final Path reportFolder;     // Carpeta _reportOriginal
+    private final Path reportFolder;     // _reportOriginal folder
     private final Path errorsLog;        // errors.log
-    private final ReentrantLock lock;    // Para escribir logs de forma thread-safe
+    private final ReentrantLock lock;    // Used to write logs in a thread-safe way
 
     public ReportWriter(Path originalFolder) throws IOException {
 
@@ -33,32 +33,33 @@ public class ReportWriter {
     }
 
     /**
-     * Procesa un archivo: calcula SHA, analiza palabras y genera el JSON.
+     * Processes a file: calculates its SHA, analyzes the words, and creates the JSON report.
      *
-     * @param file Ruta del archivo.
-     * @param target Palabra objetivo a contar.
+     * @param file   Path to the file.
+     * @param target Word to count in the file.
      */
+
     public void processFile(Path file, String target) {
 
         try {
-            // Calcular SHA
+            //Calculate SHA
             String sha = HashSHA256.sha256(file);
 
-            // Tomar primeros 16 chars para el nombre del JSON
+            //Take the first 16 characters to use as the JSON file name
             String prefix = sha.substring(0, 16);
 
-            // Analizar palabras
+            //Analize palabras
             long totalWords = TextAnalyzer.countTotalWords(file);
             long targetCount = TextAnalyzer.countTargetWord(file, target);
 
-            // Crear JSON
+            //Create JSON
             String jsonContent = createJson(file, sha, totalWords, targetCount);
 
-            // Nombre del archivo JSON
+            //JSON File name
             String safeName = file.getFileName().toString().replace(" ", "_");
             Path outJson = reportFolder.resolve(prefix + "_" + safeName + ".json");
 
-            // Escribir JSON
+            //Write JSON
             Files.writeString(
                     outJson,
                     jsonContent,
@@ -73,8 +74,9 @@ public class ReportWriter {
     }
 
     /**
-     * Crea el contenido JSON respetando el formato del enunciado.
+     * Creates the JSON content following the format specified in the assignment.
      */
+
     private String createJson(Path file, String sha, long total, long targetCount) {
 
         String forwardPath = file.toString().replace('\\', '/');
@@ -89,8 +91,9 @@ public class ReportWriter {
     }
 
     /**
-     * Escribe un error en errors.log (thread-safe).
+     * Writes an error message to errors.log in a thread-safe way.
      */
+
     private void writeError(String message) {
         lock.lock();
         try {

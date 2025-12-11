@@ -59,7 +59,7 @@ namespace Tarea_03._01__GestionTareas___Login {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/Aracil_Victor_GestionTareas03.01;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aracil_Victor_GestionTareas03.01;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

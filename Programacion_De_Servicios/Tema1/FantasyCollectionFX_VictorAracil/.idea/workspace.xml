@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/dam/fantasycollectionfx_victoraracil/HelloApplication.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -48,6 +51,20 @@
       <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil" />
       <recent name="C:\Users\Victor Aracil\Desktop\2_DAM\Programacion_De_Servicios\Tema1\FantasyCollectionFX_VictorAracil\target" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

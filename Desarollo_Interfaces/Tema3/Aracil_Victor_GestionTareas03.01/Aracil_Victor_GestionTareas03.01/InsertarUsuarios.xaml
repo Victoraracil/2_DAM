@@ -1,32 +1,21 @@
-﻿<Window x:Class="Aracil_Victor_GestionTareas03._01.InsertarUsuarios"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01"
-        mc:Ignorable="d"
-        Title="InsertarUsuarios" Height="450" Width="800">
-    <Grid>
-        <!-- Formulario para crear un nuevo usuario -->
-        <GroupBox Header="Nuevo Usuario">
-            <StackPanel Margin="10">
-                <TextBlock Text="Username:" />
-                <TextBox Name="txtNuevoUsername" Width="200" Margin="0,5,0,5"/>
-
-                <TextBlock Text="Nombre completo:" />
-                <TextBox Name="txtNuevoFullName" Width="200" Margin="0,5,0,5"/>
-
-                <TextBlock Text="Password:" />
-                <PasswordBox Name="txtNuevoPassword" Width="200" Margin="0,5,0,10"/>
-
-                <TextBlock Text="Correo:" />
-                <TextBox Name="txtNuevoEmail" Width="200" Margin="0,5,0,15"/>
-
-                <TextBlock Text="Activo:" />
-                <CheckBox Name="chkNuevoActivo" IsChecked="True" Margin="380,-10,0,15"/>
-
-                <Button Content="Crear Usuario" Width="120" Click="Crear_Click"/>
-            </StackPanel>
-        </GroupBox>
-    </Grid>
+﻿<Window x:Class="Aracil_Victor_GestionTareas03._01.InsertarUsuarios" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Aracil_Victor_GestionTareas03._01" mc:Ignorable="d" Title="InsertarUsuarios" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="Transparent" AllowsTransparency="True">
+    <Border Style="{StaticResource borderStyle1}">
+        <Grid><!-- Formulario para crear un nuevo usuario -->
+            <GroupBox Header="Nuevo Usuario" Foreground="{StaticResource BrushTextoPrincipal}" BorderBrush="{StaticResource BrushTextoPrincipal}">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Username:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <TextBox Name="txtNuevoUsername" Width="200" Margin="0,5,0,5"/>
+                    <TextBlock Text="Nombre completo:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <TextBox Name="txtNuevoFullName" Width="200" Margin="0,5,0,5"/>
+                    <TextBlock Text="Password:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <PasswordBox Name="txtNuevoPassword" Width="200" Margin="0,5,0,10"/>
+                    <TextBlock Text="Correo:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <TextBox Name="txtNuevoEmail" Width="200" Margin="0,5,0,15"/>
+                    <TextBlock Text="Activo:" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <CheckBox Name="chkNuevoActivo" IsChecked="True" Margin="380,-10,0,15" Foreground="{StaticResource BrushTextoPrincipal}"/>
+                    <Button Content="Crear Usuario" Width="120" Click="Crear_Click" Style="{StaticResource BotonPrincipalStyle}"/>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </Border>
 </Window>

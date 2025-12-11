@@ -3,16 +3,16 @@
 -- ============================================
 INSERT INTO Users (Usuario, PasswordHash, NombreCompleto, CorreoElectronico, Activo, FechaCreacion)
 VALUES 
-('victor', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Victor Aracil', 'victor@example.com', 1, '2025-12-05'),
-('ana', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Ana Arenas', 'ana@example.com', 1, '2025-12-05'),
-('miguel', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Miguel Torregrosa', 'miguel@example.com', 1, '2025-12-05'),
-('izan', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Izan Marcos', 'izan@example.com', 1, '2025-12-05'),
-('alberto', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Alberto González', 'alberto@example.com', 1, '2025-12-05'),
-('laura', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Laura Pérez', 'laura@example.com', 1, '2025-12-05'),
-('javier', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Javier López', 'javier@example.com', 1, '2025-12-05'),
-('sofia', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Sofía Martínez', 'sofia@example.com', 1, '2025-12-05'),
-('carlos', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'Carlos Fernández', 'carlos@example.com', 1, '2025-12-05'),
-('maria', '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4', 'María Gómez', 'maria@example.com', 1, '2025-12-05');
+('victor', '1234', 'Victor Aracil', 'victor@example.com', 1, '2025-12-05'),
+('ana', '1234', 'Ana Arenas', 'ana@example.com', 1, '2025-12-05'),
+('miguel', '1234', 'Miguel Torregrosa', 'miguel@example.com', 1, '2025-12-05'),
+('izan', '1234', 'Izan Marcos', 'izan@example.com', 1, '2025-12-05'),
+('alberto', '1234', 'Alberto González', 'alberto@example.com', 1, '2025-12-05'),
+('laura', '1234', 'Laura Pérez', 'laura@example.com', 1, '2025-12-05'),
+('javier', '1234', 'Javier López', 'javier@example.com', 1, '2025-12-05'),
+('sofia', '1234', 'Sofía Martínez', 'sofia@example.com', 1, '2025-12-05'),
+('carlos', '1234', 'Carlos Fernández', 'carlos@example.com', 1, '2025-12-05'),
+('maria', '1234', 'María Gómez', 'maria@example.com', 1, '2025-12-05');
 
 -- ============================================
 -- CREACIÓN DE ETIQUETAS

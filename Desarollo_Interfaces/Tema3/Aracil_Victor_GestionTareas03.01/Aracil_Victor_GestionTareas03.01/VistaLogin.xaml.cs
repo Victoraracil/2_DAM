@@ -47,10 +47,12 @@ namespace Aracil_Victor_GestionTareas03._01
         }
 
         private void btn_Login_Click(object sender, RoutedEventArgs e)
-        {        
+        {
             var usuario = txtUser.Text;
             var password = txtPass.Password;
-            var passwordHash = PasswordHelper.HashPassword(password);
+            var passwordHash = password;
+
+
             using (var context = new TaskManagerDbContext())
             {
                 var admin = context.Users

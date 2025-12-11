@@ -15,15 +15,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // -------------------------------------------------------
-        //           1) PEDIR Y VALIDAR CARPETA
-        // -------------------------------------------------------
+        //Ask and validate folder
         Path folder;
         while (true) {
             System.out.print("Enter folder to process: ");
             String input = scanner.nextLine().trim();
 
-            folder = Paths.get(input);
+            folder = Paths.get(input).toAbsolutePath();
 
             if (Files.exists(folder) && Files.isDirectory(folder)) {
                 break;
@@ -32,9 +30,7 @@ public class Main {
             System.out.println("Invalid directory. Try again.");
         }
 
-        // -------------------------------------------------------
-        //           2) PEDIR MODO (G o V)
-        // -------------------------------------------------------
+        //ask mode (g or v)
         String mode;
         while (true) {
             System.out.print("Choose mode - Generate Reports (G) / Verify Reports (V): ");
@@ -56,19 +52,17 @@ public class Main {
         }
     }
 
-    // =====================================================================
-    //                           MODO GENERAR
-    // =====================================================================
+    //Generate mode
     private static void runGenerateMode(Path folder, Scanner scanner) throws Exception {
 
-        // Pedir palabra objetivo
+        //Ask word
         System.out.print("Enter target word: ");
         String target = scanner.nextLine().trim();
 
-        // Crear escritor de reportes
+        //Create report writer
         ReportWriter writer = new ReportWriter(folder);
 
-        // Buscar archivos .txt y .md recursivamente
+        //searc files .txt and .md
         List<Path> filesToProcess;
         try (Stream<Path> stream = Files.walk(folder)) {
             filesToProcess = stream
@@ -82,14 +76,14 @@ public class Main {
 
         System.out.println("Found " + filesToProcess.size() + " files.");
 
-        // Crear ThreadPool
+        //Create ThreadPool
         int threads = Runtime.getRuntime().availableProcessors();
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(threads);
 
         AtomicInteger completed = new AtomicInteger(0);
         int total = filesToProcess.size();
 
-        // Programador de progreso cada 1 segundo
+        //Progres programes every 1 second
         ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
         scheduler.scheduleAtFixedRate(() -> {
 
@@ -102,7 +96,7 @@ public class Main {
 
         }, 0, 1, TimeUnit.SECONDS);
 
-        // Enviar tareas
+        //Send tasks
         for (Path file : filesToProcess) {
             executor.submit(() -> {
                 writer.processFile(file, target);
@@ -110,20 +104,18 @@ public class Main {
             });
         }
 
-        // Cerrar el ThreadPool correctamente
+        //Close ThreadPool
         executor.shutdown();
         executor.awaitTermination(5, TimeUnit.MINUTES);
 
-        // Detener el scheduler cuando todo esté completado
+        //Stop scheduler when all is complete
         scheduler.shutdown();
         scheduler.awaitTermination(5, TimeUnit.SECONDS);
 
         System.out.println("\n✔ Report generation completed.");
     }
 
-    // =====================================================================
-    //                           MODO VERIFICAR
-    // =====================================================================
+    //Verify modo
     private static void runVerifyMode(Path originalFolder) throws Exception {
 
         String folderName = originalFolder.getFileName().toString();

@@ -76,12 +76,13 @@ internal class ServiceTarea : IDisposable
 
             existing.Titulo = tarea.Titulo;
             existing.Descripcion = tarea.Descripcion;
-            existing.Etiqueta = tarea.Etiqueta;
+            existing.EtiquetaId = tarea.EtiquetaId;
             existing.Color = tarea.Color;
             existing.Vencimiento = tarea.Vencimiento;
             existing.Completado = tarea.Completado;
             existing.PorcentajeCompletado = tarea.PorcentajeCompletado;
             existing.Estado = tarea.Estado;
+            existing.UserId = tarea.UserId; 
 
             await _context.SaveChangesAsync();
             return true;

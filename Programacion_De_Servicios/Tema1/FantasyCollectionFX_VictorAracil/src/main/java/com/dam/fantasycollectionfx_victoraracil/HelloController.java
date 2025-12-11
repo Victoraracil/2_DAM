@@ -223,5 +223,16 @@ public class HelloController {
             }
         }
     }
+    @FXML
+    private void onSave() {
+
+        List<Item> list = tableView.getSelectionModel().getTableView().getItems();
+        try {
+            FileUtils.saveItems2(list);
+            System.out.println("Save successfully.");
+        } catch (Exception e) {
+            System.err.println("Error saving items on exit: " + e.getMessage());
+        }
+    }
 }
 
