@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ToDo List Moderna - Vue + Javalin</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .add-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: 0.3s;
+        }
+        input:focus, textarea:focus {
+            border-color: #7f5af0;
+            box-shadow: 0 0 5px rgba(127,90,240,0.3);
+        }
+        button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            opacity: 0.85;
+        }
+        .create-btn {
+            background: #7f5af0;
+            color: white;
+            font-weight: bold;
+        }
+        .task {
+            background: #f0f0f0;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            opacity: 0;
+            transform: translateY(-15px);
+            animation: fadeIn 0.4s forwards;
+            transition: 0.3s;
+        }
+        .task.completed {
+            background: #d3d3d3;
+            color: #555;
+            text-decoration: line-through;
+        }
+        .task small {
+            color: #666;
+            display: block;
+        }
+        .task-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .complete-btn {
+            background: #4CAF50;
+            color: white;
+        }
+        .delete-btn {
+            background: #e74c3c;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="app" class="container">
+    <h1>ToDo List Moderna</h1>
+
+    <div class="add-form">
+        <input v-model="newTask.title" type="text" placeholder="Título"/>
+        <textarea v-model="newTask.description" placeholder="Descripción"></textarea>
+        <button @click="createTask" class="create-btn">Crear tarea</button>
+    </div>
+
+    <transition-group name="task" tag="div">
+        <div v-for="task in tasks" :key="task.id" class="task" :class="{ completed: task.completed }">
+            <div>
+                <div>{{ task.title }}</div>
+                <small>{{ task.description }}</small>
+            </div>
+            <div class="task-buttons">
+                <button @click="markCompleted(task.id)" class="complete-btn" :disabled="task.completed">✔</button>
+                <button @click="deleteTask(task.id)" class="delete-btn">🗑</button>
+            </div>
+        </div>
+    </transition-group>
+</div>
+
+<script>
+    const { createApp } = Vue;
+
+    createApp({
+        data() {
+            return {
+                tasks: [],
+                newTask: {
+                    title: "",
+                    description: ""
+                }
+            };
+        },
+        methods: {
+            async loadTasks() {
+                try {
+                    const res = await axios.get("http://localhost:8080/api/tasks");
+                    this.tasks = res.data;
+                } catch(err) {
+                    console.error(err);
+                }
+            },
+            async createTask() {
+                if (!this.newTask.title) return alert("El título es obligatorio");
+                try {
+                    await axios.post("http://localhost:8080/api/tasks", this.newTask);
+                    this.newTask = { title: "", description: "" };
+                    this.loadTasks();
+                } catch(err) {
+                    console.error(err);
+                }
+            },
+            async deleteTask(id) {
+                try {
+                    await axios.delete(`http://localhost:8080/api/tasks/${id}`);
+                    this.loadTasks();
+                } catch(err) {
+                    console.error(err);
+                }
+            },
+            async markCompleted(id) {
+                try {
+                    await axios.put(`http://localhost:8080/api/tasks/${id}`);
+                    this.loadTasks();
+                } catch(err) {
+                    console.error(err);
+                }
+            }
+        },
+        mounted() {
+            this.loadTasks();
+        }
+    }).mount('#app');
+</script>
+</body>
+</html>
