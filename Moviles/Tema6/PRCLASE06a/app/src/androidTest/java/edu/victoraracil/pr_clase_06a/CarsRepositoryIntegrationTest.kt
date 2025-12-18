@@ -1,5 +1,3 @@
-
-
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
@@ -26,8 +24,7 @@ class CarsRepositoryIntegrationTest {
     fun setup() {
         val context = ApplicationProvider.getApplicationContext<Context>()
         db = Room.inMemoryDatabaseBuilder(
-            context,
-            CarsDatabase::class.java
+            context, CarsDatabase::class.java
         ).allowMainThreadQueries() // solo en tests
             .build()
 

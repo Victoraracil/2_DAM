@@ -18,6 +18,6 @@ data class Car(
     val model: String,
     val motor: String,
     val year: Int,
-    val favorite: Boolean = false,
+    val favorite: Int = 0,
     val idBrand: Int = 0
 )

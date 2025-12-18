@@ -1,8 +1,5 @@
-
-
 import android.content.Context
 import androidx.room.Room
-import androidx.room.util.copy
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import edu.victoraracil.pr_clase_06a.data.CarsDao
@@ -80,7 +77,16 @@ class CarsDaoTest {
 
     @Test
     fun update_y_getbyid_car_model() = runTest {
-        dao.insertCar(Car(idCar = 1, model = "Model Test", motor = "Motor Test", year = 1998, favorite = true, idBrand = 1))
+        dao.insertCar(
+            Car(
+                idCar = 1,
+                model = "Model Test",
+                motor = "Motor Test",
+                year = 1998,
+                favorite = true,
+                idBrand = 1
+            )
+        )
 
         val inserted = dao.getCarById(1).first()
         val updated = inserted!!.copy(model = "Model mod")

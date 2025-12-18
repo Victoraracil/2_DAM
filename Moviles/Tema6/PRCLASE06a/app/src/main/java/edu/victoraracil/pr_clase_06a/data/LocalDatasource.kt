@@ -10,19 +10,19 @@ class LocalDatasource(private val dao: CarsDao) {
     val currentCar: Flow<List<CarWithBrand>> = dao.getCarsWithBrands()
     val currentBrand: Flow<List<Brand>> = dao.getAllBrands()
 
-        suspend fun deleteCar(car: Car): Unit { // Returns the number of rows deleted.
-            return dao.deleteCar(car)
-        }
+    suspend fun deleteCar(car: Car): Int { // Returns the number of rows deleted.
+        return dao.deleteCar(car)
+    }
 
-        suspend fun saveCar(car: Car) {
-            dao.insertCar(car)
-        }
+    suspend fun saveCar(car: Car) {
+        dao.insertCar(car)
+    }
 
-        suspend fun getCarById(carId: Int): Car? = dao.getCarById(carId)
+    suspend fun getCarById(carId: Int): Flow<Car> = dao.getCarById(carId) as Flow<Car>
 
-        suspend fun saveBrand(brand: Brand) {
-            dao.insertBrand(brand)
-        }
+    suspend fun saveBrand(brand: Brand) {
+        dao.insertBrand(brand)
+    }
 
-        suspend fun getBrById(brandId: Brand): Flow<Brand> = dao.getBrandById(brandId)
+    suspend fun getBrById(brandId: Int): Brand? = dao.getBrandById(brandId)
 }

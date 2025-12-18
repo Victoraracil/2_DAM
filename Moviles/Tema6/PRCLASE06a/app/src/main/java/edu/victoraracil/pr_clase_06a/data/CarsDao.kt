@@ -18,7 +18,7 @@ interface CarsDao {
     fun getAllBrands(): Flow<List<Brand>>
 
     @Query("SELECT * FROM brands WHERE idBrand = :id LIMIT 1")
-    fun getBrandById(id: Brand): Flow<Brand>
+    fun getBrandById(id: Int): Brand?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertBrand(brand: Brand)
@@ -30,11 +30,11 @@ interface CarsDao {
     fun getCarsWithBrands(): Flow<List<CarWithBrand>>
 
     @Query("SELECT * FROM cars WHERE idCar = :id LIMIT 1")
-    fun getCarById(id: Int): Car?
+    fun getCarById(id: Int): Flow<Car?>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertCar(car: Car)
 
     @Delete
-    suspend fun deleteCar(car: Car)
+    suspend fun deleteCar(car: Car): Int
 }
