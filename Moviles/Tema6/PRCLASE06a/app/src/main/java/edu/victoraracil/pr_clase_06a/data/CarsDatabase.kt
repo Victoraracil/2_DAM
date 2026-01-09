@@ -13,6 +13,7 @@ import edu.victoraracil.pr_clase_06a.data.model.Car
 )
 abstract class CarsDatabase : RoomDatabase() {
 
+
     // Método abstracto para acceder al DAO
     abstract fun carsDao(): CarsDao
 

@@ -9,91 +9,90 @@ import edu.victoraracil.pr_clase_06a.data.Repository
 import edu.victoraracil.pr_clase_06a.data.model.Brand
 import edu.victoraracil.pr_clase_06a.data.model.Car
 import edu.victoraracil.pr_clase_06a.data.model.CarWithBrand
-import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.async
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.launch
 
-// SupersViewModel.kt
-class SupersViewModel(application: Application) : AndroidViewModel(application) {
-    // Se inicializa el repositorio y el datasource.
+class CarsViewModel(application: Application) : AndroidViewModel(application) {
+
     private val repository: Repository
-    private val localDatasource: LocalDatasource
 
-    // Se exponen los StateFlow para que la UI observe los cambios.
-    private val _currentCars = MutableStateFlow<List<CarWithBrand>>(emptyList())
-    val currentCars: StateFlow<List<CarWithBrand>> = _currentCars
+    //Coches con su marca
+    private val _cars = MutableStateFlow<List<CarWithBrand>>(emptyList())
+    val cars: StateFlow<List<CarWithBrand>> = _cars
 
-    private val _currentBrand = MutableStateFlow<List<Brand>>(emptyList())
-    val currentCarss: StateFlow<List<Brand>> = _currentBrand
+    //Marcas
+    private val _brands = MutableStateFlow<List<Brand>>(emptyList())
+    val brands: StateFlow<List<Brand>> = _brands
 
     init {
-        // Inicialización del repositorio y el datasource.
         val database = CarsDatabase.getDatabase(application)
         val dao = database.carsDao()
-        localDatasource = LocalDatasource(dao)
+        val localDatasource = LocalDatasource(dao)
         repository = Repository(localDatasource)
 
-        // Carga inicial de superhéroes y editoriales, versión Flow.
-        loadCars()
-        loadBrands()
-
+        observeCars()
+        observeBrands()
     }
 
-    // Implementa funciones para interactuar con el repositorio.
-
-    // Se observan los StateFlow para que la UI pueda reaccionar a los cambios con Flow una vez
-    // que se hayan cargado los datos iniciales.
-    fun loadBrands() {
+    private fun observeCars() {
         viewModelScope.launch {
-            repository.currentBrands.catch { e -> e.printStackTrace() } // Manejo de errores.
-                .collect { brands ->
-                    _currentBrand.value = brands // Actualiza el StateFlow con las editoriales.
-                }
+            repository.currentCars.collect {
+                _cars.value = it
+            }
         }
     }
 
-    fun loadCars() {
+    private fun observeBrands() {
         viewModelScope.launch {
-            repository.currentCars.catch { e -> e.printStackTrace() } // Manejo de errores.
-                .collect { cars ->
-                    _currentCars.value = cars // Actualiza el StateFlow con los superhéroes.
-                }
+            repository.currentBrands.collect {
+                _brands.value = it
+            }
         }
     }
 
-    fun saveBrand(brand: Brand) {
-        viewModelScope.launch {
-            repository.saveBrand(brand)
-        }
-    }
-
-    fun saveCar(car: Car) {
+    fun addCar(car: Car) {
         viewModelScope.launch {
             repository.saveCar(car)
         }
     }
 
-    suspend fun delCar(car: Car): Int {
-        return deleteCar(car).await()
+    fun updateCar(car: Car) {
+        viewModelScope.launch {
+            repository.saveCar(car)
+        }
     }
 
-    // Esta función devuelve un Deferred para que se pueda esperar su resultado de forma asíncrona.
-    private fun deleteCar(car: Car): Deferred<Int> {
-        return viewModelScope.async {
+    fun deleteCar(car: Car) {
+        viewModelScope.launch {
             repository.deleteCar(car)
         }
     }
 
-    fun getCarrById(carId: Int): Flow<Car> {
-        return viewModelScope.async { repository.getCarById(carId) } as Flow<Car>
+    fun addBrand(name: String) {
+        viewModelScope.launch {
+
+            // Evitar duplicados
+            val exists = brands.value.any {
+                it.name.equals(name, ignoreCase = true)
+            }
+
+            if (!exists) {
+                repository.saveBrand(
+                    Brand(name = name)
+                )
+            }
+        }
     }
 
-    fun getBrandById(brandId: Int): Deferred<Brand?> {
-        return viewModelScope.async { repository.getBrById(brandId) }
+
+    fun insertarDatosPrueba() {
+        viewModelScope.launch {
+            repository.saveBrand(Brand(name = "Toyota"))
+            repository.saveBrand(Brand(name = "Ford"))
+            repository.saveCar(Car(model = "Corolla", motor = "Hybrid", year = 2022, idBrand = 1))
+            repository.saveCar(Car(model = "Focus", motor = "Diesel", year = 2020, idBrand = 2))
+        }
     }
 
 }

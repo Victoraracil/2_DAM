@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NotesPMDM</string>
+
+        <!--Acciones-->
+        <string name="txt_onAddNote">Añadir nota</string>
+        <string name="txt_onDeleteNote">Eliminar nota</string>
+        <string name="txt_onEditNote">Editar nota</string>
+        <string name="txt_onSaveNote">Guardar nota</string>
+        <string name="txt_onSortAZ">Ordenar por título (A-Z)</string>
+        <string name="txt_onSortZA">Ordenar por título (Z-A)</string>
+
+        <!--Campos nota-->
+        <string name="txt_titleNote">Título nota</string>
+        <string name="txt_descriptionNote">Descripción nota</string>
+        <string name="txt_newNote">Nueva nota</string>
+        <string name="txt_editNote">Editar nota</string>
+
+
+    <!--Error-->
+        <string name="txt_errorTitle">El Título no puede estar vacío</string>
+
+        <!--Snackbar-->
+        <string name="txt_undo">Deshacer</string>
+        <string name="txt_noteDeleted">Eliminada la nota "%1$s"</string>
+        <string name="txt_titleNotes">Notas</string>
+        <string name="txt_menu">Menú</string>
+
+
+    <!--Lista vacia -->
+        <string name="txt_noNotes">No hay notas que mostrar</string>
+
+</resources>

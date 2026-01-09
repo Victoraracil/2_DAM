@@ -10,7 +10,7 @@ class Repository(private val localDatasource: LocalDatasource) {
     val currentCars: Flow<List<CarWithBrand>> = localDatasource.currentCar
     val currentBrands: Flow<List<Brand>> = localDatasource.currentBrand
 
-    suspend fun deleteCar(car: Car): Int { // Returns the number of rows deleted.
+    suspend fun deleteCar(car: Car): Int { //Returns the number of rows deleted.
         return localDatasource.deleteCar(car)
     }
 
