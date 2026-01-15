@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_EcoCharger.Models
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     public class Station
     {
         [Key]

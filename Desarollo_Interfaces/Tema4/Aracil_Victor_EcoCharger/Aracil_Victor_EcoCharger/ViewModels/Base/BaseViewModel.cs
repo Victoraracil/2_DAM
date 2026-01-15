@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_EcoCharger.ViewModels.Base
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;

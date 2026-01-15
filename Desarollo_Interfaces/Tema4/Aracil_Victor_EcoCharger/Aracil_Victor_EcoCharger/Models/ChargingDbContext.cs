@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Aracil_Victor_EcoCharger.Models
 {
-
+    /// <author> Victor Aracil Gozalvez</author>
     public class ChargingDbContext : DbContext
     {
         public virtual DbSet<Station> Stations { get; set; }
@@ -20,6 +20,14 @@ namespace Aracil_Victor_EcoCharger.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EcoCharger_VAG");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.RFIDTag)
+                .IsUnique();
+            base.OnModelCreating(modelBuilder);
         }
     }
 

@@ -7,6 +7,8 @@ using System.Windows.Input;
 
 namespace Aracil_Victor_EcoCharger.ViewModels.Base
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     public class RelayCommand<T> : ICommand
     {
         private readonly Action<T> _execute;

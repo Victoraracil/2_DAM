@@ -8,6 +8,8 @@ using System.Windows.Input;
 
 namespace Aracil_Victor_EcoCharger.ViewModels
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     public class MainWindowViewModel : BaseViewModel
     {
         #region Atributos

@@ -15,6 +15,8 @@ namespace Aracil_Victor_EcoCharger
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// <author> Victor Aracil Gozalvez</author>
+
     public partial class MainWindow : Window
     {
         public MainWindow()

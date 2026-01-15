@@ -41,7 +41,7 @@
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
 
-                <!-- Template de cada tienda -->
+                <!-- Template de cada estacion -->
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Border Width="220"

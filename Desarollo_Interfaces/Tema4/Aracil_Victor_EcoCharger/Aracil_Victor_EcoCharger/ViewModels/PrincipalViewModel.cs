@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_EcoCharger.ViewModels
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     public class PrincipalViewModel : BaseViewModel
     {
         public PrincipalViewModel() { }

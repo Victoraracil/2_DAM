@@ -11,10 +11,12 @@ using System.Windows.Input;
 
 namespace Aracil_Victor_EcoCharger.ViewModels
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     internal class StationsViewModel : BaseViewModel
     {
         #region atributos
-        // Coleccion para almacenar las tiendas de la BBDD
+        // Coleccion para almacenar las estaciones de la BBDD
         private List<Station> _listaEstaciones;
         private ObservableCollection<Station> _listaEstacionesVisibles;
 
@@ -22,7 +24,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
 
         #region Propiedades
 
-        // Tiendas disponibles
+        // estaciones disponibles
         public ObservableCollection<Station> ListaEstacionesVisibles
         {
             get => _listaEstacionesVisibles;
@@ -45,21 +47,21 @@ namespace Aracil_Victor_EcoCharger.ViewModels
             
 
             // Inicializamos los comandos
-            CargarCommand = new RelayCommand(PerformCargarTiendas);
+            CargarCommand = new RelayCommand(PerformCargarestacions);
         }
 
         #endregion
 
         #region Metodos
-        private async void PerformCargarTiendas(object? parameter = null)
+        private async void PerformCargarestacions(object? parameter = null)
         {
             // Abrimos una conexion con la BBDD
             var service = new ServiceStation();
 
-            // Cargamos las tiendas desde la BBDD
+            // Cargamos las estaciones desde la BBDD
             _listaEstaciones = await service.Listar();
 
-            // Cargamos las tiendas en la ObservableCollection
+            // Cargamos las estaciones en la ObservableCollection
             _listaEstacionesVisibles.Clear();
             foreach (var s in _listaEstaciones)
             {

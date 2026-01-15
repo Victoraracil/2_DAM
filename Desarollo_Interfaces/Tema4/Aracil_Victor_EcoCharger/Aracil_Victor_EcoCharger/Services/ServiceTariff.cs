@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_EcoCharger.Services
 {
+    /// <author> Victor Aracil Gozalvez</author>
+
     internal class ServiceTariff : IDisposable
     {
         bool disposed;

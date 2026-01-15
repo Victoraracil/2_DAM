@@ -18,6 +18,8 @@ namespace Aracil_Victor_EcoCharger.Views
     /// <summary>
     /// Lógica de interacción para StationsView.xaml
     /// </summary>
+    ///<author> Victor Aracil Gozalvez</author>
+
     public partial class StationsView : UserControl
     {
         public StationsView()

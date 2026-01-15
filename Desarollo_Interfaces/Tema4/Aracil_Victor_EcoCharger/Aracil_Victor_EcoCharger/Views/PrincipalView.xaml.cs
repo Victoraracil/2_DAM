@@ -18,6 +18,7 @@ namespace Aracil_Victor_EcoCharger.Views
     /// <summary>
     /// Lógica de interacción para PrincipalView.xaml
     /// </summary>
+    /// <author> Victor Aracil Gozalvez</author>
     public partial class PrincipalView : UserControl
     {
         public PrincipalView()

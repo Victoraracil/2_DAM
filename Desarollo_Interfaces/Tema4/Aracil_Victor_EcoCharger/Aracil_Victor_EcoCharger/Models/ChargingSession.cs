@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Aracil_Victor_EcoCharger.Models
 {
-
+    /// <author> Victor Aracil Gozalvez</author>
     public class ChargingSession
     {
         [Key]
