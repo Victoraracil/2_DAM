@@ -169,6 +169,9 @@ namespace Aracil_Victor_EcoCharger.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RFIDTag")
+                        .IsUnique();
+
                     b.ToTable("Users");
                 });
 

@@ -33,12 +33,15 @@ namespace Aracil_Victor_EcoCharger.ViewModels
         // Comandos para navegar
         public ICommand ShowMainCommand { get; }
         public ICommand ShowStationsCommand { get; }
+        public ICommand ShowStationsCRUDCommand { get; }
 
         public MainWindowViewModel()
         {
             // Inicializamos comandos
             ShowMainCommand = new RelayCommand(ExecuteShowMain);
             ShowStationsCommand = new RelayCommand(ExecuteShowEstaciones);
+            ShowStationsCRUDCommand = new RelayCommand(ExecuteShowEstacionesCRUD);
+
 
             // Al arrancar, mostramos las estaciones por defecto
             ExecuteShowMain();
@@ -59,6 +62,13 @@ namespace Aracil_Victor_EcoCharger.ViewModels
             // Aquí instanciamos el VM de la vista hija.
             // En un caso real, usaríamos Inyección de Dependencias.
             CurrentView = new StationsViewModel();
+        }
+
+        private void ExecuteShowEstacionesCRUD(object? parameter = null)
+        {
+            // Aquí instanciamos el VM de la vista hija.
+            // En un caso real, usaríamos Inyección de Dependencias.
+            CurrentView = new StationsCrudViewModel();
         }
 
         #endregion

@@ -24,5 +24,7 @@ namespace Aracil_Victor_EcoCharger
             InitializeComponent();
             DataContext = new MainWindowViewModel();
         }
+
+        
     }
 }

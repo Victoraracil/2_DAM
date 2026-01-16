@@ -151,3 +151,5 @@ C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_Ec
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Views\PrincipalView.baml
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Views\StationsView.baml
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Views\StationsCrudView.g.cs
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Views\StationsCrudView.baml
