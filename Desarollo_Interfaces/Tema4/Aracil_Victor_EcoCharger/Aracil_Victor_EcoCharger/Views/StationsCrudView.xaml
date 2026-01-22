@@ -140,7 +140,7 @@
 
                     <!-- Dirección -->
                     <TextBlock Text="Dirección"/>
-                    <TextBox Text="{Binding Path=Adress, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding Path=Address, UpdateSourceTrigger=PropertyChanged}"/>
 
                     <!-- Activa -->
                     <CheckBox Content="Tienda abierta" Margin="0,10,0,10" IsChecked="{Binding Path=IsActive}"/>

@@ -11,13 +11,6 @@ namespace Aracil_Victor_EcoCharger.Models
 {
     /// <author> Victor Aracil Gozalvez</author>
 
-    public enum ChargerType
-    {
-        Type2_Mennekes,
-        CHAdeMO,
-        CCS2_Combo,
-        Schuko
-    }
 public class Charger
     {
         [Key]
@@ -27,7 +20,12 @@ public class Charger
         public int StationId { get; set; }
 
         [Required]
-        public ChargerType Type { get; set; }
+        /*
+         * 0 = Type2_Mennekes,
+         * 1 = CHAdeMO,
+         * 2 = CCS2_Combo,
+         * 3 = Schuko*/
+        public int Type { get; set; }
 
         [Range(1, 350)]
         public int MaxPower { get; set; }

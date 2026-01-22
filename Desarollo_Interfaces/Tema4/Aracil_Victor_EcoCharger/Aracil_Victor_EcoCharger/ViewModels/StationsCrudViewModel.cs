@@ -100,6 +100,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
         public ICommand BorrarCargadorCommand { get; }
         public ICommand SelectedItemChangedCommand { get; }
 
+
         public StationsCrudViewModel()
         {
             // Inicializamos los atributos
@@ -115,8 +116,8 @@ namespace Aracil_Victor_EcoCharger.ViewModels
             CargarCommand = new RelayCommand(PerformCargarEstaciones);
             NuevaEstacionCommand = new RelayCommand(PerformNuevaEstacion);
             GuardarEstacionCommand = new RelayCommand(PerformGuardarEstacion, CanExecuteBotones);
-            BorrarCargadorCommand = new RelayCommand(PerformBorrarEstacion, CanExecuteBotones);
-            NuevaEstacionCommand = new RelayCommand(PerformNuevoCargador, CanExecuteBotones);
+            BorrarEstacionCommand = new RelayCommand(PerformBorrarEstacion, CanExecuteBotones);
+            NuevoCargadorCommand = new RelayCommand(PerformNuevoCargador, CanExecuteBotones);
             BorrarCargadorCommand = new RelayCommand<Charger>(PerformBorrarCargador);
             SelectedItemChangedCommand = new RelayCommand(PerformSelectedItemChanged);
         }
@@ -211,7 +212,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
 
             // Recargamos la lista
             PerformCargarEstaciones();
-            PerformLimpiarTiendas();
+            PerformLimpiarEstaciones();
         }
 
 
@@ -242,6 +243,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
                 IsOccupied = false
             });
         }
+
 
         // Borramos un cargador de la lista
         private async void PerformBorrarCargador(Charger charger)
@@ -276,7 +278,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
         }
 
         // Limpiador de Interfaz
-        private void PerformLimpiarTiendas(object? parameter = null)
+        private void PerformLimpiarEstaciones(object? parameter = null)
         {
             Id = 0;
             Name = string.Empty;

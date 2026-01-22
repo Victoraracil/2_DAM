@@ -1,0 +1,16 @@
+<resources>
+    <!-- Nombre app -->
+    <string name="app_name">API Rest Words</string>
+
+    <!-- Navegacion -->
+    <string name="txt_optBottom_all">Todas las palabras</string>
+    <string name="txt_favorites">Palabras favoritas</string>
+
+    <!-- Opciones menu -->
+    <string name="txt_opt_sort">Ordenar alfabéticamente</string>
+    <string name="txt_opt_random">Una palabra al azar</string>
+
+    <!-- Mensajes -->
+    <string name="txt_retry">Reintentar</string>
+    <string name="txt_empty_favorites">No tienes palabras favoritas</string>
+</resources>

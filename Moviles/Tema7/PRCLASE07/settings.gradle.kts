@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "PR-CLASE-07"
 include(":app")
- 

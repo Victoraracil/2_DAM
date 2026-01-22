@@ -3,7 +3,18 @@
 /* A tener en cuenta:
 	Al estar probando el programa, cuando le das a las estaciones, tarda un poco en cargar y que se muestren*/
 
-/*ESTACIONES*/
+/* ============================================================
+   ECOCHARGER - SCRIPT DE DATOS DE PRUEBA
+   - 10 Stations
+   - 10+ Chargers (mínimo 1 por estación)
+   - 10 Users
+   - 10 Tariffs
+   - 10 ChargingSessions
+   ============================================================ */
+
+---------------------------------------------------------------
+-- STATIONS (10)
+---------------------------------------------------------------
 INSERT INTO Stations (Name, Address, Latitude, Longitude, IsActive) VALUES
 ('Station Centro', 'Calle Mayor 1', 40.4168, -3.7038, 1),
 ('Station Norte', 'Av. Norte 12', 40.4800, -3.6880, 1),
@@ -16,22 +27,49 @@ INSERT INTO Stations (Name, Address, Latitude, Longitude, IsActive) VALUES
 ('Station Tech', 'Parque Tecnológico', 40.4500, -3.6500, 1),
 ('Station Industrial', 'Polígono Norte', 40.5100, -3.7200, 0);
 
-
-/*CARGADORES*/
+---------------------------------------------------------------
+-- CHARGERS (14)
+-- Enum ChargerType:
+-- 0 = Type2_Mennekes | 1 = CHAdeMO | 2 = CCS2_Combo | 3 = Schuko
+-- ✔ TODAS las estaciones tienen al menos 1 cargador
+---------------------------------------------------------------
 INSERT INTO Chargers (StationId, Type, MaxPower, IsOccupied) VALUES
+-- Station 1
 (1, 0, 22, 0),
 (1, 2, 150, 1),
+
+-- Station 2
 (2, 1, 50, 0),
-(2, 2, 120, 1),
+
+-- Station 3
 (3, 3, 3, 0),
+
+-- Station 4
 (4, 2, 350, 1),
+
+-- Station 5
 (5, 0, 22, 0),
-(6, 1, 50, 0),
+(5, 1, 50, 0),
+
+-- Station 6
+(6, 2, 120, 1),
+
+-- Station 7
 (7, 2, 250, 1),
-(8, 3, 7, 0);
+(7, 0, 22, 0),
 
+-- Station 8
+(8, 3, 7, 0),
 
-/*USUARIOS*/
+-- Station 9
+(9, 2, 180, 0),
+
+-- Station 10
+(10, 1, 60, 0);
+
+---------------------------------------------------------------
+-- USERS (10) - RFIDTag ÚNICO
+---------------------------------------------------------------
 INSERT INTO Users (FullName, Email, RFIDTag, Balance) VALUES
 ('Juan Pérez', 'juan.perez@mail.com', 'RFID001', 50.0000),
 ('María López', 'maria.lopez@mail.com', 'RFID002', 30.5000),
@@ -44,9 +82,9 @@ INSERT INTO Users (FullName, Email, RFIDTag, Balance) VALUES
 ('Jorge Vidal', 'jorge.vidal@mail.com', 'RFID009', 15.0000),
 ('Sara Molina', 'sara.molina@mail.com', 'RFID010', 200.0000);
 
-
-
-/*TARIFAS*/
+---------------------------------------------------------------
+-- TARIFFS (10)
+---------------------------------------------------------------
 INSERT INTO Tariffs (Name, PricePerKWh, StartHour, EndHour) VALUES
 ('Nocturna', 0.1200, '00:00:00', '06:00:00'),
 ('Mañana', 0.2000, '06:00:00', '09:00:00'),
@@ -59,9 +97,9 @@ INSERT INTO Tariffs (Name, PricePerKWh, StartHour, EndHour) VALUES
 ('Fin de Semana', 0.1800, '00:00:00', '23:59:59'),
 ('Especial', 0.2200, '10:00:00', '14:00:00');
 
-
-
-/*SESION DE CARGA*/
+---------------------------------------------------------------
+-- CHARGING SESSIONS (10)
+---------------------------------------------------------------
 INSERT INTO ChargingSessions
 (ChargerId, UserId, StartTime, EndTime, KWhConsumed, TotalCost) VALUES
 (1, 1, '08:00:00', '09:30:00', 12.50, 2.5000),
@@ -74,6 +112,10 @@ INSERT INTO ChargingSessions
 (8, 8, '16:30:00', '18:00:00', 30.00, 9.6000),
 (9, 9, '20:00:00', '21:30:00', 25.00, 8.0000),
 (10, 10, '23:00:00', '23:59:00', 8.00, 0.8000);
+
+---------------------------------------------------------------
+-- FIN DEL SCRIPT
+---------------------------------------------------------------
 
 
 
