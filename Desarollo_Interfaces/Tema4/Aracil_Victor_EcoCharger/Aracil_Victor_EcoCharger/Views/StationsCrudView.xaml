@@ -3,10 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Aracil_Victor_EcoCharger.Views" xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:vr="clr-namespace:Aracil_Victor_EcoCharger.ValidationRules"
+             xmlns:local="clr-namespace:Aracil_Victor_EcoCharger.Views" 
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    
+
+    <UserControl.Resources>
+
+        <ControlTemplate x:Key="ValidationErrorTemplate">
+            <DockPanel LastChildFill="True">
+
+                <!-- Contenido principal -->
+                <StackPanel>
+
+                    <!-- Control adornado con borde completo -->
+                    <Border
+                        BorderBrush="#B71C1C"
+                        BorderThickness="2"
+                        CornerRadius="6">
+
+                        <AdornedElementPlaceholder/>
+                    </Border>
+
+                    <!-- Caja de mensajes -->
+                    <Border
+                        Background="#1E1E1E"
+                        CornerRadius="6"
+                        Padding="8"
+                        Margin="0,6,0,0"
+                        MaxWidth="250">
+
+                        <ItemsControl ItemsSource="{Binding}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock
+                                Text="{Binding ErrorContent}"
+                                Foreground="#FFCDD2"
+                                FontSize="12"
+                                TextWrapping="Wrap"/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Border>
+
+                </StackPanel>
+            </DockPanel>
+        </ControlTemplate>
+
+
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,6,0,2"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+    </UserControl.Resources>
+
     <!-- Cargamos las Estaciones cuando se carga la Vista -->
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
@@ -102,6 +155,18 @@
                                                     <ComboBoxItem Content="Schuko" />
                                                 </ComboBox>
 
+                                                <!-- Potencia -->
+                                                <TextBlock Text="Potencia"/>
+                                                <TextBox Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}">
+                                                    <TextBox.Text>
+                                                        <Binding Path="MaxPower" UpdateSourceTrigger="LostFocus" ConverterCulture="es-ES">
+                                                            <Binding.ValidationRules>
+                                                                <vr:RangoPotenciaValidationRule Min="1" Max="350"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </TextBox.Text>
+                                                </TextBox>
+
                                                 <CheckBox Content="Cargador Ocupado"
                                                     Margin="0,10,0,10"
                                                     IsChecked="{Binding IsOccupied, Mode=TwoWay}"/>
@@ -136,11 +201,42 @@
 
                     <!-- Nombre -->
                     <TextBlock Text="Nombre"/>
-                    <TextBox Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
-
+                    <TextBox Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}">
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <vr:StringValidationRule Texto="Nombre"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
                     <!-- Dirección -->
                     <TextBlock Text="Dirección"/>
                     <TextBox Text="{Binding Path=Address, UpdateSourceTrigger=PropertyChanged}"/>
+
+                    <!-- Latitud -->
+                    <TextBlock Text="Latitud"/>
+                    <TextBox Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}">
+                        <TextBox.Text>
+                            <Binding Path="Latitude" UpdateSourceTrigger="LostFocus" ConverterCulture="es-ES">
+                                <Binding.ValidationRules>
+                                    <vr:RangoNumericoValidationRule Min="-90" Max="90"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+
+                    <!-- Longitud -->
+                    <TextBlock Text="Longitud"/>
+                    <TextBox Validation.ErrorTemplate="{StaticResource ValidationErrorTemplate}">
+                        <TextBox.Text>
+                            <Binding Path="Longitude" UpdateSourceTrigger="LostFocus" ConverterCulture="es-ES">
+                                <Binding.ValidationRules>
+                                    <vr:RangoNumericoValidationRule Min="-180" Max="180"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
 
                     <!-- Activa -->
                     <CheckBox Content="Tienda abierta" Margin="0,10,0,10" IsChecked="{Binding Path=IsActive}"/>
@@ -151,12 +247,12 @@
                         Margin="0,20,0,0">
 
                         <Button Content="Guardar"
-                            Width="100"
+                            Width="87"
                             Margin="0,0,10,0"
                             Command="{Binding DataContext.GuardarEstacionCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" />
 
                         <Button Content="Eliminar"
-                            Width="100"
+                            Width="87"
                             Command="{Binding DataContext.BorrarEstacionCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                     </StackPanel>
 

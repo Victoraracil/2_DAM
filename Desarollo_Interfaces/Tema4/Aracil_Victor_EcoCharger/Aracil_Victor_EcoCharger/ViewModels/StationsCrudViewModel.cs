@@ -156,7 +156,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
         private async void PerformGuardarEstacion(object? parameter = null)
         {
 
-            // Si la estacion no tiene al menos una lavadora
+            // Si la estacion no tiene al menos un cargador
             if (Chargers == null) { return; }
 
             // Nos conectamos a la BBDD
@@ -179,7 +179,7 @@ namespace Aracil_Victor_EcoCharger.ViewModels
 
             foreach (var cargador in Chargers)
             {
-                cargador.Id = Id;
+                cargador.StationId = Id;
 
                 if (cargador.Id == 0)
                 {

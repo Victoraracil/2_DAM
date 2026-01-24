@@ -10,6 +10,7 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800">
 
+    <!-- Cargamos las Estaciones cuando se carga la Vista -->
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
             <i:InvokeCommandAction Command="{Binding CargarCommand}"/>
@@ -52,7 +53,7 @@
                         BorderBrush="#E5E7EB"
                         BorderThickness="1">
 
-                            <StackPanel>
+                            <StackPanel><!--Campos de cada estacion y diseño-->
                                 <TextBlock Text="{Binding Name}"
                                    FontWeight="Bold"
                                    FontSize="14"

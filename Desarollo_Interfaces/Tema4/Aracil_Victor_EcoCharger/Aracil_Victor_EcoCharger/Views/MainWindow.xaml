@@ -11,6 +11,8 @@
         Height="600"
         Width="1000"
         WindowStartupLocation="CenterScreen">
+   
+    <!--Carga de los viewmodels-->
     <Window.Resources>
         <DataTemplate DataType="{x:Type vm:StationsViewModel}">
             <views:StationsView />
