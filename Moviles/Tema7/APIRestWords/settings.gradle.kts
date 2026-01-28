@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "API Rest Words"
+rootProject.name = "APIRestWords"
 include(":app")
  

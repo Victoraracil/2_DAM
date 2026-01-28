@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2026.1.20.0" projectFile="C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Documentation1.shfbproj" started="28/01/2026 20:42:58">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Core/.NET Standard/.NET 5.0+&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NET&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2026.1.20.0
+Copyright &#169; 2006-2026, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.xml
+Source: C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.dll
+    Found assembly &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.dll&#39;
+
+Copying XML comments files
+    C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.xml -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Aracil_Victor_EcoCharger.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Ingl&#233;s (Estados Unidos))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-f4f61163-80c6-4f64-93cd-18a938385ea2.proj]
+Compilaci&#195;&#179;n iniciada a las 28/01/2026 20:42:59.
+
+Proyecto &quot;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\GenerateRefInfo-f4f61163-80c6-4f64-93cd-18a938385ea2.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.14.23+b0019275ecd6d49bb192b2e055849e25419f1010)
+  &#194;&#169; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Using framework redirect &#39;WindowsBase, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;WindowsBase, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;PresentationFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;PresentationFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;WindowsBase, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;WindowsBase, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;System.Xaml, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Xaml, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;PresentationCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;PresentationCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;System.ComponentModel.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Primitives, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.Xaml, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Xaml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.EntityFrameworkCore (Microsoft.EntityFrameworkCore, Version=9.0.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by Aracil_Victor_EcoCharger [C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\GenerateRefInfo-f4f61163-80c6-4f64-93cd-18a938385ea2.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.EntityFrameworkCore.Relational (Microsoft.EntityFrameworkCore.Relational, Version=9.0.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by Aracil_Victor_EcoCharger [C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\GenerateRefInfo-f4f61163-80c6-4f64-93cd-18a938385ea2.proj]
+  Using framework redirect &#39;System.Collections, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.ComponentModel.Annotations, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Annotations, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.ComponentModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.ComponentModel.TypeConverter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.TypeConverter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 8 namespaces, 26 types, and 155 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#195;&#179;n del proyecto terminada &quot;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\GenerateRefInfo-f4f61163-80c6-4f64-93cd-18a938385ea2.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,0330
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,1213
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,0480
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,0300
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0290
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+Reflection information will be retrieved from &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\reflection.xml&#39;
+Indexing C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\9.0.11\ref\net9.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\9.0.11\ref\net9.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\9.0.11\ref\net9.0\*.xml
+Indexing C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Aracil_Victor_EcoCharger.xml
+Indexed 130780 members in 286 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+SHFB: Warning GID0004: No comments found for member &#39;M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+SHFB: Warning GID0004: No comments found for member &#39;M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+SHFB: Warning GID0004: No comments found for member &#39;M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;
+Documentation merged successfully.  Merged comments were saved in &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\_InheritedDocs_.xml&#39;.
+    Last step completed in 00:00:00,4810
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\Welcome.md&#39;
+    C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\Welcome.md -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\ddueXml\Welcome.xml
+    Parsing topic file &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\VersionHistory\VersionHistory.md&#39;
+    C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\VersionHistory\VersionHistory.md -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\ddueXml\VersionHistory.xml
+    Parsing topic file &#39;C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\VersionHistory\v1.0.0.0.md&#39;
+    C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Content\VersionHistory\v1.0.0.0.md -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\ddueXml\v1-0-0-0.xml
+    Last step completed in 00:00:00,0210
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\icons\Help.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0440
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,0870
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.Migrations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.Models] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.Charger] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.CargadorAsociado] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.ChargingSessions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.IsOccupied] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.MaxPower] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.StationId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Charger.Type] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.ChargingDbContext] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingDbContext.Chargers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingDbContext.ChargingSessions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Models.ChargingDbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Models.ChargingDbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)] Missing &lt;param name=&quot;optionsBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Models.ChargingDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.Models.ChargingDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingDbContext.Stations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingDbContext.Tariffs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingDbContext.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.ChargingSession] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.ChargerId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.EndTime] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.KWhConsumed] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.SesionAsociada] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.StartTime] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.TotalCost] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.UserId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.ChargingSession.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.Station] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Chargers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.IsActive] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Latitude] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Longitude] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Station.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.Tariff] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Tariff.EndHour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Tariff.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Tariff.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Tariff.PricePerKWh] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.Tariff.StartHour] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.Models.User] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.Balance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.ChargingSessions] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.Email] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.FullName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.Models.User.RFIDTag] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.Services] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.ValidationRules] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Max] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Min] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoNumericoValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;cultureInfo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Max] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Min] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.RangoPotenciaValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;cultureInfo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule.Texto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ValidationRules.StringValidationRule.Validate(System.Object,System.Globalization.CultureInfo)] Missing &lt;param name=&quot;cultureInfo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.ViewModels] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel.CurrentView] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel.ShowMainCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel.ShowStationsCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel.ShowStationsCRUDCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.PrincipalViewModel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Address] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.BorrarCargadorCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.BorrarEstacionCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.CargarCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Chargers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.GuardarEstacionCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.IsActive] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Latitude] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.ListaEstacionesVisibles] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Longitude] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.NuevaEstacionCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.NuevoCargadorCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.Selected] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Aracil_Victor_EcoCharger.ViewModels.StationsCrudViewModel.SelectedItemChangedCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.ViewModels.Base] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.OnPropertyChanged(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.OnPropertyChanged(System.String)] Missing &lt;param name=&quot;propertyName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.PropertyChanged] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;param name=&quot;field&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel.SetProperty``1(``0@,``0,System.String)] Missing &lt;param name=&quot;propertyName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.#ctor(System.Action{System.Object})] Missing &lt;param name=&quot;execute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.#ctor(System.Action{System.Object},System.Predicate{System.Object})] Missing &lt;param name=&quot;execute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.#ctor(System.Action{System.Object},System.Predicate{System.Object})] Missing &lt;param name=&quot;canExecute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.CanExecute(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.CanExecute(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.CanExecute(System.Object)] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.CanExecuteChanged] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.Execute(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand.Execute(System.Object)] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.#ctor(System.Action{`0})] Missing &lt;param name=&quot;execute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.#ctor(System.Action{`0},System.Predicate{`0})] Missing &lt;param name=&quot;execute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.#ctor(System.Action{`0},System.Predicate{`0})] Missing &lt;param name=&quot;canExecute&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.CanExecute(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.CanExecute(System.Object)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.CanExecute(System.Object)] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.CanExecuteChanged] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.Execute(System.Object)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1.Execute(System.Object)] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Aracil_Victor_EcoCharger.Views] Missing &lt;summary&gt; documentation
+Processed 260 topic(s)
+137 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 10 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
+    Last step completed in 00:00:05,3350
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+Processing website files in C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website
+Processed 260 HTML files.  Sorting keywords and generating See Also indices.
+Saving website table of contents to C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\\WebTOC.xml
+    Last step completed in 00:00:00,0350
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\privStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\protStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\pubStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\Static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\index.html -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\search.html -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.php -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\Web.Config -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\Search.png -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.7.1.min.js -&gt; C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Documentation1\Help\Working\Output\Website\scripts\jquery-3.7.1.min.js
+    Last step completed in 00:00:00,3428
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:01,0072
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 447 files for the website content
+    Last step completed in 00:00:00,4804
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1223
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 28/01/2026 20:43:08.  Total time: 00:00:09,8061
+
+</buildStep>
+</shfbBuild>

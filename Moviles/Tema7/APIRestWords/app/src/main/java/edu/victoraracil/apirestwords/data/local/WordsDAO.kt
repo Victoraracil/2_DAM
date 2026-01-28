@@ -1,6 +1,7 @@
 package edu.victoraracil.apirestwords.data.local
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
@@ -10,19 +11,19 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface WordsDAO {
 
-    @Query("SELECT * FROM words")
-    fun getAllWords(): Flow<List<Word>>
-
-    // Insertar palabra favorita
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertWord(word: List<Word>)
-
-    // Eliminar palabra de favoritos
-    @Query("DELETE FROM words WHERE word = :word")
-    suspend fun deleteWord(word: String)
-
-    // Obtener todas las palabras favoritas
     @Query("SELECT * FROM words ORDER BY word ASC")
-    fun getFavoriteWords(): Flow<List<Word>>
+    fun getAllWordsFavAsc(): Flow<List<Word>>
 
+    @Query("SELECT * FROM words ORDER BY word DESC")
+    fun getAllWordsFavDesc(): Flow<List<Word>>
+
+    @Query("SELECT * FROM words WHERE idWord = :id")
+    suspend fun getWordById(id: Int): Word?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertWord(word: Word)
+
+    @Delete
+    suspend fun deleteWord(word: Word)
 }
+

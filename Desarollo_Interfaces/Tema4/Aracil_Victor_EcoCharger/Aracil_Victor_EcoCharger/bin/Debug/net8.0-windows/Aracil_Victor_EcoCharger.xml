@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Aracil_Victor_EcoCharger</name>
+    </assembly>
+    <members>
+        <member name="T:Aracil_Victor_EcoCharger.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.Charger">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.ChargingDbContext">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.ChargingSession">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.Station">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.Tariff">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Models.User">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Services.ServiceCharger">
+            <summary>
+            Servicio encargado de gestionar las operaciones CRUD relacionadas con los
+            cargadores del sistema EcoCharger.
+            </summary>
+            <remarks>
+            Esta clase permite administrar los cargadores, incluyendo su relación con
+            otros cargadores asociados, y gestiona la liberación de recursos mediante
+            la implementación de IDisposable.
+            </remarks>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.#ctor">
+            <summary>
+            Inicializa una nueva instancia del servicio de cargadores.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Listar">
+            <summary>
+            Obtiene la lista completa de cargadores del sistema.
+            </summary>
+            <returns>
+            Una lista de cargadores ordenados por su identificador,
+            incluyendo el cargador asociado.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Listar(System.Int32)">
+            <summary>
+            Obtiene un cargador concreto a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único del cargador.</param>
+            <returns>
+            El cargador encontrado o <c>null</c> si no existe ningún cargador con ese identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Insertar(Aracil_Victor_EcoCharger.Models.Charger)">
+            <summary>
+            Inserta un nuevo cargador en la base de datos.
+            </summary>
+            <param name="charger">Objeto cargador que se desea insertar.</param>
+            <returns>
+            El cargador insertado con sus datos actualizados.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="charger"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Actualizar(Aracil_Victor_EcoCharger.Models.Charger)">
+            <summary>
+            Actualiza los datos de un cargador existente.
+            </summary>
+            <param name="charger">Objeto cargador con los datos actualizados.</param>
+            <returns>
+            <c>true</c> si el cargador se ha actualizado correctamente;
+            <c>false</c> si el cargador no existe.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="charger"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Borrar(System.Int32)">
+            <summary>
+            Elimina un cargador de la base de datos a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único del cargador.</param>
+            <returns>
+            <c>true</c> si el cargador se ha eliminado correctamente;
+            <c>false</c> si el cargador no existe.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Dispose">
+            <summary>
+            Libera los recursos utilizados por el servicio.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Dispose(System.Boolean)">
+            <summary>
+            Libera los recursos administrados y no administrados.
+            </summary>
+            <param name="disposing">
+            Indica si se están liberando recursos administrados.
+            </param>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceCharger.Finalize">
+            <summary>
+            Destructor de la clase ServiceCharger.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Services.ServiceChargingSession">
+            <summary>
+            Servicio encargado de gestionar las operaciones CRUD relacionadas con las
+            sesiones de carga del sistema EcoCharger.
+            </summary>
+            <remarks>
+            Esta clase permite administrar las sesiones de carga, incluyendo la relación
+            con los usuarios y las sesiones asociadas, y gestiona la liberación de recursos
+            mediante la implementación de IDisposable.
+            </remarks>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.#ctor">
+            <summary>
+            Inicializa una nueva instancia del servicio de sesiones de carga.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Listar">
+            <summary>
+            Obtiene la lista completa de sesiones de carga del sistema.
+            </summary>
+            <returns>
+            Una lista de sesiones de carga ordenadas por su identificador,
+            incluyendo los usuarios y la sesión asociada.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Listar(System.Int32)">
+            <summary>
+            Obtiene una sesión de carga concreta a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la sesión de carga.</param>
+            <returns>
+            La sesión de carga encontrada o <c>null</c> si no existe ninguna sesión con ese identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Insertar(Aracil_Victor_EcoCharger.Models.ChargingSession)">
+            <summary>
+            Inserta una nueva sesión de carga en la base de datos.
+            </summary>
+            <param name="session">Objeto sesión de carga que se desea insertar.</param>
+            <returns>
+            La sesión de carga insertada con sus datos actualizados.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="session"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Actualizar(Aracil_Victor_EcoCharger.Models.ChargingSession)">
+            <summary>
+            Actualiza los datos de una sesión de carga existente.
+            </summary>
+            <param name="session">Objeto sesión de carga con los datos actualizados.</param>
+            <returns>
+            <c>true</c> si la sesión de carga se ha actualizado correctamente;
+            <c>false</c> si la sesión no existe.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="session"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Borrar(System.Int32)">
+            <summary>
+            Elimina una sesión de carga de la base de datos a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la sesión de carga.</param>
+            <returns>
+            <c>true</c> si la sesión se ha eliminado correctamente;
+            <c>false</c> si la sesión no existe.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Dispose">
+            <summary>
+            Libera los recursos utilizados por el servicio.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Dispose(System.Boolean)">
+            <summary>
+            Libera los recursos administrados y no administrados.
+            </summary>
+            <param name="disposing">
+            Indica si se están liberando recursos administrados.
+            </param>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceChargingSession.Finalize">
+            <summary>
+            Destructor de la clase ServiceChargingSession.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Services.ServiceStation">
+            <summary>
+            Servicio encargado de gestionar las operaciones CRUD relacionadas con las estaciones
+            de carga del sistema EcoCharger.
+            </summary>
+            <remarks>
+            Esta clase permite administrar estaciones de carga, incluyendo sus cargadores asociados,
+            y gestiona correctamente la liberación de recursos mediante IDisposable.
+            </remarks>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.#ctor">
+            <summary>
+            Inicializa una nueva instancia del servicio de estaciones.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Listar">
+            <summary>
+            Obtiene la lista completa de estaciones de carga del sistema.
+            </summary>
+            <returns>
+            Una lista de estaciones ordenadas por su identificador, incluyendo
+            los cargadores asociados a cada estación.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Listar(System.Int32)">
+            <summary>
+            Obtiene una estación de carga concreta a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la estación.</param>
+            <returns>
+            La estación encontrada o <c>null</c> si no existe ninguna estación con ese identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Insertar(Aracil_Victor_EcoCharger.Models.Station)">
+            <summary>
+            Inserta una nueva estación de carga en la base de datos.
+            </summary>
+            <param name="station">Objeto estación que se desea insertar.</param>
+            <returns>
+            La estación insertada con sus datos actualizados.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="station"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Actualizar(Aracil_Victor_EcoCharger.Models.Station)">
+            <summary>
+            Actualiza los datos de una estación de carga existente.
+            </summary>
+            <param name="station">Objeto estación con los datos actualizados.</param>
+            <returns>
+            <c>true</c> si la estación se ha actualizado correctamente;
+            <c>false</c> si la estación no existe.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="station"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Borrar(System.Int32)">
+            <summary>
+            Elimina una estación de carga de la base de datos a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la estación.</param>
+            <returns>
+            <c>true</c> si la estación se ha eliminado correctamente;
+            <c>false</c> si la estación no existe.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Dispose">
+            <summary>
+            Libera los recursos utilizados por el servicio.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Dispose(System.Boolean)">
+            <summary>
+            Libera los recursos administrados y no administrados.
+            </summary>
+            <param name="disposing">
+            Indica si se están liberando recursos administrados.
+            </param>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceStation.Finalize">
+            <summary>
+            Destructor de la clase ServiceStation.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Services.ServiceTariff">
+            <summary>
+            Servicio encargado de gestionar las operaciones CRUD relacionadas con las tarifas
+            del sistema EcoCharger.
+            </summary>
+            <remarks>
+            Esta clase permite listar, insertar, actualizar y borrar tarifas,
+            así como gestionar la liberación de recursos mediante IDisposable.
+            </remarks>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.#ctor">
+            <summary>
+            Inicializa una nueva instancia del servicio de tarifas.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Listar">
+            <summary>
+            Obtiene la lista completa de tarifas del sistema.
+            </summary>
+            <returns>
+            Una lista de tarifas ordenadas por su identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Listar(System.Int32)">
+            <summary>
+            Obtiene una tarifa concreta a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la tarifa.</param>
+            <returns>
+            La tarifa encontrada o <c>null</c> si no existe ninguna tarifa con ese identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Insertar(Aracil_Victor_EcoCharger.Models.Tariff)">
+            <summary>
+            Inserta una nueva tarifa en la base de datos.
+            </summary>
+            <param name="tariff">Objeto tarifa que se desea insertar.</param>
+            <returns>
+            La tarifa insertada con sus datos actualizados.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="tariff"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Actualizar(Aracil_Victor_EcoCharger.Models.Tariff)">
+            <summary>
+            Actualiza los datos de una tarifa existente.
+            </summary>
+            <param name="tariff">Objeto tarifa con los datos actualizados.</param>
+            <returns>
+            <c>true</c> si la tarifa se ha actualizado correctamente;
+            <c>false</c> si la tarifa no existe.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="tariff"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Borrar(System.Int32)">
+            <summary>
+            Elimina una tarifa de la base de datos a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único de la tarifa.</param>
+            <returns>
+            <c>true</c> si la tarifa se ha eliminado correctamente;
+            <c>false</c> si la tarifa no existe.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Dispose">
+            <summary>
+            Libera los recursos utilizados por el servicio.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Dispose(System.Boolean)">
+            <summary>
+            Libera los recursos administrados y no administrados.
+            </summary>
+            <param name="disposing">
+            Indica si se están liberando recursos administrados.
+            </param>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceTariff.Finalize">
+            <summary>
+            Destructor de la clase ServiceTariff.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Services.ServiceUser">
+            <summary>
+            Servicio encargado de gestionar las operaciones CRUD relacionadas con los usuarios
+            del sistema EcoCharger.
+            </summary>
+            <remarks>
+            Esta clase permite listar, insertar, actualizar y borrar usuarios,
+            así como gestionar correctamente la liberación de recursos mediante IDisposable.
+            </remarks>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.#ctor">
+            <summary>
+            Inicializa una nueva instancia del servicio de usuarios.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Listar">
+            <summary>
+            Obtiene la lista completa de usuarios del sistema.
+            </summary>
+            <returns>
+            Una lista de usuarios ordenados por su identificador, incluyendo
+            sus sesiones de carga asociadas.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Listar(System.Int32)">
+            <summary>
+            Obtiene un usuario concreto a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único del usuario.</param>
+            <returns>
+            El usuario encontrado o <c>null</c> si no existe ningún usuario con ese identificador.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Insertar(Aracil_Victor_EcoCharger.Models.User)">
+            <summary>
+            Inserta un nuevo usuario en la base de datos.
+            </summary>
+            <param name="user">Objeto usuario que se desea insertar.</param>
+            <returns>
+            El usuario insertado con sus datos actualizados.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="user"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Actualizar(Aracil_Victor_EcoCharger.Models.User)">
+            <summary>
+            Actualiza los datos de un usuario existente.
+            </summary>
+            <param name="user">Objeto usuario con los datos actualizados.</param>
+            <returns>
+            <c>true</c> si el usuario se ha actualizado correctamente;
+            <c>false</c> si el usuario no existe.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Se produce cuando el parámetro <paramref name="user"/> es nulo.
+            </exception>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Borrar(System.Int32)">
+            <summary>
+            Elimina un usuario de la base de datos a partir de su identificador.
+            </summary>
+            <param name="id">Identificador único del usuario.</param>
+            <returns>
+            <c>true</c> si el usuario se ha eliminado correctamente;
+            <c>false</c> si el usuario no existe.
+            </returns>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Dispose">
+            <summary>
+            Libera los recursos utilizados por el servicio.
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Dispose(System.Boolean)">
+            <summary>
+            Libera los recursos administrados y no administrados.
+            </summary>
+            <param name="disposing">
+            Indica si se están liberando recursos administrados.
+            </param>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Services.ServiceUser.Finalize">
+            <summary>
+            Destructor de la clase ServiceUser.
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.ViewModels.Base.BaseViewModel">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.ViewModels.Base.RelayCommand`1">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.ViewModels.MainWindowViewModel">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.ViewModels.PrincipalViewModel">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.ViewModels.StationsViewModel">
+            <author> Victor Aracil Gozalvez</author>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <author> Victor Aracil Gozalvez</author>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Views.PrincipalView">
+            <summary>
+            Lógica de interacción para PrincipalView.xaml
+            </summary>
+            <author> Victor Aracil Gozalvez</author>
+            <summary>
+            PrincipalView
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Views.PrincipalView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Views.StationsCrudView">
+            <summary>
+            Lógica de interacción para StationsCrudView.xaml
+            </summary>
+            <summary>
+            StationsCrudView
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Views.StationsCrudView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Aracil_Victor_EcoCharger.Views.StationsView">
+             <summary>
+             Lógica de interacción para StationsView.xaml
+             </summary>
+            <author> Victor Aracil Gozalvez</author>
+            <summary>
+            StationsView
+            </summary>
+        </member>
+        <member name="M:Aracil_Victor_EcoCharger.Views.StationsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

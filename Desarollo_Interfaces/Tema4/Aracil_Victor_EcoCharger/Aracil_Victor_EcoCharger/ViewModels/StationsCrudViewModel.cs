@@ -240,7 +240,9 @@ namespace Aracil_Victor_EcoCharger.ViewModels
             Chargers.Add(new Charger
             {
                 Type = 0,
-                IsOccupied = false
+                IsOccupied = false,
+                MaxPower = 1
+                
             });
         }
 

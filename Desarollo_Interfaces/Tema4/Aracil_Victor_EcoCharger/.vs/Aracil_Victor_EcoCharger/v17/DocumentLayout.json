@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema4\\Aracil_Victor_EcoCharger\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema4\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\views\\stationscrudview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\views\\stationscrudview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StationsCrudView.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema4\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema4\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-24T19:29:31.41Z",
-              "EditorCaption": ""
             }
           ]
         }

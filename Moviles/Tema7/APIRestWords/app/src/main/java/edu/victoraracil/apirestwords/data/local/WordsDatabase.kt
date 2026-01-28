@@ -7,9 +7,7 @@ import androidx.room.RoomDatabase
 import edu.victoraracil.apirestwords.data.model.Word
 
 @Database(
-    entities = [Word::class],
-    version = 1,
-    exportSchema = true // Importante para migraciones
+    entities = [Word::class], version = 1, exportSchema = true // Importante para migraciones
 )
 abstract class WordsDatabase : RoomDatabase() {
 
@@ -24,12 +22,8 @@ abstract class WordsDatabase : RoomDatabase() {
         fun getInstance(context: Context): WordsDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    WordsDatabase::class.java,
-                    "Words.db"
-                )
-                    .fallbackToDestructiveMigration(true) // Solo en desarrollo
-                    .build()
+                    context.applicationContext, WordsDatabase::class.java, "Words.db"
+                ).build()
 
                 INSTANCE = instance
                 instance

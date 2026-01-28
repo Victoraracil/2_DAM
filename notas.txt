@@ -1,0 +1,30 @@
+------------Primer trimestre------------
+PSP:3
+SGE:8
+IPE:9
+Moviles: 9
+Acceso a datos: 10
+Interfaces: 6
+Sostenibilidad: 9
+Digitalización:8
+Cloud: 8
+Proyecto:8
+Ingles: 
+
+Base datos recu: 5,5
+
+------------Segundo trimestre------------
+PSP:
+SGE:
+IPE:
+Moviles:
+Acceso a datos:
+Interfaces: 
+Sostenibilidad: 
+Digitalización:
+Cloud:
+Proyecto:
+Ingles: 
+
+Base datos recu:
+

@@ -153,3 +153,5 @@ C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_Ec
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.pdb
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.genruntimeconfig.cache
 C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\ref\Aracil_Victor_EcoCharger.dll
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\bin\Debug\net8.0-windows\Aracil_Victor_EcoCharger.xml
+C:\Users\Victor Aracil\Desktop\2_DAM\Desarollo_Interfaces\Tema4\Aracil_Victor_EcoCharger\Aracil_Victor_EcoCharger\obj\Debug\net8.0-windows\Aracil_Victor_EcoCharger.xml

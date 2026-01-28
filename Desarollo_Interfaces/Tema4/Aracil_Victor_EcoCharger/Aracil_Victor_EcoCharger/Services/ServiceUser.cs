@@ -8,12 +8,21 @@ using System.Threading.Tasks;
 
 namespace Aracil_Victor_EcoCharger.Services
 {
-    /// <author> Victor Aracil Gozalvez</author>
-
-    internal class ServiceUser : IDisposable
+    /// <summary>
+    /// Servicio encargado de gestionar las operaciones CRUD relacionadas con los usuarios
+    /// del sistema EcoCharger.
+    /// </summary>
+    /// <remarks>
+    /// Esta clase permite listar, insertar, actualizar y borrar usuarios,
+    /// así como gestionar correctamente la liberación de recursos mediante IDisposable.
+    /// </remarks>
+    public class ServiceUser : IDisposable
     {
-        bool disposed;
+        private bool disposed;
 
+        /// <summary>
+        /// Inicializa una nueva instancia del servicio de usuarios.
+        /// </summary>
         public ServiceUser()
         {
             disposed = false;
@@ -21,6 +30,13 @@ namespace Aracil_Victor_EcoCharger.Services
 
         #region CRUD
 
+        /// <summary>
+        /// Obtiene la lista completa de usuarios del sistema.
+        /// </summary>
+        /// <returns>
+        /// Una lista de usuarios ordenados por su identificador, incluyendo
+        /// sus sesiones de carga asociadas.
+        /// </returns>
         public async Task<List<User>> Listar()
         {
             using (var _context = new ChargingDbContext())
@@ -33,6 +49,13 @@ namespace Aracil_Victor_EcoCharger.Services
             }
         }
 
+        /// <summary>
+        /// Obtiene un usuario concreto a partir de su identificador.
+        /// </summary>
+        /// <param name="id">Identificador único del usuario.</param>
+        /// <returns>
+        /// El usuario encontrado o <c>null</c> si no existe ningún usuario con ese identificador.
+        /// </returns>
         public async Task<User?> Listar(int id)
         {
             using (var _context = new ChargingDbContext())
@@ -44,6 +67,16 @@ namespace Aracil_Victor_EcoCharger.Services
             }
         }
 
+        /// <summary>
+        /// Inserta un nuevo usuario en la base de datos.
+        /// </summary>
+        /// <param name="user">Objeto usuario que se desea insertar.</param>
+        /// <returns>
+        /// El usuario insertado con sus datos actualizados.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">
+        /// Se produce cuando el parámetro <paramref name="user"/> es nulo.
+        /// </exception>
         public async Task<User> Insertar(User user)
         {
             if (user == null) throw new ArgumentNullException(nameof(user));
@@ -56,6 +89,17 @@ namespace Aracil_Victor_EcoCharger.Services
             }
         }
 
+        /// <summary>
+        /// Actualiza los datos de un usuario existente.
+        /// </summary>
+        /// <param name="user">Objeto usuario con los datos actualizados.</param>
+        /// <returns>
+        /// <c>true</c> si el usuario se ha actualizado correctamente;
+        /// <c>false</c> si el usuario no existe.
+        /// </returns>
+        /// <exception cref="ArgumentNullException">
+        /// Se produce cuando el parámetro <paramref name="user"/> es nulo.
+        /// </exception>
         public async Task<bool> Actualizar(User user)
         {
             if (user == null) throw new ArgumentNullException(nameof(user));
@@ -75,6 +119,14 @@ namespace Aracil_Victor_EcoCharger.Services
             }
         }
 
+        /// <summary>
+        /// Elimina un usuario de la base de datos a partir de su identificador.
+        /// </summary>
+        /// <param name="id">Identificador único del usuario.</param>
+        /// <returns>
+        /// <c>true</c> si el usuario se ha eliminado correctamente;
+        /// <c>false</c> si el usuario no existe.
+        /// </returns>
         public async Task<bool> Borrar(int id)
         {
             using (var _context = new ChargingDbContext())
@@ -91,23 +143,36 @@ namespace Aracil_Victor_EcoCharger.Services
         #endregion
 
         #region IDisposable
+
+        /// <summary>
+        /// Libera los recursos utilizados por el servicio.
+        /// </summary>
         public void Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
         }
 
+        /// <summary>
+        /// Libera los recursos administrados y no administrados.
+        /// </summary>
+        /// <param name="disposing">
+        /// Indica si se están liberando recursos administrados.
+        /// </param>
         protected virtual void Dispose(bool disposing)
         {
             if (disposed) return;
             disposed = true;
         }
 
+        /// <summary>
+        /// Destructor de la clase ServiceUser.
+        /// </summary>
         ~ServiceUser()
         {
             Dispose(false);
         }
+
         #endregion
     }
-
 }
