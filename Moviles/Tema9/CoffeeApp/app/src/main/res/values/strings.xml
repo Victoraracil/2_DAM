@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">CoffeeApp</string>
+
+    <string name="txt_login">Login</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_user">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_login_error">Credenciales incorrectas. %s</string>
+    <string name="txt_login_ok">Credenciales correctas</string>
+    <string name="txt_login_success">¡Login correcto!</string>
+    <string name="txt_login_loading">Esperando respuesta del login.</string>
+    <string name="txt_login_title">Iniciar sesión</string>
+    <string name="txt_username">Usuario</string>
+    <string name="txt_login_button">Entrar</string>
+    <string name="txt_login_retry">Reintentar</string>
+    <string name="txt_list_title">Listado de cafés</string>
+    <string name="txt_list_loading">Cargando cafés…</string>
+    <string name="txt_list_empty">No hay cafés disponibles</string>
+    <string name="txt_back">Volver</string>
+    <string name="txt_comments_title">Comentarios</string>
+    <string name="txt_comments_empty">No hay comentarios</string>
+    <string name="txt_new_comment">Nuevo comentario</string>
+    <string name="txt_author">Autor</string>
+    <string name="txt_comment">Comentario</string>
+    <string name="txt_send_comment">Enviar</string>
+
+
+
 </resources>

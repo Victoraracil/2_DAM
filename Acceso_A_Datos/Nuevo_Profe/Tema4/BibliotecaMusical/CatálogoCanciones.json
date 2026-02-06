@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "Greatest Hits",
+    "year": 1981,
+    "genre": "Rock",
+    "track_number": 1,
+    "duration": "5:55"
+  },
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "year": 1982,
+    "genre": "Pop",
+    "track_number": 6,
+    "duration": "4:54"
+  },
+  {
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "album": "Parachutes",
+    "year": 2000,
+    "genre": "Alternative",
+    "track_number": 5,
+    "duration": "4:29"
+  },
+  {
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "album": "Greatest Hits",
+    "year": 1981,
+    "genre": "Rock",
+    "track_number": 12,
+    "duration": "3:29"
+  },
+  {
+    "title": "Everlong",
+    "artist": "Foo Fighters",
+    "album": "Greatest Hits",
+    "year": 2009,
+    "genre": "Rock",
+    "track_number": 2,
+    "duration": "4:10"
+  },
+  {
+    "title": "Beat It",
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "year": 1982,
+    "genre": "Pop",
+    "track_number": 5,
+    "duration": "4:18"
+  },
+  {
+    "title": "Shiver",
+    "artist": "Coldplay",
+    "album": "Parachutes",
+    "year": 2000,
+    "genre": "Alternative",
+    "track_number": 2,
+    "duration": "4:59"
+  },
+  {
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "album": "A Rush of Blood to the Head",
+    "year": 2002,
+    "genre": "Alternative",
+    "track_number": 4,
+    "duration": "5:09"
+  },
+  {
+    "title": "Best of You",
+    "artist": "Foo Fighters",
+    "album": "Greatest Hits",
+    "year": 2009,
+    "genre": "Rock",
+    "track_number": 3,
+    "duration": "4:15"
+  },
+  {
+    "title": "Entre dos tierras",
+    "artist": "Héroes del Silencio",
+    "album": "Senderos de traición",
+    "year": 1990,
+    "genre": "Rock",
+    "track_number": 1,
+    "duration": "6:05"
+  },
+  {
+    "title": "Maldito duende",
+    "artist": "Héroes del Silencio",
+    "album": "Senderos de traición",
+    "year": 1990,
+    "genre": "Rock",
+    "track_number": 2,
+    "duration": "4:15"
+  },
+  {
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "album": "Discovery",
+    "year": 2001,
+    "genre": "Electronic",
+    "track_number": 1,
+    "duration": "5:20"
+  },
+  {
+    "title": "Harder, Better, Faster, Stronger",
+    "artist": "Daft Punk",
+    "album": "Discovery",
+    "year": 2001,
+    "genre": "Electronic",
+    "track_number": 4,
+    "duration": "3:45"
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "genre": "Grunge",
+    "track_number": 1,
+    "duration": "5:01"
+  },
+  {
+    "title": "Come As You Are",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "genre": "Grunge",
+    "track_number": 2,
+    "duration": "3:39"
+  }
+]
