@@ -26,8 +26,7 @@ class LocalDataSource(private val coffeeDao: CoffeeDao) {
     }
 
     suspend fun saveCommentsForCoffee(
-        coffeeId: Int,
-        comments: List<Comment>
+        coffeeId: Int, comments: List<Comment>
     ) {
         coffeeDao.clearCommentsForCoffee(coffeeId)
         coffeeDao.insertComments(comments)

@@ -26,14 +26,12 @@ import edu.victoraracil.coffeeapp.viewmodel.MainViewModel
 
 @Composable
 fun CoffeeListScreen(
-    onCoffeeSelected: (Int) -> Unit,
-    viewModel: MainViewModel = viewModel()
+    onCoffeeSelected: (Int) -> Unit, viewModel: MainViewModel = viewModel()
 ) {
 
     val coffeeList = viewModel.coffeeState.collectAsState().value
     val context = LocalContext.current
 
-    // Cargamos cafés cuando entramos a esta pantalla
     LaunchedEffect(Unit) {
         viewModel.loadCoffees()
     }
@@ -45,8 +43,7 @@ fun CoffeeListScreen(
     ) {
 
         Button(
-            onClick = { viewModel.logout() },
-            modifier = Modifier.padding(bottom = 8.dp)
+            onClick = { viewModel.logout() }, modifier = Modifier.padding(bottom = 8.dp)
         ) {
             Text(text = context.getString(R.string.txt_logout))
         }
@@ -58,7 +55,7 @@ fun CoffeeListScreen(
 
         when {
 
-            // -------- ESTADO 1: CARGANDO --------
+
             coffeeList.isEmpty() -> {
                 Column {
                     CircularProgressIndicator()
@@ -67,21 +64,17 @@ fun CoffeeListScreen(
                 }
             }
 
-            // -------- ESTADO 2: LISTA VACÍA --------
             coffeeList.isEmpty() -> {
                 Text(
                     text = context.getString(R.string.txt_list_empty)
                 )
             }
 
-            // -------- ESTADO 3: LISTADO REAL --------
             else -> {
                 LazyColumn {
                     items(coffeeList) { coffee ->
                         CoffeeRow(
-                            coffee = coffee,
-                            onClick = { onCoffeeSelected(coffee.id ?: 0) }
-                        )
+                            coffee = coffee, onClick = { onCoffeeSelected(coffee.id ?: 0) })
                     }
                 }
             }
@@ -91,15 +84,12 @@ fun CoffeeListScreen(
 
 @Composable
 fun CoffeeRow(
-    coffee: Coffee,
-    onClick: () -> Unit
+    coffee: Coffee, onClick: () -> Unit
 ) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onClick() }
-            .padding(8.dp)
-    ) {
+    Row(modifier = Modifier
+        .fillMaxWidth()
+        .clickable { onClick() }
+        .padding(8.dp)) {
         Column {
             coffee.coffeeName?.let { Text(text = it) }
             Text(text = "Comentarios: ${coffee.comments}")

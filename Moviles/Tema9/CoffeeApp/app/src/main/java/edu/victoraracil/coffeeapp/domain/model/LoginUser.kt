@@ -12,8 +12,11 @@ import com.google.gson.annotations.SerializedName
 sealed class LoginState {
     object Idle : LoginState()      // Estado inactivo (esperando acción del usuario)
     object Loading : LoginState()   // Estado cargando (esperando respuesta del servidor)
-    data class Success(val response: LoginResponse) : LoginState()  // Estado éxito (respuesta correcta del servidor)
-    data class Error(val message: String) : LoginState()    // Estado error (respuesta incorrecta del servidor)
+    data class Success(val response: LoginResponse) :
+        LoginState()  // Estado éxito (respuesta correcta del servidor)
+
+    data class Error(val message: String) :
+        LoginState()    // Estado error (respuesta incorrecta del servidor)
 }
 
 /**

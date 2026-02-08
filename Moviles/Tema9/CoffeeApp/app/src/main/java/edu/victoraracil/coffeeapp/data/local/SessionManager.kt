@@ -27,8 +27,7 @@ class SessionManager(private val dataStore: DataStore<Preferences>) {
     }
 
     // Flujo de datos para la sesión. Devuelve un par con el token y el nombre de usuario.
-    val tokenFlow: Flow<String?> =
-        dataStore.data.map { it[TOKEN_KEY] }
+    val tokenFlow: Flow<String?> = dataStore.data.map { it[TOKEN_KEY] }
 
 
     // Función para guardar los datos de la sesión.

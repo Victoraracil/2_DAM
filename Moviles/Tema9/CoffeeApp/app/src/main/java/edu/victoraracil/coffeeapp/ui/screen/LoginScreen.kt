@@ -30,8 +30,7 @@ import edu.victoraracil.coffeeapp.viewmodel.MainViewModel
 
 @Composable
 fun LoginScreen(
-    viewModel: MainViewModel = viewModel(),
-    onLoginSuccess: () -> Unit
+    viewModel: MainViewModel = viewModel(), onLoginSuccess: () -> Unit
 // Callback para navegar al listado
 ) {
     LaunchedEffect(Unit) {
@@ -44,7 +43,6 @@ fun LoginScreen(
     var username by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
 
-    // Si el login tiene éxito → navegamos al listado
     LaunchedEffect(loginState) {
         if (loginState is LoginState.Success) {
             onLoginSuccess()
@@ -65,8 +63,7 @@ fun LoginScreen(
         TextField(
             value = username,
             onValueChange = { username = it },
-            label = { Text(context.getString(R.string.txt_username)) }
-        )
+            label = { Text(context.getString(R.string.txt_username)) })
 
         Spacer(modifier = Modifier.width(8.dp))
 
@@ -88,8 +85,7 @@ fun LoginScreen(
             is LoginState.Error -> {
                 Text(
                     text = context.getString(
-                        R.string.txt_login_error,
-                        (loginState as LoginState.Error).message
+                        R.string.txt_login_error, (loginState as LoginState.Error).message
                     )
                 )
 
@@ -98,8 +94,7 @@ fun LoginScreen(
                         viewModel.login(
                             LoginRequest(username, password)
                         )
-                    }
-                ) {
+                    }) {
                     Text(text = context.getString(R.string.txt_login_retry))
                 }
             }
@@ -110,8 +105,7 @@ fun LoginScreen(
                         viewModel.login(
                             LoginRequest(username, password)
                         )
-                    }
-                ) {
+                    }) {
                     Text(text = context.getString(R.string.txt_login_button))
                 }
             }

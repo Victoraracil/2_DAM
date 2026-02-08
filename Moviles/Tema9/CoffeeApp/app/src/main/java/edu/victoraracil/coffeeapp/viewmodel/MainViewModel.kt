@@ -6,10 +6,10 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import edu.victoraracil.coffeeapp.data.local.CoffeeDatabase
 import edu.victoraracil.coffeeapp.data.local.LocalDataSource
 import edu.victoraracil.coffeeapp.data.local.SessionManager
 import edu.victoraracil.coffeeapp.data.local.dataStore
-import edu.victoraracil.coffeeapp.data.local.CoffeeDatabase
 import edu.victoraracil.coffeeapp.data.remote.RemoteDataSource
 import edu.victoraracil.coffeeapp.data.repository.CoffeeRepositoryImpl
 import edu.victoraracil.coffeeapp.domain.model.Coffee
@@ -47,8 +47,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         val remoteDataSource = RemoteDataSource()
 
         repository = CoffeeRepositoryImpl(
-            remote = remoteDataSource,
-            local = localDataSource
+            remote = remoteDataSource, local = localDataSource
         )
     }
 
@@ -62,17 +61,13 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
                 _loginState.value = LoginState.Success(
                     LoginResponse(
-                        ok = true,
-                        token = token,
-                        username = "",
-                        message = "Sesión restaurada"
+                        ok = true, token = token, username = "", message = "Sesión restaurada"
                     )
                 )
 
             } catch (e: Exception) {
                 Log.e("MainViewModel", "Error durante el login", e)
-                _loginState.value =
-                    LoginState.Error(e.message ?: "Error desconocido")
+                _loginState.value = LoginState.Error(e.message ?: "Error desconocido")
             }
         }
     }
@@ -85,10 +80,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 } else {
                     _loginState.value = LoginState.Success(
                         LoginResponse(
-                            ok = true,
-                            token = token,
-                            username = "",
-                            message = "Sesión restaurada"
+                            ok = true, token = token, username = "", message = "Sesión restaurada"
                         )
                     )
                 }
@@ -144,7 +136,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
             try {
                 val list = repository.getComments(token, coffeeId)
-                _commentsState.value = list   // 🔹 ESTO ES CLAVE
+                _commentsState.value = list
             } catch (e: Exception) {
                 Log.e("MainViewModel", "Error cargando comentarios", e)
             }

@@ -23,16 +23,13 @@ object RetrofitClient {
     private val BASE_URL = "https://www.javiercarrasco.es/api/coffee/"
 
     val apiService: ApiService by lazy {
-        Retrofit.Builder()
-            .baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(ApiService::class.java)
+        Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create())
+            .build().create(ApiService::class.java)
     }
 }
 
 interface ApiService {
-    // Función para obtener el login, se pasa un objeto LoginRequest en el body.
+
     @POST("login")
     @Headers("Content-Type: application/json")
     suspend fun login(
@@ -46,20 +43,17 @@ interface ApiService {
 
     @GET("coffee/{id}")
     suspend fun getCoffeeById(
-        @Header("Authorization") token: String,
-        @Path("id") coffeeId: Int
+        @Header("Authorization") token: String, @Path("id") coffeeId: Int
     ): Response<Coffee>
 
     @GET("comments/{idCoffee}")
     suspend fun getComments(
-        @Header("Authorization") token: String,
-        @Path("idCoffee") coffeeId: Int
+        @Header("Authorization") token: String, @Path("idCoffee") coffeeId: Int
     ): Response<List<Comment>>
 
     @POST("comments")
     @Headers("Content-Type: application/json")
     suspend fun postComment(
-        @Header("Authorization") token: String,
-        @Body comment: Map<String, Any>
+        @Header("Authorization") token: String, @Body comment: Map<String, Any>
     ): Response<Unit>
 }

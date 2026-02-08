@@ -8,8 +8,7 @@ import edu.victoraracil.coffeeapp.domain.model.Coffee
 import edu.victoraracil.coffeeapp.domain.model.Comment
 
 @Database(
-    entities = [Coffee::class, Comment::class],
-    version = 1
+    entities = [Coffee::class, Comment::class], version = 1
 )
 abstract class CoffeeDatabase : RoomDatabase() {
 
@@ -22,9 +21,7 @@ abstract class CoffeeDatabase : RoomDatabase() {
         fun getDatabase(context: Context): CoffeeDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    CoffeeDatabase::class.java,
-                    "coffee_database"
+                    context.applicationContext, CoffeeDatabase::class.java, "coffee_database"
                 ).build()
                 INSTANCE = instance
                 instance

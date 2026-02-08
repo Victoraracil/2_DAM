@@ -1,13 +1,24 @@
 package edu.victoraracil.coffeeapp.ui.screen
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
@@ -18,27 +29,24 @@ import edu.victoraracil.coffeeapp.viewmodel.MainViewModel
 
 @Composable
 fun CoffeeDetailScreen(
-    coffeeId: Int,
-    onBack: () -> Unit,
-    viewModel: MainViewModel = viewModel()
+    coffeeId: Int, onBack: () -> Unit, viewModel: MainViewModel = viewModel()
 ) {
 
     val context = LocalContext.current
 
-    // Estados locales para el formulario de comentario
+
     var author by remember { mutableStateOf("") }
     var commentText by remember { mutableStateOf("") }
 
-    // Observamos datos desde el ViewModel
     val coffee by viewModel.selectedCoffee.collectAsState()
     val comments by viewModel.commentsState.collectAsState()
     val loadingComments by viewModel.loadingComments.collectAsState()
 
-    // Cargamos detalle y comentarios al entrar a la pantalla
     LaunchedEffect(coffeeId) {
         viewModel.loadCoffeeDetail(coffeeId)
         viewModel.loadComments(coffeeId)
     }
+
 
     Column(
         modifier = Modifier
@@ -46,7 +54,6 @@ fun CoffeeDetailScreen(
             .padding(16.dp)
     ) {
 
-        // BOTÓN VOLVER
         Button(onClick = onBack) {
             Text(text = context.getString(R.string.txt_back))
         }
@@ -108,8 +115,7 @@ fun CoffeeDetailScreen(
                     author = ""
                     commentText = ""
                 }
-            }
-        ) {
+            }) {
             Text(text = context.getString(R.string.txt_send_comment))
         }
     }

@@ -8,16 +8,14 @@ import edu.victoraracil.coffeeapp.domain.model.LoginRequest
 import kotlinx.coroutines.flow.first
 
 class CoffeeRepositoryImpl(
-    private val remote: RemoteDataSource,
-    private val local: LocalDataSource
+    private val remote: RemoteDataSource, private val local: LocalDataSource
 ) {
 
     suspend fun login(request: LoginRequest): String {
         val response = remote.login(request)
 
         if (response.isSuccessful) {
-            return response.body()?.token
-                ?: throw Exception("Token nulo")
+            return response.body()?.token ?: throw Exception("Token nulo")
         } else {
             throw Exception("Login incorrecto")
         }
@@ -32,20 +30,17 @@ class CoffeeRepositoryImpl(
             if (response.isSuccessful) {
                 val coffees = response.body() ?: emptyList()
 
-                // Guardamos en Room (caché)
+                //Guardamos en Room (caché)
                 local.saveCoffeesToCache(coffees)
 
                 coffees
             } else {
-                // Si falla la red, intentamos tirar de caché
-                local.getAllCoffeesFromCache()
-                    .first()
+                //Si falla la red, intentamos tirar de caché
+                local.getAllCoffeesFromCache().first()
             }
 
         } catch (e: Exception) {
-            // Si hay error de red, usamos caché
-            local.getAllCoffeesFromCache()
-                .first()
+            local.getAllCoffeesFromCache().first()
         }
     }
 
@@ -58,7 +53,7 @@ class CoffeeRepositoryImpl(
             if (response.isSuccessful) {
                 response.body()
             } else {
-                // Si falla la red, tiramos de Room
+                //Si falla la red, tiramos de Room
                 local.getCoffeeByIdFromCache(id)
             }
         } catch (e: Exception) {
@@ -81,20 +76,15 @@ class CoffeeRepositoryImpl(
                 comments
             } else {
                 // Si falla API, usamos Room
-                local.getCommentsForCoffeeFromCache(coffeeId)
-                    .first()
+                local.getCommentsForCoffeeFromCache(coffeeId).first()
             }
         } catch (e: Exception) {
-            local.getCommentsForCoffeeFromCache(coffeeId)
-                .first()
+            local.getCommentsForCoffeeFromCache(coffeeId).first()
         }
     }
 
     suspend fun postComment(
-        token: String,
-        coffeeId: Int,
-        author: String,
-        text: String
+        token: String, coffeeId: Int, author: String, text: String
     ) {
         remote.postComment(token, coffeeId, author, text)
 

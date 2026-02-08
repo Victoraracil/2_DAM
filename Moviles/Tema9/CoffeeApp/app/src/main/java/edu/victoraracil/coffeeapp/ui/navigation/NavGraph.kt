@@ -14,19 +14,17 @@ fun CoffeeNavGraph(
 ) {
 
     NavHost(
-        navController = navController,
-        startDestination = Routes.Login.route
+        navController = navController, startDestination = Routes.Login.route
     ) {
 
         composable(Routes.Login.route) {
             LoginScreen(
                 onLoginSuccess = {
                     navController.navigate(Routes.List.route) {
-                        // Evita volver atrás al login con el botón "Back"
+
                         popUpTo(Routes.Login.route) { inclusive = true }
                     }
-                }
-            )
+                })
         }
 
         composable(Routes.List.route) {
@@ -35,16 +33,13 @@ fun CoffeeNavGraph(
                     navController.navigate(
                         Routes.Detail.createRoute(coffeeId)
                     )
-                }
-            )
+                })
         }
 
         composable(Routes.Detail.route) { backStackEntry ->
             val id = backStackEntry.arguments?.getString("id")!!.toInt()
             CoffeeDetailScreen(
-                coffeeId = id,
-                onBack = { navController.popBackStack() }
-            )
+                coffeeId = id, onBack = { navController.popBackStack() })
         }
     }
 }

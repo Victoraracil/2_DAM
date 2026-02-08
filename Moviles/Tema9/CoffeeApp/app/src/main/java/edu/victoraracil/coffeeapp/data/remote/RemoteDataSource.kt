@@ -12,7 +12,7 @@ import retrofit2.Response
  * @param api, Retrofit2 API interface.
  * @author Javier Carrasco
  */
-class RemoteDataSource{
+class RemoteDataSource {
     private val TAG = RemoteDataSource::class.java.simpleName
     private val api = RetrofitClient.apiService
 
@@ -20,39 +20,28 @@ class RemoteDataSource{
     // Se devuelve un objeto LoginResponse.
 
 
-        suspend fun login(
-            request: LoginRequest
-        ): Response<LoginResponse> =
-            api.login(request)
+    suspend fun login(
+        request: LoginRequest
+    ): Response<LoginResponse> = api.login(request)
 
-        suspend fun getCoffees(token: String): Response<List<Coffee>> =
-            api.getCoffees("Bearer $token")
+    suspend fun getCoffees(token: String): Response<List<Coffee>> = api.getCoffees("Bearer $token")
 
-        suspend fun getCoffeeById(
-            token: String,
-            id: Int
-        ): Response<Coffee> =
-            api.getCoffeeById("Bearer $token", id)
+    suspend fun getCoffeeById(
+        token: String, id: Int
+    ): Response<Coffee> = api.getCoffeeById("Bearer $token", id)
 
-        suspend fun getComments(
-            token: String,
-            coffeeId: Int
-        ): Response<List<Comment>> =
-            api.getComments("Bearer $token", coffeeId)
+    suspend fun getComments(
+        token: String, coffeeId: Int
+    ): Response<List<Comment>> = api.getComments("Bearer $token", coffeeId)
 
-        suspend fun postComment(
-            token: String,
-            coffeeId: Int,
-            author: String,
-            text: String
-        ): Response<Unit> {
+    suspend fun postComment(
+        token: String, coffeeId: Int, author: String, text: String
+    ): Response<Unit> {
 
-            val body = mapOf(
-                "coffee_id" to coffeeId,
-                "author" to author,
-                "comment" to text
-            )
+        val body = mapOf(
+            "coffee_id" to coffeeId, "author" to author, "comment" to text
+        )
 
-            return api.postComment("Bearer $token", body)
-        }
+        return api.postComment("Bearer $token", body)
+    }
 }

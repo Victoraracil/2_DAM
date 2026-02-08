@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.CheckBox?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx"
+      fx:controller="AuctionController"
+      spacing="12"
+      prefWidth="450"
+      prefHeight="350"
+      style="-fx-padding: 15;">
+
+
+    <!-- TÍTULO PRINCIPAL -->
+    <Label text="SECURE AUCTION HOUSE"
+           style="-fx-font-size: 22px; -fx-font-weight: bold;"
+           alignment="CENTER"
+           maxWidth="Infinity"/>
+
+    <!-- BLOQUE LOGIN SETTINGS -->
+    <VBox spacing="8"
+          style="-fx-border-color: lightgray;
+                 -fx-border-radius: 8;
+                 -fx-padding: 10;">
+
+        <Label text="Login Settings"
+               style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+        <!-- FILA SERVER IP -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Server IP:" minWidth="90"/>
+            <TextField fx:id="txtHost" text="localhost" HBox.hgrow="ALWAYS"/>
+        </HBox>
+
+        <!-- FILA PORT -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Port:" minWidth="90"/>
+            <TextField fx:id="txtPort" text="6000" HBox.hgrow="ALWAYS"/>
+        </HBox>
+
+        <!-- FILA USER NAME -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="User Name:" minWidth="90"/>
+            <TextField fx:id="txtUser" promptText="Your name"
+                       HBox.hgrow="ALWAYS"/>
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <CheckBox fx:id="chkSpectator"
+                      text="Join as Spectator (No Bidding)"/>
+        </HBox>
+
+
+        <!-- BOTÓN CONECTAR -->
+        <Button fx:id="btnConnect"
+                text="Connect Securely (SSL)"
+                onAction="#connect"
+                maxWidth="Infinity"/>
+
+    </VBox>
+
+    <!-- ZONA DE ITEM EN SUBASTA -->
+    <VBox spacing="8"
+          style="-fx-border-color: lightgray;
+                 -fx-border-radius: 8;
+                 -fx-padding: 10;">
+
+        <Label text="Item in Auction"
+               style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+        <Label fx:id="lblItemName"
+               text="Waiting for item..."
+               style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+        <Label fx:id="lblDescription"
+               text="Description will appear here"
+               wrapText="true"/>
+    </VBox>
+
+    <!-- ESTADO DE LA SUBASTA -->
+    <HBox spacing="15"
+          style="-fx-border-color: lightgray;
+                 -fx-border-radius: 8;
+                 -fx-padding: 10;"
+          alignment="CENTER_LEFT">
+
+        <Label fx:id="lblPrice"
+               text="Current Price: --"
+               style="-fx-font-weight: bold;"/>
+
+        <Label fx:id="lblTime"
+               text="Time Left: --"/>
+
+        <Label fx:id="lblLeader"
+               text="Leader: --"/>
+    </HBox>
+
+    <!-- ZONA DE PUJA -->
+    <VBox spacing="8"
+          style="-fx-border-color: lightgray;
+                 -fx-border-radius: 8;
+                 -fx-padding: 10;">
+
+        <Label text="Place your bid"
+               style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+        <TextField fx:id="txtBid"
+                   promptText="Your Offer (€)"
+                   maxWidth="Infinity"/>
+
+        <Button fx:id="btnBid"
+                text="PLACE BID"
+                onAction="#placeBid"
+                maxWidth="Infinity"/>
+
+
+        <Label fx:id="lblStatus"
+               text="Bidding open..."
+               wrapText="true"/>
+    </VBox>
+
+
+</VBox>
