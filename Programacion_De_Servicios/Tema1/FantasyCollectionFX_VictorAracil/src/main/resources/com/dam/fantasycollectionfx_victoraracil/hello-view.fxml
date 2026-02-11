@@ -60,6 +60,7 @@
                 <Button text="Update" onAction="#onUpdateItem" prefWidth="100"/>
                 <Button text="Delete" onAction="#onDeleteItem" prefWidth="100"/>
                 <Button text="Save" onAction="#onSave" prefWidth="100"/>
+                <Button text="3-Potions" onAction="#onShow" prefWidth="100"/>
             </HBox>
 
             <!--Filters and search-->

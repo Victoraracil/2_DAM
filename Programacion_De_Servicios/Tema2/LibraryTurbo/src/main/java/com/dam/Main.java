@@ -96,6 +96,19 @@ public class Main {
 
         }, 0, 1, TimeUnit.SECONDS);
 
+        //Progres programes every 1 second
+        ScheduledExecutorService scheduler2 = Executors.newSingleThreadScheduledExecutor();
+        scheduler2.scheduleAtFixedRate(() -> {
+
+            int active = executor.getActiveCount();
+            int queued = executor.getQueue().size();
+            int done = completed.get();
+            float percentage = (float) done / total;
+
+            System.out.println("Progress: " + percentage + "%");
+
+        }, 0, 500, TimeUnit.MILLISECONDS);
+
         //Send tasks
         for (Path file : filesToProcess) {
             executor.submit(() -> {
@@ -112,7 +125,7 @@ public class Main {
         scheduler.shutdown();
         scheduler.awaitTermination(5, TimeUnit.SECONDS);
 
-        System.out.println("\n✔ Report generation completed.");
+        System.out.println("\nReport generation completed.");
     }
 
     //Verify modo
@@ -133,9 +146,9 @@ public class Main {
         boolean ok = verifier.verifyReports();
 
         if (ok) {
-            System.out.println("\n✔ All reports are consistent.");
+            System.out.println("\nAll reports are consistent.");
         } else {
-            System.out.println("\n✘ Not all reports are consistent.");
+            System.out.println("\nNot all reports are consistent.");
             System.out.println("Check inconsistencies.txt for details.");
         }
     }

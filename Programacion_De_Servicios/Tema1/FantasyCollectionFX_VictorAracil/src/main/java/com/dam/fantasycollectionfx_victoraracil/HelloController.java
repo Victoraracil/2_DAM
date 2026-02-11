@@ -13,7 +13,10 @@ import javafx.scene.input.KeyEvent;
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * MainController handles all user interactions in the main view of the FantasyCollectionFX app.
@@ -192,7 +195,7 @@ public class HelloController {
 
             case "Show only Legendary" -> {
                 List<Item> legendaries = itemList.stream()
-                        .filter(i -> i.getRarity().equalsIgnoreCase("Legendary"))
+                        .filter(i -> i.getRarity().equalsIgnoreCase("legendary"))
                         .collect(Collectors.toList());
                 tableView.setItems(FXCollections.observableArrayList(legendaries));
             }
@@ -212,7 +215,8 @@ public class HelloController {
                     return;
                 }
 
-                var groups = itemList.stream()
+                //cambio del var
+                Map<String, Long> groups = itemList.stream()
                         .collect(Collectors.groupingBy(Item::getRarity, Collectors.counting()));
 
                 String result = groups.entrySet().stream()
@@ -226,13 +230,28 @@ public class HelloController {
     @FXML
     private void onSave() {
 
-        List<Item> list = tableView.getSelectionModel().getTableView().getItems();
+        List<Item> list = tableView.getItems();
         try {
             FileUtils.saveItems2(list);
             System.out.println("Save successfully.");
         } catch (Exception e) {
             System.err.println("Error saving items on exit: " + e.getMessage());
         }
+    }
+
+    @FXML
+    private void onShow() {
+
+        Stream<Item> stream =
+                tableView.getItems().stream()
+                        .filter(item -> Objects.equals(item.getType(), "Potion"))
+                        .sorted(Comparator.comparing(Item::getObtainedDate))
+                        .limit(3);
+
+
+
+        MessageUtils.showMessage("Show", stream.map(Item::getName).collect(Collectors.joining("; ")));
+
     }
 }
 

@@ -1,6 +1,2 @@
 code;name;type;rarity;obtained_date
-unknown;Mana Potion;unknown;unknown;21/08/2025
 unknown;Star Relic;unknown;unknown;01/01/2025
-unknown;Healing Potion;unknown;unknown;01/03/2024
-unknown;Elven Bow;unknown;unknown;18/02/2024
-unknown;Light Shield;unknown;unknown;10/10/2023
