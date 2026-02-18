@@ -20,7 +20,6 @@ class LocalDataSource(private val coffeeDao: CoffeeDao) {
         return coffeeDao.getCoffeeById(id)
     }
 
-
     fun getCommentsForCoffeeFromCache(coffeeId: Int): Flow<List<Comment>> {
         return coffeeDao.getCommentsForCoffee(coffeeId)
     }

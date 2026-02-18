@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Vista List -->
+    <record id="view_helpdesk_karma_historial_list" model="ir.ui.view">
+        <field name="name">helpdesk.karma.historial.list</field>
+        <field name="model">helpdesk.karma.historial</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="fecha"/>
+                <field name="user_id"/>
+                <field name="incidencia_id"/>
+                <field name="accion"/>
+                <field name="puntos"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Vista Form -->
+    <record id="view_helpdesk_karma_historial_form" model="ir.ui.view">
+        <field name="name">helpdesk.karma.historial.form</field>
+        <field name="model">helpdesk.karma.historial</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="fecha"/>
+                        <field name="user_id"/>
+                        <field name="incidencia_id"/>
+                        <field name="accion"/>
+                        <field name="puntos"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Acción -->
+    <record id="action_helpdesk_karma_historial" model="ir.actions.act_window">
+        <field name="name">Historial de Karma</field>
+        <field name="res_model">helpdesk.karma.historial</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

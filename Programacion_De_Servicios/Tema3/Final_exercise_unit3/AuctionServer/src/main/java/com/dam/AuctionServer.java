@@ -21,6 +21,8 @@ public class AuctionServer {
     //Estado de la subasta
     private static AuctionItem currentItem;
     private static double currentPrice = 0;
+    private static String currentWinner = "";
+
 
     private static long endTime;      // momento en que acaba la ronda
     private static final int ROUND_TIME = 30;      // duración inicial
@@ -101,7 +103,7 @@ public class AuctionServer {
                     "SUBASTA TERMINADA",
                     currentItem,
                     currentPrice,
-                    "Ganador actual"
+                    currentWinner
             );
 
             System.out.println(">>> Subasta finalizada. Precio final: " + currentPrice);
@@ -113,12 +115,13 @@ public class AuctionServer {
         System.out.println("Todas las subastas han terminado.");
     }
 
-    // Método sincronizado: evita condiciones de carrera entre hilos
+
     public static synchronized void procesarPuja(Bid bid) {
 
         if (bid.getAmount() > currentPrice) {
 
             //ANTI-SNIPING
+
             long secondsLeft =
                     (endTime - System.currentTimeMillis()) / 1000;
 
@@ -129,6 +132,8 @@ public class AuctionServer {
             }
 
             currentPrice = bid.getAmount();
+            currentWinner = bid.getBidderName();
+
 
             GameStatus update = new GameStatus(
                     "Nueva puja de " + bid.getBidderName(),

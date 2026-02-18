@@ -60,9 +60,10 @@
               "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:34:10.492Z"
+              "WhenOpened": "2026-02-05T16:34:10.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:33:38.395Z"
+              "WhenOpened": "2026-02-05T16:33:38.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,7 +87,8 @@
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T16:33:13.447Z"
+              "WhenOpened": "2026-02-05T16:33:13.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,7 +99,8 @@
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T16:33:08.809Z"
+              "WhenOpened": "2026-02-05T16:33:08.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,7 +112,8 @@
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\PrincipalViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:33:05.386Z"
+              "WhenOpened": "2026-02-05T16:33:05.386Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+
+    <string name="quiz_content_description">Quiz</string>
+    <string name="quiz_correct">¡Correcto!</string>
+    <string name="quiz_incorrect">Incorrecto. Era %1$s</string>
+    <string name="quiz_cancel">Cancelar</string>
+
+    <string name="coffee_loading">Cargando cafés...</string>
+    <string name="coffee_retry">Reintentar</string>
+
+    <string name="logout_content_description">Cerrar sesión</string>
+
+</resources>

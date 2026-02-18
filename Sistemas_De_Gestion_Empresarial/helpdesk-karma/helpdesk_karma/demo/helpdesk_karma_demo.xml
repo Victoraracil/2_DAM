@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- USUARIOS HELP DESK -->
+    <record id="usuario_demo_1" model="res.users">
+        <field name="name">Usuario Demo 1</field>
+        <field name="login">usuario1</field>
+        <field name="email">usuario1@test.com</field>
+        <field name="helpdesk_role">usuario</field>
+        <field name="karma_total">10</field>
+    </record>
+
+    <record id="usuario_demo_2" model="res.users">
+        <field name="name">Usuario Demo 2</field>
+        <field name="login">usuario2</field>
+        <field name="email">usuario2@test.com</field>
+        <field name="helpdesk_role">usuario</field>
+        <field name="karma_total">-5</field>
+    </record>
+
+    <!-- TÉCNICOS -->
+    <record id="tecnico_demo_1" model="res.users">
+        <field name="name">Técnico Senior</field>
+        <field name="login">tecnico1</field>
+        <field name="email">tecnico1@test.com</field>
+        <field name="helpdesk_role">tecnico</field>
+        <field name="karma_total">120</field>
+    </record>
+
+    <record id="tecnico_demo_2" model="res.users">
+        <field name="name">Técnico Junior</field>
+        <field name="login">tecnico2</field>
+        <field name="email">tecnico2@test.com</field>
+        <field name="helpdesk_role">tecnico</field>
+        <field name="karma_total">30</field>
+    </record>
+
+    <!-- INCIDENCIAS -->
+    <record id="incidencia_demo_1" model="helpdesk.karma.incidencia">
+        <field name="name">Error en servidor</field>
+        <field name="description">El servidor principal no responde.</field>
+        <field name="usuario_id" ref="usuario_demo_1"/>
+        <field name="gravedad">alta</field>
+        <field name="estado">cerrado</field>
+    </record>
+
+    <record id="incidencia_demo_2" model="helpdesk.karma.incidencia">
+        <field name="name">Fallo en impresora</field>
+        <field name="description">No imprime documentos.</field>
+        <field name="usuario_id" ref="usuario_demo_2"/>
+        <field name="gravedad">media</field>
+        <field name="estado">en_proceso</field>
+    </record>
+
+    <record id="incidencia_demo_3" model="helpdesk.karma.incidencia">
+        <field name="name">Problema con login</field>
+        <field name="description">No puedo acceder al sistema.</field>
+        <field name="usuario_id" ref="usuario_demo_1"/>
+        <field name="gravedad">baja</field>
+        <field name="estado">nuevo</field>
+    </record>
+
+</odoo>

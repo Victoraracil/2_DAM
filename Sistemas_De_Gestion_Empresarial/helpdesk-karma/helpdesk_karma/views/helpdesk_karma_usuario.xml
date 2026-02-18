@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<!-- HERENCIA FORMULARIO USUARIOS -->
+    <record id="view_users_form_helpdesk_karma" model="ir.ui.view">
+        <field name="name">res.users.form.helpdesk.karma</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="arch" type="xml">
+
+            <!-- Insertamos después del primer group -->
+            <xpath expr="//group[1]" position="after">
+
+                <group string="HelpDesk Karma">
+                    <field name="helpdesk_role"/>
+                    <field name="karma_total" readonly="1"/>
+                    <field name="nivel_karma" readonly="1"/>
+                </group>
+
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>
+

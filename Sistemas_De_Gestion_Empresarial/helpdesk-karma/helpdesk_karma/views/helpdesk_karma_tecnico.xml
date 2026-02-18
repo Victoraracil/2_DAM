@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- LISTA TÉCNICOS -->
+    <record id="view_helpdesk_tecnico_list" model="ir.ui.view">
+        <field name="name">res.users.tecnico.list</field>
+        <field name="model">res.users</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="login"/>
+                <field name="karma_total"/>
+                <field name="nivel_karma"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- ACCIÓN USUARIOS -->
+    <record id="action_helpdesk_usuarios" model="ir.actions.act_window">
+        <field name="name">Usuarios</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('helpdesk_role','=','usuario')]</field>
+    </record>
+
+
+    <!-- ACCIÓN TÉCNICOS -->
+    <record id="action_helpdesk_tecnicos" model="ir.actions.act_window">
+        <field name="name">Técnicos</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('helpdesk_role','=','tecnico')]</field>
+    </record>
+
+
+</odoo>
+

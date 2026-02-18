@@ -38,6 +38,16 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _loadingComments = MutableStateFlow(false)
     val loadingComments: StateFlow<Boolean> = _loadingComments.asStateFlow()
 
+    //JUEGO RANDOM
+    private val _randomCoffee = MutableStateFlow<Coffee?>(null)
+    val randomCoffee: StateFlow<Coffee?> = _randomCoffee.asStateFlow()
+
+    private val _randomOptions = MutableStateFlow<List<String>>(emptyList())
+    val randomOptions: StateFlow<List<String>> = _randomOptions.asStateFlow()
+
+    private val _showGameDialog = MutableStateFlow(false)
+    val showGameDialog: StateFlow<Boolean> = _showGameDialog.asStateFlow()
+
     init {
         val dataStore: DataStore<Preferences> = application.dataStore
         sessionManager = SessionManager(dataStore)
@@ -160,5 +170,54 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             }
         }
     }
+
+    fun generateRandomGame() {
+        viewModelScope.launch {
+
+            val token = sessionManager.tokenFlow.first() ?: return@launch
+            val list = _coffeeState.value
+
+            if (list.size < 3) return@launch
+
+            // Elegimos un café aleatorio
+            val baseCoffee = list.random()
+
+            //Pedimos el detalle para obtener coffee_desc
+            val detailedCoffee = repository.getCoffeeById(token, baseCoffee.id ?: return@launch)
+
+            val correctDesc = detailedCoffee?.coffeeDesc ?: return@launch
+
+            val wrongDescs = mutableListOf<String>()
+
+            val shuffled = list.shuffled()
+
+            for (coffee in shuffled) {
+                if (coffee.id != baseCoffee.id) {
+                    val detail = repository.getCoffeeById(token, coffee.id ?: continue)
+                    detail?.coffeeDesc?.let { wrongDescs.add(it) }
+                }
+                if (wrongDescs.size == 2) break
+            }
+
+            val options = (wrongDescs + correctDesc).shuffled()
+
+            _randomCoffee.value = detailedCoffee
+            _randomOptions.value = options
+            _showGameDialog.value = true
+        }
+    }
+
+
+
+
+
+    fun checkAnswer(selectedDescription: String): Boolean {
+        val correct = _randomCoffee.value?.coffeeDesc
+        _showGameDialog.value = false
+        return selectedDescription == correct
+    }
+
+
+
 
 }

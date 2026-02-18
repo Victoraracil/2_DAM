@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- MENÚ PRINCIPAL -->
+    <menuitem id="menu_helpdesk_root"
+              name="HelpDesk Karma"
+              sequence="10"/>
+
+    <!-- MENÚ INCIDENCIAS -->
+    <menuitem id="menu_helpdesk_incidencias"
+              name="Incidencias"
+              parent="menu_helpdesk_root"
+              action="action_helpdesk_incidencias"
+              sequence="1"/>
+
+    <!-- MENÚ USUARIOS -->
+    <menuitem id="menu_helpdesk_usuarios"
+              name="Usuarios"
+              parent="menu_helpdesk_root"
+              action="action_helpdesk_usuarios"
+              sequence="2"/>
+
+    <!-- MENÚ TÉCNICOS -->
+    <menuitem id="menu_helpdesk_tecnicos"
+              name="Técnicos"
+              parent="menu_helpdesk_root"
+              action="action_helpdesk_tecnicos"
+              sequence="3"/>
+
+    <!-- MENÚ HISTORIAL KARMA -->
+    <menuitem id="menu_helpdesk_historial"
+              name="Historial Karma"
+              parent="menu_helpdesk_root"
+              action="action_helpdesk_karma_historial"
+              sequence="4"/>
+
+</odoo>

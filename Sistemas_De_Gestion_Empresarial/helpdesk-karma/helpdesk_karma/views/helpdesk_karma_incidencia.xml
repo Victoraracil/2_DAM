@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- VISTA LIST -->
+    <record id="view_helpdesk_incidencia_list" model="ir.ui.view">
+        <field name="name">helpdesk.karma.incidencia.list</field>
+        <field name="model">helpdesk.karma.incidencia</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="usuario_id"/>
+                <field name="tecnico_id"/>
+                <field name="gravedad"/>
+                <field name="prioridad"/>
+                <field name="estado"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- VISTA FORM -->
+    <record id="view_helpdesk_incidencia_form" model="ir.ui.view">
+        <field name="name">helpdesk.karma.incidencia.form</field>
+        <field name="model">helpdesk.karma.incidencia</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+
+                    <button name="action_asignar" type="object"
+                            string="Asignar"
+                            invisible="estado != 'nuevo'"/>
+
+                    <button name="action_en_proceso" type="object"
+                            string="En Proceso"
+                            invisible="estado != 'asignado'"/>
+
+                    <button name="action_resolver" type="object"
+                            string="Resolver"
+                            invisible="estado != 'en_proceso'"/>
+
+                    <button name="action_cerrar" type="object"
+                            string="Cerrar"
+                            invisible="estado != 'resuelto'"/>
+
+                    <button name="action_reabrir" type="object"
+                            string="Reabrir"
+                            invisible="estado != 'cerrado'"/>
+
+                    <field name="estado" widget="statusbar"
+                        statusbar_visible="nuevo,asignado,en_proceso,resuelto,cerrado,reabierto"/>
+
+                </header>
+
+
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+
+                    <group>
+                        <field name="usuario_id"/>
+                        <field name="tecnico_id"/>
+                    </group>
+
+                    <group>
+                        <field name="gravedad"/>
+                        <field name="prioridad" readonly="1"/>
+                        <field name="fecha_resolucion" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- VISTA CALENDARIO -->
+    <record id="view_helpdesk_incidencia_calendar" model="ir.ui.view">
+        <field name="name">helpdesk.karma.incidencia.calendar</field>
+        <field name="model">helpdesk.karma.incidencia</field>
+        <field name="arch" type="xml">
+            <calendar string="Incidencias"
+                    date_start="fecha_resolucion"
+                    color="tecnico_id">
+                <field name="name"/>
+                <field name="usuario_id"/>
+                <field name="estado"/>
+            </calendar>
+        </field>
+    </record>
+
+    <!-- VISTA GRÁFICO -->
+    <record id="view_helpdesk_incidencia_graph" model="ir.ui.view">
+        <field name="name">helpdesk.karma.incidencia.graph</field>
+        <field name="model">helpdesk.karma.incidencia</field>
+        <field name="arch" type="xml">
+            <graph string="Estadísticas Incidencias" type="bar">
+                <field name="estado" type="row"/>
+                <field name="id" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+
+    <!-- ACCIÓN -->
+    <record id="action_helpdesk_incidencias" model="ir.actions.act_window">
+        <field name="name">Incidencias</field>
+        <field name="res_model">helpdesk.karma.incidencia</field>
+        <field name="view_mode">list,form,calendar,graph</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_helpdesk_incidencia,access_helpdesk_incidencia,model_helpdesk_karma_incidencia,,1,1,1,1
+access_helpdesk_historial,access_helpdesk_historial,model_helpdesk_karma_historial,,1,0,1,0
+
