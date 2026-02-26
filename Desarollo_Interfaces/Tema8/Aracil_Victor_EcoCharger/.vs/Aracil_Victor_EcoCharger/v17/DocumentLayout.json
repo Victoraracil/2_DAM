@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\views\\stationscrudview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\views\\stationscrudview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\viewmodels\\stationscrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\viewmodels\\stationscrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\views\\principalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\views\\principalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\testproject1\\viewmodels\\principalviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\viewmodels\\principalviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\testproject1\\viewmodels\\stationsviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\viewmodels\\stationsviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\viewmodels\\stationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\viewmodels\\stationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\testproject1\\viewmodels\\stationscrudviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5A34C9-8906-482E-B654-A1EB435A95EE}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\viewmodels\\stationscrudviewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|c:\\users\\victor aracil\\desktop\\2_dam\\desarollo_interfaces\\tema8\\aracil_victor_ecocharger\\aracil_victor_ecocharger\\viewmodels\\stationscrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376C1FE-FE1C-430A-8624-58E3C6B46615}|Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger.csproj|solutionrelative:aracil_victor_ecocharger\\viewmodels\\stationscrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,76 +43,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StationsCrudView.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\StationsCrudView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T16:35:14.618Z",
+              "Title": "PrincipalViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\PrincipalViewModelTests.cs",
+              "RelativeDocumentMoniker": "TestProject1\\ViewModels\\PrincipalViewModelTests.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\PrincipalViewModelTests.cs",
+              "RelativeToolTip": "TestProject1\\ViewModels\\PrincipalViewModelTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:21:25.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAowB8AAAAIAAAAAAAAAA==",
+              "Title": "StationsViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\StationsViewModelTests.cs",
+              "RelativeDocumentMoniker": "TestProject1\\ViewModels\\StationsViewModelTests.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\StationsViewModelTests.cs",
+              "RelativeToolTip": "TestProject1\\ViewModels\\StationsViewModelTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:34:10.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StationsCrudViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:33:38.395Z",
+              "WhenOpened": "2026-02-26T15:48:54.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T16:33:13.447Z",
-              "EditorCaption": ""
+              "Title": "StationsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsViewModel.cs",
+              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\StationsViewModel.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsViewModel.cs",
+              "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\StationsViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:47:43.339Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PrincipalView.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
-              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
-              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
-              "RelativeToolTip": "Aracil_Victor_EcoCharger\\Views\\PrincipalView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T16:33:08.809Z",
-              "EditorCaption": ""
+              "Title": "StationsCrudViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\StationsCrudViewModelTests.cs",
+              "RelativeDocumentMoniker": "TestProject1\\ViewModels\\StationsCrudViewModelTests.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\TestProject1\\ViewModels\\StationsCrudViewModelTests.cs",
+              "RelativeToolTip": "TestProject1\\ViewModels\\StationsCrudViewModelTests.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAADwv5oAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:45:13.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "StationsCrudViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
+              "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
+              "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
+              "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\StationsCrudViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T15:44:24.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PrincipalViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\PrincipalViewModel.cs",
               "RelativeDocumentMoniker": "Aracil_Victor_EcoCharger\\ViewModels\\PrincipalViewModel.cs",
               "ToolTip": "C:\\Users\\Victor Aracil\\Desktop\\2_DAM\\Desarollo_Interfaces\\Tema8\\Aracil_Victor_EcoCharger\\Aracil_Victor_EcoCharger\\ViewModels\\PrincipalViewModel.cs",
               "RelativeToolTip": "Aracil_Victor_EcoCharger\\ViewModels\\PrincipalViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:33:05.386Z",
+              "WhenOpened": "2026-02-26T15:44:15.285Z",
               "EditorCaption": ""
             }
           ]

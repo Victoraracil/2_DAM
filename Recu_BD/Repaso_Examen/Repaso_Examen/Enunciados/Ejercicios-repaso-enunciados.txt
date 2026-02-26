@@ -1,0 +1,39 @@
+--1.Muestra todos los datos de los alumnos y haz que aparezca una columna con su edad (sin decimales).
+-- Para calcular la edad réstale a sysdate la fecha de nacimiento y divide el resultado entre 365
+
+--2.ALUMNOS CUYO NOMBRE EMPIEZA POR M Y CUYO APELLIDO ACABE EN Z
+
+--3.Muestra la mínima, la media, y la máxima nota de cada curso académico
+
+--3.1 Muestra lo mismo que la consulta anterior pero sólo de aquellas notas mayores que 5
+
+
+--3.2 Lo mismo que la consulta 3 pero mostrando ahora sólo aquellos cursos académicos con nota mínima mayor que 5
+
+--4 Muestra el nombre y la fecha de nacimiento de los alumnos
+--que están matriculados del mismo número de asignaturas que el alumno de nombre 'JAVI' (sin que aparezca JAVI).
+
+                        
+--5.1 Nombre, apellidos y dni de los profesores que imparten alguna asignatura
+ -- (sin usar subconsultas)	
+
+                                                                             
+--5.2 Lo mismo pero con subconsultas							                 
+-- con subconsulta
+
+
+-- 6  Obtener el dni del alumno que se ha sacado mejor nota media
+
+                          
+--7 Muestra un listado con los datos (dni,nombre,apellidos) de los alumnos, las asignaturas de las que están matriculados
+--y el nombre y apellidos del profesor que imparte cada asignatura. Pon alias para los siguientes campos:
+-- NOMBRE(ALUMNO) --NOM_ALUMNO
+-- APELLIDOS (ALUMNO) -- APELL_ALUMNO
+-- NOMBRE(ASIGNATURA) -- NOM_ASIGNATURA
+-- NOMBRE(PROFESOR) --NOM_PROFESOR
+-- APELLIDOS (PROFESOR) -- APELL_PROFESOR
+
+
+                          
+--8 Muestra el nombre, apellidos y dni de los alumnos que están matriculados de la asignatura DEG y no están matriculados de la asignatura FOL
+-- CON CONJUNTOS                                                  (0.5 puntos)

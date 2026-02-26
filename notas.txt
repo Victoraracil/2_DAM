@@ -9,22 +9,22 @@ Sostenibilidad: 9
 Digitalización:8
 Cloud: 8
 Proyecto:8
-Ingles: 
+Ingles: 7
 
-Base datos recu: 5,5
+Base datos recu: 5
 
 ------------Segundo trimestre------------
-PSP:
-SGE:
-IPE:
-Moviles:
-Acceso a datos:
-Interfaces: 
-Sostenibilidad: 
-Digitalización:
-Cloud:
-Proyecto:
-Ingles: 
+PSP: 7
+SGE: 7
+IPE: 6
+Moviles: 7
+Acceso a datos: 9
+Interfaces: 6
+Sostenibilidad: 10
+Digitalización: 7
+Cloud: 9
+Proyecto: 7
+Ingles: 7
 
-Base datos recu:
+Base datos recu: 5
 
